@@ -1,5 +1,5 @@
-1682517652 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/alu.v
-1682517651 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/alu_control.v
+1682519071 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/alu.v
+1682519109 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/alu_control.v
 1681972395 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/branch_unit.v
 1681979294 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/control_unit.v
 1682517748 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/cpu.v

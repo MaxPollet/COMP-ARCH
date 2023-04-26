@@ -25,7 +25,7 @@ module alu_control(
    parameter [3:0] SUB_OP        = 4'd6;
    parameter [3:0] SLT_OP        = 4'd7;
 
-   parameter [3:0] MULT_OP = 4'd7;
+   parameter [3:0] MULT_OP = 4'd8;
 
 
    //The decoding of the instruction funtion field into the desired
@@ -57,7 +57,7 @@ module alu_control(
 		   FUNC_SRL	:  rtype_op = SRL_OP;
 
 
-         FUNC_MULT : rtyope_op = MULT_OP;
+         FUNC_MULT : rtype_op = MULT_OP;
 			default:    rtype_op = 4'd0;
 		endcase
 	end

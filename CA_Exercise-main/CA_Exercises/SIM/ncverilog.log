@@ -1,5 +1,5 @@
 ncverilog(64): 15.20-s058: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
-TOOL:	ncverilog	15.20-s058: Started on Apr 26, 2023 at 16:13:48 CEST
+TOOL:	ncverilog	15.20-s058: Started on Apr 26, 2023 at 16:25:12 CEST
 ncverilog
 	+sv
 	-f files_verilog.f
@@ -23,21 +23,57 @@ ncverilog
 	-ALLOWREDEFINITION
 Recompiling... reason: file '../Verilog/RTL/alu.v' is newer than expected.
 	expected: Thu Apr 20 08:33:15 2023
-	actual:   Wed Apr 26 16:00:52 2023
-file: ../Verilog/RTL/alu.v
-      mult_out = alu_in_0 * alu_in_1;
-             |
-ncvlog: *E,UNDIDN (../Verilog/RTL/alu.v,72|13): 'mult_out': undeclared identifier [12.5(IEEE)].
-         MULT_OP: alu_out = mult_out;
-                                   |
-ncvlog: *E,UNDIDN (../Verilog/RTL/alu.v,87|35): 'mult_out': undeclared identifier [12.5(IEEE)].
-	module worklib.alu:v
-		errors: 2, warnings: 0
+	actual:   Wed Apr 26 16:24:31 2023
 file: ../Verilog/RTL/alu_control.v
-         FUNC_MULT : rtyope_op = MULT_OP;
-                             |
-ncvlog: *E,UNDIDN (../Verilog/RTL/alu_control.v,60|29): 'rtyope_op': undeclared identifier [12.5(IEEE)].
 	module worklib.alu_control:v
-		errors: 1, warnings: 0
-ncverilog: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
-TOOL:	ncverilog	15.20-s058: Exiting on Apr 26, 2023 at 16:13:49 CEST  (total: 00:00:01)
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.alu:v <0x03b5f839>
+			streams:   6, words:  5204
+		worklib.alu_control:v <0x10469707>
+			streams:   3, words:   969
+		worklib.control_unit:v <0x5182b77c>
+			streams:   1, words:  6575
+		worklib.cpu:v <0x12ca2a58>
+			streams:   9, words:  1198
+		worklib.cpu_tb:v <0x24f406af>
+			streams:  27, words: 53827
+		worklib.immediate_extend_unit:v <0x013d814d>
+			streams:   2, words:  3075
+		worklib.register_file:v <0x30099580>
+			streams:   5, words: 28015
+		worklib.sram_BW32:v <0x157955a7>
+			streams:  10, words:  4691
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                 19      16
+		Registers:              106     103
+		Scalar wires:            33       -
+		Vectored wires:          47       -
+		Always blocks:           42      39
+		Initial blocks:           3       3
+		Cont. assignments:        2       5
+		Pseudo assignments:      37      37
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.reg_arstn:v
+Loading snapshot worklib.reg_arstn:v .................... Done
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+ncsim> source /esat/micas-data/software/Cadence/incisiv_15.20.058/tools/inca/files/ncsimrc
+ncsim> run
+
+Start Execution
+
+[1;34m
+Mult2 Working Correctly
+[0m
+         40 cycles
+Simulation complete via $finish(1) at time 32450 NS + 8
+../Verilog/cpu_tb.v:324    $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s058: Exiting on Apr 26, 2023 at 16:25:14 CEST  (total: 00:00:02)
