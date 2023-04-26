@@ -21,6 +21,7 @@
 ../Verilog/cpu_tb.v
 ../Verilog/sky130_sram_2rw.v
 -ALLOWREDEFINITION
+-LINEDEBUG
 -CDSLIB
 ./INCA_libs/irun.lnx8664.15.20.nc/cdsrun.lib
 -HDLVAR

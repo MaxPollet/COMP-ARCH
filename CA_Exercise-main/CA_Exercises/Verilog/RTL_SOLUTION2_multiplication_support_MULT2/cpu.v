@@ -40,7 +40,7 @@ module cpu(
 
 wire              zero_flag;
 wire [      63:0] branch_pc,updated_pc,current_pc,jump_pc;
-wire [      31:0] instruction, instruction_IF_ID,instruction_ID_EX, instruction_EX_MEM , instruction_MEM_WB;
+wire [      31:0] instruction;
 wire [       1:0] alu_op;
 wire [       3:0] alu_control;
 wire              reg_dst,branch,mem_read,mem_2_reg,
@@ -73,8 +73,7 @@ pc #(
 );
 
 sram_BW32 #(
-   .ADDR_W(9 ),
-   .DATA_W(32)
+   .ADDR_W(9 )
 ) instruction_memory(
    .clk      (clk           ),
    .addr     (current_pc    ),
@@ -87,51 +86,6 @@ sram_BW32 #(
    .ren_ext  (ren_ext       ),
    .wdata_ext(wdata_ext     ),
    .rdata_ext(rdata_ext     )
-);
-
-
-reg_arstn_en #(
-   .DATA_W(32)
-)signal_pipe_IF_ID(
-   .clk     (clk                 ),
-   .arst_n  (arst_n              ),
-   .din     (instruction         ),
-   .en      (enable              ),
-   .dout    (instruction_IF_ID   )
-);
-
-
-reg_arstn_en #(
-   .DATA_W(32)
-)signal_pipe_ID_EX(
-   .clk     (clk                 ),
-   .arst_n  (arst_n              ),
-   .din     (instruction_IF_ID   ),
-   .en      (enable              ),
-   .dout    (instruction_ID_EX   )
-);
-
-reg_arstn_en #(
-   .DATA_W(32)
-)signal_pipe_EX_MEM(
-   .clk     (clk                 ),
-   .arst_n  (arst_n              ),
-   .din     (instruction_ID_EX   ),
-   .en      (enable              ),
-   .dout    (instruction_EX_MEM  )
-
-);
-
-
-reg_arstn_en #(
-   .DATA_W(32)
-)signal_pipe_MEM_WB(
-   .clk     (clk                 ),
-   .arst_n  (arst_n              ),
-   .din     (instruction_EX_MEM  ),
-   .en      (enable              ),
-   .dout    (instruction_MEM_WB  )
-
 );
 
 sram_BW64 #(
@@ -151,7 +105,7 @@ sram_BW64 #(
 );
 
 control_unit control_unit(
-   .opcode   (instruction_IF_ID[6:0]),
+   .opcode   (instruction[6:0]),
    .alu_op   (alu_op          ),
    .reg_dst  (reg_dst         ),
    .branch   (branch          ),
@@ -169,9 +123,9 @@ register_file #(
    .clk      (clk               ),
    .arst_n   (arst_n            ),
    .reg_write(reg_write         ),
-   .raddr_1  (instruction_IF_ID[19:15]),
-   .raddr_2  (instruction_IF_ID[24:20]),
-   .waddr    (instruction_MEM_WB[11:7] ),
+   .raddr_1  (instruction[19:15]),
+   .raddr_2  (instruction[24:20]),
+   .waddr    (instruction[11:7] ),
    .wdata    (regfile_wdata     ),
    .rdata_1  (regfile_rdata_1   ),
    .rdata_2  (regfile_rdata_2   )
@@ -179,9 +133,9 @@ register_file #(
 
 alu_control alu_ctrl(
 
-
-   .func7_5       (instruction_ID_EX[31:25]),
-   .func3          (instruction_ID_EX[14:12]),
+   // instruction[25:31] !!!!!
+   .func7_5       (instruction[31:25]),
+   .func3          (instruction[14:12]),
    .alu_op         (alu_op            ),
    .alu_control    (alu_control       )
 );
