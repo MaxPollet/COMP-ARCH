@@ -1,0 +1,78 @@
+OpenROAD 850238c2fb11cf83a9d33c6d065a121aae8d837b 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO]: Reading ODB at '/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/runs/230426-142045_SOLUTION1_simple_program_and_MULT1/tmp/floorplan/8-tapcell.odb'...
+define_corners Typical
+read_liberty -corner Typical /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+[INFO PDN-0001] Inserting grid: stdcell_grid
+[INFO PDN-0001] Inserting grid: macro - instruction_memory.process_for_mem\[0\].dram_inst
+[INFO PDN-0001] Inserting grid: macro - data_memory.process_for_mem\[0\].spad_inst
+[WARNING PDN-0110] No via inserted between met4 and met5 at (808.4180, 795.9300) - (810.1580, 797.5300) on vssd1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (811.8180, 792.6300) - (813.5580, 794.2300) on vccd1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1270.8180, 792.6300) - (1272.5580, 794.2300) on vccd1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1274.2180, 795.9300) - (1275.9580, 797.5300) on vssd1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (270.0020, 642.7500) - (271.7420, 644.3500) on vssd1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (270.0020, 795.9300) - (271.7420, 797.5300) on vssd1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (270.0020, 949.1100) - (271.7420, 950.7100) on vssd1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (273.4020, 639.4500) - (275.1420, 641.0500) on vccd1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (273.4020, 792.6300) - (275.1420, 794.2300) on vccd1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (273.4020, 945.8100) - (275.1420, 947.4100) on vccd1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (797.6820, 639.4500) - (799.4220, 641.0500) on vccd1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (797.6820, 792.6300) - (799.4220, 794.2300) on vccd1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (797.6820, 945.8100) - (799.4220, 947.4100) on vccd1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (801.0820, 642.7500) - (802.8220, 644.3500) on vssd1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (801.0820, 795.9300) - (802.8220, 797.5300) on vssd1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (801.0820, 949.1100) - (802.8220, 950.7100) on vssd1
+[WARNING PSM-0016] Voltage pad location (VSRC) file not specified, defaulting pad location to checkerboard pattern on core area.
+[WARNING PSM-0017] X direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0018] Y direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0019] Voltage on net vccd1 is not explicitly set.
+[WARNING PSM-0022] Using voltage 1.800V for VDD network.
+[WARNING PSM-0065] VSRC location not specified, using default checkerboard pattern with one VDD every size bumps in x-direction and one in two bumps in the y-direction
+[INFO PSM-0076] Setting metal node density to be standard cell height times 5.
+[WARNING PSM-0030] VSRC location at (96.190um, 100.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (21.840um, 27.530um).
+[WARNING PSM-0030] VSRC location at (936.190um, 100.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (943.440um, 27.530um).
+[WARNING PSM-0030] VSRC location at (376.190um, 240.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (329.040um, 180.710um).
+[WARNING PSM-0030] VSRC location at (1216.190um, 240.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (1250.640um, 180.710um).
+[WARNING PSM-0030] VSRC location at (656.190um, 380.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (636.240um, 333.890um).
+[WARNING PSM-0030] VSRC location at (96.190um, 520.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (21.840um, 487.070um).
+[WARNING PSM-0030] VSRC location at (936.190um, 520.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (943.440um, 487.070um).
+[WARNING PSM-0030] VSRC location at (376.190um, 660.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (536.412um, 640.250um).
+[WARNING PSM-0030] VSRC location at (1216.190um, 660.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (1250.640um, 640.250um).
+[WARNING PSM-0030] VSRC location at (656.190um, 800.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (536.412um, 793.430um).
+[WARNING PSM-0030] VSRC location at (96.190um, 940.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (21.840um, 946.610um).
+[WARNING PSM-0030] VSRC location at (936.190um, 940.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (943.440um, 946.610um).
+[WARNING PSM-0030] VSRC location at (376.190um, 1080.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (329.040um, 1099.790um).
+[WARNING PSM-0030] VSRC location at (1216.190um, 1080.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (1250.640um, 1099.790um).
+[WARNING PSM-0030] VSRC location at (656.190um, 1220.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (636.240um, 1252.970um).
+[INFO PSM-0031] Number of PDN nodes on net vccd1 = 31423.
+[INFO PSM-0064] Number of voltage sources = 15.
+[INFO PSM-0040] All PDN stripes on net vccd1 are connected.
+[WARNING PSM-0016] Voltage pad location (VSRC) file not specified, defaulting pad location to checkerboard pattern on core area.
+[WARNING PSM-0017] X direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0018] Y direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0019] Voltage on net vssd1 is not explicitly set.
+[WARNING PSM-0021] Using voltage 0.000V for ground network.
+[WARNING PSM-0065] VSRC location not specified, using default checkerboard pattern with one VDD every size bumps in x-direction and one in two bumps in the y-direction
+[INFO PSM-0076] Setting metal node density to be standard cell height times 5.
+[WARNING PSM-0030] VSRC location at (96.190um, 100.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (25.140um, 30.830um).
+[WARNING PSM-0030] VSRC location at (936.190um, 100.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (946.740um, 30.830um).
+[WARNING PSM-0030] VSRC location at (376.190um, 240.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (332.340um, 184.010um).
+[WARNING PSM-0030] VSRC location at (1216.190um, 240.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (1253.940um, 184.010um).
+[WARNING PSM-0030] VSRC location at (656.190um, 380.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (639.540um, 337.190um).
+[WARNING PSM-0030] VSRC location at (96.190um, 520.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (25.140um, 490.370um).
+[WARNING PSM-0030] VSRC location at (936.190um, 520.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (946.740um, 490.370um).
+[WARNING PSM-0030] VSRC location at (376.190um, 660.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (536.412um, 643.550um).
+[WARNING PSM-0030] VSRC location at (1216.190um, 660.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (1253.940um, 643.550um).
+[WARNING PSM-0030] VSRC location at (656.190um, 800.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (536.412um, 796.730um).
+[WARNING PSM-0030] VSRC location at (96.190um, 940.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (25.140um, 949.910um).
+[WARNING PSM-0030] VSRC location at (936.190um, 940.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (946.740um, 949.910um).
+[WARNING PSM-0030] VSRC location at (376.190um, 1080.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (332.340um, 1103.090um).
+[WARNING PSM-0030] VSRC location at (1216.190um, 1080.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (1253.940um, 1103.090um).
+[WARNING PSM-0030] VSRC location at (656.190um, 1220.960um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (639.540um, 1256.270um).
+[INFO PSM-0031] Number of PDN nodes on net vssd1 = 31328.
+[INFO PSM-0064] Number of voltage sources = 15.
+[INFO PSM-0040] All PDN stripes on net vssd1 are connected.
+Setting global connections for newly added cells...
+Writing OpenROAD database to /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/runs/230426-142045_SOLUTION1_simple_program_and_MULT1/results/floorplan/cpu.odb...
+Writing layout to /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/runs/230426-142045_SOLUTION1_simple_program_and_MULT1/results/floorplan/cpu.def...

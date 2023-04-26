@@ -1,5 +1,5 @@
 ncverilog(64): 15.20-s058: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
-TOOL:	ncverilog	15.20-s058: Started on Apr 20, 2023 at 10:16:20 CEST
+TOOL:	ncverilog	15.20-s058: Started on Apr 26, 2023 at 14:20:11 CEST
 ncverilog
 	+sv
 	-f files_verilog.f
@@ -22,18 +22,20 @@ ncverilog
 	+access+rwc
 	-ALLOWREDEFINITION
 Recompiling... reason: file '../Verilog/RTL/control_unit.v' is newer than expected.
-	expected: Thu Apr 20 10:14:49 2023
-	actual:   Thu Apr 20 10:16:17 2023
-file: ../Verilog/RTL/control_unit.v
-	module worklib.control_unit:v
+	expected: Thu Apr 20 10:16:17 2023
+	actual:   Thu Apr 20 10:28:14 2023
+file: ../Verilog/RTL/cpu.v
+	module worklib.cpu:v
 		errors: 0, warnings: 0
 		Caching library 'worklib' ....... Done
 	Elaborating the design hierarchy:
 ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
 	Building instance overlay tables: .................... Done
 	Generating native compiled code:
-		worklib.control_unit:v <0x6121ea44>
-			streams:   1, words:  6631
+		worklib.cpu:v <0x672496cd>
+			streams:   3, words:   437
+		worklib.cpu_tb:v <0x450edab3>
+			streams:  27, words: 53982
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
@@ -63,4 +65,4 @@ Mult1 Working Correctly
 Simulation complete via $finish(1) at time 258450 NS + 8
 ../Verilog/cpu_tb.v:324    $finish;
 ncsim> exit
-TOOL:	ncverilog	15.20-s058: Exiting on Apr 20, 2023 at 10:16:21 CEST  (total: 00:00:01)
+TOOL:	ncverilog	15.20-s058: Exiting on Apr 26, 2023 at 14:20:15 CEST  (total: 00:00:04)

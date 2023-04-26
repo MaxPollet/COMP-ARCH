@@ -1,0 +1,300 @@
+
+        <html>
+
+        <head>
+            <title>Scatter Chart</title>
+            <link href='table.css' rel='stylesheet' type='text/css' media='screen' />
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js'></script>
+            <script src='utils.js'></script>
+            <style>
+            canvas {
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            }
+            </style>
+        </head>
+
+        <body>
+        <div style='width:50%''>
+
+        <table cellspacing='0' cellpadding='0' class='demo-table' >
+        <tr>
+            <th bgcolor='b0c4de'>Best Area</th>
+            <th bgcolor='b0c4de'>Best Gate Count</th>
+            <th bgcolor='b0c4de'>Best Delay</th>
+        </tr>
+        <tr>
+            <td>83238.59</td>
+            <td>9913.0</td>
+            <td>4777.42</td>
+        </tr>
+        <tr>
+            <td>AREA 2</td>
+            <td>AREA 2</td>
+            <td>AREA 3</td>
+        </tr>
+        </table><br>
+
+        <table cellspacing='0' cellpadding='0' class='demo-table' >
+        <tr>
+            <th bgcolor='b0c4de'>Strategy</th>
+            <th bgcolor='b0c4de'>Gate Count</th>
+            <th bgcolor='b0c4de'>Area (um^2)</th>
+            <th bgcolor='b0c4de'>Delay (ps)</th>
+
+            <th bgcolor='b0c4de'>Gates Ratio</th>
+            <th bgcolor='b0c4de'>Area Ratio</th>
+            <th bgcolor='b0c4de'>Delay Ratio</th>
+
+        </tr>
+        
+<tr>
+<td>DELAY 0</td>
+<td>12294.0</td>
+<td>114043.12</td>
+<td>9877.23</td>
+
+<td>1.24</td>
+<td>1.37</td>
+<td>2.067</td>
+</tr>
+<tr>
+<td>DELAY 1</td>
+<td>13203.0</td>
+<td>124114.04</td>
+<td>9869.08</td>
+
+<td>1.331</td>
+<td>1.491</td>
+<td>2.065</td>
+</tr>
+<tr>
+<td>DELAY 2</td>
+<td>12978.0</td>
+<td>119696.05</td>
+<td>10129.2</td>
+
+<td>1.309</td>
+<td>1.437</td>
+<td>2.12</td>
+</tr>
+<tr>
+<td>DELAY 3</td>
+<td>12427.0</td>
+<td>114901.45</td>
+<td>10594.29</td>
+
+<td>1.253</td>
+<td>1.38</td>
+<td>2.217</td>
+</tr>
+<tr>
+<td>DELAY 4</td>
+<td>11655.0</td>
+<td>98647.11</td>
+<td>9132.41</td>
+
+<td>1.175</td>
+<td>1.185</td>
+<td>1.911</td>
+</tr>
+<tr>
+<td>AREA 0</td>
+<td>10076.0</td>
+<td>84807.59</td>
+<td>12484.67</td>
+
+<td bgcolor='#fffacd'>1.016</td>
+<td bgcolor='#fffacd'>1.018</td>
+<td>2.613</td>
+</tr>
+<tr>
+<td>AREA 1</td>
+<td>10083.0</td>
+<td>84696.23</td>
+<td>11826.6</td>
+
+<td bgcolor='#fffacd'>1.017</td>
+<td bgcolor='#fffacd'>1.017</td>
+<td>2.475</td>
+</tr>
+<tr>
+<td>AREA 2</td>
+<td bgcolor='#ccff99'>9913.0</td>
+<td bgcolor='#ccff99'>83238.59</td>
+<td>12780.89</td>
+
+<td bgcolor='#fffacd'>1.0</td>
+<td bgcolor='#fffacd'>1.0</td>
+<td>2.675</td>
+</tr>
+<tr>
+<td>AREA 3</td>
+<td>14422.0</td>
+<td>109459.98</td>
+<td bgcolor='#ccff99'>4777.42</td>
+<td>1.454</td>
+<td>1.315</td>
+<td bgcolor='#fffacd'>1.0</td>
+</tr>
+</table>
+
+        </div>
+            <div style='width:65%''>
+            <canvas id='myChart'></canvas>
+            </div>
+
+
+
+        <script>
+        var ctx = document.getElementById('myChart');
+        var color = Chart.helpers.color;
+        var scatterChart = new Chart(ctx, {
+            type: 'scatter',
+
+            data: {
+                datasets: [
+        
+
+                    {
+                        label: 'DELAY 0',
+                        borderColor: window.chartColors.red,
+                        backgroundColor: color(window.chartColors.red).alpha(0.2).rgbString(),
+                        pointRadius: 7,
+                        data: [{
+                            x: 114043.12,
+                            y: 9877.23
+                        }]
+                    },
+            
+
+                    {
+                        label: 'DELAY 1',
+                        borderColor: window.chartColors.olive,
+                        backgroundColor: color(window.chartColors.olive).alpha(0.2).rgbString(),
+                        pointRadius: 7,
+                        data: [{
+                            x: 124114.04,
+                            y: 9869.08
+                        }]
+                    },
+            
+
+                    {
+                        label: 'DELAY 2',
+                        borderColor: window.chartColors.yellow,
+                        backgroundColor: color(window.chartColors.yellow).alpha(0.2).rgbString(),
+                        pointRadius: 7,
+                        data: [{
+                            x: 119696.05,
+                            y: 10129.2
+                        }]
+                    },
+            
+
+                    {
+                        label: 'DELAY 3',
+                        borderColor: window.chartColors.green,
+                        backgroundColor: color(window.chartColors.green).alpha(0.2).rgbString(),
+                        pointRadius: 7,
+                        data: [{
+                            x: 114901.45,
+                            y: 10594.29
+                        }]
+                    },
+            
+
+                    {
+                        label: 'DELAY 4',
+                        borderColor: window.chartColors.blue,
+                        backgroundColor: color(window.chartColors.blue).alpha(0.2).rgbString(),
+                        pointRadius: 7,
+                        data: [{
+                            x: 98647.11,
+                            y: 9132.41
+                        }]
+                    },
+            
+
+                    {
+                        label: 'AREA 0',
+                        borderColor: window.chartColors.purple,
+                        backgroundColor: color(window.chartColors.purple).alpha(0.2).rgbString(),
+                        pointRadius: 7,
+                        data: [{
+                            x: 84807.59,
+                            y: 12484.67
+                        }]
+                    },
+            
+
+                    {
+                        label: 'AREA 1',
+                        borderColor: window.chartColors.grey,
+                        backgroundColor: color(window.chartColors.grey).alpha(0.2).rgbString(),
+                        pointRadius: 7,
+                        data: [{
+                            x: 84696.23,
+                            y: 11826.6
+                        }]
+                    },
+            
+
+                    {
+                        label: 'AREA 2',
+                        borderColor: window.chartColors.black,
+                        backgroundColor: color(window.chartColors.black).alpha(0.2).rgbString(),
+                        pointRadius: 7,
+                        data: [{
+                            x: 83238.59,
+                            y: 12780.89
+                        }]
+                    },
+            
+
+                    {
+                        label: 'AREA 3',
+                        borderColor: window.chartColors.aqua,
+                        backgroundColor: color(window.chartColors.aqua).alpha(0.2).rgbString(),
+                        pointRadius: 7,
+                        data: [{
+                            x: 109459.98,
+                            y: 4777.42
+                        }]
+                    },
+            
+
+                ]
+            },
+            options: {
+                title: {
+                    display: true,
+                    text: 'Synthesis Strategies Comparison'
+                },
+                scales: {
+                    xAxes: [{
+                        type: 'linear',
+                        position: 'bottom',
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Area'
+                        }
+                    }],
+                    yAxes: [{
+                        type: 'linear',
+                        position: 'left',
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Delay'
+                        }
+                    }]
+                }
+            }
+        });
+        </script>
+
+        </body>
+
+    </html>
+    

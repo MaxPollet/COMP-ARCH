@@ -1,0 +1,3 @@
+[WARNING MPL-0061] Parquet area 615.54 x 880.2 exceeds the partition area 1038.22 x 723.52.
+[WARNING MPL-0061] Parquet area 615.54 x 880.2 exceeds the partition area 801.32 x 723.52.
+[WARNING MPL-0072] No partition solutions found.

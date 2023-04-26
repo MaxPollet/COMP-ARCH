@@ -25,3 +25,4 @@ s20::(20Apr2023:10:13:32):( ncverilog +sv -f files_verilog.f +nc64bit +nctimesca
 s21::(20Apr2023:10:13:38):( ncverilog +sv -f files_verilog.f +nc64bit +nctimescale+1ns/10ps +access+rwc -ALLOWREDEFINITION )
 s22::(20Apr2023:10:14:57):( ncverilog +sv -f files_verilog.f +nc64bit +nctimescale+1ns/10ps +access+rwc -ALLOWREDEFINITION )
 s23::(20Apr2023:10:16:20):( ncverilog +sv -f files_verilog.f +nc64bit +nctimescale+1ns/10ps +access+rwc -ALLOWREDEFINITION )
+s24::(26Apr2023:14:20:11):( ncverilog +sv -f files_verilog.f +nc64bit +nctimescale+1ns/10ps +access+rwc -ALLOWREDEFINITION )

@@ -1,8 +1,8 @@
 1681972395 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/alu.v
 1681972395 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/alu_control.v
 1681972395 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/branch_unit.v
-1681978577 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/control_unit.v
-1681972396 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/cpu.v
+1681979294 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/control_unit.v
+1681979728 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/cpu.v
 1681972396 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/immediate_extend_unit.v
 1681972396 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/mux_2.v
 1681972396 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/pc.v

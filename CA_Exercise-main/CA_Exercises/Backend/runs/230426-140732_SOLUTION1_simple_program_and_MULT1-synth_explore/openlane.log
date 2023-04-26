@@ -1,0 +1,22 @@
+[INFO]: Run Directory: /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/runs/230426-140732_SOLUTION1_simple_program_and_MULT1-synth_explore
+[INFO]: Preparing LEF files for the nom corner...
+[INFO]: Preparing LEF files for the min corner...
+[INFO]: Preparing LEF files for the max corner...
+[INFO]: Running Synthesis Exploration...
+[ERROR]: during executing yosys script /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/share/openlane/scripts/yosys/synth.tcl
+[ERROR]: Log: runs/230426-140732_SOLUTION1_simple_program_and_MULT1-synth_explore/logs/synthesis/0-synthesis.log
+[ERROR]: Last 10 lines:
+13. Executing Verilog-2005 frontend: ../Verilog/RTL_SOLUTION1_simple_program_and_MULT1/register_file.v
+Parsing SystemVerilog input from `../Verilog/RTL_SOLUTION1_simple_program_and_MULT1/register_file.v' to AST representation.
+Successfully finished Verilog frontend.
+
+14. Executing Verilog-2005 frontend: ../Verilog/RTL_SOLUTION1_simple_program_and_MULT1/sram.v
+Parsing SystemVerilog input from `../Verilog/RTL_SOLUTION1_simple_program_and_MULT1/sram.v' to AST representation.
+Successfully finished Verilog frontend.
+ERROR: No such module: cpu
+ERROR: TCL interpreter returned an error: Yosys command produced an error
+child process exited abnormally
+
+[ERROR]: Creating issue reproducible...
+[INFO]: Saving runtime environment...
+[INFO]: Reproducible packaged: Please tarball and upload 'runs/230426-140732_SOLUTION1_simple_program_and_MULT1-synth_explore/issue_reproducible' if you're going to submit an issue.

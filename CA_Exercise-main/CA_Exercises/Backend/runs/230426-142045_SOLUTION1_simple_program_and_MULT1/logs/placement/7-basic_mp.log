@@ -1,0 +1,46 @@
+OpenROAD 850238c2fb11cf83a9d33c6d065a121aae8d837b 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO]: Reading ODB at '/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/runs/230426-142045_SOLUTION1_simple_program_and_MULT1/tmp/placement/5-global.odb'...
+define_corners Typical
+read_liberty -corner Typical /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+[INFO MPL-0005] Found 2 macros.
+[INFO MPL-0009] West pins 80.
+[INFO MPL-0009] East pins 82.
+[INFO MPL-0009] North pins 83.
+[INFO MPL-0009] South pins 82.
+[INFO MPL-0069] Initial weighted wire length 192285.
+Begin one level partition.
+[INFO MPL-0076] Partition 2 macros.
+[INFO MPL-0077] Using 2 cut lines.
+[INFO MPL-0079] Cut line 268.64.
+[INFO MPL-0079] Cut line 806.84.
+End one level partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 0 macros.
+[INFO MPL-0077] Using 0 cut lines.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 2 macros.
+[INFO MPL-0077] Using 1 cut lines.
+[INFO MPL-0079] Cut line 587.52.
+End west partition.
+End horizontal partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 2 macros.
+[INFO MPL-0077] Using 1 cut lines.
+[INFO MPL-0079] Cut line 587.52.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 0 macros.
+[INFO MPL-0077] Using 0 cut lines.
+End west partition.
+End horizontal partition.
+[INFO MPL-0070] Using 2 partition sets.
+[WARNING MPL-0061] Parquet area 615.54 x 880.2 exceeds the partition area 1038.22 x 723.52.
+[WARNING MPL-0061] Parquet area 615.54 x 880.2 exceeds the partition area 801.32 x 723.52.
+[WARNING MPL-0072] No partition solutions found.
+Writing OpenROAD database to /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/runs/230426-142045_SOLUTION1_simple_program_and_MULT1/tmp/placement/7-macros_placed.odb...
+Writing layout to /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/runs/230426-142045_SOLUTION1_simple_program_and_MULT1/tmp/placement/7-macros_placed.def...
