@@ -1,0 +1,12 @@
+prefix=/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.39
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lm -lz -lm 
+Cflags: -I${includedir}

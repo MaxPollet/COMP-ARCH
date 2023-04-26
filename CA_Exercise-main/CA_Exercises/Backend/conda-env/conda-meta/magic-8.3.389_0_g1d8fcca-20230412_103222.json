@@ -1,0 +1,3039 @@
+{
+    "arch": "x86_64",
+    "build": "20230412_103222",
+    "build_number": 20230412103222,
+    "build_string": "20230412_103222",
+    "channel": "https://conda.anaconda.org/litex-hub/linux-64",
+    "constrains": [],
+    "depends": [
+        "cairo >=1.14.12,<2.0a0",
+        "libgcc-ng >=11.2.0",
+        "tk >=8.6.12,<8.7.0a0"
+    ],
+    "extracted_package_dir": "/users/students/r0757781/micromamba/pkgs/magic-8.3.389_0_g1d8fcca-20230412_103222",
+    "files": [
+        "bin/ext2sim",
+        "bin/ext2spice",
+        "bin/magic",
+        "lib/magic/doc/addendum6_5.ps",
+        "lib/magic/doc/copyright.ps",
+        "lib/magic/doc/html/Makefile",
+        "lib/magic/doc/html/addcommandentry.html",
+        "lib/magic/doc/html/addpath.html",
+        "lib/magic/doc/html/antennacheck.html",
+        "lib/magic/doc/html/array.html",
+        "lib/magic/doc/html/box.html",
+        "lib/magic/doc/html/calma.html",
+        "lib/magic/doc/html/caption.html",
+        "lib/magic/doc/html/cellmanager.html",
+        "lib/magic/doc/html/cellname.html",
+        "lib/magic/doc/html/cellsearch.html",
+        "lib/magic/doc/html/center.html",
+        "lib/magic/doc/html/changetool.html",
+        "lib/magic/doc/html/channels.html",
+        "lib/magic/doc/html/cif.html",
+        "lib/magic/doc/html/clockwise.html",
+        "lib/magic/doc/html/closewindow.html",
+        "lib/magic/doc/html/closewrapper.html",
+        "lib/magic/doc/html/color/color.html",
+        "lib/magic/doc/html/color/load.html",
+        "lib/magic/doc/html/color/pushbutton.html",
+        "lib/magic/doc/html/color/save.html",
+        "lib/magic/doc/html/commands.html",
+        "lib/magic/doc/html/commands.list",
+        "lib/magic/doc/html/contact.html",
+        "lib/magic/doc/html/copy.html",
+        "lib/magic/doc/html/corner.html",
+        "lib/magic/doc/html/crash.html",
+        "lib/magic/doc/html/crashbackups.html",
+        "lib/magic/doc/html/crosshair.html",
+        "lib/magic/doc/html/cursor.html",
+        "lib/magic/doc/html/def.html",
+        "lib/magic/doc/html/delete.html",
+        "lib/magic/doc/html/deletecommandentry.html",
+        "lib/magic/doc/html/direction.html",
+        "lib/magic/doc/html/display.html",
+        "lib/magic/doc/html/distance.html",
+        "lib/magic/doc/html/down.html",
+        "lib/magic/doc/html/drc.html",
+        "lib/magic/doc/html/drop.html",
+        "lib/magic/doc/html/dump.html",
+        "lib/magic/doc/html/edit.html",
+        "lib/magic/doc/html/element.html",
+        "lib/magic/doc/html/erase.html",
+        "lib/magic/doc/html/expand.html",
+        "lib/magic/doc/html/ext.html",
+        "lib/magic/doc/html/ext2sim.html",
+        "lib/magic/doc/html/ext2spice.html",
+        "lib/magic/doc/html/extract.html",
+        "lib/magic/doc/html/extresist.html",
+        "lib/magic/doc/html/exttosim.html",
+        "lib/magic/doc/html/exttospice.html",
+        "lib/magic/doc/html/feedback.html",
+        "lib/magic/doc/html/fill.html",
+        "lib/magic/doc/html/findbox.html",
+        "lib/magic/doc/html/findlabel.html",
+        "lib/magic/doc/html/flatten.html",
+        "lib/magic/doc/html/flush.html",
+        "lib/magic/doc/html/garoute.html",
+        "lib/magic/doc/html/gds.html",
+        "lib/magic/doc/html/get.html",
+        "lib/magic/doc/html/getcell.html",
+        "lib/magic/doc/html/getnode.html",
+        "lib/magic/doc/html/goto.html",
+        "lib/magic/doc/html/graphics/blpaper.gif",
+        "lib/magic/doc/html/graphics/cellmgr.gif",
+        "lib/magic/doc/html/graphics/cif_see.gif",
+        "lib/magic/doc/html/graphics/corner1.gif",
+        "lib/magic/doc/html/graphics/corner2.gif",
+        "lib/magic/doc/html/graphics/email_address.png",
+        "lib/magic/doc/html/graphics/line1.gif",
+        "lib/magic/doc/html/graphics/magic_OGL_sm.gif",
+        "lib/magic/doc/html/graphics/magic_title2.gif",
+        "lib/magic/doc/html/graphics/techmgr.gif",
+        "lib/magic/doc/html/graphics/toolbar.gif",
+        "lib/magic/doc/html/graphics/writeall.gif",
+        "lib/magic/doc/html/grid.html",
+        "lib/magic/doc/html/help.html",
+        "lib/magic/doc/html/identify.html",
+        "lib/magic/doc/html/imacro.html",
+        "lib/magic/doc/html/initialize.html",
+        "lib/magic/doc/html/instance.html",
+        "lib/magic/doc/html/invoke.html",
+        "lib/magic/doc/html/iroute.html",
+        "lib/magic/doc/html/irsim.html",
+        "lib/magic/doc/html/label.html",
+        "lib/magic/doc/html/lef.html",
+        "lib/magic/doc/html/load.html",
+        "lib/magic/doc/html/locking.html",
+        "lib/magic/doc/html/logcommands.html",
+        "lib/magic/doc/html/macro.html",
+        "lib/magic/doc/html/maketoolbar.html",
+        "lib/magic/doc/html/measure.html",
+        "lib/magic/doc/html/move.html",
+        "lib/magic/doc/html/netlist.html",
+        "lib/magic/doc/html/netlist/add.html",
+        "lib/magic/doc/html/netlist/cleanup.html",
+        "lib/magic/doc/html/netlist/cull.html",
+        "lib/magic/doc/html/netlist/dnet.html",
+        "lib/magic/doc/html/netlist/dterm.html",
+        "lib/magic/doc/html/netlist/extract.html",
+        "lib/magic/doc/html/netlist/find.html",
+        "lib/magic/doc/html/netlist/flush.html",
+        "lib/magic/doc/html/netlist/joinnets.html",
+        "lib/magic/doc/html/netlist/netlist.html",
+        "lib/magic/doc/html/netlist/print.html",
+        "lib/magic/doc/html/netlist/pushbutton.html",
+        "lib/magic/doc/html/netlist/ripup.html",
+        "lib/magic/doc/html/netlist/savenetlist.html",
+        "lib/magic/doc/html/netlist/shownet.html",
+        "lib/magic/doc/html/netlist/showterms.html",
+        "lib/magic/doc/html/netlist/trace.html",
+        "lib/magic/doc/html/netlist/verify.html",
+        "lib/magic/doc/html/netlist/writeall.html",
+        "lib/magic/doc/html/openwindow.html",
+        "lib/magic/doc/html/openwrapper.html",
+        "lib/magic/doc/html/orient.html",
+        "lib/magic/doc/html/paint.html",
+        "lib/magic/doc/html/path.html",
+        "lib/magic/doc/html/peekbox.html",
+        "lib/magic/doc/html/plot.html",
+        "lib/magic/doc/html/plow.html",
+        "lib/magic/doc/html/polygon.html",
+        "lib/magic/doc/html/popbox.html",
+        "lib/magic/doc/html/popstack.html",
+        "lib/magic/doc/html/port.html",
+        "lib/magic/doc/html/promptload.html",
+        "lib/magic/doc/html/promptsave.html",
+        "lib/magic/doc/html/property.html",
+        "lib/magic/doc/html/pushbox.html",
+        "lib/magic/doc/html/pushbutton.html",
+        "lib/magic/doc/html/pushstack.html",
+        "lib/magic/doc/html/quit.html",
+        "lib/magic/doc/html/random.html",
+        "lib/magic/doc/html/readspice.html",
+        "lib/magic/doc/html/redo.html",
+        "lib/magic/doc/html/redraw.html",
+        "lib/magic/doc/html/render3d.html",
+        "lib/magic/doc/html/resumeall.html",
+        "lib/magic/doc/html/rotate.html",
+        "lib/magic/doc/html/route.html",
+        "lib/magic/doc/html/ruler.html",
+        "lib/magic/doc/html/save.html",
+        "lib/magic/doc/html/scalegrid.html",
+        "lib/magic/doc/html/scroll.html",
+        "lib/magic/doc/html/search.html",
+        "lib/magic/doc/html/see.html",
+        "lib/magic/doc/html/select.html",
+        "lib/magic/doc/html/setlabel.html",
+        "lib/magic/doc/html/setpoint.html",
+        "lib/magic/doc/html/shell.html",
+        "lib/magic/doc/html/sideways.html",
+        "lib/magic/doc/html/sleep.html",
+        "lib/magic/doc/html/snap.html",
+        "lib/magic/doc/html/specialopen.html",
+        "lib/magic/doc/html/spliterase.html",
+        "lib/magic/doc/html/splitpaint.html",
+        "lib/magic/doc/html/startup.html",
+        "lib/magic/doc/html/straighten.html",
+        "lib/magic/doc/html/stretch.html",
+        "lib/magic/doc/html/suspendall.html",
+        "lib/magic/doc/html/tag.html",
+        "lib/magic/doc/html/tech.html",
+        "lib/magic/doc/html/techmanager.html",
+        "lib/magic/doc/html/template.html",
+        "lib/magic/doc/html/tk_path_name.html",
+        "lib/magic/doc/html/tool.html",
+        "lib/magic/doc/html/undo.html",
+        "lib/magic/doc/html/unexpand.html",
+        "lib/magic/doc/html/unmeasure.html",
+        "lib/magic/doc/html/updatedisplay.html",
+        "lib/magic/doc/html/upsidedown.html",
+        "lib/magic/doc/html/version.html",
+        "lib/magic/doc/html/view.html",
+        "lib/magic/doc/html/what.html",
+        "lib/magic/doc/html/wind3d/cif.html",
+        "lib/magic/doc/html/wind3d/closewindow.html",
+        "lib/magic/doc/html/wind3d/cutbox.html",
+        "lib/magic/doc/html/wind3d/defaults.html",
+        "lib/magic/doc/html/wind3d/help.html",
+        "lib/magic/doc/html/wind3d/level.html",
+        "lib/magic/doc/html/wind3d/refresh.html",
+        "lib/magic/doc/html/wind3d/render.html",
+        "lib/magic/doc/html/wind3d/scroll.html",
+        "lib/magic/doc/html/wind3d/see.html",
+        "lib/magic/doc/html/wind3d/view.html",
+        "lib/magic/doc/html/wind3d/zoom.html",
+        "lib/magic/doc/html/windowborder.html",
+        "lib/magic/doc/html/windowcaption.html",
+        "lib/magic/doc/html/windownames.html",
+        "lib/magic/doc/html/windowscrollbars.html",
+        "lib/magic/doc/html/wire.html",
+        "lib/magic/doc/html/wizard/coord.html",
+        "lib/magic/doc/html/wizard/crash.html",
+        "lib/magic/doc/html/wizard/extract.html",
+        "lib/magic/doc/html/wizard/files.html",
+        "lib/magic/doc/html/wizard/grstats.html",
+        "lib/magic/doc/html/wizard/pause.html",
+        "lib/magic/doc/html/wizard/plow.html",
+        "lib/magic/doc/html/wizard/psearch.html",
+        "lib/magic/doc/html/wizard/showtech.html",
+        "lib/magic/doc/html/wizard/tilestats.html",
+        "lib/magic/doc/html/wizard/tsearch.html",
+        "lib/magic/doc/html/wizard/watch.html",
+        "lib/magic/doc/html/wizard/winddebug.html",
+        "lib/magic/doc/html/wizard/winddump.html",
+        "lib/magic/doc/html/writeall.html",
+        "lib/magic/doc/html/xload.html",
+        "lib/magic/doc/html/xor.html",
+        "lib/magic/doc/html/xview.html",
+        "lib/magic/doc/html/zoom.html",
+        "lib/magic/doc/introduction.ps",
+        "lib/magic/doc/maint1.ps",
+        "lib/magic/doc/maint2.ps",
+        "lib/magic/doc/maint3.ps",
+        "lib/magic/doc/maint4.ps",
+        "lib/magic/doc/tut1.ps",
+        "lib/magic/doc/tut10.ps",
+        "lib/magic/doc/tut11.ps",
+        "lib/magic/doc/tut2.ps",
+        "lib/magic/doc/tut3.ps",
+        "lib/magic/doc/tut4.ps",
+        "lib/magic/doc/tut5.ps",
+        "lib/magic/doc/tut6.ps",
+        "lib/magic/doc/tut7.ps",
+        "lib/magic/doc/tut8.ps",
+        "lib/magic/doc/tut9.ps",
+        "lib/magic/doc/tutscm1.ps",
+        "lib/magic/doc/tutscm2.ps",
+        "lib/magic/doc/tutscm3.ps",
+        "lib/magic/doc/tutscm4.ps",
+        "lib/magic/doc/tuttcl1.ps",
+        "lib/magic/doc/tuttcl2.ps",
+        "lib/magic/doc/tuttcl3.ps",
+        "lib/magic/doc/tuttcl4.ps",
+        "lib/magic/doc/tuttcl5.ps",
+        "lib/magic/doc/tutwrl1.ps",
+        "lib/magic/sys/.initrc",
+        "lib/magic/sys/.magicrc",
+        "lib/magic/sys/FreeMono.pt3",
+        "lib/magic/sys/FreeSans.pt3",
+        "lib/magic/sys/FreeSerif.pt3",
+        "lib/magic/sys/bw.glyphs",
+        "lib/magic/sys/color.glyphs",
+        "lib/magic/sys/gdsquery.tech",
+        "lib/magic/sys/magicps.pro",
+        "lib/magic/sys/minimum.tech",
+        "lib/magic/sys/mos.24bit.dstyle",
+        "lib/magic/sys/mos.24bit.std.cmap",
+        "lib/magic/sys/mos.7bit.dstyle",
+        "lib/magic/sys/mos.7bit.mraster.cmap",
+        "lib/magic/sys/mos.7bit.mraster_dstyle",
+        "lib/magic/sys/mos.7bit.std.cmap",
+        "lib/magic/sys/mos.OpenGL.dstyle",
+        "lib/magic/sys/mos.OpenGL.std.cmap",
+        "lib/magic/sys/nmos.tech",
+        "lib/magic/sys/scmos-sub.tech",
+        "lib/magic/sys/scmos-tm.tech",
+        "lib/magic/sys/scmos.tech",
+        "lib/magic/sys/scmosWR.tech",
+        "lib/magic/sys/vfont.B.12",
+        "lib/magic/sys/vfont.I.12",
+        "lib/magic/sys/vfont.R.8",
+        "lib/magic/sys/windows11.glyphs",
+        "lib/magic/sys/windows14.glyphs",
+        "lib/magic/sys/windows22.glyphs",
+        "lib/magic/sys/windows7.glyphs",
+        "lib/magic/tcl/bitmaps/down.gif",
+        "lib/magic/tcl/bitmaps/left.gif",
+        "lib/magic/tcl/bitmaps/lock.xbm",
+        "lib/magic/tcl/bitmaps/right.gif",
+        "lib/magic/tcl/bitmaps/up.gif",
+        "lib/magic/tcl/bitmaps/zoom.gif",
+        "lib/magic/tcl/bsitools.tcl",
+        "lib/magic/tcl/cellmgr.tcl",
+        "lib/magic/tcl/console.tcl",
+        "lib/magic/tcl/drcmgr.tcl",
+        "lib/magic/tcl/libmgr.tcl",
+        "lib/magic/tcl/magic.tcl",
+        "lib/magic/tcl/magicdnull",
+        "lib/magic/tcl/magicexec",
+        "lib/magic/tcl/mazeroute.tcl",
+        "lib/magic/tcl/readspice.tcl",
+        "lib/magic/tcl/socketcmd.tcl",
+        "lib/magic/tcl/strip_reflibs.tcl",
+        "lib/magic/tcl/tclmagic.so",
+        "lib/magic/tcl/techbuilder.tcl",
+        "lib/magic/tcl/texthelper.tcl",
+        "lib/magic/tcl/tkcon.tcl",
+        "lib/magic/tcl/tkshell.tcl",
+        "lib/magic/tcl/toolkit.tcl",
+        "lib/magic/tcl/toolkit_rev0.tcl",
+        "lib/magic/tcl/tools.tcl",
+        "lib/magic/tcl/wrapper.tcl",
+        "lib/magic/tutorial/m3a.mag",
+        "lib/magic/tutorial/maint2a.mag",
+        "lib/magic/tutorial/tut1.mag",
+        "lib/magic/tutorial/tut11a.al",
+        "lib/magic/tutorial/tut11a.cmd",
+        "lib/magic/tutorial/tut11a.ext",
+        "lib/magic/tutorial/tut11a.mag",
+        "lib/magic/tutorial/tut11a.nodes",
+        "lib/magic/tutorial/tut11a.sim",
+        "lib/magic/tutorial/tut11b.ext",
+        "lib/magic/tutorial/tut11b.mag",
+        "lib/magic/tutorial/tut11c.ext",
+        "lib/magic/tutorial/tut11c.mag",
+        "lib/magic/tutorial/tut11d.ext",
+        "lib/magic/tutorial/tut11d.mag",
+        "lib/magic/tutorial/tut2a.mag",
+        "lib/magic/tutorial/tut2b.mag",
+        "lib/magic/tutorial/tut2c.mag",
+        "lib/magic/tutorial/tut2d.mag",
+        "lib/magic/tutorial/tut3a.mag",
+        "lib/magic/tutorial/tut3b.mag",
+        "lib/magic/tutorial/tut3c.mag",
+        "lib/magic/tutorial/tut3d.mag",
+        "lib/magic/tutorial/tut3e.mag",
+        "lib/magic/tutorial/tut3f.mag",
+        "lib/magic/tutorial/tut3g.mag",
+        "lib/magic/tutorial/tut3h.mag",
+        "lib/magic/tutorial/tut4a.mag",
+        "lib/magic/tutorial/tut4x.mag",
+        "lib/magic/tutorial/tut4y.mag",
+        "lib/magic/tutorial/tut4z.mag",
+        "lib/magic/tutorial/tut5a.mag",
+        "lib/magic/tutorial/tut5b.mag",
+        "lib/magic/tutorial/tut6a.mag",
+        "lib/magic/tutorial/tut6b.mag",
+        "lib/magic/tutorial/tut6c.mag",
+        "lib/magic/tutorial/tut6x.mag",
+        "lib/magic/tutorial/tut6y.mag",
+        "lib/magic/tutorial/tut7a.mag",
+        "lib/magic/tutorial/tut7b.mag",
+        "lib/magic/tutorial/tut7b.net",
+        "lib/magic/tutorial/tut7c.mag",
+        "lib/magic/tutorial/tut7d.mag",
+        "lib/magic/tutorial/tut7d.net",
+        "lib/magic/tutorial/tut8a.mag",
+        "lib/magic/tutorial/tut8b.mag",
+        "lib/magic/tutorial/tut8c.mag",
+        "lib/magic/tutorial/tut8d.mag",
+        "lib/magic/tutorial/tut8e.mag",
+        "lib/magic/tutorial/tut8f.mag",
+        "lib/magic/tutorial/tut8g.mag",
+        "lib/magic/tutorial/tut8h.mag",
+        "lib/magic/tutorial/tut8i.mag",
+        "lib/magic/tutorial/tut8j.mag",
+        "lib/magic/tutorial/tut8k.mag",
+        "lib/magic/tutorial/tut8l.mag",
+        "lib/magic/tutorial/tut8m.mag",
+        "lib/magic/tutorial/tut8n.mag",
+        "lib/magic/tutorial/tut8r.mag",
+        "lib/magic/tutorial/tut9a.mag",
+        "lib/magic/tutorial/tut9b.mag",
+        "lib/magic/tutorial/tut9x.mag",
+        "lib/magic/tutorial/tut9y.mag",
+        "share/man/man1/ext2sim.1",
+        "share/man/man1/ext2spice.1",
+        "share/man/man1/extcheck.1",
+        "share/man/man1/magic.1",
+        "share/man/man5/cmap.5",
+        "share/man/man5/displays.5",
+        "share/man/man5/dlys.5",
+        "share/man/man5/dstyle.5",
+        "share/man/man5/ext.5",
+        "share/man/man5/glyphs.5",
+        "share/man/man5/mag.5",
+        "share/man/man5/net.5",
+        "share/man/man5/sim.5"
+    ],
+    "fn": "magic-8.3.389_0_g1d8fcca-20230412_103222.tar.bz2",
+    "license": "MIT",
+    "license_family": "MIT",
+    "link": {
+        "source": "/users/students/r0757781/micromamba/pkgs/magic-8.3.389_0_g1d8fcca-20230412_103222",
+        "type": 1
+    },
+    "md5": "460f986561cdb6b4f0456dc7ac044cd6",
+    "name": "magic",
+    "package_tarball_full_path": "/users/students/r0757781/micromamba/pkgs/magic-8.3.389_0_g1d8fcca-20230412_103222.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "bin/ext2sim",
+                "path_type": "hardlink",
+                "sha256": "a78210174c0700cb649a7469b0a6c7712ccee6d68fdd8045f7ceaf7415ce7a2e",
+                "sha256_in_prefix": "00d08b51c76c2eac9e5e3e10e343fd18f26b37f9b5dbc520afd8e4822bf148a8",
+                "size_in_bytes": 793
+            },
+            {
+                "_path": "bin/ext2spice",
+                "path_type": "hardlink",
+                "sha256": "045f12918131b8a1b55602c85ffe969c74642f1af3c2927c902a0cdba9179dcf",
+                "sha256_in_prefix": "f9a1d14dc07d75dd5ac45c20cb491b6b8758175aefae0835e1de544a4860fed0",
+                "size_in_bytes": 799
+            },
+            {
+                "_path": "bin/magic",
+                "path_type": "hardlink",
+                "sha256": "99bcbe53c2143ec595f0ba5f9fa0871ea5acda6985d964b768936f72014223b9",
+                "sha256_in_prefix": "698994d4e3aa3f74b5dac723f63924a007d3913dfb17e9a8d5a1f564ffb4200c",
+                "size_in_bytes": 2866
+            },
+            {
+                "_path": "lib/magic/doc/addendum6_5.ps",
+                "path_type": "hardlink",
+                "sha256": "1d4e0d44633b6ccef77b7a694712800043ab9b08d9b97a50c0cca4a9fa5aae9d",
+                "sha256_in_prefix": "1d4e0d44633b6ccef77b7a694712800043ab9b08d9b97a50c0cca4a9fa5aae9d",
+                "size_in_bytes": 18379
+            },
+            {
+                "_path": "lib/magic/doc/copyright.ps",
+                "path_type": "hardlink",
+                "sha256": "9e6159dbd829375481dcb7b1b89bcb011cf5e427959eb349bdedb49bc620eeea",
+                "sha256_in_prefix": "9e6159dbd829375481dcb7b1b89bcb011cf5e427959eb349bdedb49bc620eeea",
+                "size_in_bytes": 12611
+            },
+            {
+                "_path": "lib/magic/doc/html/Makefile",
+                "path_type": "hardlink",
+                "sha256": "ebcdcb20fa991c942e48603fc0a9ded22f30a023be455859e96d5b43d43e60a1",
+                "sha256_in_prefix": "ebcdcb20fa991c942e48603fc0a9ded22f30a023be455859e96d5b43d43e60a1",
+                "size_in_bytes": 268
+            },
+            {
+                "_path": "lib/magic/doc/html/addcommandentry.html",
+                "path_type": "hardlink",
+                "sha256": "d7639db9a5e33e0ed9fd8fca49b1c4f54c13274fac3aebec2e0dd76372d81d7d",
+                "sha256_in_prefix": "d7639db9a5e33e0ed9fd8fca49b1c4f54c13274fac3aebec2e0dd76372d81d7d",
+                "size_in_bytes": 2390
+            },
+            {
+                "_path": "lib/magic/doc/html/addpath.html",
+                "path_type": "hardlink",
+                "sha256": "e36dcec1368c63f243f982b4e94ecd0a65664b335d63fbc2461a24df96f025fc",
+                "sha256_in_prefix": "e36dcec1368c63f243f982b4e94ecd0a65664b335d63fbc2461a24df96f025fc",
+                "size_in_bytes": 2322
+            },
+            {
+                "_path": "lib/magic/doc/html/antennacheck.html",
+                "path_type": "hardlink",
+                "sha256": "cb386bfd8f72472cd05e69002707ad64fb0d51b1873f6e3ffd8c14cdc4df1603",
+                "sha256_in_prefix": "cb386bfd8f72472cd05e69002707ad64fb0d51b1873f6e3ffd8c14cdc4df1603",
+                "size_in_bytes": 3124
+            },
+            {
+                "_path": "lib/magic/doc/html/array.html",
+                "path_type": "hardlink",
+                "sha256": "0898d8a0c48a9f4f1fd15ef6dd63383c4181b031691cb37b1b2a790fda7bf289",
+                "sha256_in_prefix": "0898d8a0c48a9f4f1fd15ef6dd63383c4181b031691cb37b1b2a790fda7bf289",
+                "size_in_bytes": 4703
+            },
+            {
+                "_path": "lib/magic/doc/html/box.html",
+                "path_type": "hardlink",
+                "sha256": "fa925cf3bbd019baed09c95dad351aa6a8f6eba7462c09910907e1b3c0d3859e",
+                "sha256_in_prefix": "fa925cf3bbd019baed09c95dad351aa6a8f6eba7462c09910907e1b3c0d3859e",
+                "size_in_bytes": 6170
+            },
+            {
+                "_path": "lib/magic/doc/html/calma.html",
+                "path_type": "softlink",
+                "sha256_in_prefix": "8bf12368d813456e6359fcab6f266ee47cc12a4a2cd31e87f0fe01a22fda5ad7",
+                "size_in_bytes": 16540
+            },
+            {
+                "_path": "lib/magic/doc/html/caption.html",
+                "path_type": "hardlink",
+                "sha256": "74f9bd68331f18014132a55dbad11314bbab522729e44035a3621ca7ff6a1d5e",
+                "sha256_in_prefix": "74f9bd68331f18014132a55dbad11314bbab522729e44035a3621ca7ff6a1d5e",
+                "size_in_bytes": 1818
+            },
+            {
+                "_path": "lib/magic/doc/html/cellmanager.html",
+                "path_type": "hardlink",
+                "sha256": "22104d084faf210435300f03d1c707bd5f8545ea8bda26cf3f928fb454985359",
+                "sha256_in_prefix": "22104d084faf210435300f03d1c707bd5f8545ea8bda26cf3f928fb454985359",
+                "size_in_bytes": 6762
+            },
+            {
+                "_path": "lib/magic/doc/html/cellname.html",
+                "path_type": "hardlink",
+                "sha256": "c23f688cab82938295be5bd9eac96c245ae1a1263c16dc2a5795cd23bf60e0ab",
+                "sha256_in_prefix": "c23f688cab82938295be5bd9eac96c245ae1a1263c16dc2a5795cd23bf60e0ab",
+                "size_in_bytes": 8025
+            },
+            {
+                "_path": "lib/magic/doc/html/cellsearch.html",
+                "path_type": "hardlink",
+                "sha256": "06db68632d6a7c1b2eb35e6a76dbb658c9e32338161e48893f35d7a936788799",
+                "sha256_in_prefix": "06db68632d6a7c1b2eb35e6a76dbb658c9e32338161e48893f35d7a936788799",
+                "size_in_bytes": 4132
+            },
+            {
+                "_path": "lib/magic/doc/html/center.html",
+                "path_type": "hardlink",
+                "sha256": "6437fb5c211d05bfb055c3de8edad0c390ca36e3991055054937b73163347f99",
+                "sha256_in_prefix": "6437fb5c211d05bfb055c3de8edad0c390ca36e3991055054937b73163347f99",
+                "size_in_bytes": 2067
+            },
+            {
+                "_path": "lib/magic/doc/html/changetool.html",
+                "path_type": "hardlink",
+                "sha256": "25686e57236afa7c3b4e9e59c82d275f9c9dbd42c8b2f22d776a18d15617cc96",
+                "sha256_in_prefix": "25686e57236afa7c3b4e9e59c82d275f9c9dbd42c8b2f22d776a18d15617cc96",
+                "size_in_bytes": 5473
+            },
+            {
+                "_path": "lib/magic/doc/html/channels.html",
+                "path_type": "hardlink",
+                "sha256": "4fc99b04b9212f67f61d5b436cdd778c990dd89fc4e1dbf3466edd7df07d90f8",
+                "sha256_in_prefix": "4fc99b04b9212f67f61d5b436cdd778c990dd89fc4e1dbf3466edd7df07d90f8",
+                "size_in_bytes": 1831
+            },
+            {
+                "_path": "lib/magic/doc/html/cif.html",
+                "path_type": "hardlink",
+                "sha256": "6286eb2896f902ad1f8db02831c8310486fef7ff5773df828b191f6297792011",
+                "sha256_in_prefix": "6286eb2896f902ad1f8db02831c8310486fef7ff5773df828b191f6297792011",
+                "size_in_bytes": 11896
+            },
+            {
+                "_path": "lib/magic/doc/html/clockwise.html",
+                "path_type": "hardlink",
+                "sha256": "9ff9d3e7558293905cf9b26d63f0cc05c2087d66e9608767d14118076002e141",
+                "sha256_in_prefix": "9ff9d3e7558293905cf9b26d63f0cc05c2087d66e9608767d14118076002e141",
+                "size_in_bytes": 2432
+            },
+            {
+                "_path": "lib/magic/doc/html/closewindow.html",
+                "path_type": "hardlink",
+                "sha256": "0cceb13f1ee31eb97f5ddc534008dda7e1c7e792a561636aac8beb3117f06d8e",
+                "sha256_in_prefix": "0cceb13f1ee31eb97f5ddc534008dda7e1c7e792a561636aac8beb3117f06d8e",
+                "size_in_bytes": 2227
+            },
+            {
+                "_path": "lib/magic/doc/html/closewrapper.html",
+                "path_type": "hardlink",
+                "sha256": "7917a19d633d09a2bcc549d5070d1a3b4edc8e2e45c6717f756f7fae09717663",
+                "sha256_in_prefix": "7917a19d633d09a2bcc549d5070d1a3b4edc8e2e45c6717f756f7fae09717663",
+                "size_in_bytes": 2101
+            },
+            {
+                "_path": "lib/magic/doc/html/color/color.html",
+                "path_type": "hardlink",
+                "sha256": "c0f209e961045829ae050d50297106f643a28b157bcd77ce330685030fd23789",
+                "sha256_in_prefix": "c0f209e961045829ae050d50297106f643a28b157bcd77ce330685030fd23789",
+                "size_in_bytes": 3030
+            },
+            {
+                "_path": "lib/magic/doc/html/color/load.html",
+                "path_type": "hardlink",
+                "sha256": "9b6d1a9a28ecd9edf664582cc8e1c524fe3679bb6b566855d0688c3cbed59b91",
+                "sha256_in_prefix": "9b6d1a9a28ecd9edf664582cc8e1c524fe3679bb6b566855d0688c3cbed59b91",
+                "size_in_bytes": 2459
+            },
+            {
+                "_path": "lib/magic/doc/html/color/pushbutton.html",
+                "path_type": "hardlink",
+                "sha256": "fd908d02b87a85e8b820633037715a4ce02e2be682f97dc6c58b1bf5f8f4974f",
+                "sha256_in_prefix": "fd908d02b87a85e8b820633037715a4ce02e2be682f97dc6c58b1bf5f8f4974f",
+                "size_in_bytes": 2106
+            },
+            {
+                "_path": "lib/magic/doc/html/color/save.html",
+                "path_type": "hardlink",
+                "sha256": "d8f70b3f628b2508a3e8d5fe02e174667c806abbc671fb74b72747574c56fa64",
+                "sha256_in_prefix": "d8f70b3f628b2508a3e8d5fe02e174667c806abbc671fb74b72747574c56fa64",
+                "size_in_bytes": 2552
+            },
+            {
+                "_path": "lib/magic/doc/html/commands.html",
+                "path_type": "hardlink",
+                "sha256": "1e0bd59ef8a1adb91704ccfb0db5e1084cef927f83c79dbb5285282ee6789c59",
+                "sha256_in_prefix": "1e0bd59ef8a1adb91704ccfb0db5e1084cef927f83c79dbb5285282ee6789c59",
+                "size_in_bytes": 22309
+            },
+            {
+                "_path": "lib/magic/doc/html/commands.list",
+                "path_type": "hardlink",
+                "sha256": "54a19bc23f33c073aca386990b79744239c00b94044d74e55b2bbd0bb3b902b3",
+                "sha256_in_prefix": "54a19bc23f33c073aca386990b79744239c00b94044d74e55b2bbd0bb3b902b3",
+                "size_in_bytes": 1081
+            },
+            {
+                "_path": "lib/magic/doc/html/contact.html",
+                "path_type": "hardlink",
+                "sha256": "1308b121796d51410fc19ac7e646a59ae6e2761a1b146091bdf4acfd6181a216",
+                "sha256_in_prefix": "1308b121796d51410fc19ac7e646a59ae6e2761a1b146091bdf4acfd6181a216",
+                "size_in_bytes": 1908
+            },
+            {
+                "_path": "lib/magic/doc/html/copy.html",
+                "path_type": "hardlink",
+                "sha256": "4c1f456352367ff1aa6fb4449a8e91aadd44782eda3efe3182e4a0a53a7071a6",
+                "sha256_in_prefix": "4c1f456352367ff1aa6fb4449a8e91aadd44782eda3efe3182e4a0a53a7071a6",
+                "size_in_bytes": 2687
+            },
+            {
+                "_path": "lib/magic/doc/html/corner.html",
+                "path_type": "hardlink",
+                "sha256": "27284eeb3cbfc774b39f95de7b45c19a74675e553a8144d30362fe0e47a68ec7",
+                "sha256_in_prefix": "27284eeb3cbfc774b39f95de7b45c19a74675e553a8144d30362fe0e47a68ec7",
+                "size_in_bytes": 3169
+            },
+            {
+                "_path": "lib/magic/doc/html/crash.html",
+                "path_type": "hardlink",
+                "sha256": "d802d38157a6976b406c49ddaa3170f32a5eb84dc0a95d0e72d8cceb3117d309",
+                "sha256_in_prefix": "d802d38157a6976b406c49ddaa3170f32a5eb84dc0a95d0e72d8cceb3117d309",
+                "size_in_bytes": 3777
+            },
+            {
+                "_path": "lib/magic/doc/html/crashbackups.html",
+                "path_type": "hardlink",
+                "sha256": "485d6b4f53fd20f33e212977f7397b9e7517ceca216d5bdd7163a98103570f2c",
+                "sha256_in_prefix": "485d6b4f53fd20f33e212977f7397b9e7517ceca216d5bdd7163a98103570f2c",
+                "size_in_bytes": 3101
+            },
+            {
+                "_path": "lib/magic/doc/html/crosshair.html",
+                "path_type": "hardlink",
+                "sha256": "246bfb016666eece699c1653719731096ca08af08005bc801474baf98a7ca05c",
+                "sha256_in_prefix": "246bfb016666eece699c1653719731096ca08af08005bc801474baf98a7ca05c",
+                "size_in_bytes": 1780
+            },
+            {
+                "_path": "lib/magic/doc/html/cursor.html",
+                "path_type": "hardlink",
+                "sha256": "163f493b8c71a1b36df8da36620febc048c087500e969d3046b7eae1c134d88e",
+                "sha256_in_prefix": "163f493b8c71a1b36df8da36620febc048c087500e969d3046b7eae1c134d88e",
+                "size_in_bytes": 3788
+            },
+            {
+                "_path": "lib/magic/doc/html/def.html",
+                "path_type": "hardlink",
+                "sha256": "39a8a129b89daa46c655c73b556b8e76580a614e809d3e015c1506fdf52bf86f",
+                "sha256_in_prefix": "39a8a129b89daa46c655c73b556b8e76580a614e809d3e015c1506fdf52bf86f",
+                "size_in_bytes": 4491
+            },
+            {
+                "_path": "lib/magic/doc/html/delete.html",
+                "path_type": "hardlink",
+                "sha256": "17d20b3569af8f3e47ea47c9d13d9a3a3a5d357ec1d95f3e1cd5ee07752b5226",
+                "sha256_in_prefix": "17d20b3569af8f3e47ea47c9d13d9a3a3a5d357ec1d95f3e1cd5ee07752b5226",
+                "size_in_bytes": 1339
+            },
+            {
+                "_path": "lib/magic/doc/html/deletecommandentry.html",
+                "path_type": "hardlink",
+                "sha256": "486117ac63d81e213057a910aa6c620c5665e26f22830aeac950e769e5a9662e",
+                "sha256_in_prefix": "486117ac63d81e213057a910aa6c620c5665e26f22830aeac950e769e5a9662e",
+                "size_in_bytes": 2055
+            },
+            {
+                "_path": "lib/magic/doc/html/direction.html",
+                "path_type": "hardlink",
+                "sha256": "ff9c65490bc3bf1737a6fab386ddad97e8b1bad3dda1ad27fadc0e638761ce6d",
+                "sha256_in_prefix": "ff9c65490bc3bf1737a6fab386ddad97e8b1bad3dda1ad27fadc0e638761ce6d",
+                "size_in_bytes": 2134
+            },
+            {
+                "_path": "lib/magic/doc/html/display.html",
+                "path_type": "hardlink",
+                "sha256": "1e5b16b107e8139f6c9d880b79d0fb6fbf01bbaa6f93e11766929717f841d833",
+                "sha256_in_prefix": "1e5b16b107e8139f6c9d880b79d0fb6fbf01bbaa6f93e11766929717f841d833",
+                "size_in_bytes": 1619
+            },
+            {
+                "_path": "lib/magic/doc/html/distance.html",
+                "path_type": "hardlink",
+                "sha256": "c5fb188ba28970ac0cec3759ae5b1269be2b0522075a5a103d8fd630e4518b81",
+                "sha256_in_prefix": "c5fb188ba28970ac0cec3759ae5b1269be2b0522075a5a103d8fd630e4518b81",
+                "size_in_bytes": 1919
+            },
+            {
+                "_path": "lib/magic/doc/html/down.html",
+                "path_type": "hardlink",
+                "sha256": "e649f54987bef54d9fd64c154490310e5b9ed3c8d6fa7072bfc136736f0dba1e",
+                "sha256_in_prefix": "e649f54987bef54d9fd64c154490310e5b9ed3c8d6fa7072bfc136736f0dba1e",
+                "size_in_bytes": 1774
+            },
+            {
+                "_path": "lib/magic/doc/html/drc.html",
+                "path_type": "hardlink",
+                "sha256": "bca98f415da27cf967c0f1f4389dfed61b0f11c997619b03739b68a1edc4a38f",
+                "sha256_in_prefix": "bca98f415da27cf967c0f1f4389dfed61b0f11c997619b03739b68a1edc4a38f",
+                "size_in_bytes": 7478
+            },
+            {
+                "_path": "lib/magic/doc/html/drop.html",
+                "path_type": "hardlink",
+                "sha256": "410a0892d55a97b64c23c701ede30bf74e96b44d6974e155b1b44e71b656dc67",
+                "sha256_in_prefix": "410a0892d55a97b64c23c701ede30bf74e96b44d6974e155b1b44e71b656dc67",
+                "size_in_bytes": 2878
+            },
+            {
+                "_path": "lib/magic/doc/html/dump.html",
+                "path_type": "hardlink",
+                "sha256": "6b8a33c0e498e4f568ecd85c7963fb4b912324516aea54c7f8c1e75b54bae156",
+                "sha256_in_prefix": "6b8a33c0e498e4f568ecd85c7963fb4b912324516aea54c7f8c1e75b54bae156",
+                "size_in_bytes": 2503
+            },
+            {
+                "_path": "lib/magic/doc/html/edit.html",
+                "path_type": "hardlink",
+                "sha256": "667dab982efabd8be8530be0df2e4bf4692963dc04e8092cd63662896f9693f2",
+                "sha256_in_prefix": "667dab982efabd8be8530be0df2e4bf4692963dc04e8092cd63662896f9693f2",
+                "size_in_bytes": 1316
+            },
+            {
+                "_path": "lib/magic/doc/html/element.html",
+                "path_type": "hardlink",
+                "sha256": "274a07eeacfefeafbc5c645b6062c14aca37c9c9fb25c36a4bea2825c4f24bb4",
+                "sha256_in_prefix": "274a07eeacfefeafbc5c645b6062c14aca37c9c9fb25c36a4bea2825c4f24bb4",
+                "size_in_bytes": 7864
+            },
+            {
+                "_path": "lib/magic/doc/html/erase.html",
+                "path_type": "hardlink",
+                "sha256": "73b4a877bb1e5203495dbec26c7ccc8e5ac9ebac5d5b2801838b76f1bdcef44a",
+                "sha256_in_prefix": "73b4a877bb1e5203495dbec26c7ccc8e5ac9ebac5d5b2801838b76f1bdcef44a",
+                "size_in_bytes": 2990
+            },
+            {
+                "_path": "lib/magic/doc/html/expand.html",
+                "path_type": "hardlink",
+                "sha256": "a98747fbcc9c0146a0397b4fda66644f716af49164a86a80bf5cda416bd08f31",
+                "sha256_in_prefix": "a98747fbcc9c0146a0397b4fda66644f716af49164a86a80bf5cda416bd08f31",
+                "size_in_bytes": 2023
+            },
+            {
+                "_path": "lib/magic/doc/html/ext.html",
+                "path_type": "hardlink",
+                "sha256": "d826e9545e934b99eefd9b1b92ce2a413095b4df442a6d6771bb07b8e81e57e7",
+                "sha256_in_prefix": "d826e9545e934b99eefd9b1b92ce2a413095b4df442a6d6771bb07b8e81e57e7",
+                "size_in_bytes": 4004
+            },
+            {
+                "_path": "lib/magic/doc/html/ext2sim.html",
+                "path_type": "hardlink",
+                "sha256": "fc4150c76719ca5c1c75a6aedd33fcf0f9dc77a8a32be10abdd982a387a19984",
+                "sha256_in_prefix": "fc4150c76719ca5c1c75a6aedd33fcf0f9dc77a8a32be10abdd982a387a19984",
+                "size_in_bytes": 7215
+            },
+            {
+                "_path": "lib/magic/doc/html/ext2spice.html",
+                "path_type": "hardlink",
+                "sha256": "48f7317f7ad8ba3f45578db367035e6e5fa2d4ccf75f1b95326a2e39d5730880",
+                "sha256_in_prefix": "48f7317f7ad8ba3f45578db367035e6e5fa2d4ccf75f1b95326a2e39d5730880",
+                "size_in_bytes": 14991
+            },
+            {
+                "_path": "lib/magic/doc/html/extract.html",
+                "path_type": "hardlink",
+                "sha256": "8bff5e9c10c4275a943dda6731cdecb044b5e725e92b0bd94304ab607be9a180",
+                "sha256_in_prefix": "8bff5e9c10c4275a943dda6731cdecb044b5e725e92b0bd94304ab607be9a180",
+                "size_in_bytes": 8628
+            },
+            {
+                "_path": "lib/magic/doc/html/extresist.html",
+                "path_type": "hardlink",
+                "sha256": "7171dd741dfa76c8fe7c5ce35299bdb4d4e1bd0cb2f244ec544d8d638918c05a",
+                "sha256_in_prefix": "7171dd741dfa76c8fe7c5ce35299bdb4d4e1bd0cb2f244ec544d8d638918c05a",
+                "size_in_bytes": 5277
+            },
+            {
+                "_path": "lib/magic/doc/html/exttosim.html",
+                "path_type": "hardlink",
+                "sha256": "e88c882775f8ec452ce5bbf4b5404dd075c93f947220c1710a67f64aa1c74001",
+                "sha256_in_prefix": "e88c882775f8ec452ce5bbf4b5404dd075c93f947220c1710a67f64aa1c74001",
+                "size_in_bytes": 6271
+            },
+            {
+                "_path": "lib/magic/doc/html/exttospice.html",
+                "path_type": "hardlink",
+                "sha256": "04eea21bbe262b7d0a71fe85d5662018e652d7cb38004c8eecefaa89cd0cb099",
+                "sha256_in_prefix": "04eea21bbe262b7d0a71fe85d5662018e652d7cb38004c8eecefaa89cd0cb099",
+                "size_in_bytes": 7291
+            },
+            {
+                "_path": "lib/magic/doc/html/feedback.html",
+                "path_type": "hardlink",
+                "sha256": "063a34676f924c9f4a28aecd2c690f9e09904e15ef343975ed8db1893354092d",
+                "sha256_in_prefix": "063a34676f924c9f4a28aecd2c690f9e09904e15ef343975ed8db1893354092d",
+                "size_in_bytes": 4646
+            },
+            {
+                "_path": "lib/magic/doc/html/fill.html",
+                "path_type": "hardlink",
+                "sha256": "fb229293221b6519e3a49e3951faab4e611289ad413014a440e7ebc692c430b3",
+                "sha256_in_prefix": "fb229293221b6519e3a49e3951faab4e611289ad413014a440e7ebc692c430b3",
+                "size_in_bytes": 2070
+            },
+            {
+                "_path": "lib/magic/doc/html/findbox.html",
+                "path_type": "hardlink",
+                "sha256": "01994508063605b3e43656f9773ae0ff6a4e9f21b3e1c00f0001fd1c6564775d",
+                "sha256_in_prefix": "01994508063605b3e43656f9773ae0ff6a4e9f21b3e1c00f0001fd1c6564775d",
+                "size_in_bytes": 1794
+            },
+            {
+                "_path": "lib/magic/doc/html/findlabel.html",
+                "path_type": "hardlink",
+                "sha256": "1b9f48465f7c7a18ba2e97476b7c1b6360507fb59434d8c7d31da7c9cfae8633",
+                "sha256_in_prefix": "1b9f48465f7c7a18ba2e97476b7c1b6360507fb59434d8c7d31da7c9cfae8633",
+                "size_in_bytes": 2073
+            },
+            {
+                "_path": "lib/magic/doc/html/flatten.html",
+                "path_type": "hardlink",
+                "sha256": "4a42a0d4cf99c8ab44a9fe7923a0c342d268cfbf8312d8810ba6eca6b3b54ee1",
+                "sha256_in_prefix": "4a42a0d4cf99c8ab44a9fe7923a0c342d268cfbf8312d8810ba6eca6b3b54ee1",
+                "size_in_bytes": 4227
+            },
+            {
+                "_path": "lib/magic/doc/html/flush.html",
+                "path_type": "hardlink",
+                "sha256": "203f94b6fd8eaffaede91ace56bb3cb9cf8f081fe2b24e20c611311e400430af",
+                "sha256_in_prefix": "203f94b6fd8eaffaede91ace56bb3cb9cf8f081fe2b24e20c611311e400430af",
+                "size_in_bytes": 2315
+            },
+            {
+                "_path": "lib/magic/doc/html/garoute.html",
+                "path_type": "hardlink",
+                "sha256": "8bedaf39c7ba94d91ebe1828544dad381df0eab262ac1b25225d96b6690ec960",
+                "sha256_in_prefix": "8bedaf39c7ba94d91ebe1828544dad381df0eab262ac1b25225d96b6690ec960",
+                "size_in_bytes": 2255
+            },
+            {
+                "_path": "lib/magic/doc/html/gds.html",
+                "path_type": "hardlink",
+                "sha256": "8bf12368d813456e6359fcab6f266ee47cc12a4a2cd31e87f0fe01a22fda5ad7",
+                "sha256_in_prefix": "8bf12368d813456e6359fcab6f266ee47cc12a4a2cd31e87f0fe01a22fda5ad7",
+                "size_in_bytes": 16540
+            },
+            {
+                "_path": "lib/magic/doc/html/get.html",
+                "path_type": "hardlink",
+                "sha256": "fe873e51cc0a38b2250dcea49cd881b84867700d9fadaa5c5d0fef6dbfa16d91",
+                "sha256_in_prefix": "fe873e51cc0a38b2250dcea49cd881b84867700d9fadaa5c5d0fef6dbfa16d91",
+                "size_in_bytes": 3509
+            },
+            {
+                "_path": "lib/magic/doc/html/getcell.html",
+                "path_type": "hardlink",
+                "sha256": "56c41f12cb212876dc5f72a369546d97b37bedcf27cad5d6e4be3030a4bf777d",
+                "sha256_in_prefix": "56c41f12cb212876dc5f72a369546d97b37bedcf27cad5d6e4be3030a4bf777d",
+                "size_in_bytes": 3860
+            },
+            {
+                "_path": "lib/magic/doc/html/getnode.html",
+                "path_type": "hardlink",
+                "sha256": "6931f9c170b0b45774a0851ec9d0d65821dda4e0da50e8010704bc46fa715705",
+                "sha256_in_prefix": "6931f9c170b0b45774a0851ec9d0d65821dda4e0da50e8010704bc46fa715705",
+                "size_in_bytes": 2308
+            },
+            {
+                "_path": "lib/magic/doc/html/goto.html",
+                "path_type": "hardlink",
+                "sha256": "36c159325427d780b7791156c9e4e4abf489b1a07e5f2383014298ad61dc3fb6",
+                "sha256_in_prefix": "36c159325427d780b7791156c9e4e4abf489b1a07e5f2383014298ad61dc3fb6",
+                "size_in_bytes": 2319
+            },
+            {
+                "_path": "lib/magic/doc/html/graphics/blpaper.gif",
+                "path_type": "hardlink",
+                "sha256": "1bca4eda27b107d5a1fa045aeb0689c0b80837166f851f79949f8bdd42ae6294",
+                "sha256_in_prefix": "1bca4eda27b107d5a1fa045aeb0689c0b80837166f851f79949f8bdd42ae6294",
+                "size_in_bytes": 9220
+            },
+            {
+                "_path": "lib/magic/doc/html/graphics/cellmgr.gif",
+                "path_type": "hardlink",
+                "sha256": "43cf76dd541cd8beec18c37f75a26dccca0ac8b6a5ac7815c0f2bbbe13ae6d6b",
+                "sha256_in_prefix": "43cf76dd541cd8beec18c37f75a26dccca0ac8b6a5ac7815c0f2bbbe13ae6d6b",
+                "size_in_bytes": 9375
+            },
+            {
+                "_path": "lib/magic/doc/html/graphics/cif_see.gif",
+                "path_type": "hardlink",
+                "sha256": "1e15e8502c40ac42862dbe4fdd5707ac18a138f112d4483a53518ed502ad40a1",
+                "sha256_in_prefix": "1e15e8502c40ac42862dbe4fdd5707ac18a138f112d4483a53518ed502ad40a1",
+                "size_in_bytes": 49244
+            },
+            {
+                "_path": "lib/magic/doc/html/graphics/corner1.gif",
+                "path_type": "hardlink",
+                "sha256": "3e923dc8b21a165b3e6966536ec8a6afc31fcb2721115316ed8bb3a085f9ad36",
+                "sha256_in_prefix": "3e923dc8b21a165b3e6966536ec8a6afc31fcb2721115316ed8bb3a085f9ad36",
+                "size_in_bytes": 1645
+            },
+            {
+                "_path": "lib/magic/doc/html/graphics/corner2.gif",
+                "path_type": "hardlink",
+                "sha256": "78cea1120fababa9d980d6672f0b2d691e40499c8e5041851039c07f7f74d087",
+                "sha256_in_prefix": "78cea1120fababa9d980d6672f0b2d691e40499c8e5041851039c07f7f74d087",
+                "size_in_bytes": 2616
+            },
+            {
+                "_path": "lib/magic/doc/html/graphics/email_address.png",
+                "path_type": "hardlink",
+                "sha256": "d81e6e6828e372fa1bfbdf668de9732edfb216f2f7104542007dde9b74f879e5",
+                "sha256_in_prefix": "d81e6e6828e372fa1bfbdf668de9732edfb216f2f7104542007dde9b74f879e5",
+                "size_in_bytes": 893
+            },
+            {
+                "_path": "lib/magic/doc/html/graphics/line1.gif",
+                "path_type": "hardlink",
+                "sha256": "02d2e765c9369d40a10156bff5efdb6e526d49e3077154b9b840023788680bc2",
+                "sha256_in_prefix": "02d2e765c9369d40a10156bff5efdb6e526d49e3077154b9b840023788680bc2",
+                "size_in_bytes": 302
+            },
+            {
+                "_path": "lib/magic/doc/html/graphics/magic_OGL_sm.gif",
+                "path_type": "hardlink",
+                "sha256": "83971dccf459d541821c85e33edafb0b8174b4a5c8b7b71cca638a28fbb3e67a",
+                "sha256_in_prefix": "83971dccf459d541821c85e33edafb0b8174b4a5c8b7b71cca638a28fbb3e67a",
+                "size_in_bytes": 8078
+            },
+            {
+                "_path": "lib/magic/doc/html/graphics/magic_title2.gif",
+                "path_type": "hardlink",
+                "sha256": "6f8dc52cf5e0bf61072fcb3fc3a778b9559f973ef7f96ba126a84af917fe4915",
+                "sha256_in_prefix": "6f8dc52cf5e0bf61072fcb3fc3a778b9559f973ef7f96ba126a84af917fe4915",
+                "size_in_bytes": 10744
+            },
+            {
+                "_path": "lib/magic/doc/html/graphics/techmgr.gif",
+                "path_type": "hardlink",
+                "sha256": "01bdcbc1e60e5df6af7243154d89ed75983ef7e9b7043d4f5878955a77d480ea",
+                "sha256_in_prefix": "01bdcbc1e60e5df6af7243154d89ed75983ef7e9b7043d4f5878955a77d480ea",
+                "size_in_bytes": 4757
+            },
+            {
+                "_path": "lib/magic/doc/html/graphics/toolbar.gif",
+                "path_type": "hardlink",
+                "sha256": "acd04602c45a1cdad9225edb97a190994df99d6e41fb850530a3ebced9262d05",
+                "sha256_in_prefix": "acd04602c45a1cdad9225edb97a190994df99d6e41fb850530a3ebced9262d05",
+                "size_in_bytes": 10273
+            },
+            {
+                "_path": "lib/magic/doc/html/graphics/writeall.gif",
+                "path_type": "hardlink",
+                "sha256": "8cf627a617596c96e9c2eff497ef0968603a02d7518531d68a63a27beb9c424d",
+                "sha256_in_prefix": "8cf627a617596c96e9c2eff497ef0968603a02d7518531d68a63a27beb9c424d",
+                "size_in_bytes": 3934
+            },
+            {
+                "_path": "lib/magic/doc/html/grid.html",
+                "path_type": "hardlink",
+                "sha256": "057a1e2873b14af8ed3bfc062c4f7a0a2bf4c18ed2c69c721f0b235e342a60d0",
+                "sha256_in_prefix": "057a1e2873b14af8ed3bfc062c4f7a0a2bf4c18ed2c69c721f0b235e342a60d0",
+                "size_in_bytes": 4180
+            },
+            {
+                "_path": "lib/magic/doc/html/help.html",
+                "path_type": "hardlink",
+                "sha256": "b2d15442f33fe3cd0b24f57821313d5707d5ee2846996700b20ba496f065af26",
+                "sha256_in_prefix": "b2d15442f33fe3cd0b24f57821313d5707d5ee2846996700b20ba496f065af26",
+                "size_in_bytes": 2863
+            },
+            {
+                "_path": "lib/magic/doc/html/identify.html",
+                "path_type": "hardlink",
+                "sha256": "6cf47cb96f80e909e158247f2a787bc9af9fef15bd3627274c33434b5406042b",
+                "sha256_in_prefix": "6cf47cb96f80e909e158247f2a787bc9af9fef15bd3627274c33434b5406042b",
+                "size_in_bytes": 1746
+            },
+            {
+                "_path": "lib/magic/doc/html/imacro.html",
+                "path_type": "hardlink",
+                "sha256": "37e36381088658c8bb856c3b7be67b802583756b4e758db81bd8a04c95795870",
+                "sha256_in_prefix": "37e36381088658c8bb856c3b7be67b802583756b4e758db81bd8a04c95795870",
+                "size_in_bytes": 2747
+            },
+            {
+                "_path": "lib/magic/doc/html/initialize.html",
+                "path_type": "hardlink",
+                "sha256": "c0f2eda674de127bb78d6427ce69d34890d4605185e344c9733fecc738ce8817",
+                "sha256_in_prefix": "c0f2eda674de127bb78d6427ce69d34890d4605185e344c9733fecc738ce8817",
+                "size_in_bytes": 1930
+            },
+            {
+                "_path": "lib/magic/doc/html/instance.html",
+                "path_type": "hardlink",
+                "sha256": "d443a35be795470091ce375ecc8416900e85f540ab857c1a571b54612e7b5334",
+                "sha256_in_prefix": "d443a35be795470091ce375ecc8416900e85f540ab857c1a571b54612e7b5334",
+                "size_in_bytes": 5841
+            },
+            {
+                "_path": "lib/magic/doc/html/invoke.html",
+                "path_type": "hardlink",
+                "sha256": "99a4897a71b57d722ae2bf28e698ad46c7395d210d4b02666b3dfdef1a7d687f",
+                "sha256_in_prefix": "99a4897a71b57d722ae2bf28e698ad46c7395d210d4b02666b3dfdef1a7d687f",
+                "size_in_bytes": 4714
+            },
+            {
+                "_path": "lib/magic/doc/html/iroute.html",
+                "path_type": "hardlink",
+                "sha256": "85c491624ce109c0231ece062ddfc58f17294efd264a779c355c74003263603d",
+                "sha256_in_prefix": "85c491624ce109c0231ece062ddfc58f17294efd264a779c355c74003263603d",
+                "size_in_bytes": 6324
+            },
+            {
+                "_path": "lib/magic/doc/html/irsim.html",
+                "path_type": "hardlink",
+                "sha256": "50824dbe7b2354e76622861d662367b4dca3aa681bd710d57c86df147cd96217",
+                "sha256_in_prefix": "50824dbe7b2354e76622861d662367b4dca3aa681bd710d57c86df147cd96217",
+                "size_in_bytes": 2638
+            },
+            {
+                "_path": "lib/magic/doc/html/label.html",
+                "path_type": "hardlink",
+                "sha256": "aba8806bf04bde3021bd7d5eb393f77b8334725525fa3101a1dcc637f88dc94a",
+                "sha256_in_prefix": "aba8806bf04bde3021bd7d5eb393f77b8334725525fa3101a1dcc637f88dc94a",
+                "size_in_bytes": 4341
+            },
+            {
+                "_path": "lib/magic/doc/html/lef.html",
+                "path_type": "hardlink",
+                "sha256": "3d34c50e83a37059fe18ad7eb98736d53c7c3941b5d3a1a0b02692c8698d39bb",
+                "sha256_in_prefix": "3d34c50e83a37059fe18ad7eb98736d53c7c3941b5d3a1a0b02692c8698d39bb",
+                "size_in_bytes": 9324
+            },
+            {
+                "_path": "lib/magic/doc/html/load.html",
+                "path_type": "hardlink",
+                "sha256": "454fa29226a91518e989ce0546af8524fbba636e951268e2a1e62465b1724673",
+                "sha256_in_prefix": "454fa29226a91518e989ce0546af8524fbba636e951268e2a1e62465b1724673",
+                "size_in_bytes": 5149
+            },
+            {
+                "_path": "lib/magic/doc/html/locking.html",
+                "path_type": "hardlink",
+                "sha256": "cf9d37f5cf51a05bf3a67b3cf588315552b581a0c901c11180ed13c45a326740",
+                "sha256_in_prefix": "cf9d37f5cf51a05bf3a67b3cf588315552b581a0c901c11180ed13c45a326740",
+                "size_in_bytes": 3804
+            },
+            {
+                "_path": "lib/magic/doc/html/logcommands.html",
+                "path_type": "hardlink",
+                "sha256": "9957cffecd60cba7625fd62818f2fac9afeec3d82e4838e299e8aff11d793b3e",
+                "sha256_in_prefix": "9957cffecd60cba7625fd62818f2fac9afeec3d82e4838e299e8aff11d793b3e",
+                "size_in_bytes": 1528
+            },
+            {
+                "_path": "lib/magic/doc/html/macro.html",
+                "path_type": "hardlink",
+                "sha256": "27236f76521b155c4faa9be64cf0dedbb105d81266414ed79285692df9c3530d",
+                "sha256_in_prefix": "27236f76521b155c4faa9be64cf0dedbb105d81266414ed79285692df9c3530d",
+                "size_in_bytes": 3847
+            },
+            {
+                "_path": "lib/magic/doc/html/maketoolbar.html",
+                "path_type": "hardlink",
+                "sha256": "c3eaad7c9be7822f876a04efd5114d6422b6e1ffebe5241f45657d1b7ae1d002",
+                "sha256_in_prefix": "c3eaad7c9be7822f876a04efd5114d6422b6e1ffebe5241f45657d1b7ae1d002",
+                "size_in_bytes": 3148
+            },
+            {
+                "_path": "lib/magic/doc/html/measure.html",
+                "path_type": "hardlink",
+                "sha256": "45760cb827bcd207c556cbfc8de89df0d1d8082b80801994e110d636b52686a3",
+                "sha256_in_prefix": "45760cb827bcd207c556cbfc8de89df0d1d8082b80801994e110d636b52686a3",
+                "size_in_bytes": 2113
+            },
+            {
+                "_path": "lib/magic/doc/html/move.html",
+                "path_type": "hardlink",
+                "sha256": "0f957d456c5131371fea75d0c00388437e7270b5bbf2196289b511a5424e6076",
+                "sha256_in_prefix": "0f957d456c5131371fea75d0c00388437e7270b5bbf2196289b511a5424e6076",
+                "size_in_bytes": 3303
+            },
+            {
+                "_path": "lib/magic/doc/html/netlist.html",
+                "path_type": "hardlink",
+                "sha256": "1102b055b20975045f24183794ec0dd9ae59554657a24b4dbb27f77f90343c37",
+                "sha256_in_prefix": "1102b055b20975045f24183794ec0dd9ae59554657a24b4dbb27f77f90343c37",
+                "size_in_bytes": 2555
+            },
+            {
+                "_path": "lib/magic/doc/html/netlist/add.html",
+                "path_type": "hardlink",
+                "sha256": "2d3edd4fa219afbd472032359bcc408ed1366fcb543db4c394906d4cf5e3c929",
+                "sha256_in_prefix": "2d3edd4fa219afbd472032359bcc408ed1366fcb543db4c394906d4cf5e3c929",
+                "size_in_bytes": 1718
+            },
+            {
+                "_path": "lib/magic/doc/html/netlist/cleanup.html",
+                "path_type": "hardlink",
+                "sha256": "6fb49311659585bc948860495ab891c16f443acd752469f2f501efc8fc97447e",
+                "sha256_in_prefix": "6fb49311659585bc948860495ab891c16f443acd752469f2f501efc8fc97447e",
+                "size_in_bytes": 1843
+            },
+            {
+                "_path": "lib/magic/doc/html/netlist/cull.html",
+                "path_type": "hardlink",
+                "sha256": "583485b49db7a58cca4f9158f14e6de4a64c157d8a8d30f6edb62ff9a61f35a9",
+                "sha256_in_prefix": "583485b49db7a58cca4f9158f14e6de4a64c157d8a8d30f6edb62ff9a61f35a9",
+                "size_in_bytes": 1406
+            },
+            {
+                "_path": "lib/magic/doc/html/netlist/dnet.html",
+                "path_type": "hardlink",
+                "sha256": "29584d7282a04f122e0deb6f4c94fea7c06707af86785bd01e8d1a38b4199c7b",
+                "sha256_in_prefix": "29584d7282a04f122e0deb6f4c94fea7c06707af86785bd01e8d1a38b4199c7b",
+                "size_in_bytes": 1697
+            },
+            {
+                "_path": "lib/magic/doc/html/netlist/dterm.html",
+                "path_type": "hardlink",
+                "sha256": "d608e5d66d624d85f5ec2de0073cf730083dd01d6caf34cac82a92dbec4450fb",
+                "sha256_in_prefix": "d608e5d66d624d85f5ec2de0073cf730083dd01d6caf34cac82a92dbec4450fb",
+                "size_in_bytes": 1628
+            },
+            {
+                "_path": "lib/magic/doc/html/netlist/extract.html",
+                "path_type": "hardlink",
+                "sha256": "397a57885e39c209eda2070c914f392e514bcfce69f6ad770d397a464a5d3db6",
+                "sha256_in_prefix": "397a57885e39c209eda2070c914f392e514bcfce69f6ad770d397a464a5d3db6",
+                "size_in_bytes": 1525
+            },
+            {
+                "_path": "lib/magic/doc/html/netlist/find.html",
+                "path_type": "hardlink",
+                "sha256": "cb6e2512d322110dc156c83bf0a8e19f8826b5e4314fcc8230d25f70cc43fe0a",
+                "sha256_in_prefix": "cb6e2512d322110dc156c83bf0a8e19f8826b5e4314fcc8230d25f70cc43fe0a",
+                "size_in_bytes": 1740
+            },
+            {
+                "_path": "lib/magic/doc/html/netlist/flush.html",
+                "path_type": "hardlink",
+                "sha256": "a99b96935c81965bd5c288af8a45196269948417201f49a39ff767b74f035f3e",
+                "sha256_in_prefix": "a99b96935c81965bd5c288af8a45196269948417201f49a39ff767b74f035f3e",
+                "size_in_bytes": 1644
+            },
+            {
+                "_path": "lib/magic/doc/html/netlist/joinnets.html",
+                "path_type": "hardlink",
+                "sha256": "b24916622a5a3cf2b0def0bb0fed75ab6cdecd3367358d96e8748bc7da061321",
+                "sha256_in_prefix": "b24916622a5a3cf2b0def0bb0fed75ab6cdecd3367358d96e8748bc7da061321",
+                "size_in_bytes": 2091
+            },
+            {
+                "_path": "lib/magic/doc/html/netlist/netlist.html",
+                "path_type": "hardlink",
+                "sha256": "d4366cb0e608a1e0c499ebd94019cb6d258dcc2a29b96b7e27c416f5e4ac8af6",
+                "sha256_in_prefix": "d4366cb0e608a1e0c499ebd94019cb6d258dcc2a29b96b7e27c416f5e4ac8af6",
+                "size_in_bytes": 1804
+            },
+            {
+                "_path": "lib/magic/doc/html/netlist/print.html",
+                "path_type": "hardlink",
+                "sha256": "5a2f9d3872abb80c6ea0542e169f7f9069d0f582f2b87b9bcad8359b9ef7b1da",
+                "sha256_in_prefix": "5a2f9d3872abb80c6ea0542e169f7f9069d0f582f2b87b9bcad8359b9ef7b1da",
+                "size_in_bytes": 1619
+            },
+            {
+                "_path": "lib/magic/doc/html/netlist/pushbutton.html",
+                "path_type": "hardlink",
+                "sha256": "207305dfbc53abec4b246aee6158b9b37576fee519710ae08b3330207bad11e0",
+                "sha256_in_prefix": "207305dfbc53abec4b246aee6158b9b37576fee519710ae08b3330207bad11e0",
+                "size_in_bytes": 1895
+            },
+            {
+                "_path": "lib/magic/doc/html/netlist/ripup.html",
+                "path_type": "hardlink",
+                "sha256": "16058c24ebb840fe331aac5e0965e33aa34aafb0a452033f300c9979901994b4",
+                "sha256_in_prefix": "16058c24ebb840fe331aac5e0965e33aa34aafb0a452033f300c9979901994b4",
+                "size_in_bytes": 1639
+            },
+            {
+                "_path": "lib/magic/doc/html/netlist/savenetlist.html",
+                "path_type": "hardlink",
+                "sha256": "25329ac37c01089d5a5dafeb654980c8ddffad75e1321c1ef81631b7fc71cb0e",
+                "sha256_in_prefix": "25329ac37c01089d5a5dafeb654980c8ddffad75e1321c1ef81631b7fc71cb0e",
+                "size_in_bytes": 1751
+            },
+            {
+                "_path": "lib/magic/doc/html/netlist/shownet.html",
+                "path_type": "hardlink",
+                "sha256": "8ab368c28a8632c45ea86cc4aed2dc82fa59c0c85d513692421a906611c9e73b",
+                "sha256_in_prefix": "8ab368c28a8632c45ea86cc4aed2dc82fa59c0c85d513692421a906611c9e73b",
+                "size_in_bytes": 1764
+            },
+            {
+                "_path": "lib/magic/doc/html/netlist/showterms.html",
+                "path_type": "hardlink",
+                "sha256": "40466d1b40f09c03055ffa0748be6e8dc99957a3c8699008ff1f4bd4ad147d42",
+                "sha256_in_prefix": "40466d1b40f09c03055ffa0748be6e8dc99957a3c8699008ff1f4bd4ad147d42",
+                "size_in_bytes": 1811
+            },
+            {
+                "_path": "lib/magic/doc/html/netlist/trace.html",
+                "path_type": "hardlink",
+                "sha256": "b0011915fa56089bfea2fefe92273cca818506188c47ceae19c6a56a8d9ba670",
+                "sha256_in_prefix": "b0011915fa56089bfea2fefe92273cca818506188c47ceae19c6a56a8d9ba670",
+                "size_in_bytes": 1734
+            },
+            {
+                "_path": "lib/magic/doc/html/netlist/verify.html",
+                "path_type": "hardlink",
+                "sha256": "ea4dd7ba5d0d5b85fab1d565ecc656e385c3d65430a3b686fad8d8d5bcab75af",
+                "sha256_in_prefix": "ea4dd7ba5d0d5b85fab1d565ecc656e385c3d65430a3b686fad8d8d5bcab75af",
+                "size_in_bytes": 1569
+            },
+            {
+                "_path": "lib/magic/doc/html/netlist/writeall.html",
+                "path_type": "hardlink",
+                "sha256": "e7372de4aa8a9569679d11892fdd95c1579faaca4a4ef80a971c306f25c46de3",
+                "sha256_in_prefix": "e7372de4aa8a9569679d11892fdd95c1579faaca4a4ef80a971c306f25c46de3",
+                "size_in_bytes": 1792
+            },
+            {
+                "_path": "lib/magic/doc/html/openwindow.html",
+                "path_type": "hardlink",
+                "sha256": "b1347486879d51381eec6b6958d2e9bf346a3cc9cf0a28b9e661abf11507e3b9",
+                "sha256_in_prefix": "b1347486879d51381eec6b6958d2e9bf346a3cc9cf0a28b9e661abf11507e3b9",
+                "size_in_bytes": 2670
+            },
+            {
+                "_path": "lib/magic/doc/html/openwrapper.html",
+                "path_type": "hardlink",
+                "sha256": "f0c44c982726e09ed34bd870559c49dbd5e56cdb3b8cdd8aaf15c0449bdc8539",
+                "sha256_in_prefix": "f0c44c982726e09ed34bd870559c49dbd5e56cdb3b8cdd8aaf15c0449bdc8539",
+                "size_in_bytes": 2221
+            },
+            {
+                "_path": "lib/magic/doc/html/orient.html",
+                "path_type": "hardlink",
+                "sha256": "bb4cb2fdb9a4727fc364b5f5a12686e6062fca0919e8d46c8aec0d9c6fb018e3",
+                "sha256_in_prefix": "bb4cb2fdb9a4727fc364b5f5a12686e6062fca0919e8d46c8aec0d9c6fb018e3",
+                "size_in_bytes": 2491
+            },
+            {
+                "_path": "lib/magic/doc/html/paint.html",
+                "path_type": "hardlink",
+                "sha256": "4f74b442315a9dd2a8c83a7739495dbbfcb8bba6320498719087885d72abf905",
+                "sha256_in_prefix": "4f74b442315a9dd2a8c83a7739495dbbfcb8bba6320498719087885d72abf905",
+                "size_in_bytes": 2325
+            },
+            {
+                "_path": "lib/magic/doc/html/path.html",
+                "path_type": "hardlink",
+                "sha256": "c4b4afef9f6c689aa6b184831c69dabb32ea5150c483946283fa9240c27376cd",
+                "sha256_in_prefix": "c4b4afef9f6c689aa6b184831c69dabb32ea5150c483946283fa9240c27376cd",
+                "size_in_bytes": 2074
+            },
+            {
+                "_path": "lib/magic/doc/html/peekbox.html",
+                "path_type": "hardlink",
+                "sha256": "82e2d47306db7abd6c850b552e3e970e45215cd6f104cce6b3b4e0990b9c5313",
+                "sha256_in_prefix": "82e2d47306db7abd6c850b552e3e970e45215cd6f104cce6b3b4e0990b9c5313",
+                "size_in_bytes": 1606
+            },
+            {
+                "_path": "lib/magic/doc/html/plot.html",
+                "path_type": "hardlink",
+                "sha256": "3ebbaef331820dcbb0e7dbd3ab2a7ac7234510e39b813cd8d25eaf5ef2417164",
+                "sha256_in_prefix": "3ebbaef331820dcbb0e7dbd3ab2a7ac7234510e39b813cd8d25eaf5ef2417164",
+                "size_in_bytes": 12243
+            },
+            {
+                "_path": "lib/magic/doc/html/plow.html",
+                "path_type": "hardlink",
+                "sha256": "3aa3628e9288284528d2c19e692ecc394d9379a9db483a134bb1a051a0b5a708",
+                "sha256_in_prefix": "3aa3628e9288284528d2c19e692ecc394d9379a9db483a134bb1a051a0b5a708",
+                "size_in_bytes": 2886
+            },
+            {
+                "_path": "lib/magic/doc/html/polygon.html",
+                "path_type": "hardlink",
+                "sha256": "ab91e4e5fb20e60acec9ec4df670761d418bbbfb8c56aae942a22aa484603306",
+                "sha256_in_prefix": "ab91e4e5fb20e60acec9ec4df670761d418bbbfb8c56aae942a22aa484603306",
+                "size_in_bytes": 2441
+            },
+            {
+                "_path": "lib/magic/doc/html/popbox.html",
+                "path_type": "hardlink",
+                "sha256": "abfa41a3a1c8cc83722fe0637c04216ab9ce30eb4cf2fdb8418d6470c5170d21",
+                "sha256_in_prefix": "abfa41a3a1c8cc83722fe0637c04216ab9ce30eb4cf2fdb8418d6470c5170d21",
+                "size_in_bytes": 1564
+            },
+            {
+                "_path": "lib/magic/doc/html/popstack.html",
+                "path_type": "hardlink",
+                "sha256": "e15e0fec041ef9dcf9a33cd5018b0ebc64916427abcaf07a036d1ee5ff2f49b5",
+                "sha256_in_prefix": "e15e0fec041ef9dcf9a33cd5018b0ebc64916427abcaf07a036d1ee5ff2f49b5",
+                "size_in_bytes": 1691
+            },
+            {
+                "_path": "lib/magic/doc/html/port.html",
+                "path_type": "hardlink",
+                "sha256": "8534bed2378f68ef6332f05d67098a34467ba6a805b2b6f2bb8164c9a99df289",
+                "sha256_in_prefix": "8534bed2378f68ef6332f05d67098a34467ba6a805b2b6f2bb8164c9a99df289",
+                "size_in_bytes": 7710
+            },
+            {
+                "_path": "lib/magic/doc/html/promptload.html",
+                "path_type": "hardlink",
+                "sha256": "344aaf9037924ac10d121f169be284b43bc6a410716e3a3c953cbbbff4fa5b08",
+                "sha256_in_prefix": "344aaf9037924ac10d121f169be284b43bc6a410716e3a3c953cbbbff4fa5b08",
+                "size_in_bytes": 2447
+            },
+            {
+                "_path": "lib/magic/doc/html/promptsave.html",
+                "path_type": "hardlink",
+                "sha256": "0414f88c3746a6335c0228a9a7b407c7f2c5ee6a61a0b76553578b9ba32e066a",
+                "sha256_in_prefix": "0414f88c3746a6335c0228a9a7b407c7f2c5ee6a61a0b76553578b9ba32e066a",
+                "size_in_bytes": 2331
+            },
+            {
+                "_path": "lib/magic/doc/html/property.html",
+                "path_type": "hardlink",
+                "sha256": "be236e67a8cfea5fb0e1ac78385b8ebff2f2dfe875d15576be3db49de108bacf",
+                "sha256_in_prefix": "be236e67a8cfea5fb0e1ac78385b8ebff2f2dfe875d15576be3db49de108bacf",
+                "size_in_bytes": 7824
+            },
+            {
+                "_path": "lib/magic/doc/html/pushbox.html",
+                "path_type": "hardlink",
+                "sha256": "54790341a9280eb2daa03ad79afd442beb728965016b7e7b709cf29f45984df7",
+                "sha256_in_prefix": "54790341a9280eb2daa03ad79afd442beb728965016b7e7b709cf29f45984df7",
+                "size_in_bytes": 1602
+            },
+            {
+                "_path": "lib/magic/doc/html/pushbutton.html",
+                "path_type": "hardlink",
+                "sha256": "46f133cca37c91d4e35838cc49a4dde77b7b3807684f3b606602a0b15fad0f92",
+                "sha256_in_prefix": "46f133cca37c91d4e35838cc49a4dde77b7b3807684f3b606602a0b15fad0f92",
+                "size_in_bytes": 1936
+            },
+            {
+                "_path": "lib/magic/doc/html/pushstack.html",
+                "path_type": "hardlink",
+                "sha256": "0f4b888029948085ef836d8190dca609d90c720ceb3d5f673802f511d1658f6e",
+                "sha256_in_prefix": "0f4b888029948085ef836d8190dca609d90c720ceb3d5f673802f511d1658f6e",
+                "size_in_bytes": 1793
+            },
+            {
+                "_path": "lib/magic/doc/html/quit.html",
+                "path_type": "hardlink",
+                "sha256": "a35ee2e395a32e2b0f0f95ac1692330c8d82e90117e2c5e06dfe0addb3f1edd8",
+                "sha256_in_prefix": "a35ee2e395a32e2b0f0f95ac1692330c8d82e90117e2c5e06dfe0addb3f1edd8",
+                "size_in_bytes": 1796
+            },
+            {
+                "_path": "lib/magic/doc/html/random.html",
+                "path_type": "hardlink",
+                "sha256": "1c863f7fa22b457751603b47e67854628230d8876da2372398f3c850f676ed81",
+                "sha256_in_prefix": "1c863f7fa22b457751603b47e67854628230d8876da2372398f3c850f676ed81",
+                "size_in_bytes": 2732
+            },
+            {
+                "_path": "lib/magic/doc/html/readspice.html",
+                "path_type": "hardlink",
+                "sha256": "81f2d1a6ae03b9bc4492d02c5d1176f6e2efea14f37b5b0eda2acac080c18e1b",
+                "sha256_in_prefix": "81f2d1a6ae03b9bc4492d02c5d1176f6e2efea14f37b5b0eda2acac080c18e1b",
+                "size_in_bytes": 2266
+            },
+            {
+                "_path": "lib/magic/doc/html/redo.html",
+                "path_type": "hardlink",
+                "sha256": "378867be10ff228cef3ae12a562093d132139a245748f98586d33207d97edc7c",
+                "sha256_in_prefix": "378867be10ff228cef3ae12a562093d132139a245748f98586d33207d97edc7c",
+                "size_in_bytes": 1908
+            },
+            {
+                "_path": "lib/magic/doc/html/redraw.html",
+                "path_type": "hardlink",
+                "sha256": "5686e9e66e1f2792001df6b2ee02edbb257141bfbc21050f319c59188a007bcf",
+                "sha256_in_prefix": "5686e9e66e1f2792001df6b2ee02edbb257141bfbc21050f319c59188a007bcf",
+                "size_in_bytes": 1471
+            },
+            {
+                "_path": "lib/magic/doc/html/render3d.html",
+                "path_type": "hardlink",
+                "sha256": "d7d6aa5bedd7d63a7d84d1dc899097b7bc8614de487a8472551ebaa4852074d5",
+                "sha256_in_prefix": "d7d6aa5bedd7d63a7d84d1dc899097b7bc8614de487a8472551ebaa4852074d5",
+                "size_in_bytes": 1638
+            },
+            {
+                "_path": "lib/magic/doc/html/resumeall.html",
+                "path_type": "hardlink",
+                "sha256": "15e35cdbdb2090eecf161491ce15c6b7ff67c62b45a14ff4aedb2a68f67e587b",
+                "sha256_in_prefix": "15e35cdbdb2090eecf161491ce15c6b7ff67c62b45a14ff4aedb2a68f67e587b",
+                "size_in_bytes": 2093
+            },
+            {
+                "_path": "lib/magic/doc/html/rotate.html",
+                "path_type": "hardlink",
+                "sha256": "af9a5f16053dcabb14d30a270553e3ac5420e26538c99093d0391ea5f5e3367d",
+                "sha256_in_prefix": "af9a5f16053dcabb14d30a270553e3ac5420e26538c99093d0391ea5f5e3367d",
+                "size_in_bytes": 2025
+            },
+            {
+                "_path": "lib/magic/doc/html/route.html",
+                "path_type": "hardlink",
+                "sha256": "e45b1714f3ae721e5dc459933a4d6f48d4b9d61e593c119865108b67a29ea171",
+                "sha256_in_prefix": "e45b1714f3ae721e5dc459933a4d6f48d4b9d61e593c119865108b67a29ea171",
+                "size_in_bytes": 2638
+            },
+            {
+                "_path": "lib/magic/doc/html/ruler.html",
+                "path_type": "hardlink",
+                "sha256": "ec8317cdedcaa54885ad4088e5caaf1429dbc3a103ae0f35f9e2414ed326f4a7",
+                "sha256_in_prefix": "ec8317cdedcaa54885ad4088e5caaf1429dbc3a103ae0f35f9e2414ed326f4a7",
+                "size_in_bytes": 2256
+            },
+            {
+                "_path": "lib/magic/doc/html/save.html",
+                "path_type": "hardlink",
+                "sha256": "f7491d72c1e5171e6027b79f816a4ebdcf06574483eaa03915132c88525db239",
+                "sha256_in_prefix": "f7491d72c1e5171e6027b79f816a4ebdcf06574483eaa03915132c88525db239",
+                "size_in_bytes": 1833
+            },
+            {
+                "_path": "lib/magic/doc/html/scalegrid.html",
+                "path_type": "hardlink",
+                "sha256": "a4c3c2ec20ab897eb2a7f39c7d0363b3968a372cc954c1d6a2285fc5fc68b5b5",
+                "sha256_in_prefix": "a4c3c2ec20ab897eb2a7f39c7d0363b3968a372cc954c1d6a2285fc5fc68b5b5",
+                "size_in_bytes": 2344
+            },
+            {
+                "_path": "lib/magic/doc/html/scroll.html",
+                "path_type": "hardlink",
+                "sha256": "c5f60f0b3a3f9491b3f38081c886a02c9dfd6fc6d0e952b4fa54b2dca44c7d19",
+                "sha256_in_prefix": "c5f60f0b3a3f9491b3f38081c886a02c9dfd6fc6d0e952b4fa54b2dca44c7d19",
+                "size_in_bytes": 2447
+            },
+            {
+                "_path": "lib/magic/doc/html/search.html",
+                "path_type": "hardlink",
+                "sha256": "ee15f7979e85d9559cf19944d2ce08a1a8952f2118e0050957b66cf1229f302f",
+                "sha256_in_prefix": "ee15f7979e85d9559cf19944d2ce08a1a8952f2118e0050957b66cf1229f302f",
+                "size_in_bytes": 4200
+            },
+            {
+                "_path": "lib/magic/doc/html/see.html",
+                "path_type": "hardlink",
+                "sha256": "37d83409cc3a83aaf0075340a41f1b066d9a5bb28583e334660a5843cde535d3",
+                "sha256_in_prefix": "37d83409cc3a83aaf0075340a41f1b066d9a5bb28583e334660a5843cde535d3",
+                "size_in_bytes": 4309
+            },
+            {
+                "_path": "lib/magic/doc/html/select.html",
+                "path_type": "hardlink",
+                "sha256": "52b5ee9c217ec66f6985ac8b3bddf9ca38ab8435ae53668760e388f3ac2b6444",
+                "sha256_in_prefix": "52b5ee9c217ec66f6985ac8b3bddf9ca38ab8435ae53668760e388f3ac2b6444",
+                "size_in_bytes": 11537
+            },
+            {
+                "_path": "lib/magic/doc/html/setlabel.html",
+                "path_type": "hardlink",
+                "sha256": "0bc8aa93df8622fd821145c6f24438bc49c6742a454f1c1d8d6cbebc509d8db9",
+                "sha256_in_prefix": "0bc8aa93df8622fd821145c6f24438bc49c6742a454f1c1d8d6cbebc509d8db9",
+                "size_in_bytes": 7531
+            },
+            {
+                "_path": "lib/magic/doc/html/setpoint.html",
+                "path_type": "hardlink",
+                "sha256": "853c3cfd3a58714400e391cb1a209b4866517add7cd2cc8330dc79103f9e7716",
+                "sha256_in_prefix": "853c3cfd3a58714400e391cb1a209b4866517add7cd2cc8330dc79103f9e7716",
+                "size_in_bytes": 3259
+            },
+            {
+                "_path": "lib/magic/doc/html/shell.html",
+                "path_type": "hardlink",
+                "sha256": "3995bf0082ff0408b1782671377c2f144c028947e2bb9097bc8c4daacb242509",
+                "sha256_in_prefix": "3995bf0082ff0408b1782671377c2f144c028947e2bb9097bc8c4daacb242509",
+                "size_in_bytes": 2043
+            },
+            {
+                "_path": "lib/magic/doc/html/sideways.html",
+                "path_type": "hardlink",
+                "sha256": "93879a2f10089eba919bd64f5ac451957a72883f10746abd589e919a205dabf9",
+                "sha256_in_prefix": "93879a2f10089eba919bd64f5ac451957a72883f10746abd589e919a205dabf9",
+                "size_in_bytes": 1570
+            },
+            {
+                "_path": "lib/magic/doc/html/sleep.html",
+                "path_type": "hardlink",
+                "sha256": "c46ee034ec6e6b947c906846680a0d4e89c37ad04e80aa4c1a0d6eaeac6b3152",
+                "sha256_in_prefix": "c46ee034ec6e6b947c906846680a0d4e89c37ad04e80aa4c1a0d6eaeac6b3152",
+                "size_in_bytes": 1554
+            },
+            {
+                "_path": "lib/magic/doc/html/snap.html",
+                "path_type": "hardlink",
+                "sha256": "ea99c21f2d7c64c6b2756aaf20fae63cbd9836c4673e6d7d9729cb06bc0985de",
+                "sha256_in_prefix": "ea99c21f2d7c64c6b2756aaf20fae63cbd9836c4673e6d7d9729cb06bc0985de",
+                "size_in_bytes": 3687
+            },
+            {
+                "_path": "lib/magic/doc/html/specialopen.html",
+                "path_type": "hardlink",
+                "sha256": "03c35351c150e89504501a7ac457aea83f9ee46c78778dc659bfd21597cb5e4d",
+                "sha256_in_prefix": "03c35351c150e89504501a7ac457aea83f9ee46c78778dc659bfd21597cb5e4d",
+                "size_in_bytes": 2483
+            },
+            {
+                "_path": "lib/magic/doc/html/spliterase.html",
+                "path_type": "hardlink",
+                "sha256": "649b805308a8531a06ea41a3b2ed9081d033d230af9139d7afe61d5287d766e0",
+                "sha256_in_prefix": "649b805308a8531a06ea41a3b2ed9081d033d230af9139d7afe61d5287d766e0",
+                "size_in_bytes": 2626
+            },
+            {
+                "_path": "lib/magic/doc/html/splitpaint.html",
+                "path_type": "hardlink",
+                "sha256": "2346be2e4204b485b22c0e0421776389d62c4afd4021d15b15aebafb828b7980",
+                "sha256_in_prefix": "2346be2e4204b485b22c0e0421776389d62c4afd4021d15b15aebafb828b7980",
+                "size_in_bytes": 2486
+            },
+            {
+                "_path": "lib/magic/doc/html/startup.html",
+                "path_type": "hardlink",
+                "sha256": "00541f949c481a3c30e0b718ec229b0fb766731d59890acb137ade7f00e31385",
+                "sha256_in_prefix": "00541f949c481a3c30e0b718ec229b0fb766731d59890acb137ade7f00e31385",
+                "size_in_bytes": 1724
+            },
+            {
+                "_path": "lib/magic/doc/html/straighten.html",
+                "path_type": "hardlink",
+                "sha256": "c9b208bd639ccf112d81ca4df43cb13c911ef80db6b658056940cdaeee7d6117",
+                "sha256_in_prefix": "c9b208bd639ccf112d81ca4df43cb13c911ef80db6b658056940cdaeee7d6117",
+                "size_in_bytes": 1637
+            },
+            {
+                "_path": "lib/magic/doc/html/stretch.html",
+                "path_type": "hardlink",
+                "sha256": "93e10892a399d7399d7cd52625c6a5e27b9e872b239e597daf9a538676af2b9c",
+                "sha256_in_prefix": "93e10892a399d7399d7cd52625c6a5e27b9e872b239e597daf9a538676af2b9c",
+                "size_in_bytes": 3348
+            },
+            {
+                "_path": "lib/magic/doc/html/suspendall.html",
+                "path_type": "hardlink",
+                "sha256": "9e79d509af3d5d54a1779c9a3ab48ced5447e202bf201dc10601bcfb255f64a9",
+                "sha256_in_prefix": "9e79d509af3d5d54a1779c9a3ab48ced5447e202bf201dc10601bcfb255f64a9",
+                "size_in_bytes": 2133
+            },
+            {
+                "_path": "lib/magic/doc/html/tag.html",
+                "path_type": "hardlink",
+                "sha256": "ff9d1e13697bed5410c6eba971fc91f6ba9af29f052debb49b28d27e3b9135e6",
+                "sha256_in_prefix": "ff9d1e13697bed5410c6eba971fc91f6ba9af29f052debb49b28d27e3b9135e6",
+                "size_in_bytes": 4459
+            },
+            {
+                "_path": "lib/magic/doc/html/tech.html",
+                "path_type": "hardlink",
+                "sha256": "9d3917828127ff71db1f87740f0c07f3589f37369aa91f94d83d1c21180c24e0",
+                "sha256_in_prefix": "9d3917828127ff71db1f87740f0c07f3589f37369aa91f94d83d1c21180c24e0",
+                "size_in_bytes": 5542
+            },
+            {
+                "_path": "lib/magic/doc/html/techmanager.html",
+                "path_type": "hardlink",
+                "sha256": "42952e3fbff9633fe7760ce8893c0b697d53a91ab60e4cc46c7519b8a97ae8d8",
+                "sha256_in_prefix": "42952e3fbff9633fe7760ce8893c0b697d53a91ab60e4cc46c7519b8a97ae8d8",
+                "size_in_bytes": 2172
+            },
+            {
+                "_path": "lib/magic/doc/html/template.html",
+                "path_type": "hardlink",
+                "sha256": "02d2fe5ad8df19b5168222e5bced905cbab6270c79fdf18c7f8f626126a58e01",
+                "sha256_in_prefix": "02d2fe5ad8df19b5168222e5bced905cbab6270c79fdf18c7f8f626126a58e01",
+                "size_in_bytes": 1587
+            },
+            {
+                "_path": "lib/magic/doc/html/tk_path_name.html",
+                "path_type": "hardlink",
+                "sha256": "b00610f1b8fbad5c3c01c574a76232599546d61ab7458cec15acf3bd245cdae9",
+                "sha256_in_prefix": "b00610f1b8fbad5c3c01c574a76232599546d61ab7458cec15acf3bd245cdae9",
+                "size_in_bytes": 4006
+            },
+            {
+                "_path": "lib/magic/doc/html/tool.html",
+                "path_type": "hardlink",
+                "sha256": "895e71d2bcfec9da7d8aae5377f082bcfa8b79d10fac6acbcb4760c5afe1c63d",
+                "sha256_in_prefix": "895e71d2bcfec9da7d8aae5377f082bcfa8b79d10fac6acbcb4760c5afe1c63d",
+                "size_in_bytes": 3734
+            },
+            {
+                "_path": "lib/magic/doc/html/undo.html",
+                "path_type": "hardlink",
+                "sha256": "7ef16a83560f14bb8a1f3b0ee0472b75cf61da6ce41d2c130330fae700ed82c8",
+                "sha256_in_prefix": "7ef16a83560f14bb8a1f3b0ee0472b75cf61da6ce41d2c130330fae700ed82c8",
+                "size_in_bytes": 2475
+            },
+            {
+                "_path": "lib/magic/doc/html/unexpand.html",
+                "path_type": "hardlink",
+                "sha256": "f881960e28b6c63522d60c188f1b1fb3604c1e2a54196455694064e4d9ee8c3c",
+                "sha256_in_prefix": "f881960e28b6c63522d60c188f1b1fb3604c1e2a54196455694064e4d9ee8c3c",
+                "size_in_bytes": 1663
+            },
+            {
+                "_path": "lib/magic/doc/html/unmeasure.html",
+                "path_type": "hardlink",
+                "sha256": "180652a025611493a2dfd84ac34c9a68e436e493c0b1835ee8b9e59a732e7e87",
+                "sha256_in_prefix": "180652a025611493a2dfd84ac34c9a68e436e493c0b1835ee8b9e59a732e7e87",
+                "size_in_bytes": 1488
+            },
+            {
+                "_path": "lib/magic/doc/html/updatedisplay.html",
+                "path_type": "hardlink",
+                "sha256": "f434b31b7c1430a9c203ad8deac60cb761e9807215ec286ad2f94815c61607e1",
+                "sha256_in_prefix": "f434b31b7c1430a9c203ad8deac60cb761e9807215ec286ad2f94815c61607e1",
+                "size_in_bytes": 2056
+            },
+            {
+                "_path": "lib/magic/doc/html/upsidedown.html",
+                "path_type": "hardlink",
+                "sha256": "e83eb41b5554d97488ff89ef722e283d8d31b9f78ffabba770462bb408b964ed",
+                "sha256_in_prefix": "e83eb41b5554d97488ff89ef722e283d8d31b9f78ffabba770462bb408b964ed",
+                "size_in_bytes": 1579
+            },
+            {
+                "_path": "lib/magic/doc/html/version.html",
+                "path_type": "hardlink",
+                "sha256": "5ccd35f15b362b9715a62b54a77c7809f1ad4f274e72f61250b2b6cc440efa74",
+                "sha256_in_prefix": "5ccd35f15b362b9715a62b54a77c7809f1ad4f274e72f61250b2b6cc440efa74",
+                "size_in_bytes": 1279
+            },
+            {
+                "_path": "lib/magic/doc/html/view.html",
+                "path_type": "hardlink",
+                "sha256": "18dd92607f72f06b12b594df67bd4a92edf3d49b9f63f6a33618fe76b8606ace",
+                "sha256_in_prefix": "18dd92607f72f06b12b594df67bd4a92edf3d49b9f63f6a33618fe76b8606ace",
+                "size_in_bytes": 2253
+            },
+            {
+                "_path": "lib/magic/doc/html/what.html",
+                "path_type": "hardlink",
+                "sha256": "6a9abe8a7fd754e1d9027ec9a902aee99d952dc23de72e46f225e4f1fe1ef397",
+                "sha256_in_prefix": "6a9abe8a7fd754e1d9027ec9a902aee99d952dc23de72e46f225e4f1fe1ef397",
+                "size_in_bytes": 2425
+            },
+            {
+                "_path": "lib/magic/doc/html/wind3d/cif.html",
+                "path_type": "hardlink",
+                "sha256": "907a2111a486d66624f24547190ca83f0f4347d7da38c312fe09943d53acdab9",
+                "sha256_in_prefix": "907a2111a486d66624f24547190ca83f0f4347d7da38c312fe09943d53acdab9",
+                "size_in_bytes": 3046
+            },
+            {
+                "_path": "lib/magic/doc/html/wind3d/closewindow.html",
+                "path_type": "hardlink",
+                "sha256": "3ac6e7686678939a601a5c048a5413f72ae233b849b0765f3e806f06e553e24d",
+                "sha256_in_prefix": "3ac6e7686678939a601a5c048a5413f72ae233b849b0765f3e806f06e553e24d",
+                "size_in_bytes": 2262
+            },
+            {
+                "_path": "lib/magic/doc/html/wind3d/cutbox.html",
+                "path_type": "hardlink",
+                "sha256": "1bcf6a147e0f3c80e6b0fffe72fff0da9637a079d9f5b5f47aef724cd4e3e5cf",
+                "sha256_in_prefix": "1bcf6a147e0f3c80e6b0fffe72fff0da9637a079d9f5b5f47aef724cd4e3e5cf",
+                "size_in_bytes": 2619
+            },
+            {
+                "_path": "lib/magic/doc/html/wind3d/defaults.html",
+                "path_type": "hardlink",
+                "sha256": "e03cfa899bc11a572e82da5d7d5e701960131f2cd8a83ea6fbe851eaf4cf0e44",
+                "sha256_in_prefix": "e03cfa899bc11a572e82da5d7d5e701960131f2cd8a83ea6fbe851eaf4cf0e44",
+                "size_in_bytes": 2293
+            },
+            {
+                "_path": "lib/magic/doc/html/wind3d/help.html",
+                "path_type": "hardlink",
+                "sha256": "e2abf0270e8e59f386f27160d34fb377d81060a4333fe716eb6487287fea3b41",
+                "sha256_in_prefix": "e2abf0270e8e59f386f27160d34fb377d81060a4333fe716eb6487287fea3b41",
+                "size_in_bytes": 2355
+            },
+            {
+                "_path": "lib/magic/doc/html/wind3d/level.html",
+                "path_type": "hardlink",
+                "sha256": "e63e5057fa6a4bd3842771d7c9176082acf66f5bafce7c12704f85d99aa26c87",
+                "sha256_in_prefix": "e63e5057fa6a4bd3842771d7c9176082acf66f5bafce7c12704f85d99aa26c87",
+                "size_in_bytes": 2653
+            },
+            {
+                "_path": "lib/magic/doc/html/wind3d/refresh.html",
+                "path_type": "hardlink",
+                "sha256": "6477318a10320e818481135f8915e96fb2dc7ffdc7d69f99b588ad06a6bb91d5",
+                "sha256_in_prefix": "6477318a10320e818481135f8915e96fb2dc7ffdc7d69f99b588ad06a6bb91d5",
+                "size_in_bytes": 2250
+            },
+            {
+                "_path": "lib/magic/doc/html/wind3d/render.html",
+                "path_type": "hardlink",
+                "sha256": "42c3574dc96f43d83478d6f371418e443f810705013571930a71aaa559b86a18",
+                "sha256_in_prefix": "42c3574dc96f43d83478d6f371418e443f810705013571930a71aaa559b86a18",
+                "size_in_bytes": 2957
+            },
+            {
+                "_path": "lib/magic/doc/html/wind3d/scroll.html",
+                "path_type": "hardlink",
+                "sha256": "94777860a58df3b7c6c6cc65c09537dca1d2f8c3fabb1769ed8f9ae2b5a92683",
+                "sha256_in_prefix": "94777860a58df3b7c6c6cc65c09537dca1d2f8c3fabb1769ed8f9ae2b5a92683",
+                "size_in_bytes": 2644
+            },
+            {
+                "_path": "lib/magic/doc/html/wind3d/see.html",
+                "path_type": "hardlink",
+                "sha256": "f425a0d9d917fbaaedc3eef55e187db98fc43849f6093a6a18e569e09838bb18",
+                "sha256_in_prefix": "f425a0d9d917fbaaedc3eef55e187db98fc43849f6093a6a18e569e09838bb18",
+                "size_in_bytes": 2526
+            },
+            {
+                "_path": "lib/magic/doc/html/wind3d/view.html",
+                "path_type": "hardlink",
+                "sha256": "0a1194ad98646728f2a450a508b6186e06e77ee1fb5387c304ba10260206af71",
+                "sha256_in_prefix": "0a1194ad98646728f2a450a508b6186e06e77ee1fb5387c304ba10260206af71",
+                "size_in_bytes": 2679
+            },
+            {
+                "_path": "lib/magic/doc/html/wind3d/zoom.html",
+                "path_type": "hardlink",
+                "sha256": "1849b9a51c1142524d90b956bced7a1c3230d230259a7626c558dc81714d9b25",
+                "sha256_in_prefix": "1849b9a51c1142524d90b956bced7a1c3230d230259a7626c558dc81714d9b25",
+                "size_in_bytes": 3568
+            },
+            {
+                "_path": "lib/magic/doc/html/windowborder.html",
+                "path_type": "hardlink",
+                "sha256": "8077b7288a925597737e982fd0ce567dd839ed1f7ce28b1a177eecbadd981004",
+                "sha256_in_prefix": "8077b7288a925597737e982fd0ce567dd839ed1f7ce28b1a177eecbadd981004",
+                "size_in_bytes": 1614
+            },
+            {
+                "_path": "lib/magic/doc/html/windowcaption.html",
+                "path_type": "hardlink",
+                "sha256": "f9331c9de3f208c9ff8fd68a1a850e29ce7a3ae27f509734f1958028f029d396",
+                "sha256_in_prefix": "f9331c9de3f208c9ff8fd68a1a850e29ce7a3ae27f509734f1958028f029d396",
+                "size_in_bytes": 1664
+            },
+            {
+                "_path": "lib/magic/doc/html/windownames.html",
+                "path_type": "hardlink",
+                "sha256": "7d887f563dfdc426dbbae1045d0fb5e61775ca735b3fe5a6f374ace835e392b3",
+                "sha256_in_prefix": "7d887f563dfdc426dbbae1045d0fb5e61775ca735b3fe5a6f374ace835e392b3",
+                "size_in_bytes": 2337
+            },
+            {
+                "_path": "lib/magic/doc/html/windowscrollbars.html",
+                "path_type": "hardlink",
+                "sha256": "a94a4c1d6e1eecb323b37690a4eda079f282d89a851fcbb038ea395c798b8712",
+                "sha256_in_prefix": "a94a4c1d6e1eecb323b37690a4eda079f282d89a851fcbb038ea395c798b8712",
+                "size_in_bytes": 1670
+            },
+            {
+                "_path": "lib/magic/doc/html/wire.html",
+                "path_type": "hardlink",
+                "sha256": "a826a0453703d485e2357d1e2d442507c135dc69a79788f4208827a79f093eb4",
+                "sha256_in_prefix": "a826a0453703d485e2357d1e2d442507c135dc69a79788f4208827a79f093eb4",
+                "size_in_bytes": 5319
+            },
+            {
+                "_path": "lib/magic/doc/html/wizard/coord.html",
+                "path_type": "hardlink",
+                "sha256": "02e04e2fe35732c82b72552ebf474b265546a96b4fa442b825b82d5884f0067a",
+                "sha256_in_prefix": "02e04e2fe35732c82b72552ebf474b265546a96b4fa442b825b82d5884f0067a",
+                "size_in_bytes": 1698
+            },
+            {
+                "_path": "lib/magic/doc/html/wizard/crash.html",
+                "path_type": "hardlink",
+                "sha256": "98ca42c112735a9c30651d4eb641c6c7c0fa95faacfd512afedefdaa60d3c1dd",
+                "sha256_in_prefix": "98ca42c112735a9c30651d4eb641c6c7c0fa95faacfd512afedefdaa60d3c1dd",
+                "size_in_bytes": 1307
+            },
+            {
+                "_path": "lib/magic/doc/html/wizard/extract.html",
+                "path_type": "hardlink",
+                "sha256": "b9a91d92a47cdf1d6fabb9b52d365798c77d1caba6a141c574da421dc596d016",
+                "sha256_in_prefix": "b9a91d92a47cdf1d6fabb9b52d365798c77d1caba6a141c574da421dc596d016",
+                "size_in_bytes": 2499
+            },
+            {
+                "_path": "lib/magic/doc/html/wizard/files.html",
+                "path_type": "hardlink",
+                "sha256": "3145d59213d8a81dd4c33b31c94e581b1618aa7cc9e69f6cb90bf43db770f6e5",
+                "sha256_in_prefix": "3145d59213d8a81dd4c33b31c94e581b1618aa7cc9e69f6cb90bf43db770f6e5",
+                "size_in_bytes": 1294
+            },
+            {
+                "_path": "lib/magic/doc/html/wizard/grstats.html",
+                "path_type": "hardlink",
+                "sha256": "44357e365be9679541837e667b3da1a2188c9f00dac5950719fc3c08d1bf232d",
+                "sha256_in_prefix": "44357e365be9679541837e667b3da1a2188c9f00dac5950719fc3c08d1bf232d",
+                "size_in_bytes": 1428
+            },
+            {
+                "_path": "lib/magic/doc/html/wizard/pause.html",
+                "path_type": "hardlink",
+                "sha256": "152ce30c60628f457b2f85f4356ae2aac390df88fb15793bb363ce1b43bac7b4",
+                "sha256_in_prefix": "152ce30c60628f457b2f85f4356ae2aac390df88fb15793bb363ce1b43bac7b4",
+                "size_in_bytes": 1362
+            },
+            {
+                "_path": "lib/magic/doc/html/wizard/plow.html",
+                "path_type": "hardlink",
+                "sha256": "d4f0e3e65cd43d099206d469ed6facbe37bb26dd73982cff1b01a6f444e3aa44",
+                "sha256_in_prefix": "d4f0e3e65cd43d099206d469ed6facbe37bb26dd73982cff1b01a6f444e3aa44",
+                "size_in_bytes": 2324
+            },
+            {
+                "_path": "lib/magic/doc/html/wizard/psearch.html",
+                "path_type": "hardlink",
+                "sha256": "f8b52b7772b784920e7bbccc2e4fdb0a06e66fde0453176873d21f359718d8ab",
+                "sha256_in_prefix": "f8b52b7772b784920e7bbccc2e4fdb0a06e66fde0453176873d21f359718d8ab",
+                "size_in_bytes": 1530
+            },
+            {
+                "_path": "lib/magic/doc/html/wizard/showtech.html",
+                "path_type": "hardlink",
+                "sha256": "f70cbb5da3566258bfb594a796f86bb5505c448d111a5ce83762c648033be05f",
+                "sha256_in_prefix": "f70cbb5da3566258bfb594a796f86bb5505c448d111a5ce83762c648033be05f",
+                "size_in_bytes": 1752
+            },
+            {
+                "_path": "lib/magic/doc/html/wizard/tilestats.html",
+                "path_type": "hardlink",
+                "sha256": "96bc3d8691da921b127355f77631c756e6b0e136ffeb66c979a97d5feeef5fdd",
+                "sha256_in_prefix": "96bc3d8691da921b127355f77631c756e6b0e136ffeb66c979a97d5feeef5fdd",
+                "size_in_bytes": 1588
+            },
+            {
+                "_path": "lib/magic/doc/html/wizard/tsearch.html",
+                "path_type": "hardlink",
+                "sha256": "8308db3ff8f47edc63837b7917bcb0e15d09b3217c9da10fdd79971ab9f9bcf8",
+                "sha256_in_prefix": "8308db3ff8f47edc63837b7917bcb0e15d09b3217c9da10fdd79971ab9f9bcf8",
+                "size_in_bytes": 1774
+            },
+            {
+                "_path": "lib/magic/doc/html/wizard/watch.html",
+                "path_type": "hardlink",
+                "sha256": "f2c948d2f76155f7ed7b830e3bf145d35d314db0cbb9826d0aea83b864a3e0d7",
+                "sha256_in_prefix": "f2c948d2f76155f7ed7b830e3bf145d35d314db0cbb9826d0aea83b864a3e0d7",
+                "size_in_bytes": 2402
+            },
+            {
+                "_path": "lib/magic/doc/html/wizard/winddebug.html",
+                "path_type": "hardlink",
+                "sha256": "f6564cd46d9513d0a8d2ca38a2a8f21cdd2559fb93246d3c63d52e3d7e284be2",
+                "sha256_in_prefix": "f6564cd46d9513d0a8d2ca38a2a8f21cdd2559fb93246d3c63d52e3d7e284be2",
+                "size_in_bytes": 1382
+            },
+            {
+                "_path": "lib/magic/doc/html/wizard/winddump.html",
+                "path_type": "hardlink",
+                "sha256": "912f3e3ad1a1ad5675aff90dc5d94c4e5fff5467c0da381ec2cb8b9be5cf02cb",
+                "sha256_in_prefix": "912f3e3ad1a1ad5675aff90dc5d94c4e5fff5467c0da381ec2cb8b9be5cf02cb",
+                "size_in_bytes": 1462
+            },
+            {
+                "_path": "lib/magic/doc/html/writeall.html",
+                "path_type": "hardlink",
+                "sha256": "d6ee68b12c6048a53d62759d59315bad8eab8a70418be6427899707556c4b5a5",
+                "sha256_in_prefix": "d6ee68b12c6048a53d62759d59315bad8eab8a70418be6427899707556c4b5a5",
+                "size_in_bytes": 3233
+            },
+            {
+                "_path": "lib/magic/doc/html/xload.html",
+                "path_type": "hardlink",
+                "sha256": "c5c3812310441d068dad33fa94f23fceea9ec4387d599899321ea81fd824c011",
+                "sha256_in_prefix": "c5c3812310441d068dad33fa94f23fceea9ec4387d599899321ea81fd824c011",
+                "size_in_bytes": 1675
+            },
+            {
+                "_path": "lib/magic/doc/html/xor.html",
+                "path_type": "hardlink",
+                "sha256": "8bc8eda5d5d449c2eba5fa1b8b7c833052daec116986bfabd685f2a9586c830d",
+                "sha256_in_prefix": "8bc8eda5d5d449c2eba5fa1b8b7c833052daec116986bfabd685f2a9586c830d",
+                "size_in_bytes": 4550
+            },
+            {
+                "_path": "lib/magic/doc/html/xview.html",
+                "path_type": "hardlink",
+                "sha256": "24b1a6a15cce4d773d5ca168b88cbef71194c19862e75ccfc7e5ac15da67bdd2",
+                "sha256_in_prefix": "24b1a6a15cce4d773d5ca168b88cbef71194c19862e75ccfc7e5ac15da67bdd2",
+                "size_in_bytes": 1598
+            },
+            {
+                "_path": "lib/magic/doc/html/zoom.html",
+                "path_type": "hardlink",
+                "sha256": "a01bdd493b638fcfab6d9dbebb9dea1a9080688598b2d887a9e1b17d9a153e83",
+                "sha256_in_prefix": "a01bdd493b638fcfab6d9dbebb9dea1a9080688598b2d887a9e1b17d9a153e83",
+                "size_in_bytes": 2091
+            },
+            {
+                "_path": "lib/magic/doc/introduction.ps",
+                "path_type": "hardlink",
+                "sha256": "e486ba1371669c2b966f48b0fa02a84c701f74580ab05008259001d82bbe8512",
+                "sha256_in_prefix": "e486ba1371669c2b966f48b0fa02a84c701f74580ab05008259001d82bbe8512",
+                "size_in_bytes": 27242
+            },
+            {
+                "_path": "lib/magic/doc/maint1.ps",
+                "path_type": "hardlink",
+                "sha256": "ab83e4a072aaf944937ce56354b40ccd5c72fe7e658e337dde24afba38432054",
+                "sha256_in_prefix": "ab83e4a072aaf944937ce56354b40ccd5c72fe7e658e337dde24afba38432054",
+                "size_in_bytes": 77241
+            },
+            {
+                "_path": "lib/magic/doc/maint2.ps",
+                "path_type": "hardlink",
+                "sha256": "575a69c936b006437a3f5c1ab5df285373772b0eba4037919d83ca61aab2279b",
+                "sha256_in_prefix": "575a69c936b006437a3f5c1ab5df285373772b0eba4037919d83ca61aab2279b",
+                "size_in_bytes": 371962
+            },
+            {
+                "_path": "lib/magic/doc/maint3.ps",
+                "path_type": "hardlink",
+                "sha256": "7b19e483a579c54a5548671e3d4a79ce8785f7b1dbd5dd3f6b3e5feb4d6b8943",
+                "sha256_in_prefix": "7b19e483a579c54a5548671e3d4a79ce8785f7b1dbd5dd3f6b3e5feb4d6b8943",
+                "size_in_bytes": 27788
+            },
+            {
+                "_path": "lib/magic/doc/maint4.ps",
+                "path_type": "hardlink",
+                "sha256": "19d25d8f950bd38040532b2607c25333712763dad0d4b5ce7f1e78dd9e21ff9c",
+                "sha256_in_prefix": "19d25d8f950bd38040532b2607c25333712763dad0d4b5ce7f1e78dd9e21ff9c",
+                "size_in_bytes": 21068
+            },
+            {
+                "_path": "lib/magic/doc/tut1.ps",
+                "path_type": "hardlink",
+                "sha256": "0ac310e3e8611ce5ec40b22e086c5292ae0e359b330ddfed90f0c5ca4fdcba77",
+                "sha256_in_prefix": "0ac310e3e8611ce5ec40b22e086c5292ae0e359b330ddfed90f0c5ca4fdcba77",
+                "size_in_bytes": 45051
+            },
+            {
+                "_path": "lib/magic/doc/tut10.ps",
+                "path_type": "hardlink",
+                "sha256": "fa7740c4c0be4ddb4a3674c1b4a84bf38386606de8ddd5f39389ddf8b9ee75fb",
+                "sha256_in_prefix": "fa7740c4c0be4ddb4a3674c1b4a84bf38386606de8ddd5f39389ddf8b9ee75fb",
+                "size_in_bytes": 41948
+            },
+            {
+                "_path": "lib/magic/doc/tut11.ps",
+                "path_type": "hardlink",
+                "sha256": "5c956ba66ced5d78b9a4b1f6509bc1e4ad86f2224c6d728ae135d03ea30af3bd",
+                "sha256_in_prefix": "5c956ba66ced5d78b9a4b1f6509bc1e4ad86f2224c6d728ae135d03ea30af3bd",
+                "size_in_bytes": 37257
+            },
+            {
+                "_path": "lib/magic/doc/tut2.ps",
+                "path_type": "hardlink",
+                "sha256": "a4bbaee024eed7a17f009fb6c1170a5015b9f60f690cceae95c29450bc6cd2b3",
+                "sha256_in_prefix": "a4bbaee024eed7a17f009fb6c1170a5015b9f60f690cceae95c29450bc6cd2b3",
+                "size_in_bytes": 85295
+            },
+            {
+                "_path": "lib/magic/doc/tut3.ps",
+                "path_type": "hardlink",
+                "sha256": "667d872c6f020989a66d0b00be6df93cf21896f44db47d80ac483dd076e92830",
+                "sha256_in_prefix": "667d872c6f020989a66d0b00be6df93cf21896f44db47d80ac483dd076e92830",
+                "size_in_bytes": 44906
+            },
+            {
+                "_path": "lib/magic/doc/tut4.ps",
+                "path_type": "hardlink",
+                "sha256": "e581c857f032ed4d8cbc6b8d2270d093e91d414862763525cca5a8dc5aa8240f",
+                "sha256_in_prefix": "e581c857f032ed4d8cbc6b8d2270d093e91d414862763525cca5a8dc5aa8240f",
+                "size_in_bytes": 50573
+            },
+            {
+                "_path": "lib/magic/doc/tut5.ps",
+                "path_type": "hardlink",
+                "sha256": "36e4d086092c92890a86bd7a440bff76a840c33541d5a83397c76ae3fd140680",
+                "sha256_in_prefix": "36e4d086092c92890a86bd7a440bff76a840c33541d5a83397c76ae3fd140680",
+                "size_in_bytes": 38849
+            },
+            {
+                "_path": "lib/magic/doc/tut6.ps",
+                "path_type": "hardlink",
+                "sha256": "49e553c70c4dccc12b448fad6dc19f64a2ed3934cdf02da426cada04fa9455ca",
+                "sha256_in_prefix": "49e553c70c4dccc12b448fad6dc19f64a2ed3934cdf02da426cada04fa9455ca",
+                "size_in_bytes": 31433
+            },
+            {
+                "_path": "lib/magic/doc/tut7.ps",
+                "path_type": "hardlink",
+                "sha256": "8d8dd8b41480add83abd835987836a7145a2c5e9e01b9713188cb2dc5bc04df3",
+                "sha256_in_prefix": "8d8dd8b41480add83abd835987836a7145a2c5e9e01b9713188cb2dc5bc04df3",
+                "size_in_bytes": 104846
+            },
+            {
+                "_path": "lib/magic/doc/tut8.ps",
+                "path_type": "hardlink",
+                "sha256": "76f7e4ef3eb31c71bf3220266e3e42957c9a54656a15fd36f650146121bda2e0",
+                "sha256_in_prefix": "76f7e4ef3eb31c71bf3220266e3e42957c9a54656a15fd36f650146121bda2e0",
+                "size_in_bytes": 127437
+            },
+            {
+                "_path": "lib/magic/doc/tut9.ps",
+                "path_type": "hardlink",
+                "sha256": "1626e4f39d91db12133491a6199c56f5f368428eb5ab3f418250e7762923669d",
+                "sha256_in_prefix": "1626e4f39d91db12133491a6199c56f5f368428eb5ab3f418250e7762923669d",
+                "size_in_bytes": 46408
+            },
+            {
+                "_path": "lib/magic/doc/tutscm1.ps",
+                "path_type": "hardlink",
+                "sha256": "fe9d2131d444f583a4dac88aa2643f68fa39e56f9a4c242b3063b78b49d1e978",
+                "sha256_in_prefix": "fe9d2131d444f583a4dac88aa2643f68fa39e56f9a4c242b3063b78b49d1e978",
+                "size_in_bytes": 49849
+            },
+            {
+                "_path": "lib/magic/doc/tutscm2.ps",
+                "path_type": "hardlink",
+                "sha256": "92ebc13bbddf1ce31349f0d3f8c2c0da6435b90373feeb3ce7dbbfe11c4db91a",
+                "sha256_in_prefix": "92ebc13bbddf1ce31349f0d3f8c2c0da6435b90373feeb3ce7dbbfe11c4db91a",
+                "size_in_bytes": 24294
+            },
+            {
+                "_path": "lib/magic/doc/tutscm3.ps",
+                "path_type": "hardlink",
+                "sha256": "290c8eb05343ac241132ed0b01840f5ff147780027d73c65192e05575dbed686",
+                "sha256_in_prefix": "290c8eb05343ac241132ed0b01840f5ff147780027d73c65192e05575dbed686",
+                "size_in_bytes": 22490
+            },
+            {
+                "_path": "lib/magic/doc/tutscm4.ps",
+                "path_type": "hardlink",
+                "sha256": "27b57abfcf7cfd25824bb8e70422bcb4df7abf9393f14cacd52c52a8607967e3",
+                "sha256_in_prefix": "27b57abfcf7cfd25824bb8e70422bcb4df7abf9393f14cacd52c52a8607967e3",
+                "size_in_bytes": 10464
+            },
+            {
+                "_path": "lib/magic/doc/tuttcl1.ps",
+                "path_type": "hardlink",
+                "sha256": "191cc9104e673c32f698d78169da4d2df2603bbd2e0507c218cd3ecaa2c44546",
+                "sha256_in_prefix": "191cc9104e673c32f698d78169da4d2df2603bbd2e0507c218cd3ecaa2c44546",
+                "size_in_bytes": 50040
+            },
+            {
+                "_path": "lib/magic/doc/tuttcl2.ps",
+                "path_type": "hardlink",
+                "sha256": "73890bec084d11744c23a6d2dbbc3e8b99bca925cad9f4720e178c6d98ea6a43",
+                "sha256_in_prefix": "73890bec084d11744c23a6d2dbbc3e8b99bca925cad9f4720e178c6d98ea6a43",
+                "size_in_bytes": 10813
+            },
+            {
+                "_path": "lib/magic/doc/tuttcl3.ps",
+                "path_type": "hardlink",
+                "sha256": "d9de60eb2f5f3622148728aa19c95e9c228d3970b6d5e58b10f3b6c54dc598d6",
+                "sha256_in_prefix": "d9de60eb2f5f3622148728aa19c95e9c228d3970b6d5e58b10f3b6c54dc598d6",
+                "size_in_bytes": 10934
+            },
+            {
+                "_path": "lib/magic/doc/tuttcl4.ps",
+                "path_type": "hardlink",
+                "sha256": "9bbbcf72258cde0c4305fbda271410bf83da2ba0b578d3c925ab826e54412049",
+                "sha256_in_prefix": "9bbbcf72258cde0c4305fbda271410bf83da2ba0b578d3c925ab826e54412049",
+                "size_in_bytes": 51996
+            },
+            {
+                "_path": "lib/magic/doc/tuttcl5.ps",
+                "path_type": "hardlink",
+                "sha256": "807a699a6fc315cf846a572ff14101ea174a0a7fcb6b454e126a9f5b53135cef",
+                "sha256_in_prefix": "807a699a6fc315cf846a572ff14101ea174a0a7fcb6b454e126a9f5b53135cef",
+                "size_in_bytes": 10828
+            },
+            {
+                "_path": "lib/magic/doc/tutwrl1.ps",
+                "path_type": "hardlink",
+                "sha256": "547e04d588231eac13ea122d5615eae3b85a1852f31ddbe48d9a4cc345b99650",
+                "sha256_in_prefix": "547e04d588231eac13ea122d5615eae3b85a1852f31ddbe48d9a4cc345b99650",
+                "size_in_bytes": 39403
+            },
+            {
+                "_path": "lib/magic/sys/.initrc",
+                "path_type": "hardlink",
+                "sha256": "2956c7a25f9d89ee63ca8a2be27699ce003022210c20985c62486553defad0d7",
+                "sha256_in_prefix": "2956c7a25f9d89ee63ca8a2be27699ce003022210c20985c62486553defad0d7",
+                "size_in_bytes": 176
+            },
+            {
+                "_path": "lib/magic/sys/.magicrc",
+                "path_type": "hardlink",
+                "sha256": "bbb2e733aa86a25975f9e52c7d5d48eb77ae6dee3f4cf57785b1ca65f236916d",
+                "sha256_in_prefix": "bbb2e733aa86a25975f9e52c7d5d48eb77ae6dee3f4cf57785b1ca65f236916d",
+                "size_in_bytes": 6260
+            },
+            {
+                "_path": "lib/magic/sys/FreeMono.pt3",
+                "path_type": "hardlink",
+                "sha256": "d8531e054fbfc2e71175cf63ffecc81f8fa9f921b4cbe6e9b84add983685d7c2",
+                "sha256_in_prefix": "d8531e054fbfc2e71175cf63ffecc81f8fa9f921b4cbe6e9b84add983685d7c2",
+                "size_in_bytes": 84545
+            },
+            {
+                "_path": "lib/magic/sys/FreeSans.pt3",
+                "path_type": "hardlink",
+                "sha256": "fbceab62c8a86d7e85a14cbcc3d62054c081e080ec9e4adc3e4e669cc41e961a",
+                "sha256_in_prefix": "fbceab62c8a86d7e85a14cbcc3d62054c081e080ec9e4adc3e4e669cc41e961a",
+                "size_in_bytes": 56107
+            },
+            {
+                "_path": "lib/magic/sys/FreeSerif.pt3",
+                "path_type": "hardlink",
+                "sha256": "939a87fab981a68cb2aab8ee919c28bcbc3d4e448902d586fb49b4ef71116de4",
+                "sha256_in_prefix": "939a87fab981a68cb2aab8ee919c28bcbc3d4e448902d586fb49b4ef71116de4",
+                "size_in_bytes": 90366
+            },
+            {
+                "_path": "lib/magic/sys/bw.glyphs",
+                "path_type": "hardlink",
+                "sha256": "3558fef4c078a8ec2e6abd943c988cae9a0e456f7096fe476a3e51f92476f968",
+                "sha256_in_prefix": "3558fef4c078a8ec2e6abd943c988cae9a0e456f7096fe476a3e51f92476f968",
+                "size_in_bytes": 12586
+            },
+            {
+                "_path": "lib/magic/sys/color.glyphs",
+                "path_type": "hardlink",
+                "sha256": "e3996e166a7e46f941e20d7ceb8baf7219a4f648decbcfaf7833527839a3cbef",
+                "sha256_in_prefix": "e3996e166a7e46f941e20d7ceb8baf7219a4f648decbcfaf7833527839a3cbef",
+                "size_in_bytes": 12571
+            },
+            {
+                "_path": "lib/magic/sys/gdsquery.tech",
+                "path_type": "hardlink",
+                "sha256": "f724e763af01dbf832f020d12a2c9cabe04d112094019d3a5c507e2483509b44",
+                "sha256_in_prefix": "f724e763af01dbf832f020d12a2c9cabe04d112094019d3a5c507e2483509b44",
+                "size_in_bytes": 428
+            },
+            {
+                "_path": "lib/magic/sys/magicps.pro",
+                "path_type": "hardlink",
+                "sha256": "7c77099f2802bab68d7df8425c7273608e1b4aff4c1f24d4e06e0dee598213ff",
+                "sha256_in_prefix": "7c77099f2802bab68d7df8425c7273608e1b4aff4c1f24d4e06e0dee598213ff",
+                "size_in_bytes": 2982
+            },
+            {
+                "_path": "lib/magic/sys/minimum.tech",
+                "path_type": "hardlink",
+                "sha256": "9861b9d6c8e34ae5f4dc55c9ac4316a5b3149af882105f32e487a6cb5c21b2bc",
+                "sha256_in_prefix": "9861b9d6c8e34ae5f4dc55c9ac4316a5b3149af882105f32e487a6cb5c21b2bc",
+                "size_in_bytes": 340
+            },
+            {
+                "_path": "lib/magic/sys/mos.24bit.dstyle",
+                "path_type": "hardlink",
+                "sha256": "407fc90912ce71db6ceadd544f7faf488bd6666c2b1978b41161dd2cf4f6587c",
+                "sha256_in_prefix": "407fc90912ce71db6ceadd544f7faf488bd6666c2b1978b41161dd2cf4f6587c",
+                "size_in_bytes": 17318
+            },
+            {
+                "_path": "lib/magic/sys/mos.24bit.std.cmap",
+                "path_type": "hardlink",
+                "sha256": "1b5adaf86b5713f6f770d5a2df14b08ed3a579f8ac331160899d9954a511b135",
+                "sha256_in_prefix": "1b5adaf86b5713f6f770d5a2df14b08ed3a579f8ac331160899d9954a511b135",
+                "size_in_bytes": 2024
+            },
+            {
+                "_path": "lib/magic/sys/mos.7bit.dstyle",
+                "path_type": "hardlink",
+                "sha256": "ec2e77289df44d8a3a65ac69160f41b15fe526e9297b2f1a95b8a94250e8471f",
+                "sha256_in_prefix": "ec2e77289df44d8a3a65ac69160f41b15fe526e9297b2f1a95b8a94250e8471f",
+                "size_in_bytes": 18891
+            },
+            {
+                "_path": "lib/magic/sys/mos.7bit.mraster.cmap",
+                "path_type": "hardlink",
+                "sha256": "a645fc96a2c3b1ae027ad0df788696ddead0aac203c0005a4861fdbb6e82d821",
+                "sha256_in_prefix": "a645fc96a2c3b1ae027ad0df788696ddead0aac203c0005a4861fdbb6e82d821",
+                "size_in_bytes": 918
+            },
+            {
+                "_path": "lib/magic/sys/mos.7bit.mraster_dstyle",
+                "path_type": "hardlink",
+                "sha256": "b6a5aad19736a3f5d8bc8376423eb25ed38a89cc5e5a96087e533e18f2148b0e",
+                "sha256_in_prefix": "b6a5aad19736a3f5d8bc8376423eb25ed38a89cc5e5a96087e533e18f2148b0e",
+                "size_in_bytes": 3062
+            },
+            {
+                "_path": "lib/magic/sys/mos.7bit.std.cmap",
+                "path_type": "hardlink",
+                "sha256": "97f0f8abb31dd81ed38c168c436ee89a2207ae3b324a959968297e748f1297b5",
+                "sha256_in_prefix": "97f0f8abb31dd81ed38c168c436ee89a2207ae3b324a959968297e748f1297b5",
+                "size_in_bytes": 1634
+            },
+            {
+                "_path": "lib/magic/sys/mos.OpenGL.dstyle",
+                "path_type": "hardlink",
+                "sha256": "2d8cda29f6e6768c346ae27172fe1790a891e14ead834762309ef26f6127f0ad",
+                "sha256_in_prefix": "2d8cda29f6e6768c346ae27172fe1790a891e14ead834762309ef26f6127f0ad",
+                "size_in_bytes": 14732
+            },
+            {
+                "_path": "lib/magic/sys/mos.OpenGL.std.cmap",
+                "path_type": "hardlink",
+                "sha256": "bd4c8abcb6e587f1eeb0a6a3c34c4ddcf951bd066c1125848b21f8bb069b3c75",
+                "sha256_in_prefix": "bd4c8abcb6e587f1eeb0a6a3c34c4ddcf951bd066c1125848b21f8bb069b3c75",
+                "size_in_bytes": 2108
+            },
+            {
+                "_path": "lib/magic/sys/nmos.tech",
+                "path_type": "hardlink",
+                "sha256": "52c2017ec79dfb0aca456e1ba2e7821ec1b6443246594c14b16a989d8e9dc24b",
+                "sha256_in_prefix": "52c2017ec79dfb0aca456e1ba2e7821ec1b6443246594c14b16a989d8e9dc24b",
+                "size_in_bytes": 12447
+            },
+            {
+                "_path": "lib/magic/sys/scmos-sub.tech",
+                "path_type": "hardlink",
+                "sha256": "35e0f43be661ed9c790f25d785ee808ff3741e08282217b7c8713aaa48ad61df",
+                "sha256_in_prefix": "35e0f43be661ed9c790f25d785ee808ff3741e08282217b7c8713aaa48ad61df",
+                "size_in_bytes": 79358
+            },
+            {
+                "_path": "lib/magic/sys/scmos-tm.tech",
+                "path_type": "hardlink",
+                "sha256": "1049143331116a162fcc827dcf03e4ce021f6dde60c19345963477ca9c589a86",
+                "sha256_in_prefix": "1049143331116a162fcc827dcf03e4ce021f6dde60c19345963477ca9c589a86",
+                "size_in_bytes": 99396
+            },
+            {
+                "_path": "lib/magic/sys/scmos.tech",
+                "path_type": "hardlink",
+                "sha256": "71661d7e901a94e1e7539867f1c5b6272a6f1b084d6ae8416c61081fd6803c83",
+                "sha256_in_prefix": "71661d7e901a94e1e7539867f1c5b6272a6f1b084d6ae8416c61081fd6803c83",
+                "size_in_bytes": 133304
+            },
+            {
+                "_path": "lib/magic/sys/scmosWR.tech",
+                "path_type": "hardlink",
+                "sha256": "1dd46ab12e024965e0cd9089ed877a738278888f13052737dc1ae7e870091ee2",
+                "sha256_in_prefix": "1dd46ab12e024965e0cd9089ed877a738278888f13052737dc1ae7e870091ee2",
+                "size_in_bytes": 133265
+            },
+            {
+                "_path": "lib/magic/sys/vfont.B.12",
+                "path_type": "hardlink",
+                "sha256": "54524bc9141b7cfc2f51b60b93419c2be14e54507400fc85fb3b25314e55c9b5",
+                "sha256_in_prefix": "54524bc9141b7cfc2f51b60b93419c2be14e54507400fc85fb3b25314e55c9b5",
+                "size_in_bytes": 9038
+            },
+            {
+                "_path": "lib/magic/sys/vfont.I.12",
+                "path_type": "hardlink",
+                "sha256": "afdb43b558c46644796ea7fa84b4aa840fc36685a89c6b990f8f429e3191428f",
+                "sha256_in_prefix": "afdb43b558c46644796ea7fa84b4aa840fc36685a89c6b990f8f429e3191428f",
+                "size_in_bytes": 9231
+            },
+            {
+                "_path": "lib/magic/sys/vfont.R.8",
+                "path_type": "hardlink",
+                "sha256": "3f6129e708b8bd8300875404e95a1cac38f20ea2446e7fc858949cca39f2d20a",
+                "sha256_in_prefix": "3f6129e708b8bd8300875404e95a1cac38f20ea2446e7fc858949cca39f2d20a",
+                "size_in_bytes": 5538
+            },
+            {
+                "_path": "lib/magic/sys/windows11.glyphs",
+                "path_type": "hardlink",
+                "sha256": "36bee35d0bf14ef745e30cf8215007c2894d250a1e027055f4f29275088b8719",
+                "sha256_in_prefix": "36bee35d0bf14ef745e30cf8215007c2894d250a1e027055f4f29275088b8719",
+                "size_in_bytes": 1486
+            },
+            {
+                "_path": "lib/magic/sys/windows14.glyphs",
+                "path_type": "hardlink",
+                "sha256": "3c3f44b0966734936773c4d0262337c629f6b0de6daa65229b7da4b9c63467f3",
+                "sha256_in_prefix": "3c3f44b0966734936773c4d0262337c629f6b0de6daa65229b7da4b9c63467f3",
+                "size_in_bytes": 2284
+            },
+            {
+                "_path": "lib/magic/sys/windows22.glyphs",
+                "path_type": "hardlink",
+                "sha256": "a7c145c8d2ec23bf00174480e91c11742f70c6693f8409d7a48410d8c4b036e5",
+                "sha256_in_prefix": "a7c145c8d2ec23bf00174480e91c11742f70c6693f8409d7a48410d8c4b036e5",
+                "size_in_bytes": 5115
+            },
+            {
+                "_path": "lib/magic/sys/windows7.glyphs",
+                "path_type": "hardlink",
+                "sha256": "b6bc14c5772c0e26b10c7a1347da6b67447e5d6e6ffa74ab97724cd4708d1a9e",
+                "sha256_in_prefix": "b6bc14c5772c0e26b10c7a1347da6b67447e5d6e6ffa74ab97724cd4708d1a9e",
+                "size_in_bytes": 787
+            },
+            {
+                "_path": "lib/magic/tcl/bitmaps/down.gif",
+                "path_type": "hardlink",
+                "sha256": "61960bfccade450ca15ff5a68f8a1faac49517a44045e5175605fe23d6904d42",
+                "sha256_in_prefix": "61960bfccade450ca15ff5a68f8a1faac49517a44045e5175605fe23d6904d42",
+                "size_in_bytes": 103
+            },
+            {
+                "_path": "lib/magic/tcl/bitmaps/left.gif",
+                "path_type": "hardlink",
+                "sha256": "090fe36300ebdd9bcb9ff724ada322c588fb422aaad228006c3e768a266e4c1a",
+                "sha256_in_prefix": "090fe36300ebdd9bcb9ff724ada322c588fb422aaad228006c3e768a266e4c1a",
+                "size_in_bytes": 103
+            },
+            {
+                "_path": "lib/magic/tcl/bitmaps/lock.xbm",
+                "path_type": "hardlink",
+                "sha256": "bb86eeb90626c64e8e7999d753bd43db55822cd86fa508232bcf8c303b5b6f2d",
+                "sha256_in_prefix": "bb86eeb90626c64e8e7999d753bd43db55822cd86fa508232bcf8c303b5b6f2d",
+                "size_in_bytes": 248
+            },
+            {
+                "_path": "lib/magic/tcl/bitmaps/right.gif",
+                "path_type": "hardlink",
+                "sha256": "93dd79e6f9dc50868f71ad73b921fbbd23bb7699855890307ebdbb497db75210",
+                "sha256_in_prefix": "93dd79e6f9dc50868f71ad73b921fbbd23bb7699855890307ebdbb497db75210",
+                "size_in_bytes": 102
+            },
+            {
+                "_path": "lib/magic/tcl/bitmaps/up.gif",
+                "path_type": "hardlink",
+                "sha256": "e9160e1b7c8aa8c1fef61b0192b8e4ea9d06acba3a72d98dc13c8d497d0edc75",
+                "sha256_in_prefix": "e9160e1b7c8aa8c1fef61b0192b8e4ea9d06acba3a72d98dc13c8d497d0edc75",
+                "size_in_bytes": 102
+            },
+            {
+                "_path": "lib/magic/tcl/bitmaps/zoom.gif",
+                "path_type": "hardlink",
+                "sha256": "a3ca3241cec29fe4ac3bb0e81a2a21422488625d577e53dae0d42e0bba5a0a6c",
+                "sha256_in_prefix": "a3ca3241cec29fe4ac3bb0e81a2a21422488625d577e53dae0d42e0bba5a0a6c",
+                "size_in_bytes": 103
+            },
+            {
+                "_path": "lib/magic/tcl/bsitools.tcl",
+                "path_type": "hardlink",
+                "sha256": "d6e00b2730c19c664a8ad0534f1677f4689f8b82746412a5480ecf13503e70f9",
+                "sha256_in_prefix": "d6e00b2730c19c664a8ad0534f1677f4689f8b82746412a5480ecf13503e70f9",
+                "size_in_bytes": 1064
+            },
+            {
+                "_path": "lib/magic/tcl/cellmgr.tcl",
+                "path_type": "hardlink",
+                "sha256": "876f389dccf4b89856670caf0606fd4dbff2adef41cca31d2932c75f59ee989c",
+                "sha256_in_prefix": "876f389dccf4b89856670caf0606fd4dbff2adef41cca31d2932c75f59ee989c",
+                "size_in_bytes": 10550
+            },
+            {
+                "_path": "lib/magic/tcl/console.tcl",
+                "path_type": "hardlink",
+                "sha256": "407eafc67db868f77335ae3057f0cde4183d213847f25efb1a968cb3b3098b44",
+                "sha256_in_prefix": "407eafc67db868f77335ae3057f0cde4183d213847f25efb1a968cb3b3098b44",
+                "size_in_bytes": 4652
+            },
+            {
+                "_path": "lib/magic/tcl/drcmgr.tcl",
+                "path_type": "hardlink",
+                "sha256": "9b0e4d08f753d10b25a481f84517a41a6db805cfbb5c487a45e40c6e723507d7",
+                "sha256_in_prefix": "9b0e4d08f753d10b25a481f84517a41a6db805cfbb5c487a45e40c6e723507d7",
+                "size_in_bytes": 8506
+            },
+            {
+                "_path": "lib/magic/tcl/libmgr.tcl",
+                "path_type": "hardlink",
+                "sha256": "e8532ea50ba79344212813502b86381d69f4d3ce2455ea6dffebd46d6c50ef3c",
+                "sha256_in_prefix": "e8532ea50ba79344212813502b86381d69f4d3ce2455ea6dffebd46d6c50ef3c",
+                "size_in_bytes": 7335
+            },
+            {
+                "_path": "lib/magic/tcl/magic.tcl",
+                "path_type": "hardlink",
+                "sha256": "5c16546fee4b6d9c5d7a5a5ffc4cb8526931770b32aadb8e1405c93e754b5425",
+                "sha256_in_prefix": "5c16546fee4b6d9c5d7a5a5ffc4cb8526931770b32aadb8e1405c93e754b5425",
+                "size_in_bytes": 13436
+            },
+            {
+                "_path": "lib/magic/tcl/magicdnull",
+                "path_type": "hardlink",
+                "sha256": "b0d6f130e48f0c917411adeb1589065491adf21d4dee718e349466d17d156671",
+                "sha256_in_prefix": "2a8c05c79379804ca2649d5d0d4097cf7b9f048638eaa741c3144dda90932f07",
+                "size_in_bytes": 18768
+            },
+            {
+                "_path": "lib/magic/tcl/magicexec",
+                "path_type": "hardlink",
+                "sha256": "20e76b6a9d0835ad47236d7b11be34e5bdfb0959ed9807a74d36c1a2eefd3bd9",
+                "sha256_in_prefix": "c19e1ec2701756b8f83934dde1c04a758010a3c9ee876acda5cfe14e78af4a57",
+                "size_in_bytes": 19032
+            },
+            {
+                "_path": "lib/magic/tcl/mazeroute.tcl",
+                "path_type": "hardlink",
+                "sha256": "085fb47145a2b8b89eff488fe61b6dae93eb48c52906350ac7cd9f48a984b300",
+                "sha256_in_prefix": "085fb47145a2b8b89eff488fe61b6dae93eb48c52906350ac7cd9f48a984b300",
+                "size_in_bytes": 20875
+            },
+            {
+                "_path": "lib/magic/tcl/readspice.tcl",
+                "path_type": "hardlink",
+                "sha256": "25383be91dcde85525d79d1f7c3fe6cb159b16848e5176cb7182a59aab27d43d",
+                "sha256_in_prefix": "25383be91dcde85525d79d1f7c3fe6cb159b16848e5176cb7182a59aab27d43d",
+                "size_in_bytes": 7721
+            },
+            {
+                "_path": "lib/magic/tcl/socketcmd.tcl",
+                "path_type": "hardlink",
+                "sha256": "608e39eeec4bd6e102b138d9085d8cb34683fc82a76168830585badd2d97063f",
+                "sha256_in_prefix": "608e39eeec4bd6e102b138d9085d8cb34683fc82a76168830585badd2d97063f",
+                "size_in_bytes": 707
+            },
+            {
+                "_path": "lib/magic/tcl/strip_reflibs.tcl",
+                "path_type": "hardlink",
+                "sha256": "7405295e8a046f8ed6a08d16c6efc80fdf856279e8c70eafc1ceb2e899991b13",
+                "sha256_in_prefix": "7405295e8a046f8ed6a08d16c6efc80fdf856279e8c70eafc1ceb2e899991b13",
+                "size_in_bytes": 1356
+            },
+            {
+                "_path": "lib/magic/tcl/tclmagic.so",
+                "path_type": "hardlink",
+                "sha256": "e807d91317274ab28aa44ccfbebf0da0a00ce6b0d8913188a44be9bb73369cb6",
+                "sha256_in_prefix": "906da3de87197ae03daa0a1b8f7751d62155352f1561b08cf685c181ea5a6d0b",
+                "size_in_bytes": 8886192
+            },
+            {
+                "_path": "lib/magic/tcl/techbuilder.tcl",
+                "path_type": "hardlink",
+                "sha256": "a587631488b562c7649cb421e7b714a87917b8aba71d779ac845ff688ff55f4a",
+                "sha256_in_prefix": "a587631488b562c7649cb421e7b714a87917b8aba71d779ac845ff688ff55f4a",
+                "size_in_bytes": 4009
+            },
+            {
+                "_path": "lib/magic/tcl/texthelper.tcl",
+                "path_type": "hardlink",
+                "sha256": "3f5dc39a685a0e92b18b9411fd26074958699793c7d412537bf32b71c2fcce78",
+                "sha256_in_prefix": "3f5dc39a685a0e92b18b9411fd26074958699793c7d412537bf32b71c2fcce78",
+                "size_in_bytes": 13651
+            },
+            {
+                "_path": "lib/magic/tcl/tkcon.tcl",
+                "path_type": "hardlink",
+                "sha256": "ef476929d784daf303b8daea22accdc5b74fce93970031ae56c44f24513d9d06",
+                "sha256_in_prefix": "ef476929d784daf303b8daea22accdc5b74fce93970031ae56c44f24513d9d06",
+                "size_in_bytes": 162941
+            },
+            {
+                "_path": "lib/magic/tcl/tkshell.tcl",
+                "path_type": "hardlink",
+                "sha256": "1c9454d7193125c3f11cc3eff43bb5695a727883b5c331d5bfb318aa4739269e",
+                "sha256_in_prefix": "1c9454d7193125c3f11cc3eff43bb5695a727883b5c331d5bfb318aa4739269e",
+                "size_in_bytes": 5527
+            },
+            {
+                "_path": "lib/magic/tcl/toolkit.tcl",
+                "path_type": "hardlink",
+                "sha256": "331dfb8bbe70b3866b38d7ccce41b11fb9d8fcf36659cd7e4d56cc1bc0b61ae0",
+                "sha256_in_prefix": "331dfb8bbe70b3866b38d7ccce41b11fb9d8fcf36659cd7e4d56cc1bc0b61ae0",
+                "size_in_bytes": 51257
+            },
+            {
+                "_path": "lib/magic/tcl/toolkit_rev0.tcl",
+                "path_type": "hardlink",
+                "sha256": "33ff965e25658ee83461b265351d8412dad66457f4ac0aec1438321f9af746b5",
+                "sha256_in_prefix": "33ff965e25658ee83461b265351d8412dad66457f4ac0aec1438321f9af746b5",
+                "size_in_bytes": 9030
+            },
+            {
+                "_path": "lib/magic/tcl/tools.tcl",
+                "path_type": "hardlink",
+                "sha256": "76287290e9a63a71e5c2e961f8fe317fb0b3cd53d9798855aa5a81c4d5f8e5c8",
+                "sha256_in_prefix": "76287290e9a63a71e5c2e961f8fe317fb0b3cd53d9798855aa5a81c4d5f8e5c8",
+                "size_in_bytes": 21226
+            },
+            {
+                "_path": "lib/magic/tcl/wrapper.tcl",
+                "path_type": "hardlink",
+                "sha256": "3db5b31458aef5fe6722afc26642e6ed8478fd5a8aa662d79af5f1478fad72a7",
+                "sha256_in_prefix": "3db5b31458aef5fe6722afc26642e6ed8478fd5a8aa662d79af5f1478fad72a7",
+                "size_in_bytes": 58815
+            },
+            {
+                "_path": "lib/magic/tutorial/m3a.mag",
+                "path_type": "hardlink",
+                "sha256": "f1faba63699a20c8dab869a75a931e5014df21972865fbe1325d89c0902cabf6",
+                "sha256_in_prefix": "f1faba63699a20c8dab869a75a931e5014df21972865fbe1325d89c0902cabf6",
+                "size_in_bytes": 407
+            },
+            {
+                "_path": "lib/magic/tutorial/maint2a.mag",
+                "path_type": "hardlink",
+                "sha256": "d1dcdb2f3a0ab7a95678928c3026082255d2fb97b01536ff2123597244268a17",
+                "sha256_in_prefix": "d1dcdb2f3a0ab7a95678928c3026082255d2fb97b01536ff2123597244268a17",
+                "size_in_bytes": 370
+            },
+            {
+                "_path": "lib/magic/tutorial/tut1.mag",
+                "path_type": "hardlink",
+                "sha256": "1774f9c412c0470e1dbd7a8c9a13fafe04f971e9ef6f176fad67150af3814360",
+                "sha256_in_prefix": "1774f9c412c0470e1dbd7a8c9a13fafe04f971e9ef6f176fad67150af3814360",
+                "size_in_bytes": 147
+            },
+            {
+                "_path": "lib/magic/tutorial/tut11a.al",
+                "path_type": "hardlink",
+                "sha256": "d8d0cd752135c87e7384a245a70f1158d3f30e0fa75d5470a9b588c6fa618c93",
+                "sha256_in_prefix": "d8d0cd752135c87e7384a245a70f1158d3f30e0fa75d5470a9b588c6fa618c93",
+                "size_in_bytes": 1830
+            },
+            {
+                "_path": "lib/magic/tutorial/tut11a.cmd",
+                "path_type": "hardlink",
+                "sha256": "dea330ce954fcd8a3abcdbabab596bfa8e674730b57f2e352620251fb477b30a",
+                "sha256_in_prefix": "dea330ce954fcd8a3abcdbabab596bfa8e674730b57f2e352620251fb477b30a",
+                "size_in_bytes": 152
+            },
+            {
+                "_path": "lib/magic/tutorial/tut11a.ext",
+                "path_type": "hardlink",
+                "sha256": "7dc1e22fde4beeea18a6a961b3622a037d187a0e58cb087ea34ffe269aa65c42",
+                "sha256_in_prefix": "7dc1e22fde4beeea18a6a961b3622a037d187a0e58cb087ea34ffe269aa65c42",
+                "size_in_bytes": 6147
+            },
+            {
+                "_path": "lib/magic/tutorial/tut11a.mag",
+                "path_type": "hardlink",
+                "sha256": "812e60f02b34e9bb84a23ee19719582fc764268bb5eb971def2435c8d6987cf2",
+                "sha256_in_prefix": "812e60f02b34e9bb84a23ee19719582fc764268bb5eb971def2435c8d6987cf2",
+                "size_in_bytes": 2291
+            },
+            {
+                "_path": "lib/magic/tutorial/tut11a.nodes",
+                "path_type": "hardlink",
+                "sha256": "4410c60668d4d4aaf105c5f84e33c90b0c4a0023033791c576645e77c263db90",
+                "sha256_in_prefix": "4410c60668d4d4aaf105c5f84e33c90b0c4a0023033791c576645e77c263db90",
+                "size_in_bytes": 2821
+            },
+            {
+                "_path": "lib/magic/tutorial/tut11a.sim",
+                "path_type": "hardlink",
+                "sha256": "0cc9a601eb0e21cfdce42a8d29959ddc314c2e210f88000440b110287647ee15",
+                "sha256_in_prefix": "0cc9a601eb0e21cfdce42a8d29959ddc314c2e210f88000440b110287647ee15",
+                "size_in_bytes": 14496
+            },
+            {
+                "_path": "lib/magic/tutorial/tut11b.ext",
+                "path_type": "hardlink",
+                "sha256": "6f8db0749a1a63a5997322c600d7ba8d0876042e20bb23cf90178cf352ad440a",
+                "sha256_in_prefix": "6f8db0749a1a63a5997322c600d7ba8d0876042e20bb23cf90178cf352ad440a",
+                "size_in_bytes": 2361
+            },
+            {
+                "_path": "lib/magic/tutorial/tut11b.mag",
+                "path_type": "hardlink",
+                "sha256": "2ace6509830cb772a1e96873c5c04b3c4ef18fa2b54b8f268d629d7650a0a7c8",
+                "sha256_in_prefix": "2ace6509830cb772a1e96873c5c04b3c4ef18fa2b54b8f268d629d7650a0a7c8",
+                "size_in_bytes": 1349
+            },
+            {
+                "_path": "lib/magic/tutorial/tut11c.ext",
+                "path_type": "hardlink",
+                "sha256": "a6a46e3c2af3e00747863aece931d791ccae83294f3f82344dedb4501471f52a",
+                "sha256_in_prefix": "a6a46e3c2af3e00747863aece931d791ccae83294f3f82344dedb4501471f52a",
+                "size_in_bytes": 2253
+            },
+            {
+                "_path": "lib/magic/tutorial/tut11c.mag",
+                "path_type": "hardlink",
+                "sha256": "c4fb60c3dec7f6f215a13f8d452fd6043698c29f50d189410b6f2bac724f0e40",
+                "sha256_in_prefix": "c4fb60c3dec7f6f215a13f8d452fd6043698c29f50d189410b6f2bac724f0e40",
+                "size_in_bytes": 1442
+            },
+            {
+                "_path": "lib/magic/tutorial/tut11d.ext",
+                "path_type": "hardlink",
+                "sha256": "e283e27a7f0ccdad566332feb9f99423c865302ee0247607e92592da5e988e78",
+                "sha256_in_prefix": "e283e27a7f0ccdad566332feb9f99423c865302ee0247607e92592da5e988e78",
+                "size_in_bytes": 4923
+            },
+            {
+                "_path": "lib/magic/tutorial/tut11d.mag",
+                "path_type": "hardlink",
+                "sha256": "85c8df01d25718005f70a617652699dede4898cfcf3b6cd43f26264a6ea93000",
+                "sha256_in_prefix": "85c8df01d25718005f70a617652699dede4898cfcf3b6cd43f26264a6ea93000",
+                "size_in_bytes": 6503
+            },
+            {
+                "_path": "lib/magic/tutorial/tut2a.mag",
+                "path_type": "hardlink",
+                "sha256": "e0dabefdd175b434a3c116d04823199722ee4f138b00100022ab09dcbe973aa4",
+                "sha256_in_prefix": "e0dabefdd175b434a3c116d04823199722ee4f138b00100022ab09dcbe973aa4",
+                "size_in_bytes": 418
+            },
+            {
+                "_path": "lib/magic/tutorial/tut2b.mag",
+                "path_type": "hardlink",
+                "sha256": "0c708b3dc8d2aae3d7463e1fdd6990d4d5c0b2b0171370a9c9f0f639a2b883b3",
+                "sha256_in_prefix": "0c708b3dc8d2aae3d7463e1fdd6990d4d5c0b2b0171370a9c9f0f639a2b883b3",
+                "size_in_bytes": 270
+            },
+            {
+                "_path": "lib/magic/tutorial/tut2c.mag",
+                "path_type": "hardlink",
+                "sha256": "cac38b6fd7b4d716fd591c892aa0f1857c42b7813812e02c6f88e7a4465193ec",
+                "sha256_in_prefix": "cac38b6fd7b4d716fd591c892aa0f1857c42b7813812e02c6f88e7a4465193ec",
+                "size_in_bytes": 335
+            },
+            {
+                "_path": "lib/magic/tutorial/tut2d.mag",
+                "path_type": "hardlink",
+                "sha256": "b7e66d391ae32321a1ce23cacb4a090a136c5185bf03cab829794bf01257546e",
+                "sha256_in_prefix": "b7e66d391ae32321a1ce23cacb4a090a136c5185bf03cab829794bf01257546e",
+                "size_in_bytes": 606
+            },
+            {
+                "_path": "lib/magic/tutorial/tut3a.mag",
+                "path_type": "hardlink",
+                "sha256": "106af60657d5ee9b2adda990c5de68f7aacf7598944f2dd6b4c222eca70db57b",
+                "sha256_in_prefix": "106af60657d5ee9b2adda990c5de68f7aacf7598944f2dd6b4c222eca70db57b",
+                "size_in_bytes": 453
+            },
+            {
+                "_path": "lib/magic/tutorial/tut3b.mag",
+                "path_type": "hardlink",
+                "sha256": "a2abeb11d2ed93f9c74a52828d74fae4ab171e075e8c61d0218e19e493fbea30",
+                "sha256_in_prefix": "a2abeb11d2ed93f9c74a52828d74fae4ab171e075e8c61d0218e19e493fbea30",
+                "size_in_bytes": 276
+            },
+            {
+                "_path": "lib/magic/tutorial/tut3c.mag",
+                "path_type": "hardlink",
+                "sha256": "6b03561d44b1e4aafd71b63bef9335692c5dcae727ca3f3a336cbf4ae863382f",
+                "sha256_in_prefix": "6b03561d44b1e4aafd71b63bef9335692c5dcae727ca3f3a336cbf4ae863382f",
+                "size_in_bytes": 344
+            },
+            {
+                "_path": "lib/magic/tutorial/tut3d.mag",
+                "path_type": "hardlink",
+                "sha256": "8c0b09a367b84bcc49fb31cab4da6a7f35670179cf12115972dc5f7737c77a19",
+                "sha256_in_prefix": "8c0b09a367b84bcc49fb31cab4da6a7f35670179cf12115972dc5f7737c77a19",
+                "size_in_bytes": 8312
+            },
+            {
+                "_path": "lib/magic/tutorial/tut3e.mag",
+                "path_type": "hardlink",
+                "sha256": "b871d6b8311a0ae4548aca31a055f6c075eb5f90cfe9521aaf523f9bb356595c",
+                "sha256_in_prefix": "b871d6b8311a0ae4548aca31a055f6c075eb5f90cfe9521aaf523f9bb356595c",
+                "size_in_bytes": 896
+            },
+            {
+                "_path": "lib/magic/tutorial/tut3f.mag",
+                "path_type": "hardlink",
+                "sha256": "70ba7b90456840ce7044ca1c8818b7639d7a3664b2c3ff731375264c93daaa2a",
+                "sha256_in_prefix": "70ba7b90456840ce7044ca1c8818b7639d7a3664b2c3ff731375264c93daaa2a",
+                "size_in_bytes": 434
+            },
+            {
+                "_path": "lib/magic/tutorial/tut3g.mag",
+                "path_type": "hardlink",
+                "sha256": "e01145c8162c9fffd56d239a3162b44705ff9bcaba35ab533ca629865ee799b1",
+                "sha256_in_prefix": "e01145c8162c9fffd56d239a3162b44705ff9bcaba35ab533ca629865ee799b1",
+                "size_in_bytes": 537
+            },
+            {
+                "_path": "lib/magic/tutorial/tut3h.mag",
+                "path_type": "hardlink",
+                "sha256": "8dda0fa79472c4d66bc61221a1e0c2296becda6109107ea15f36a750b5ca3d51",
+                "sha256_in_prefix": "8dda0fa79472c4d66bc61221a1e0c2296becda6109107ea15f36a750b5ca3d51",
+                "size_in_bytes": 261
+            },
+            {
+                "_path": "lib/magic/tutorial/tut4a.mag",
+                "path_type": "hardlink",
+                "sha256": "78c0ec02a8c59dee9cf14c43225ab3ca4d29167813868b9a8ac35498167bbad4",
+                "sha256_in_prefix": "78c0ec02a8c59dee9cf14c43225ab3ca4d29167813868b9a8ac35498167bbad4",
+                "size_in_bytes": 521
+            },
+            {
+                "_path": "lib/magic/tutorial/tut4x.mag",
+                "path_type": "hardlink",
+                "sha256": "fe33740515221851a7e283ffb48b55f21101bc166476e20deee303043897cbb3",
+                "sha256_in_prefix": "fe33740515221851a7e283ffb48b55f21101bc166476e20deee303043897cbb3",
+                "size_in_bytes": 2261
+            },
+            {
+                "_path": "lib/magic/tutorial/tut4y.mag",
+                "path_type": "hardlink",
+                "sha256": "618bd5f888fa2d3bcce8ffa788a46ca573649d96c87993f5f3154dba6e89ed97",
+                "sha256_in_prefix": "618bd5f888fa2d3bcce8ffa788a46ca573649d96c87993f5f3154dba6e89ed97",
+                "size_in_bytes": 387
+            },
+            {
+                "_path": "lib/magic/tutorial/tut4z.mag",
+                "path_type": "hardlink",
+                "sha256": "aef832a0579abc65263a40863e7d00f1e8410f8bc4885a791fd833106d43b053",
+                "sha256_in_prefix": "aef832a0579abc65263a40863e7d00f1e8410f8bc4885a791fd833106d43b053",
+                "size_in_bytes": 1463
+            },
+            {
+                "_path": "lib/magic/tutorial/tut5a.mag",
+                "path_type": "hardlink",
+                "sha256": "211e866a39697edb636007411b204ed00f810edc72f7523827f7ea5c9724daac",
+                "sha256_in_prefix": "211e866a39697edb636007411b204ed00f810edc72f7523827f7ea5c9724daac",
+                "size_in_bytes": 4611
+            },
+            {
+                "_path": "lib/magic/tutorial/tut5b.mag",
+                "path_type": "hardlink",
+                "sha256": "cf3b2add72145bf597938742a9ee60459ebc66b11c81f5c55ee826d580b873a2",
+                "sha256_in_prefix": "cf3b2add72145bf597938742a9ee60459ebc66b11c81f5c55ee826d580b873a2",
+                "size_in_bytes": 1464
+            },
+            {
+                "_path": "lib/magic/tutorial/tut6a.mag",
+                "path_type": "hardlink",
+                "sha256": "85edb80b300472247adb93b1fd506ab6fb2182ec2b84fc85c8c9700ea141fc2f",
+                "sha256_in_prefix": "85edb80b300472247adb93b1fd506ab6fb2182ec2b84fc85c8c9700ea141fc2f",
+                "size_in_bytes": 245
+            },
+            {
+                "_path": "lib/magic/tutorial/tut6b.mag",
+                "path_type": "hardlink",
+                "sha256": "48b0409a2f0e620ecc56fb77ad1d76d7a1862189322466032f8ecb29751a73b0",
+                "sha256_in_prefix": "48b0409a2f0e620ecc56fb77ad1d76d7a1862189322466032f8ecb29751a73b0",
+                "size_in_bytes": 524
+            },
+            {
+                "_path": "lib/magic/tutorial/tut6c.mag",
+                "path_type": "hardlink",
+                "sha256": "7cbccafa0bc7b3a4e54e042fcfbc4d8966c49c7503f2d53941e45b9d12fdefc6",
+                "sha256_in_prefix": "7cbccafa0bc7b3a4e54e042fcfbc4d8966c49c7503f2d53941e45b9d12fdefc6",
+                "size_in_bytes": 511
+            },
+            {
+                "_path": "lib/magic/tutorial/tut6x.mag",
+                "path_type": "hardlink",
+                "sha256": "f3ad9aa3136c77fa6778a4cfa6bd535e1da0512a4de82b62b7d53e6bfb09b06c",
+                "sha256_in_prefix": "f3ad9aa3136c77fa6778a4cfa6bd535e1da0512a4de82b62b7d53e6bfb09b06c",
+                "size_in_bytes": 122
+            },
+            {
+                "_path": "lib/magic/tutorial/tut6y.mag",
+                "path_type": "hardlink",
+                "sha256": "0d1c087093ac80576215d8505d1f7d0f4fdfec13b296ccb3dbe4febd877238aa",
+                "sha256_in_prefix": "0d1c087093ac80576215d8505d1f7d0f4fdfec13b296ccb3dbe4febd877238aa",
+                "size_in_bytes": 707
+            },
+            {
+                "_path": "lib/magic/tutorial/tut7a.mag",
+                "path_type": "hardlink",
+                "sha256": "3afff9a5d2c3b30a84fbbeb83ade038d169be5b5301dfda468da1725f28cc344",
+                "sha256_in_prefix": "3afff9a5d2c3b30a84fbbeb83ade038d169be5b5301dfda468da1725f28cc344",
+                "size_in_bytes": 1034
+            },
+            {
+                "_path": "lib/magic/tutorial/tut7b.mag",
+                "path_type": "hardlink",
+                "sha256": "29cd825754b89fc3a1b66175d0200d3cfa82e1e9eb5738f5f310f0eef5914b24",
+                "sha256_in_prefix": "29cd825754b89fc3a1b66175d0200d3cfa82e1e9eb5738f5f310f0eef5914b24",
+                "size_in_bytes": 333
+            },
+            {
+                "_path": "lib/magic/tutorial/tut7b.net",
+                "path_type": "hardlink",
+                "sha256": "14a57f99c48bd994e4eedad9cbd095509f9fba36db68c4dc726d14178a8030cc",
+                "sha256_in_prefix": "14a57f99c48bd994e4eedad9cbd095509f9fba36db68c4dc726d14178a8030cc",
+                "size_in_bytes": 171
+            },
+            {
+                "_path": "lib/magic/tutorial/tut7c.mag",
+                "path_type": "hardlink",
+                "sha256": "74d3d5df2addaf9ba33318bda69e2464f8fe0de77f6de7932428c068bf846f87",
+                "sha256_in_prefix": "74d3d5df2addaf9ba33318bda69e2464f8fe0de77f6de7932428c068bf846f87",
+                "size_in_bytes": 1186
+            },
+            {
+                "_path": "lib/magic/tutorial/tut7d.mag",
+                "path_type": "hardlink",
+                "sha256": "941971fd824656e277b33f6393296f522b74eacc0777f2f21cb0f7c78dc39c8b",
+                "sha256_in_prefix": "941971fd824656e277b33f6393296f522b74eacc0777f2f21cb0f7c78dc39c8b",
+                "size_in_bytes": 1640
+            },
+            {
+                "_path": "lib/magic/tutorial/tut7d.net",
+                "path_type": "hardlink",
+                "sha256": "14a57f99c48bd994e4eedad9cbd095509f9fba36db68c4dc726d14178a8030cc",
+                "sha256_in_prefix": "14a57f99c48bd994e4eedad9cbd095509f9fba36db68c4dc726d14178a8030cc",
+                "size_in_bytes": 171
+            },
+            {
+                "_path": "lib/magic/tutorial/tut8a.mag",
+                "path_type": "hardlink",
+                "sha256": "80462bebfe53cd34884591b003bd02772a84c35e71f6e84c1de92cfbde087e0f",
+                "sha256_in_prefix": "80462bebfe53cd34884591b003bd02772a84c35e71f6e84c1de92cfbde087e0f",
+                "size_in_bytes": 421
+            },
+            {
+                "_path": "lib/magic/tutorial/tut8b.mag",
+                "path_type": "hardlink",
+                "sha256": "531856620e0c883ce68fbfc8dd6549ca0f73aec8bd0e35ac2e471485d8e0e359",
+                "sha256_in_prefix": "531856620e0c883ce68fbfc8dd6549ca0f73aec8bd0e35ac2e471485d8e0e359",
+                "size_in_bytes": 465
+            },
+            {
+                "_path": "lib/magic/tutorial/tut8c.mag",
+                "path_type": "hardlink",
+                "sha256": "ae4876686a503ffad43f9acc53fe2ac4aabb51f2a78f34820bb82db4754c2335",
+                "sha256_in_prefix": "ae4876686a503ffad43f9acc53fe2ac4aabb51f2a78f34820bb82db4754c2335",
+                "size_in_bytes": 533
+            },
+            {
+                "_path": "lib/magic/tutorial/tut8d.mag",
+                "path_type": "hardlink",
+                "sha256": "c849cb202cc258f9c02d65713411f50236c221303cd82ad07dfb278d50815700",
+                "sha256_in_prefix": "c849cb202cc258f9c02d65713411f50236c221303cd82ad07dfb278d50815700",
+                "size_in_bytes": 124
+            },
+            {
+                "_path": "lib/magic/tutorial/tut8e.mag",
+                "path_type": "hardlink",
+                "sha256": "98bdbcaed191ffb7efba059c3b20549ef46980272e471bf9eb0938c3c7097c43",
+                "sha256_in_prefix": "98bdbcaed191ffb7efba059c3b20549ef46980272e471bf9eb0938c3c7097c43",
+                "size_in_bytes": 1855
+            },
+            {
+                "_path": "lib/magic/tutorial/tut8f.mag",
+                "path_type": "hardlink",
+                "sha256": "a2c0ca5e9a859a5d5f1fd25c82346debb5b31bd3ea2c710491bb303de50d9743",
+                "sha256_in_prefix": "a2c0ca5e9a859a5d5f1fd25c82346debb5b31bd3ea2c710491bb303de50d9743",
+                "size_in_bytes": 252
+            },
+            {
+                "_path": "lib/magic/tutorial/tut8g.mag",
+                "path_type": "hardlink",
+                "sha256": "db33eab498711a950c27ee21b94356b6c309a907ebe15c42380247bf432ed9a3",
+                "sha256_in_prefix": "db33eab498711a950c27ee21b94356b6c309a907ebe15c42380247bf432ed9a3",
+                "size_in_bytes": 1606
+            },
+            {
+                "_path": "lib/magic/tutorial/tut8h.mag",
+                "path_type": "hardlink",
+                "sha256": "9d07540f265329a58f2c86aa20bfc0880609397e42f80c1f1790dac4a16524e8",
+                "sha256_in_prefix": "9d07540f265329a58f2c86aa20bfc0880609397e42f80c1f1790dac4a16524e8",
+                "size_in_bytes": 596
+            },
+            {
+                "_path": "lib/magic/tutorial/tut8i.mag",
+                "path_type": "hardlink",
+                "sha256": "84d9d5561bfa28b6c0d3d15194de7e01858436274727522d054b420d1b5a09c3",
+                "sha256_in_prefix": "84d9d5561bfa28b6c0d3d15194de7e01858436274727522d054b420d1b5a09c3",
+                "size_in_bytes": 129
+            },
+            {
+                "_path": "lib/magic/tutorial/tut8j.mag",
+                "path_type": "hardlink",
+                "sha256": "1a95390ee87a8c54c58ac13dc133f2df353dcc93ef514c936716ff5c218fc36a",
+                "sha256_in_prefix": "1a95390ee87a8c54c58ac13dc133f2df353dcc93ef514c936716ff5c218fc36a",
+                "size_in_bytes": 121
+            },
+            {
+                "_path": "lib/magic/tutorial/tut8k.mag",
+                "path_type": "hardlink",
+                "sha256": "d7c183a121f008a26f29ce4ba7810024968d7b8f19f0d7546abd250a5716aa8c",
+                "sha256_in_prefix": "d7c183a121f008a26f29ce4ba7810024968d7b8f19f0d7546abd250a5716aa8c",
+                "size_in_bytes": 433
+            },
+            {
+                "_path": "lib/magic/tutorial/tut8l.mag",
+                "path_type": "hardlink",
+                "sha256": "fc183eae27a4dfb257ecc7a8e4500b5c17e9fc2aaea0f0e3280ccdcfb363098c",
+                "sha256_in_prefix": "fc183eae27a4dfb257ecc7a8e4500b5c17e9fc2aaea0f0e3280ccdcfb363098c",
+                "size_in_bytes": 1978
+            },
+            {
+                "_path": "lib/magic/tutorial/tut8m.mag",
+                "path_type": "hardlink",
+                "sha256": "a069758db9018a65ff4ca28111071f51d42537b384fb6f0863e49c845218a452",
+                "sha256_in_prefix": "a069758db9018a65ff4ca28111071f51d42537b384fb6f0863e49c845218a452",
+                "size_in_bytes": 684
+            },
+            {
+                "_path": "lib/magic/tutorial/tut8n.mag",
+                "path_type": "hardlink",
+                "sha256": "b0daa9575c5613f4116859644b0dd67589af2f826df864f0c4625636da1f19fa",
+                "sha256_in_prefix": "b0daa9575c5613f4116859644b0dd67589af2f826df864f0c4625636da1f19fa",
+                "size_in_bytes": 335
+            },
+            {
+                "_path": "lib/magic/tutorial/tut8r.mag",
+                "path_type": "hardlink",
+                "sha256": "ef2a1c27809fa09072ac56d77cf2e11288c4fd9b9614e4cc72f48b7e530f5d77",
+                "sha256_in_prefix": "ef2a1c27809fa09072ac56d77cf2e11288c4fd9b9614e4cc72f48b7e530f5d77",
+                "size_in_bytes": 3095
+            },
+            {
+                "_path": "lib/magic/tutorial/tut9a.mag",
+                "path_type": "hardlink",
+                "sha256": "9ccaa592664b42ec5323466872cc8ba2eac13f2228cd0a4ca2df899764572fe7",
+                "sha256_in_prefix": "9ccaa592664b42ec5323466872cc8ba2eac13f2228cd0a4ca2df899764572fe7",
+                "size_in_bytes": 915
+            },
+            {
+                "_path": "lib/magic/tutorial/tut9b.mag",
+                "path_type": "hardlink",
+                "sha256": "0e2346821c2a1586c31a96ff6fa0bfcd1983c10f538aa15d56d25ab2d8314356",
+                "sha256_in_prefix": "0e2346821c2a1586c31a96ff6fa0bfcd1983c10f538aa15d56d25ab2d8314356",
+                "size_in_bytes": 182
+            },
+            {
+                "_path": "lib/magic/tutorial/tut9x.mag",
+                "path_type": "hardlink",
+                "sha256": "fc78879d2772937fd179277041128233025238d93257f832aeaee936bf83ee27",
+                "sha256_in_prefix": "fc78879d2772937fd179277041128233025238d93257f832aeaee936bf83ee27",
+                "size_in_bytes": 1043
+            },
+            {
+                "_path": "lib/magic/tutorial/tut9y.mag",
+                "path_type": "hardlink",
+                "sha256": "f52c4d7b65b7cea1d3c5efad8b234c932cafd1d3c2433ee55db9d088993b471e",
+                "sha256_in_prefix": "f52c4d7b65b7cea1d3c5efad8b234c932cafd1d3c2433ee55db9d088993b471e",
+                "size_in_bytes": 1075
+            },
+            {
+                "_path": "share/man/man1/ext2sim.1",
+                "path_type": "hardlink",
+                "sha256": "e51b7ce54fd6e22f61f44db171bf0bb4aea502ff9f622845ccff75ecae8a8adb",
+                "sha256_in_prefix": "e51b7ce54fd6e22f61f44db171bf0bb4aea502ff9f622845ccff75ecae8a8adb",
+                "size_in_bytes": 6815
+            },
+            {
+                "_path": "share/man/man1/ext2spice.1",
+                "path_type": "hardlink",
+                "sha256": "22ac262f17729d23c02cceee421c79cb4bf3fb4d3f108ea41c4447e2e12c83fe",
+                "sha256_in_prefix": "22ac262f17729d23c02cceee421c79cb4bf3fb4d3f108ea41c4447e2e12c83fe",
+                "size_in_bytes": 6492
+            },
+            {
+                "_path": "share/man/man1/extcheck.1",
+                "path_type": "hardlink",
+                "sha256": "c1eaf74e648f9c97862fdf9570ab6e02fd06d2d6518f4dedfcaea5a7ff065b96",
+                "sha256_in_prefix": "c1eaf74e648f9c97862fdf9570ab6e02fd06d2d6518f4dedfcaea5a7ff065b96",
+                "size_in_bytes": 3930
+            },
+            {
+                "_path": "share/man/man1/magic.1",
+                "path_type": "hardlink",
+                "sha256": "195fffdd915db3fee9fb8ff6e57d349516db053ecb6d24f0ca0a67832905b140",
+                "sha256_in_prefix": "195fffdd915db3fee9fb8ff6e57d349516db053ecb6d24f0ca0a67832905b140",
+                "size_in_bytes": 91384
+            },
+            {
+                "_path": "share/man/man5/cmap.5",
+                "path_type": "hardlink",
+                "sha256": "c9717093a8b92a452cf36fe11c4c157ef1a6a26e82cb1a3b8c4ed9060602cf88",
+                "sha256_in_prefix": "c9717093a8b92a452cf36fe11c4c157ef1a6a26e82cb1a3b8c4ed9060602cf88",
+                "size_in_bytes": 2297
+            },
+            {
+                "_path": "share/man/man5/displays.5",
+                "path_type": "hardlink",
+                "sha256": "ed4f52e31a1d8059f3c56897c7261879e66de71dd07d48e2b7650c421e128c96",
+                "sha256_in_prefix": "ed4f52e31a1d8059f3c56897c7261879e66de71dd07d48e2b7650c421e128c96",
+                "size_in_bytes": 2083
+            },
+            {
+                "_path": "share/man/man5/dlys.5",
+                "path_type": "hardlink",
+                "sha256": "758965989f9168a98029513e79a32a2d9ede1ad49cde5c8520252d56274a14dd",
+                "sha256_in_prefix": "758965989f9168a98029513e79a32a2d9ede1ad49cde5c8520252d56274a14dd",
+                "size_in_bytes": 3403
+            },
+            {
+                "_path": "share/man/man5/dstyle.5",
+                "path_type": "hardlink",
+                "sha256": "c26450167d725c0f39171b2d24498e38e5a02d6582b641144bb5ba429e192def",
+                "sha256_in_prefix": "c26450167d725c0f39171b2d24498e38e5a02d6582b641144bb5ba429e192def",
+                "size_in_bytes": 6419
+            },
+            {
+                "_path": "share/man/man5/ext.5",
+                "path_type": "hardlink",
+                "sha256": "a8dbbdac5ec91307d1fdacd5da0083a245cfee8c7e0e205dff131b8af6c39680",
+                "sha256_in_prefix": "a8dbbdac5ec91307d1fdacd5da0083a245cfee8c7e0e205dff131b8af6c39680",
+                "size_in_bytes": 13020
+            },
+            {
+                "_path": "share/man/man5/glyphs.5",
+                "path_type": "hardlink",
+                "sha256": "eb8c1ebf3a06538c679a1ed48d11d46b51a161a384509c6b8fbb687d7d2c319a",
+                "sha256_in_prefix": "eb8c1ebf3a06538c679a1ed48d11d46b51a161a384509c6b8fbb687d7d2c319a",
+                "size_in_bytes": 2607
+            },
+            {
+                "_path": "share/man/man5/mag.5",
+                "path_type": "hardlink",
+                "sha256": "018585e2a924774627ccbaa816e0b660c981ab670b43124da998a51e9c7f513e",
+                "sha256_in_prefix": "018585e2a924774627ccbaa816e0b660c981ab670b43124da998a51e9c7f513e",
+                "size_in_bytes": 8077
+            },
+            {
+                "_path": "share/man/man5/net.5",
+                "path_type": "hardlink",
+                "sha256": "498721bed766978a76cd64ffcab63e266a8c6a895baf326966aae3a7d56d8816",
+                "sha256_in_prefix": "498721bed766978a76cd64ffcab63e266a8c6a895baf326966aae3a7d56d8816",
+                "size_in_bytes": 2181
+            },
+            {
+                "_path": "share/man/man5/sim.5",
+                "path_type": "hardlink",
+                "sha256": "80884b797285a6855102e0d45176d91baa0c9cd6f911f001fb5ef8fce8052b50",
+                "sha256_in_prefix": "80884b797285a6855102e0d45176d91baa0c9cd6f911f001fb5ef8fce8052b50",
+                "size_in_bytes": 5056
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "magic",
+    "sha256": "e3414f81990e3b36b24323cfd4008115b0b0d9831d486c2d9a1b2e905afc1a95",
+    "size": 4829034,
+    "subdir": "linux-64",
+    "timestamp": 1681295888814,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/litex-hub/linux-64/magic-8.3.389_0_g1d8fcca-20230412_103222.tar.bz2",
+    "version": "8.3.389_0_g1d8fcca"
+}

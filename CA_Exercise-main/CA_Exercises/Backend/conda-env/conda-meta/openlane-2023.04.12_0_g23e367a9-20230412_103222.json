@@ -1,0 +1,3537 @@
+{
+    "arch": null,
+    "build": "20230412_103222",
+    "build_number": 20230412103222,
+    "build_string": "20230412_103222",
+    "channel": "https://conda.anaconda.org/litex-hub/noarch",
+    "constrains": [],
+    "depends": [
+        "click",
+        "klayout",
+        "magic",
+        "netgen",
+        "openroad",
+        "pyyaml",
+        "tcllib",
+        "yosys"
+    ],
+    "extracted_package_dir": "/users/students/r0757781/micromamba/pkgs/openlane-2023.04.12_0_g23e367a9-20230412_103222",
+    "files": [
+        "bin/flow.tcl",
+        "share/openlane/.flake8",
+        "share/openlane/.gitattributes",
+        "share/openlane/.github/ISSUE_TEMPLATE/bug_report.yml",
+        "share/openlane/.github/ISSUE_TEMPLATE/feature_request.yml",
+        "share/openlane/.github/actions/docker_build/action.yml",
+        "share/openlane/.github/actions/set_env_variables/action.yml",
+        "share/openlane/.github/legacy_diagrams/cron_job_workflow.png",
+        "share/openlane/.github/legacy_diagrams/delete_workflow.png",
+        "share/openlane/.github/legacy_diagrams/pull_request_workflow.png",
+        "share/openlane/.github/legacy_diagrams/push_to_branch_workflow.png",
+        "share/openlane/.github/legacy_diagrams/push_to_cid_latest_x_branch_workflow.png",
+        "share/openlane/.github/scripts/determine_test_set.py",
+        "share/openlane/.github/scripts/generate_tag.py",
+        "share/openlane/.github/scripts/gh.py",
+        "share/openlane/.github/scripts/run_tests.py",
+        "share/openlane/.github/scripts/update_tools.py",
+        "share/openlane/.github/test_sets/get_test_matrix.py",
+        "share/openlane/.github/test_sets/test_sets.yml",
+        "share/openlane/.github/workflows/Readme.md",
+        "share/openlane/.github/workflows/lint.yml",
+        "share/openlane/.github/workflows/openlane_ci.yml",
+        "share/openlane/.github/workflows/tool_updater.yml",
+        "share/openlane/.gitignore",
+        "share/openlane/.readthedocs.yml",
+        "share/openlane/AUTHORS.md",
+        "share/openlane/CONTRIBUTING.md",
+        "share/openlane/Jenkinsfile",
+        "share/openlane/LICENSE",
+        "share/openlane/Makefile",
+        "share/openlane/README.md",
+        "share/openlane/build_env_setup.sh",
+        "share/openlane/conda_build.sh",
+        "share/openlane/configuration/checkers.tcl",
+        "share/openlane/configuration/cts.tcl",
+        "share/openlane/configuration/disable-missing-tools.tcl",
+        "share/openlane/configuration/extraction.tcl",
+        "share/openlane/configuration/floorplan.tcl",
+        "share/openlane/configuration/general.tcl",
+        "share/openlane/configuration/load_order.txt",
+        "share/openlane/configuration/placement.tcl",
+        "share/openlane/configuration/routing.tcl",
+        "share/openlane/configuration/synthesis.tcl",
+        "share/openlane/dependencies/arch/run_time.txt",
+        "share/openlane/dependencies/centos-7/compile_time.txt",
+        "share/openlane/dependencies/centos-7/precompile_time.txt",
+        "share/openlane/dependencies/centos-7/run_time.txt",
+        "share/openlane/dependencies/env_info.py",
+        "share/openlane/dependencies/get_tag.py",
+        "share/openlane/dependencies/hash_for.py",
+        "share/openlane/dependencies/image_name.mk",
+        "share/openlane/dependencies/includedyaml/LICENSE",
+        "share/openlane/dependencies/includedyaml/__init__.py",
+        "share/openlane/dependencies/includedyaml/composer.py",
+        "share/openlane/dependencies/includedyaml/constructor.py",
+        "share/openlane/dependencies/includedyaml/cyaml.py",
+        "share/openlane/dependencies/includedyaml/dumper.py",
+        "share/openlane/dependencies/includedyaml/emitter.py",
+        "share/openlane/dependencies/includedyaml/error.py",
+        "share/openlane/dependencies/includedyaml/events.py",
+        "share/openlane/dependencies/includedyaml/loader.py",
+        "share/openlane/dependencies/includedyaml/nodes.py",
+        "share/openlane/dependencies/includedyaml/parser.py",
+        "share/openlane/dependencies/includedyaml/reader.py",
+        "share/openlane/dependencies/includedyaml/representer.py",
+        "share/openlane/dependencies/includedyaml/resolver.py",
+        "share/openlane/dependencies/includedyaml/scanner.py",
+        "share/openlane/dependencies/includedyaml/serializer.py",
+        "share/openlane/dependencies/includedyaml/tokens.py",
+        "share/openlane/dependencies/installer.py",
+        "share/openlane/dependencies/macos/run_time.txt",
+        "share/openlane/dependencies/python/compile_time.txt",
+        "share/openlane/dependencies/python/precompile_time.txt",
+        "share/openlane/dependencies/python/run_time.txt",
+        "share/openlane/dependencies/tool.py",
+        "share/openlane/dependencies/tool_metadata.yml",
+        "share/openlane/dependencies/ubuntu-20.04/run_time.txt",
+        "share/openlane/dependencies/update_pyyaml.sh",
+        "share/openlane/dependencies/verify_versions.py",
+        "share/openlane/dependencies/version.py",
+        "share/openlane/designs/.gitignore",
+        "share/openlane/designs/APU/config.json",
+        "share/openlane/designs/APU/src/APU.v",
+        "share/openlane/designs/BM64/config.json",
+        "share/openlane/designs/BM64/src/BM64.v",
+        "share/openlane/designs/PPU/config.json",
+        "share/openlane/designs/PPU/src/PPU.v",
+        "share/openlane/designs/aes/config.json",
+        "share/openlane/designs/aes/src/aes.v",
+        "share/openlane/designs/aes_core/config.json",
+        "share/openlane/designs/aes_core/src/aes.v",
+        "share/openlane/designs/aes_core/src/aes_core.v",
+        "share/openlane/designs/blabla/config.json",
+        "share/openlane/designs/blabla/src/blabla.v",
+        "share/openlane/designs/caravel_upw/config.tcl",
+        "share/openlane/designs/caravel_upw/macro.cfg",
+        "share/openlane/designs/caravel_upw/macros/user_proj_example.gds",
+        "share/openlane/designs/caravel_upw/macros/user_proj_example.lef",
+        "share/openlane/designs/caravel_upw/macros/user_proj_example2.gds",
+        "share/openlane/designs/caravel_upw/macros/user_proj_example2.lef",
+        "share/openlane/designs/caravel_upw/pin_order.cfg",
+        "share/openlane/designs/caravel_upw/src/defines.v",
+        "share/openlane/designs/caravel_upw/src/user_proj_example.v",
+        "share/openlane/designs/caravel_upw/src/user_proj_example2.v",
+        "share/openlane/designs/caravel_upw/src/user_project_wrapper.v",
+        "share/openlane/designs/gcd/config.json",
+        "share/openlane/designs/gcd/gcd.v",
+        "share/openlane/designs/inverter/config.json",
+        "share/openlane/designs/inverter/src/inverter.v",
+        "share/openlane/designs/io_placer/config.json",
+        "share/openlane/designs/io_placer/macro.cfg",
+        "share/openlane/designs/io_placer/macros/user_proj_example.gds",
+        "share/openlane/designs/io_placer/macros/user_proj_example.lef",
+        "share/openlane/designs/io_placer/macros/user_proj_example2.gds",
+        "share/openlane/designs/io_placer/macros/user_proj_example2.lef",
+        "share/openlane/designs/io_placer/pin_order.cfg",
+        "share/openlane/designs/io_placer/src/defines.v",
+        "share/openlane/designs/io_placer/src/user_proj_example.v",
+        "share/openlane/designs/io_placer/src/user_proj_example2.v",
+        "share/openlane/designs/io_placer/src/user_project_wrapper.v",
+        "share/openlane/designs/manual_macro_placement_test/base.sdc",
+        "share/openlane/designs/manual_macro_placement_test/config.json",
+        "share/openlane/designs/manual_macro_placement_test/macro_placement.cfg",
+        "share/openlane/designs/manual_macro_placement_test/macros/gds/spm.gds",
+        "share/openlane/designs/manual_macro_placement_test/macros/lef/spm.lef",
+        "share/openlane/designs/manual_macro_placement_test/src/design.v",
+        "share/openlane/designs/mem_1r1w/config.json",
+        "share/openlane/designs/mem_1r1w/src/mem_1r1w.v",
+        "share/openlane/designs/picorv32a/config.json",
+        "share/openlane/designs/picorv32a/src/picorv32a.v",
+        "share/openlane/designs/regfile_2r1w/bb/mem_1r1w.bb.v",
+        "share/openlane/designs/regfile_2r1w/config.json",
+        "share/openlane/designs/regfile_2r1w/src/regfile_2r1w.v",
+        "share/openlane/designs/s44/config.json",
+        "share/openlane/designs/s44/src/lut.v",
+        "share/openlane/designs/s44/src/lut_s44.v",
+        "share/openlane/designs/salsa20/config.json",
+        "share/openlane/designs/salsa20/src/salsa20.v",
+        "share/openlane/designs/spm/config.json",
+        "share/openlane/designs/spm/pin_order.cfg",
+        "share/openlane/designs/spm/src/spm.sdc",
+        "share/openlane/designs/spm/src/spm.v",
+        "share/openlane/designs/test_sram_macro/config.json",
+        "share/openlane/designs/test_sram_macro/macro_placement.cfg",
+        "share/openlane/designs/test_sram_macro/sky130_sram_1kbyte_1rw1r_32x256_8.bb.v",
+        "share/openlane/designs/test_sram_macro/src/test_sram_macro.v",
+        "share/openlane/designs/usb/config.json",
+        "share/openlane/designs/usb/src/usb2p0_core.v",
+        "share/openlane/designs/usb_cdc_core/config.json",
+        "share/openlane/designs/usb_cdc_core/src/usb_cdc_core.v",
+        "share/openlane/designs/usb_cdc_core/src/usb_desc_rom.v",
+        "share/openlane/designs/usb_cdc_core/src/usbf_crc16.v",
+        "share/openlane/designs/usb_cdc_core/src/usbf_defs.v",
+        "share/openlane/designs/usb_cdc_core/src/usbf_device_core.v",
+        "share/openlane/designs/usb_cdc_core/src/usbf_sie_rx.v",
+        "share/openlane/designs/usb_cdc_core/src/usbf_sie_tx.v",
+        "share/openlane/designs/wbqspiflash/config.json",
+        "share/openlane/designs/wbqspiflash/matrix.json",
+        "share/openlane/designs/wbqspiflash/src/wbqspiflash.v",
+        "share/openlane/designs/xtea/config.tcl",
+        "share/openlane/designs/xtea/gf180mcuC_gf180mcu_fd_sc_mcu7t5v0_config.tcl",
+        "share/openlane/designs/xtea/sky130A_sky130_fd_sc_hd_config.tcl",
+        "share/openlane/designs/xtea/sky130A_sky130_fd_sc_hdll_config.tcl",
+        "share/openlane/designs/xtea/sky130A_sky130_fd_sc_hs_config.tcl",
+        "share/openlane/designs/xtea/sky130A_sky130_fd_sc_ls_config.tcl",
+        "share/openlane/designs/xtea/sky130A_sky130_fd_sc_ms_config.tcl",
+        "share/openlane/designs/xtea/src/xtea.sdc",
+        "share/openlane/designs/xtea/src/xtea.v",
+        "share/openlane/designs/y_huff/config.json",
+        "share/openlane/designs/y_huff/src/y_huff.v",
+        "share/openlane/designs/zipdiv/config.json",
+        "share/openlane/designs/zipdiv/src/zipdiv.v",
+        "share/openlane/docker/.gitignore",
+        "share/openlane/docker/Makefile",
+        "share/openlane/docker/README.md",
+        "share/openlane/docker/build_base/.gitignore",
+        "share/openlane/docker/build_base/Dockerfile",
+        "share/openlane/docker/current_platform.py",
+        "share/openlane/docker/cvc_rv/Dockerfile",
+        "share/openlane/docker/git/Dockerfile",
+        "share/openlane/docker/klayout/Dockerfile",
+        "share/openlane/docker/klayout/build_klayout.sh",
+        "share/openlane/docker/magic/Dockerfile",
+        "share/openlane/docker/netgen/Dockerfile",
+        "share/openlane/docker/openlane/.gitignore",
+        "share/openlane/docker/openlane/Dockerfile.tpl",
+        "share/openlane/docker/openroad_app/Dockerfile",
+        "share/openlane/docker/padring/Dockerfile",
+        "share/openlane/docker/run_base/.gitignore",
+        "share/openlane/docker/run_base/Dockerfile",
+        "share/openlane/docker/tar/.bashrc",
+        "share/openlane/docker/tar/.gitignore",
+        "share/openlane/docker/tar/.tclshrc",
+        "share/openlane/docker/utils.py",
+        "share/openlane/docker/vlogtoverilog/Dockerfile",
+        "share/openlane/docker/yosys/Dockerfile",
+        "share/openlane/docs/Makefile",
+        "share/openlane/docs/_ext/image_links.py",
+        "share/openlane/docs/_ext/markdown_code_links.py",
+        "share/openlane/docs/_ext/markdown_cross_doc_section_links.py",
+        "share/openlane/docs/_ext/util.py",
+        "share/openlane/docs/_static/digital_flow/broken_aspect_ratio.png",
+        "share/openlane/docs/_static/digital_flow/final_def.png",
+        "share/openlane/docs/_static/digital_flow/final_gds.png",
+        "share/openlane/docs/_static/digital_flow/floorplan_def_loaded.png",
+        "share/openlane/docs/_static/digital_flow/lvs_issue.png",
+        "share/openlane/docs/_static/digital_flow/lvs_issue_comparison.png",
+        "share/openlane/docs/_static/digital_flow/mem_1r1w_def.png",
+        "share/openlane/docs/_static/digital_flow/ring_around_macro.png",
+        "share/openlane/docs/_static/docs_contribution/code_block_issue.png",
+        "share/openlane/docs/_static/docs_contribution/code_block_spaces_around_the_code.png",
+        "share/openlane/docs/_static/docs_contribution/code_block_supposed_look.png",
+        "share/openlane/docs/_static/eco_flow.png",
+        "share/openlane/docs/_static/eco_results.png",
+        "share/openlane/docs/_static/flow_v1.png",
+        "share/openlane/docs/_static/gha.png",
+        "share/openlane/docs/_static/installation/powershell.png",
+        "share/openlane/docs/_static/installation/spm.png",
+        "share/openlane/docs/_static/installation/wsl.png",
+        "share/openlane/docs/_static/installation/wsl_docker_settings.png",
+        "share/openlane/docs/_static/openram/basic_fp.png",
+        "share/openlane/docs/_static/openram/final.png",
+        "share/openlane/docs/_static/openram/floorplan_v2.png",
+        "share/openlane/docs/_static/openram/pdn_macro_hooks_missing.png",
+        "share/openlane/docs/_static/src/actor.png",
+        "share/openlane/docs/_static/src/flow.dot",
+        "share/openlane/docs/_static/src/lvs_issue_comparison.xcf",
+        "share/openlane/docs/_static/src/ring_around_macro.xcf",
+        "share/openlane/docs/_static/striVe.jpeg",
+        "share/openlane/docs/requirements.txt",
+        "share/openlane/docs/source/additional_material.md",
+        "share/openlane/docs/source/authors.md",
+        "share/openlane/docs/source/conf.py",
+        "share/openlane/docs/source/flow_overview.md",
+        "share/openlane/docs/source/for_developers/code_contribution.md",
+        "share/openlane/docs/source/for_developers/docker.md",
+        "share/openlane/docs/source/for_developers/docs_contribution.md",
+        "share/openlane/docs/source/for_developers/gha_workflow.md",
+        "share/openlane/docs/source/for_developers/index.rst",
+        "share/openlane/docs/source/for_developers/issue_regression_tests.md",
+        "share/openlane/docs/source/for_developers/pdk_structure.md",
+        "share/openlane/docs/source/for_developers/using_or_issue.md",
+        "share/openlane/docs/source/getting_started/index.rst",
+        "share/openlane/docs/source/getting_started/installation/docker_no_root.md",
+        "share/openlane/docs/source/getting_started/installation/index.rst",
+        "share/openlane/docs/source/getting_started/installation/installation_common_section.md",
+        "share/openlane/docs/source/getting_started/installation/installation_linux.md",
+        "share/openlane/docs/source/getting_started/installation/installation_local.md",
+        "share/openlane/docs/source/getting_started/installation/installation_macos.md",
+        "share/openlane/docs/source/getting_started/installation/installation_overview.md",
+        "share/openlane/docs/source/getting_started/installation/installation_ubuntu.md",
+        "share/openlane/docs/source/getting_started/installation/installation_win.md",
+        "share/openlane/docs/source/getting_started/installation/wsl_ubuntu_packages.md",
+        "share/openlane/docs/source/getting_started/quickstart.md",
+        "share/openlane/docs/source/getting_started/updating.md",
+        "share/openlane/docs/source/index.rst",
+        "share/openlane/docs/source/reference/cli.md",
+        "share/openlane/docs/source/reference/configuration.md",
+        "share/openlane/docs/source/reference/configuration_files.md",
+        "share/openlane/docs/source/reference/datapoint_definitions.md",
+        "share/openlane/docs/source/reference/index.rst",
+        "share/openlane/docs/source/reference/interactive_mode.md",
+        "share/openlane/docs/source/reference/openlane_commands.md",
+        "share/openlane/docs/source/tutorials/digital_guide.md",
+        "share/openlane/docs/source/tutorials/index.rst",
+        "share/openlane/docs/source/tutorials/openram.md",
+        "share/openlane/docs/source/usage/advanced_power_grid_control.md",
+        "share/openlane/docs/source/usage/chip_integration.md",
+        "share/openlane/docs/source/usage/custom_pdk_builds.md",
+        "share/openlane/docs/source/usage/designs.md",
+        "share/openlane/docs/source/usage/exploration_script.md",
+        "share/openlane/docs/source/usage/hardening_macros.md",
+        "share/openlane/docs/source/usage/index.rst",
+        "share/openlane/env.py",
+        "share/openlane/flow.tcl",
+        "share/openlane/install/build/versions/.keep-directory",
+        "share/openlane/install/env.tcl",
+        "share/openlane/install/installed_version",
+        "share/openlane/klayoutrc",
+        "share/openlane/metadata_conda_debug.yaml",
+        "share/openlane/regression_results/.gitignore",
+        "share/openlane/regression_results/benchmark_results/sky130A/sky130_fd_sc_hd.csv",
+        "share/openlane/requirements.txt",
+        "share/openlane/requirements_dev.txt",
+        "share/openlane/requirements_lint.txt",
+        "share/openlane/run_designs.py",
+        "share/openlane/scripts/base.sdc",
+        "share/openlane/scripts/compare_regression_design.py",
+        "share/openlane/scripts/compare_regression_reports.py",
+        "share/openlane/scripts/config/config.py",
+        "share/openlane/scripts/config/extract_opt_variables.py",
+        "share/openlane/scripts/config/init.py",
+        "share/openlane/scripts/config/migrate.py",
+        "share/openlane/scripts/config/replicate.py",
+        "share/openlane/scripts/config/tcl.py",
+        "share/openlane/scripts/config/update.py",
+        "share/openlane/scripts/count_lvs.py",
+        "share/openlane/scripts/drc_rosetta.py",
+        "share/openlane/scripts/extract_antenna_count.py",
+        "share/openlane/scripts/extract_antenna_violators.py",
+        "share/openlane/scripts/gen_report_routing.py",
+        "share/openlane/scripts/generate_reports.py",
+        "share/openlane/scripts/iterate_timing_closure.py",
+        "share/openlane/scripts/klayout/Readme.md",
+        "share/openlane/scripts/klayout/open_design.py",
+        "share/openlane/scripts/klayout/run_drc.sh",
+        "share/openlane/scripts/klayout/stream_out.py",
+        "share/openlane/scripts/klayout/xor.drc",
+        "share/openlane/scripts/libtrim.py",
+        "share/openlane/scripts/magic/Readme.md",
+        "share/openlane/scripts/magic/def/antenna_check.tcl",
+        "share/openlane/scripts/magic/def/mag.tcl",
+        "share/openlane/scripts/magic/def/mag_gds.tcl",
+        "share/openlane/scripts/magic/def/read.tcl",
+        "share/openlane/scripts/magic/drc.tcl",
+        "share/openlane/scripts/magic/erase_box.sh",
+        "share/openlane/scripts/magic/extract_spice.tcl",
+        "share/openlane/scripts/magic/gds/drc_batch.tcl",
+        "share/openlane/scripts/magic/gds/erase_box.tcl",
+        "share/openlane/scripts/magic/gds/extras_mag.tcl",
+        "share/openlane/scripts/magic/gds/mag_with_pointers.tcl",
+        "share/openlane/scripts/magic/lef.tcl",
+        "share/openlane/scripts/magic/lef/extras_maglef.tcl",
+        "share/openlane/scripts/magic/lef/maglef.tcl",
+        "share/openlane/scripts/magic/wrapper.tcl",
+        "share/openlane/scripts/mergeLef.py",
+        "share/openlane/scripts/mergeLib.py",
+        "share/openlane/scripts/most_recent_run.py",
+        "share/openlane/scripts/new_tracks.py",
+        "share/openlane/scripts/odbpy/apply_def_template.py",
+        "share/openlane/scripts/odbpy/contextualize.py",
+        "share/openlane/scripts/odbpy/defutil.py",
+        "share/openlane/scripts/odbpy/diodes.py",
+        "share/openlane/scripts/odbpy/io_place.py",
+        "share/openlane/scripts/odbpy/label_macro_pins.py",
+        "share/openlane/scripts/odbpy/lefutil.py",
+        "share/openlane/scripts/odbpy/manual_macro_place.py",
+        "share/openlane/scripts/odbpy/padringer.py",
+        "share/openlane/scripts/odbpy/power_utils.py",
+        "share/openlane/scripts/odbpy/random_place.py",
+        "share/openlane/scripts/odbpy/reader.py",
+        "share/openlane/scripts/odbpy/remove_buffers.py",
+        "share/openlane/scripts/odbpy/snap_to_grid.py",
+        "share/openlane/scripts/odbpy/wire_lengths.py",
+        "share/openlane/scripts/openroad/antenna_check.tcl",
+        "share/openlane/scripts/openroad/basic_mp.tcl",
+        "share/openlane/scripts/openroad/common/dpl_cell_pad.tcl",
+        "share/openlane/scripts/openroad/common/io.tcl",
+        "share/openlane/scripts/openroad/common/pdn_cfg.tcl",
+        "share/openlane/scripts/openroad/common/resizer.tcl",
+        "share/openlane/scripts/openroad/common/set_global_connections.tcl",
+        "share/openlane/scripts/openroad/common/set_layer_adjustments.tcl",
+        "share/openlane/scripts/openroad/common/set_rc.tcl",
+        "share/openlane/scripts/openroad/common/set_routing_layers.tcl",
+        "share/openlane/scripts/openroad/cts.tcl",
+        "share/openlane/scripts/openroad/diodes.tcl",
+        "share/openlane/scripts/openroad/dpl.tcl",
+        "share/openlane/scripts/openroad/droute.tcl",
+        "share/openlane/scripts/openroad/fill.tcl",
+        "share/openlane/scripts/openroad/floorplan.tcl",
+        "share/openlane/scripts/openroad/gpl.tcl",
+        "share/openlane/scripts/openroad/groute.tcl",
+        "share/openlane/scripts/openroad/gui.tcl",
+        "share/openlane/scripts/openroad/insert_buffer.tcl",
+        "share/openlane/scripts/openroad/ioplacer.tcl",
+        "share/openlane/scripts/openroad/irdrop.tcl",
+        "share/openlane/scripts/openroad/pdn.tcl",
+        "share/openlane/scripts/openroad/rcx.tcl",
+        "share/openlane/scripts/openroad/resizer.tcl",
+        "share/openlane/scripts/openroad/resizer_routing_design.tcl",
+        "share/openlane/scripts/openroad/resizer_routing_timing.tcl",
+        "share/openlane/scripts/openroad/resizer_timing.tcl",
+        "share/openlane/scripts/openroad/sta/multi_corner.tcl",
+        "share/openlane/scripts/openroad/tapcell.tcl",
+        "share/openlane/scripts/openroad/write_views.tcl",
+        "share/openlane/scripts/or_issue.py",
+        "share/openlane/scripts/padframe_generator.py",
+        "share/openlane/scripts/parse_yosys_check.py",
+        "share/openlane/scripts/pdk_linker.py",
+        "share/openlane/scripts/report/get_best.py",
+        "share/openlane/scripts/report/get_file_name.py",
+        "share/openlane/scripts/report/report.py",
+        "share/openlane/scripts/report/report_routing.py",
+        "share/openlane/scripts/synth_exp/analyze.py",
+        "share/openlane/scripts/synth_exp/table.css",
+        "share/openlane/scripts/synth_exp/utils.js",
+        "share/openlane/scripts/tcl_commands/README.md",
+        "share/openlane/scripts/tcl_commands/all.tcl",
+        "share/openlane/scripts/tcl_commands/checkers.tcl",
+        "share/openlane/scripts/tcl_commands/cts.tcl",
+        "share/openlane/scripts/tcl_commands/cvc_rv.tcl",
+        "share/openlane/scripts/tcl_commands/floorplan.tcl",
+        "share/openlane/scripts/tcl_commands/init_design.tcl",
+        "share/openlane/scripts/tcl_commands/klayout.tcl",
+        "share/openlane/scripts/tcl_commands/lvs.tcl",
+        "share/openlane/scripts/tcl_commands/magic.tcl",
+        "share/openlane/scripts/tcl_commands/pkgIndex.tcl",
+        "share/openlane/scripts/tcl_commands/placement.tcl",
+        "share/openlane/scripts/tcl_commands/refresh.tcl",
+        "share/openlane/scripts/tcl_commands/routing.tcl",
+        "share/openlane/scripts/tcl_commands/sta.tcl",
+        "share/openlane/scripts/tcl_commands/synthesis.tcl",
+        "share/openlane/scripts/topModuleGen/README.md",
+        "share/openlane/scripts/topModuleGen/src/TopModuleGen.py",
+        "share/openlane/scripts/topModuleGen/src/padHelper.py",
+        "share/openlane/scripts/utils/__init__.py",
+        "share/openlane/scripts/utils/deflef_utils.tcl",
+        "share/openlane/scripts/utils/fake_display_buffer.tcl",
+        "share/openlane/scripts/utils/pkgIndex.tcl",
+        "share/openlane/scripts/utils/utils.py",
+        "share/openlane/scripts/utils/utils.tcl",
+        "share/openlane/scripts/write_runtime.py",
+        "share/openlane/scripts/yosys/elaborate.tcl",
+        "share/openlane/scripts/yosys/logic_equiv_check.tcl",
+        "share/openlane/scripts/yosys/rewrite_verilog.tcl",
+        "share/openlane/scripts/yosys/synth.tcl",
+        "share/openlane/tests/.gitignore",
+        "share/openlane/tests/1007/.gitignore",
+        "share/openlane/tests/1007/config.tcl",
+        "share/openlane/tests/1007/hooks/post_run.py",
+        "share/openlane/tests/1007/in.def",
+        "share/openlane/tests/1007/interactive.tcl",
+        "share/openlane/tests/1413/.gitignore",
+        "share/openlane/tests/1413/config.tcl",
+        "share/openlane/tests/1413/hooks/post_run.py",
+        "share/openlane/tests/1413/in.def",
+        "share/openlane/tests/1413/interactive.tcl",
+        "share/openlane/tests/1506/config.json",
+        "share/openlane/tests/1506/hooks/post_run.py",
+        "share/openlane/tests/1506/interactive.tcl",
+        "share/openlane/tests/1506/src/inverter.v",
+        "share/openlane/tests/912/config.tcl",
+        "share/openlane/tests/912/def_test.def",
+        "share/openlane/tests/912/issue_regression.py",
+        "share/openlane/tests/912/src/def_test.v",
+        "share/openlane/tests/Readme.md",
+        "share/openlane/tests/__main__.py"
+    ],
+    "fn": "openlane-2023.04.12_0_g23e367a9-20230412_103222.tar.bz2",
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "link": {
+        "source": "/users/students/r0757781/micromamba/pkgs/openlane-2023.04.12_0_g23e367a9-20230412_103222",
+        "type": 1
+    },
+    "md5": "3e8c9763ee23002374d73f53b14b51f8",
+    "name": "openlane",
+    "noarch": "generic",
+    "package_tarball_full_path": "/users/students/r0757781/micromamba/pkgs/openlane-2023.04.12_0_g23e367a9-20230412_103222.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "bin/flow.tcl",
+                "path_type": "hardlink",
+                "sha256": "626c63e8163c690c0e5af8009277bff492edff5e6a4d0fe57f08b4c68c1004da",
+                "sha256_in_prefix": "626c63e8163c690c0e5af8009277bff492edff5e6a4d0fe57f08b4c68c1004da",
+                "size_in_bytes": 75
+            },
+            {
+                "_path": "share/openlane/.flake8",
+                "path_type": "hardlink",
+                "sha256": "f36a7fc900353a126d76f2f9ae7c80faf0cc9e3e303432543747089d7e12a1e7",
+                "sha256_in_prefix": "f36a7fc900353a126d76f2f9ae7c80faf0cc9e3e303432543747089d7e12a1e7",
+                "size_in_bytes": 182
+            },
+            {
+                "_path": "share/openlane/.gitattributes",
+                "path_type": "hardlink",
+                "sha256": "cc6328088050b280a606475bc892586a13fa6fe0171cd5fd6655b93b11bf853d",
+                "sha256_in_prefix": "cc6328088050b280a606475bc892586a13fa6fe0171cd5fd6655b93b11bf853d",
+                "size_in_bytes": 323
+            },
+            {
+                "_path": "share/openlane/.github/ISSUE_TEMPLATE/bug_report.yml",
+                "path_type": "hardlink",
+                "sha256": "14bb1d7fd3a9b66c628a430c309bff6034e744b513114d96eb8116913e5c734b",
+                "sha256_in_prefix": "14bb1d7fd3a9b66c628a430c309bff6034e744b513114d96eb8116913e5c734b",
+                "size_in_bytes": 2735
+            },
+            {
+                "_path": "share/openlane/.github/ISSUE_TEMPLATE/feature_request.yml",
+                "path_type": "hardlink",
+                "sha256": "07daae84517e084436d8741e5641ce8951785c1f1a200f93bc665f6ad2074927",
+                "sha256_in_prefix": "07daae84517e084436d8741e5641ce8951785c1f1a200f93bc665f6ad2074927",
+                "size_in_bytes": 463
+            },
+            {
+                "_path": "share/openlane/.github/actions/docker_build/action.yml",
+                "path_type": "hardlink",
+                "sha256": "92d607f2f37e298349cae6b2419628c9209ec4c572d4b7820cec3d2ef0c3f94d",
+                "sha256_in_prefix": "92d607f2f37e298349cae6b2419628c9209ec4c572d4b7820cec3d2ef0c3f94d",
+                "size_in_bytes": 2035
+            },
+            {
+                "_path": "share/openlane/.github/actions/set_env_variables/action.yml",
+                "path_type": "hardlink",
+                "sha256": "7ed9d6987f9fa68b6d422a7bcad26e0d2fba4948d2e9026933c7b4d5f7e61e3e",
+                "sha256_in_prefix": "7ed9d6987f9fa68b6d422a7bcad26e0d2fba4948d2e9026933c7b4d5f7e61e3e",
+                "size_in_bytes": 640
+            },
+            {
+                "_path": "share/openlane/.github/legacy_diagrams/cron_job_workflow.png",
+                "path_type": "hardlink",
+                "sha256": "1fe49321a07025b63c8980e5cd6cd6746afb755e3896df4b51d4b307eb68a543",
+                "sha256_in_prefix": "1fe49321a07025b63c8980e5cd6cd6746afb755e3896df4b51d4b307eb68a543",
+                "size_in_bytes": 81503
+            },
+            {
+                "_path": "share/openlane/.github/legacy_diagrams/delete_workflow.png",
+                "path_type": "hardlink",
+                "sha256": "7e35453dbd61efdb544b8490056dea538778b3f72ca7fee50fa4fae82f12aa19",
+                "sha256_in_prefix": "7e35453dbd61efdb544b8490056dea538778b3f72ca7fee50fa4fae82f12aa19",
+                "size_in_bytes": 13347
+            },
+            {
+                "_path": "share/openlane/.github/legacy_diagrams/pull_request_workflow.png",
+                "path_type": "hardlink",
+                "sha256": "07f7856cceaf59342f82f49b0c97db8138dc64a4c41bc91c12d2f6b0c8454bbd",
+                "sha256_in_prefix": "07f7856cceaf59342f82f49b0c97db8138dc64a4c41bc91c12d2f6b0c8454bbd",
+                "size_in_bytes": 43234
+            },
+            {
+                "_path": "share/openlane/.github/legacy_diagrams/push_to_branch_workflow.png",
+                "path_type": "hardlink",
+                "sha256": "5e6122a11594db04b3ed0395b58b259e788c167ac092aa2f7181b6cb1d9ff992",
+                "sha256_in_prefix": "5e6122a11594db04b3ed0395b58b259e788c167ac092aa2f7181b6cb1d9ff992",
+                "size_in_bytes": 21035
+            },
+            {
+                "_path": "share/openlane/.github/legacy_diagrams/push_to_cid_latest_x_branch_workflow.png",
+                "path_type": "hardlink",
+                "sha256": "2ef740cc342a3869efc97f6b47f07b3263d3d42dce3c810d62164fdde3b854c6",
+                "sha256_in_prefix": "2ef740cc342a3869efc97f6b47f07b3263d3d42dce3c810d62164fdde3b854c6",
+                "size_in_bytes": 23897
+            },
+            {
+                "_path": "share/openlane/.github/scripts/determine_test_set.py",
+                "path_type": "hardlink",
+                "sha256": "286784817c41d09755da492e16fb0146ad529f365faa3e124fa8a3ec531576a0",
+                "sha256_in_prefix": "286784817c41d09755da492e16fb0146ad529f365faa3e124fa8a3ec531576a0",
+                "size_in_bytes": 1174
+            },
+            {
+                "_path": "share/openlane/.github/scripts/generate_tag.py",
+                "path_type": "hardlink",
+                "sha256": "dbcee75083371f04c332b7c741c6491afac40696c20e5bb4b4372a1581a49df4",
+                "sha256_in_prefix": "dbcee75083371f04c332b7c741c6491afac40696c20e5bb4b4372a1581a49df4",
+                "size_in_bytes": 1534
+            },
+            {
+                "_path": "share/openlane/.github/scripts/gh.py",
+                "path_type": "hardlink",
+                "sha256": "ab6cd0e7d3fb6fadefa2e22fc8f9719b6bc5a779b2c8105ca75c0aff0f274e1f",
+                "sha256_in_prefix": "ab6cd0e7d3fb6fadefa2e22fc8f9719b6bc5a779b2c8105ca75c0aff0f274e1f",
+                "size_in_bytes": 4716
+            },
+            {
+                "_path": "share/openlane/.github/scripts/run_tests.py",
+                "path_type": "hardlink",
+                "sha256": "5287b65ef49d1756d3b1e35f186b901e8d636ccbaf7dab5fe5cb3847820f3728",
+                "sha256_in_prefix": "5287b65ef49d1756d3b1e35f186b901e8d636ccbaf7dab5fe5cb3847820f3728",
+                "size_in_bytes": 3100
+            },
+            {
+                "_path": "share/openlane/.github/scripts/update_tools.py",
+                "path_type": "hardlink",
+                "sha256": "97675589556b8a7060efea8e55a40b2acb673a631f126e5c1b569a50466a2c57",
+                "sha256_in_prefix": "97675589556b8a7060efea8e55a40b2acb673a631f126e5c1b569a50466a2c57",
+                "size_in_bytes": 2343
+            },
+            {
+                "_path": "share/openlane/.github/test_sets/get_test_matrix.py",
+                "path_type": "hardlink",
+                "sha256": "1debbc21acc79c73a729830ca325457d7acccc500ce587d6e41b911647c4a947",
+                "sha256_in_prefix": "1debbc21acc79c73a729830ca325457d7acccc500ce587d6e41b911647c4a947",
+                "size_in_bytes": 1764
+            },
+            {
+                "_path": "share/openlane/.github/test_sets/test_sets.yml",
+                "path_type": "hardlink",
+                "sha256": "f7ae57dc9e2686e32ee50fd44966ec0eb9466f016f7402bbf81585b797d1054c",
+                "sha256_in_prefix": "f7ae57dc9e2686e32ee50fd44966ec0eb9466f016f7402bbf81585b797d1054c",
+                "size_in_bytes": 695
+            },
+            {
+                "_path": "share/openlane/.github/workflows/Readme.md",
+                "path_type": "hardlink",
+                "sha256": "680c7cc4d816fb4c3553624287bc83d1bf5111d87baaf6c3fd24d815f5333bb1",
+                "sha256_in_prefix": "680c7cc4d816fb4c3553624287bc83d1bf5111d87baaf6c3fd24d815f5333bb1",
+                "size_in_bytes": 128
+            },
+            {
+                "_path": "share/openlane/.github/workflows/lint.yml",
+                "path_type": "hardlink",
+                "sha256": "32413ce2bc6e8ad29f8083391ad45cadff68ffc393c7e056e4e0fb5aeab468c8",
+                "sha256_in_prefix": "32413ce2bc6e8ad29f8083391ad45cadff68ffc393c7e056e4e0fb5aeab468c8",
+                "size_in_bytes": 507
+            },
+            {
+                "_path": "share/openlane/.github/workflows/openlane_ci.yml",
+                "path_type": "hardlink",
+                "sha256": "03093d532fbae37bf82b5022a15b8414870ae65e300fe220558efd588290b355",
+                "sha256_in_prefix": "03093d532fbae37bf82b5022a15b8414870ae65e300fe220558efd588290b355",
+                "size_in_bytes": 11936
+            },
+            {
+                "_path": "share/openlane/.github/workflows/tool_updater.yml",
+                "path_type": "hardlink",
+                "sha256": "83598c24103b42dc2e7eafc130d255f254815dbbfd23b71d6b95e2514b29bb4c",
+                "sha256_in_prefix": "83598c24103b42dc2e7eafc130d255f254815dbbfd23b71d6b95e2514b29bb4c",
+                "size_in_bytes": 2481
+            },
+            {
+                "_path": "share/openlane/.gitignore",
+                "path_type": "hardlink",
+                "sha256": "cc5a70d1579c1f60716a8fa21c4a483e89c47dcd49b3e129b5bf1f76ab1eb853",
+                "sha256_in_prefix": "cc5a70d1579c1f60716a8fa21c4a483e89c47dcd49b3e129b5bf1f76ab1eb853",
+                "size_in_bytes": 398
+            },
+            {
+                "_path": "share/openlane/.readthedocs.yml",
+                "path_type": "hardlink",
+                "sha256": "67041f7bfe63de78c8a70ec46e85c6354fe301a68e8eba738bc253cb3dd82a5f",
+                "sha256_in_prefix": "67041f7bfe63de78c8a70ec46e85c6354fe301a68e8eba738bc253cb3dd82a5f",
+                "size_in_bytes": 371
+            },
+            {
+                "_path": "share/openlane/AUTHORS.md",
+                "path_type": "hardlink",
+                "sha256": "a1e2e96a68dc62e38ea79265ec2cb9b82facbc039b73b23a9f6ea6504f6d20d8",
+                "sha256_in_prefix": "a1e2e96a68dc62e38ea79265ec2cb9b82facbc039b73b23a9f6ea6504f6d20d8",
+                "size_in_bytes": 1117
+            },
+            {
+                "_path": "share/openlane/CONTRIBUTING.md",
+                "path_type": "hardlink",
+                "sha256": "dbc3a5efa2f799b166bfaef43911df257dae8a1d2646ae92f1c625c6ed51772e",
+                "sha256_in_prefix": "dbc3a5efa2f799b166bfaef43911df257dae8a1d2646ae92f1c625c6ed51772e",
+                "size_in_bytes": 3138
+            },
+            {
+                "_path": "share/openlane/Jenkinsfile",
+                "path_type": "hardlink",
+                "sha256": "466d067ad1f5a94970a8df1db203ec15d8a0729a63ce3d83a23bc55e6c479b68",
+                "sha256_in_prefix": "466d067ad1f5a94970a8df1db203ec15d8a0729a63ce3d83a23bc55e6c479b68",
+                "size_in_bytes": 4600
+            },
+            {
+                "_path": "share/openlane/LICENSE",
+                "path_type": "hardlink",
+                "sha256": "4cc5f3e7b970cbccb55658c3a79f5b9628a8458d68d7b81da6d14c60d1f29458",
+                "sha256_in_prefix": "4cc5f3e7b970cbccb55658c3a79f5b9628a8458d68d7b81da6d14c60d1f29458",
+                "size_in_bytes": 11350
+            },
+            {
+                "_path": "share/openlane/Makefile",
+                "path_type": "hardlink",
+                "sha256": "1f4532e66b8dc5895356c13e57a810c5e5e99fc5a71fd8ce03031e001f4b1773",
+                "sha256_in_prefix": "1f4532e66b8dc5895356c13e57a810c5e5e99fc5a71fd8ce03031e001f4b1773",
+                "size_in_bytes": 6395
+            },
+            {
+                "_path": "share/openlane/README.md",
+                "path_type": "hardlink",
+                "sha256": "1106f3aad46f7a52ad52a84a79a8005fb4bf7e5a3eb48e1551ab752512666f8f",
+                "sha256_in_prefix": "1106f3aad46f7a52ad52a84a79a8005fb4bf7e5a3eb48e1551ab752512666f8f",
+                "size_in_bytes": 4068
+            },
+            {
+                "_path": "share/openlane/build_env_setup.sh",
+                "path_type": "hardlink",
+                "sha256": "550b610c5aee2c370a9ff3c61c0bd74a84448ce3d504d8593fb9198397210431",
+                "sha256_in_prefix": "1dcc80f8694e9c40eb57d1f9e6d609abf4ed9198a0043ad9b8bc392a3f6fa286",
+                "size_in_bytes": 5269
+            },
+            {
+                "_path": "share/openlane/conda_build.sh",
+                "path_type": "hardlink",
+                "sha256": "f5370c9cfba595cf8f895f68cfeb6759f6465d56ede58f2b60f9c076e99883fd",
+                "sha256_in_prefix": "f5370c9cfba595cf8f895f68cfeb6759f6465d56ede58f2b60f9c076e99883fd",
+                "size_in_bytes": 1799
+            },
+            {
+                "_path": "share/openlane/configuration/checkers.tcl",
+                "path_type": "hardlink",
+                "sha256": "616690cc4d472819490e39b3b49b287bcf8941a0d8d520aa3f5a26b83708d425",
+                "sha256_in_prefix": "616690cc4d472819490e39b3b49b287bcf8941a0d8d520aa3f5a26b83708d425",
+                "size_in_bytes": 1101
+            },
+            {
+                "_path": "share/openlane/configuration/cts.tcl",
+                "path_type": "hardlink",
+                "sha256": "0466b0d93454a59bc8beadb9e3b4bfa258b555e119b1e04ad49ab862cec22d72",
+                "sha256_in_prefix": "0466b0d93454a59bc8beadb9e3b4bfa258b555e119b1e04ad49ab862cec22d72",
+                "size_in_bytes": 928
+            },
+            {
+                "_path": "share/openlane/configuration/disable-missing-tools.tcl",
+                "path_type": "hardlink",
+                "sha256": "8f72a1ad81c9eeb9d566f76f435fa6044e70f27c1833fa2f1db35420363faeb4",
+                "sha256_in_prefix": "8f72a1ad81c9eeb9d566f76f435fa6044e70f27c1833fa2f1db35420363faeb4",
+                "size_in_bytes": 643
+            },
+            {
+                "_path": "share/openlane/configuration/extraction.tcl",
+                "path_type": "hardlink",
+                "sha256": "9dad4b8fe988f89ac44424534be91080ba252dd200da3af85f507601c99d16b9",
+                "sha256_in_prefix": "9dad4b8fe988f89ac44424534be91080ba252dd200da3af85f507601c99d16b9",
+                "size_in_bytes": 846
+            },
+            {
+                "_path": "share/openlane/configuration/floorplan.tcl",
+                "path_type": "hardlink",
+                "sha256": "3e517692b046eb29c665dc5de1adf7e7e1d34474ff7c27322bf15489175bb1a9",
+                "sha256_in_prefix": "3e517692b046eb29c665dc5de1adf7e7e1d34474ff7c27322bf15489175bb1a9",
+                "size_in_bytes": 1848
+            },
+            {
+                "_path": "share/openlane/configuration/general.tcl",
+                "path_type": "hardlink",
+                "sha256": "08e704c1beb8d9e0e924ae86fdc76adfd47f678f69a542a70cbc6c187362a9b3",
+                "sha256_in_prefix": "08e704c1beb8d9e0e924ae86fdc76adfd47f678f69a542a70cbc6c187362a9b3",
+                "size_in_bytes": 2248
+            },
+            {
+                "_path": "share/openlane/configuration/load_order.txt",
+                "path_type": "hardlink",
+                "sha256": "0e1a60f177db217a1b426592ed88d3fa19b936d4ae9ff14a97c01666cdbe0e69",
+                "sha256_in_prefix": "0e1a60f177db217a1b426592ed88d3fa19b936d4ae9ff14a97c01666cdbe0e69",
+                "size_in_bytes": 127
+            },
+            {
+                "_path": "share/openlane/configuration/placement.tcl",
+                "path_type": "hardlink",
+                "sha256": "6f1c17e398b646b597a8eb84f009ee641fa3868243c140523ce5e95be09c2ef8",
+                "sha256_in_prefix": "6f1c17e398b646b597a8eb84f009ee641fa3868243c140523ce5e95be09c2ef8",
+                "size_in_bytes": 1672
+            },
+            {
+                "_path": "share/openlane/configuration/routing.tcl",
+                "path_type": "hardlink",
+                "sha256": "c6f83e0816e32500175acbc3c6b4d0dc680d8363bb836e70cefd287a54e8c448",
+                "sha256_in_prefix": "c6f83e0816e32500175acbc3c6b4d0dc680d8363bb836e70cefd287a54e8c448",
+                "size_in_bytes": 2110
+            },
+            {
+                "_path": "share/openlane/configuration/synthesis.tcl",
+                "path_type": "hardlink",
+                "sha256": "26191759d18f7c99b0710d40583fa5cef73d852519f23a3c13aea90404353ea0",
+                "sha256_in_prefix": "26191759d18f7c99b0710d40583fa5cef73d852519f23a3c13aea90404353ea0",
+                "size_in_bytes": 1273
+            },
+            {
+                "_path": "share/openlane/dependencies/arch/run_time.txt",
+                "path_type": "hardlink",
+                "sha256": "a474e230b282ea397efd844e0b1f27e9ef8923126f4ad55a2fefc13db85b287f",
+                "sha256_in_prefix": "a474e230b282ea397efd844e0b1f27e9ef8923126f4ad55a2fefc13db85b287f",
+                "size_in_bytes": 288
+            },
+            {
+                "_path": "share/openlane/dependencies/centos-7/compile_time.txt",
+                "path_type": "hardlink",
+                "sha256": "d0b81620269ce3db999a4a3981a2812f1db5a6aa3f58eb7dce6a201c1fb62852",
+                "sha256_in_prefix": "d0b81620269ce3db999a4a3981a2812f1db5a6aa3f58eb7dce6a201c1fb62852",
+                "size_in_bytes": 726
+            },
+            {
+                "_path": "share/openlane/dependencies/centos-7/precompile_time.txt",
+                "path_type": "hardlink",
+                "sha256": "7eb50ba41424ebc92ddab6d76732f257ade183229b078fa3fb4e084f949b885e",
+                "sha256_in_prefix": "7eb50ba41424ebc92ddab6d76732f257ade183229b078fa3fb4e084f949b885e",
+                "size_in_bytes": 89
+            },
+            {
+                "_path": "share/openlane/dependencies/centos-7/run_time.txt",
+                "path_type": "hardlink",
+                "sha256": "30e950757f77efd347beefe5bb72a6758588e02738164f601403c5dae37cf64f",
+                "sha256_in_prefix": "30e950757f77efd347beefe5bb72a6758588e02738164f601403c5dae37cf64f",
+                "size_in_bytes": 571
+            },
+            {
+                "_path": "share/openlane/dependencies/env_info.py",
+                "path_type": "hardlink",
+                "sha256": "4484e59140b8e0076b90172d6585821710b88500eb6ddb68bc0bb5f624568819",
+                "sha256_in_prefix": "4484e59140b8e0076b90172d6585821710b88500eb6ddb68bc0bb5f624568819",
+                "size_in_bytes": 5574
+            },
+            {
+                "_path": "share/openlane/dependencies/get_tag.py",
+                "path_type": "hardlink",
+                "sha256": "d2f85f02e0957e8d00ee0835ed0d86597a057e8851425ca4822eb08bd8b495b9",
+                "sha256_in_prefix": "d2f85f02e0957e8d00ee0835ed0d86597a057e8851425ca4822eb08bd8b495b9",
+                "size_in_bytes": 2692
+            },
+            {
+                "_path": "share/openlane/dependencies/hash_for.py",
+                "path_type": "hardlink",
+                "sha256": "db1ccdd55273a0b1e93a7c12400ee96719fc99413ead77200aa2f8a7e3eaa69f",
+                "sha256_in_prefix": "db1ccdd55273a0b1e93a7c12400ee96719fc99413ead77200aa2f8a7e3eaa69f",
+                "size_in_bytes": 1423
+            },
+            {
+                "_path": "share/openlane/dependencies/image_name.mk",
+                "path_type": "hardlink",
+                "sha256": "ee6d369f17be76476230cb83afd3e53f55b749159e069845ec65fd03f0aebad5",
+                "sha256_in_prefix": "ee6d369f17be76476230cb83afd3e53f55b749159e069845ec65fd03f0aebad5",
+                "size_in_bytes": 282
+            },
+            {
+                "_path": "share/openlane/dependencies/includedyaml/LICENSE",
+                "path_type": "hardlink",
+                "sha256": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4",
+                "sha256_in_prefix": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4",
+                "size_in_bytes": 1101
+            },
+            {
+                "_path": "share/openlane/dependencies/includedyaml/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "cbe29188d76ff6e20ea6c31b6181bcd299435bbe03ef7d3ec7c4d77bff7e9526",
+                "sha256_in_prefix": "cbe29188d76ff6e20ea6c31b6181bcd299435bbe03ef7d3ec7c4d77bff7e9526",
+                "size_in_bytes": 12567
+            },
+            {
+                "_path": "share/openlane/dependencies/includedyaml/composer.py",
+                "path_type": "hardlink",
+                "sha256": "288d404a74585bb8d6cdae01c621ec8c376957f01847ac06283fdddeae72d466",
+                "sha256_in_prefix": "288d404a74585bb8d6cdae01c621ec8c376957f01847ac06283fdddeae72d466",
+                "size_in_bytes": 4975
+            },
+            {
+                "_path": "share/openlane/dependencies/includedyaml/constructor.py",
+                "path_type": "hardlink",
+                "sha256": "6bf407730805f09de2bace7821c8518b9d154ae5feb4d65f2fcdc9b1103dabdc",
+                "sha256_in_prefix": "6bf407730805f09de2bace7821c8518b9d154ae5feb4d65f2fcdc9b1103dabdc",
+                "size_in_bytes": 30058
+            },
+            {
+                "_path": "share/openlane/dependencies/includedyaml/cyaml.py",
+                "path_type": "hardlink",
+                "sha256": "268a92ce52d184aacc3e885dbd67723a901edf44d83efd55ffbeace732cabd68",
+                "sha256_in_prefix": "268a92ce52d184aacc3e885dbd67723a901edf44d83efd55ffbeace732cabd68",
+                "size_in_bytes": 4477
+            },
+            {
+                "_path": "share/openlane/dependencies/includedyaml/dumper.py",
+                "path_type": "hardlink",
+                "sha256": "9dc9ff0e50662affda4ed92ff6d05a80afbc49013d1132c87704d830ed3fe560",
+                "sha256_in_prefix": "9dc9ff0e50662affda4ed92ff6d05a80afbc49013d1132c87704d830ed3fe560",
+                "size_in_bytes": 3507
+            },
+            {
+                "_path": "share/openlane/dependencies/includedyaml/emitter.py",
+                "path_type": "hardlink",
+                "sha256": "f63715d9029db075803c9aeab163040422c2539e83db9a8b0b55e2405714e3c0",
+                "sha256_in_prefix": "f63715d9029db075803c9aeab163040422c2539e83db9a8b0b55e2405714e3c0",
+                "size_in_bytes": 44167
+            },
+            {
+                "_path": "share/openlane/dependencies/includedyaml/error.py",
+                "path_type": "hardlink",
+                "sha256": "d489995c071f51b9ee55f9076127876a40e88e0c008c5b38a4550a7ca3452eec",
+                "sha256_in_prefix": "d489995c071f51b9ee55f9076127876a40e88e0c008c5b38a4550a7ca3452eec",
+                "size_in_bytes": 2726
+            },
+            {
+                "_path": "share/openlane/dependencies/includedyaml/events.py",
+                "path_type": "hardlink",
+                "sha256": "5651c35055eedb3014e9314441404322af20537b3fd50ebbbe9365618eb8e69e",
+                "sha256_in_prefix": "5651c35055eedb3014e9314441404322af20537b3fd50ebbbe9365618eb8e69e",
+                "size_in_bytes": 2465
+            },
+            {
+                "_path": "share/openlane/dependencies/includedyaml/loader.py",
+                "path_type": "hardlink",
+                "sha256": "8d7d98202e07c09b251360ca5702e2c769def2a849c85273c23273ec2cd53ce9",
+                "sha256_in_prefix": "8d7d98202e07c09b251360ca5702e2c769def2a849c85273c23273ec2cd53ce9",
+                "size_in_bytes": 2060
+            },
+            {
+                "_path": "share/openlane/dependencies/includedyaml/nodes.py",
+                "path_type": "hardlink",
+                "sha256": "2b440121a9fe348f11ab188fca8e9f2da47e1924e9985ffd797b49dee7faac4a",
+                "sha256_in_prefix": "2b440121a9fe348f11ab188fca8e9f2da47e1924e9985ffd797b49dee7faac4a",
+                "size_in_bytes": 1422
+            },
+            {
+                "_path": "share/openlane/dependencies/includedyaml/parser.py",
+                "path_type": "hardlink",
+                "sha256": "0616f1194d008de6c9648545a4120fa0fe5800660e31583b56399df9a14fe6db",
+                "sha256_in_prefix": "0616f1194d008de6c9648545a4120fa0fe5800660e31583b56399df9a14fe6db",
+                "size_in_bytes": 26214
+            },
+            {
+                "_path": "share/openlane/dependencies/includedyaml/reader.py",
+                "path_type": "hardlink",
+                "sha256": "951f327f0e8531ab0f078d6a16bb0150e56d0125625e729df3db6f24740db157",
+                "sha256_in_prefix": "951f327f0e8531ab0f078d6a16bb0150e56d0125625e729df3db6f24740db157",
+                "size_in_bytes": 7109
+            },
+            {
+                "_path": "share/openlane/dependencies/includedyaml/representer.py",
+                "path_type": "hardlink",
+                "sha256": "14aff2a088ffd7b19d83354ff3fc850686d5e7a3caa84919e401ad05d2a35837",
+                "sha256_in_prefix": "14aff2a088ffd7b19d83354ff3fc850686d5e7a3caa84919e401ad05d2a35837",
+                "size_in_bytes": 14088
+            },
+            {
+                "_path": "share/openlane/dependencies/includedyaml/resolver.py",
+                "path_type": "hardlink",
+                "sha256": "74f854d5dec6d4908c92d3c5bcd872ab08f6a0dbf1d727ff25f6b7e42c9d4170",
+                "sha256_in_prefix": "74f854d5dec6d4908c92d3c5bcd872ab08f6a0dbf1d727ff25f6b7e42c9d4170",
+                "size_in_bytes": 8992
+            },
+            {
+                "_path": "share/openlane/dependencies/includedyaml/scanner.py",
+                "path_type": "hardlink",
+                "sha256": "65c23c227811e7a3da4349b6ed6536bf10aa9830ae463cfe86bee98ab6cc3eec",
+                "sha256_in_prefix": "65c23c227811e7a3da4349b6ed6536bf10aa9830ae463cfe86bee98ab6cc3eec",
+                "size_in_bytes": 52982
+            },
+            {
+                "_path": "share/openlane/dependencies/includedyaml/serializer.py",
+                "path_type": "hardlink",
+                "sha256": "f30159472f52b104a4b45fdff4e3aba2ba2ab21e2a5547b9debcb4ecff548027",
+                "sha256_in_prefix": "f30159472f52b104a4b45fdff4e3aba2ba2ab21e2a5547b9debcb4ecff548027",
+                "size_in_bytes": 4368
+            },
+            {
+                "_path": "share/openlane/dependencies/includedyaml/tokens.py",
+                "path_type": "hardlink",
+                "sha256": "2414aedfcc22846af897bdc9c1b7cc03b2acd7e5fce20f3e36c913cfb2b03e60",
+                "sha256_in_prefix": "2414aedfcc22846af897bdc9c1b7cc03b2acd7e5fce20f3e36c913cfb2b03e60",
+                "size_in_bytes": 2578
+            },
+            {
+                "_path": "share/openlane/dependencies/installer.py",
+                "path_type": "hardlink",
+                "sha256": "4268d4952528e3d1ba72e3a8736627d61129a7a207f15ea44d713f56414d5d26",
+                "sha256_in_prefix": "4268d4952528e3d1ba72e3a8736627d61129a7a207f15ea44d713f56414d5d26",
+                "size_in_bytes": 19042
+            },
+            {
+                "_path": "share/openlane/dependencies/macos/run_time.txt",
+                "path_type": "hardlink",
+                "sha256": "9796ff87ff754bb4f60198df433b21e77da2661f21d48fb02b48609711139fdb",
+                "sha256_in_prefix": "9796ff87ff754bb4f60198df433b21e77da2661f21d48fb02b48609711139fdb",
+                "size_in_bytes": 272
+            },
+            {
+                "_path": "share/openlane/dependencies/python/compile_time.txt",
+                "path_type": "hardlink",
+                "sha256": "9bd117851d7528715510abf70c2bfee00d07831d204d4a3d341bfbe3f783f838",
+                "sha256_in_prefix": "9bd117851d7528715510abf70c2bfee00d07831d204d4a3d341bfbe3f783f838",
+                "size_in_bytes": 17
+            },
+            {
+                "_path": "share/openlane/dependencies/python/precompile_time.txt",
+                "path_type": "hardlink",
+                "sha256": "a1e5d2446bb0619932ba7bb64e3cbfe200e8d478b3babe356e7a19b954aa3685",
+                "sha256_in_prefix": "a1e5d2446bb0619932ba7bb64e3cbfe200e8d478b3babe356e7a19b954aa3685",
+                "size_in_bytes": 9
+            },
+            {
+                "_path": "share/openlane/dependencies/python/run_time.txt",
+                "path_type": "hardlink",
+                "sha256": "d725e303abd300178d5f84227787d24956e147af76efe4b7998c165429847f74",
+                "sha256_in_prefix": "d725e303abd300178d5f84227787d24956e147af76efe4b7998c165429847f74",
+                "size_in_bytes": 62
+            },
+            {
+                "_path": "share/openlane/dependencies/tool.py",
+                "path_type": "hardlink",
+                "sha256": "7816f1cd53a4a1922de59ca6f549b728b6a1a85279e290e7a445bfb2616c08e5",
+                "sha256_in_prefix": "7816f1cd53a4a1922de59ca6f549b728b6a1a85279e290e7a445bfb2616c08e5",
+                "size_in_bytes": 4673
+            },
+            {
+                "_path": "share/openlane/dependencies/tool_metadata.yml",
+                "path_type": "hardlink",
+                "sha256": "f91d74dfb69cbde46c31e7ab11a53cc572b0852f89b85bc1f650f466797b0f4a",
+                "sha256_in_prefix": "f91d74dfb69cbde46c31e7ab11a53cc572b0852f89b85bc1f650f466797b0f4a",
+                "size_in_bytes": 2040
+            },
+            {
+                "_path": "share/openlane/dependencies/ubuntu-20.04/run_time.txt",
+                "path_type": "hardlink",
+                "sha256": "acf85c814a5281693c056fb5e722c11e76f55a23c9b6a1ce2887cf67d5edc144",
+                "sha256_in_prefix": "acf85c814a5281693c056fb5e722c11e76f55a23c9b6a1ce2887cf67d5edc144",
+                "size_in_bytes": 414
+            },
+            {
+                "_path": "share/openlane/dependencies/update_pyyaml.sh",
+                "path_type": "hardlink",
+                "sha256": "228739bd6411786ec697a0694f7382a32090dca1f1ea896a2361421b68eafc1b",
+                "sha256_in_prefix": "228739bd6411786ec697a0694f7382a32090dca1f1ea896a2361421b68eafc1b",
+                "size_in_bytes": 1267
+            },
+            {
+                "_path": "share/openlane/dependencies/verify_versions.py",
+                "path_type": "hardlink",
+                "sha256": "cb74b808ed3566d1f5139b993f1724978f059b4a3ff17637b381062413b5da71",
+                "sha256_in_prefix": "cb74b808ed3566d1f5139b993f1724978f059b4a3ff17637b381062413b5da71",
+                "size_in_bytes": 9869
+            },
+            {
+                "_path": "share/openlane/dependencies/version.py",
+                "path_type": "hardlink",
+                "sha256": "b7d43d0837f0c96a971496864e153f40a6a6e54722ebac8e482cd6e2fc848eae",
+                "sha256_in_prefix": "b7d43d0837f0c96a971496864e153f40a6a6e54722ebac8e482cd6e2fc848eae",
+                "size_in_bytes": 19410
+            },
+            {
+                "_path": "share/openlane/designs/.gitignore",
+                "path_type": "hardlink",
+                "sha256": "78d58fd0f5f6c41a1b50e2d530d7badd4e0d13cd3ac7acb37b1b5ee90931659b",
+                "sha256_in_prefix": "78d58fd0f5f6c41a1b50e2d530d7badd4e0d13cd3ac7acb37b1b5ee90931659b",
+                "size_in_bytes": 160
+            },
+            {
+                "_path": "share/openlane/designs/APU/config.json",
+                "path_type": "hardlink",
+                "sha256": "900b400674dd795c6557b87109488343e9b0408342975edc6a7dc039d17b8b01",
+                "sha256_in_prefix": "900b400674dd795c6557b87109488343e9b0408342975edc6a7dc039d17b8b01",
+                "size_in_bytes": 506
+            },
+            {
+                "_path": "share/openlane/designs/APU/src/APU.v",
+                "path_type": "hardlink",
+                "sha256": "9ce48bb719b6dec9c77b19e9a236f377d5d0fe9469eadb0243b1963879000fde",
+                "sha256_in_prefix": "9ce48bb719b6dec9c77b19e9a236f377d5d0fe9469eadb0243b1963879000fde",
+                "size_in_bytes": 25828
+            },
+            {
+                "_path": "share/openlane/designs/BM64/config.json",
+                "path_type": "hardlink",
+                "sha256": "c7aad60a1ed38c03e47df124df9e6763e93e89246bf565dc178d5f89e9a40422",
+                "sha256_in_prefix": "c7aad60a1ed38c03e47df124df9e6763e93e89246bf565dc178d5f89e9a40422",
+                "size_in_bytes": 292
+            },
+            {
+                "_path": "share/openlane/designs/BM64/src/BM64.v",
+                "path_type": "hardlink",
+                "sha256": "125db21d15d2949cb8d47dfd15289f1c0895f2dde54089f6a032ac7f7fdee666",
+                "sha256_in_prefix": "125db21d15d2949cb8d47dfd15289f1c0895f2dde54089f6a032ac7f7fdee666",
+                "size_in_bytes": 27558
+            },
+            {
+                "_path": "share/openlane/designs/PPU/config.json",
+                "path_type": "hardlink",
+                "sha256": "f9de6442d8cb8cb8318924ac3ae421d0aece2b4e30a40f14fc7adc049cfe5d6a",
+                "sha256_in_prefix": "f9de6442d8cb8cb8318924ac3ae421d0aece2b4e30a40f14fc7adc049cfe5d6a",
+                "size_in_bytes": 374
+            },
+            {
+                "_path": "share/openlane/designs/PPU/src/PPU.v",
+                "path_type": "hardlink",
+                "sha256": "0c43cc5ca0f0236bd6d12845cd2351e308bf6f42bed35c451c5077611062a784",
+                "sha256_in_prefix": "0c43cc5ca0f0236bd6d12845cd2351e308bf6f42bed35c451c5077611062a784",
+                "size_in_bytes": 32341
+            },
+            {
+                "_path": "share/openlane/designs/aes/config.json",
+                "path_type": "hardlink",
+                "sha256": "708848c69384685a742e776873255d3e8cd21148dc085fa2ceed374c67c5a617",
+                "sha256_in_prefix": "708848c69384685a742e776873255d3e8cd21148dc085fa2ceed374c67c5a617",
+                "size_in_bytes": 978
+            },
+            {
+                "_path": "share/openlane/designs/aes/src/aes.v",
+                "path_type": "hardlink",
+                "sha256": "c4f8b8b5cb5a828c1199b4f5e961b4df601c797d8ae3f6eef564ca98b861908e",
+                "sha256_in_prefix": "c4f8b8b5cb5a828c1199b4f5e961b4df601c797d8ae3f6eef564ca98b861908e",
+                "size_in_bytes": 83434
+            },
+            {
+                "_path": "share/openlane/designs/aes_core/config.json",
+                "path_type": "hardlink",
+                "sha256": "533bea05d9304b5c49af3f9279d27824e91401fef14fc5a60730bf5b8eae5b2f",
+                "sha256_in_prefix": "533bea05d9304b5c49af3f9279d27824e91401fef14fc5a60730bf5b8eae5b2f",
+                "size_in_bytes": 533
+            },
+            {
+                "_path": "share/openlane/designs/aes_core/src/aes.v",
+                "path_type": "hardlink",
+                "sha256": "c4f8b8b5cb5a828c1199b4f5e961b4df601c797d8ae3f6eef564ca98b861908e",
+                "sha256_in_prefix": "c4f8b8b5cb5a828c1199b4f5e961b4df601c797d8ae3f6eef564ca98b861908e",
+                "size_in_bytes": 83434
+            },
+            {
+                "_path": "share/openlane/designs/aes_core/src/aes_core.v",
+                "path_type": "hardlink",
+                "sha256": "c4f8b8b5cb5a828c1199b4f5e961b4df601c797d8ae3f6eef564ca98b861908e",
+                "sha256_in_prefix": "c4f8b8b5cb5a828c1199b4f5e961b4df601c797d8ae3f6eef564ca98b861908e",
+                "size_in_bytes": 83434
+            },
+            {
+                "_path": "share/openlane/designs/blabla/config.json",
+                "path_type": "hardlink",
+                "sha256": "adde5fb25a518ab29530ce17df4371b1de9a426beb68ef9f2462e3fbc92e7ea4",
+                "sha256_in_prefix": "adde5fb25a518ab29530ce17df4371b1de9a426beb68ef9f2462e3fbc92e7ea4",
+                "size_in_bytes": 344
+            },
+            {
+                "_path": "share/openlane/designs/blabla/src/blabla.v",
+                "path_type": "hardlink",
+                "sha256": "6820fa53123132a1253b1bb42c9585f13a856263ef36581f4cb93dee9ee76cd9",
+                "sha256_in_prefix": "6820fa53123132a1253b1bb42c9585f13a856263ef36581f4cb93dee9ee76cd9",
+                "size_in_bytes": 23078
+            },
+            {
+                "_path": "share/openlane/designs/caravel_upw/config.tcl",
+                "path_type": "hardlink",
+                "sha256": "93976db02205826b94ca61dabe4e232b7ccc33e9e434c6f623c75830b37a37ee",
+                "sha256_in_prefix": "93976db02205826b94ca61dabe4e232b7ccc33e9e434c6f623c75830b37a37ee",
+                "size_in_bytes": 4051
+            },
+            {
+                "_path": "share/openlane/designs/caravel_upw/macro.cfg",
+                "path_type": "hardlink",
+                "sha256": "94155f640c6d9b62561b83af6a9acf772adeca9ef80d8d9bbd0696af90a5ca78",
+                "sha256_in_prefix": "94155f640c6d9b62561b83af6a9acf772adeca9ef80d8d9bbd0696af90a5ca78",
+                "size_in_bytes": 36
+            },
+            {
+                "_path": "share/openlane/designs/caravel_upw/macros/user_proj_example.gds",
+                "path_type": "hardlink",
+                "sha256": "0965cfe3c5e6bcfdc991b3dc6d3c6e3ffc6196a025de053de0d24f6257424008",
+                "sha256_in_prefix": "0965cfe3c5e6bcfdc991b3dc6d3c6e3ffc6196a025de053de0d24f6257424008",
+                "size_in_bytes": 8095958
+            },
+            {
+                "_path": "share/openlane/designs/caravel_upw/macros/user_proj_example.lef",
+                "path_type": "hardlink",
+                "sha256": "00e3c72d6949d60db543ce0ea289b4b6d25b26ff58a925b8bf65abbf3157ccd6",
+                "sha256_in_prefix": "00e3c72d6949d60db543ce0ea289b4b6d25b26ff58a925b8bf65abbf3157ccd6",
+                "size_in_bytes": 125250
+            },
+            {
+                "_path": "share/openlane/designs/caravel_upw/macros/user_proj_example2.gds",
+                "path_type": "hardlink",
+                "sha256": "0195417993c210ad251ba605e1bd61a91f05458370870ee7daacb42bb0d506a6",
+                "sha256_in_prefix": "0195417993c210ad251ba605e1bd61a91f05458370870ee7daacb42bb0d506a6",
+                "size_in_bytes": 7940144
+            },
+            {
+                "_path": "share/openlane/designs/caravel_upw/macros/user_proj_example2.lef",
+                "path_type": "hardlink",
+                "sha256": "9d64f5a547a8efac723816fdf0d26106ff4703cbebda2bb54b7fa489cc687f63",
+                "sha256_in_prefix": "9d64f5a547a8efac723816fdf0d26106ff4703cbebda2bb54b7fa489cc687f63",
+                "size_in_bytes": 125253
+            },
+            {
+                "_path": "share/openlane/designs/caravel_upw/pin_order.cfg",
+                "path_type": "hardlink",
+                "sha256": "8c3b6d8c1b35ce9220df815290847d252a8b343f81f5a69389117a7ea9db2fbd",
+                "sha256_in_prefix": "8c3b6d8c1b35ce9220df815290847d252a8b343f81f5a69389117a7ea9db2fbd",
+                "size_in_bytes": 1937
+            },
+            {
+                "_path": "share/openlane/designs/caravel_upw/src/defines.v",
+                "path_type": "hardlink",
+                "sha256": "4d47eec264458940a363a31d5892c6af42d68aeca83e91f551e05b69c0ea1432",
+                "sha256_in_prefix": "4d47eec264458940a363a31d5892c6af42d68aeca83e91f551e05b69c0ea1432",
+                "size_in_bytes": 2236
+            },
+            {
+                "_path": "share/openlane/designs/caravel_upw/src/user_proj_example.v",
+                "path_type": "hardlink",
+                "sha256": "16ef321e40b968eb2c2a9c71e21a1cab18e8175d64ceaf4431f5049045cb51a1",
+                "sha256_in_prefix": "16ef321e40b968eb2c2a9c71e21a1cab18e8175d64ceaf4431f5049045cb51a1",
+                "size_in_bytes": 4556
+            },
+            {
+                "_path": "share/openlane/designs/caravel_upw/src/user_proj_example2.v",
+                "path_type": "hardlink",
+                "sha256": "d625b1f98c1287c4ba112a10c3cc5167f908057a19fa777ae42291d5717d0bba",
+                "sha256_in_prefix": "d625b1f98c1287c4ba112a10c3cc5167f908057a19fa777ae42291d5717d0bba",
+                "size_in_bytes": 4557
+            },
+            {
+                "_path": "share/openlane/designs/caravel_upw/src/user_project_wrapper.v",
+                "path_type": "hardlink",
+                "sha256": "874e8b842ede9b9f9cfb2a1eb11dbfc9a766e81b4dffeef4452540c832a22890",
+                "sha256_in_prefix": "874e8b842ede9b9f9cfb2a1eb11dbfc9a766e81b4dffeef4452540c832a22890",
+                "size_in_bytes": 3617
+            },
+            {
+                "_path": "share/openlane/designs/gcd/config.json",
+                "path_type": "hardlink",
+                "sha256": "32a3f3dd25c16e2c3461a97240ddb9791736a85b5e791e57568bf6995569ba37",
+                "sha256_in_prefix": "32a3f3dd25c16e2c3461a97240ddb9791736a85b5e791e57568bf6995569ba37",
+                "size_in_bytes": 1703
+            },
+            {
+                "_path": "share/openlane/designs/gcd/gcd.v",
+                "path_type": "hardlink",
+                "sha256": "5009f224876d39e5e77e59ee1528cb0d2a03697251f0971b77cf3e8b0426dd3e",
+                "sha256_in_prefix": "5009f224876d39e5e77e59ee1528cb0d2a03697251f0971b77cf3e8b0426dd3e",
+                "size_in_bytes": 18788
+            },
+            {
+                "_path": "share/openlane/designs/inverter/config.json",
+                "path_type": "hardlink",
+                "sha256": "c09500218f240a811b4116b01da277d2004fc701523c6280fed0715c5ffa2fcf",
+                "sha256_in_prefix": "c09500218f240a811b4116b01da277d2004fc701523c6280fed0715c5ffa2fcf",
+                "size_in_bytes": 424
+            },
+            {
+                "_path": "share/openlane/designs/inverter/src/inverter.v",
+                "path_type": "hardlink",
+                "sha256": "67c88d7f7cb6ef1697d691f2d9dc32bf35fd3aee4a4071c187c5d58fb0a121cd",
+                "sha256_in_prefix": "67c88d7f7cb6ef1697d691f2d9dc32bf35fd3aee4a4071c187c5d58fb0a121cd",
+                "size_in_bytes": 699
+            },
+            {
+                "_path": "share/openlane/designs/io_placer/config.json",
+                "path_type": "hardlink",
+                "sha256": "07336439e0b39035f890db5103be3da7fef3250e62a5cf56fe28c86f705d59cc",
+                "sha256_in_prefix": "07336439e0b39035f890db5103be3da7fef3250e62a5cf56fe28c86f705d59cc",
+                "size_in_bytes": 2109
+            },
+            {
+                "_path": "share/openlane/designs/io_placer/macro.cfg",
+                "path_type": "hardlink",
+                "sha256": "94155f640c6d9b62561b83af6a9acf772adeca9ef80d8d9bbd0696af90a5ca78",
+                "sha256_in_prefix": "94155f640c6d9b62561b83af6a9acf772adeca9ef80d8d9bbd0696af90a5ca78",
+                "size_in_bytes": 36
+            },
+            {
+                "_path": "share/openlane/designs/io_placer/macros/user_proj_example.gds",
+                "path_type": "hardlink",
+                "sha256": "0965cfe3c5e6bcfdc991b3dc6d3c6e3ffc6196a025de053de0d24f6257424008",
+                "sha256_in_prefix": "0965cfe3c5e6bcfdc991b3dc6d3c6e3ffc6196a025de053de0d24f6257424008",
+                "size_in_bytes": 8095958
+            },
+            {
+                "_path": "share/openlane/designs/io_placer/macros/user_proj_example.lef",
+                "path_type": "hardlink",
+                "sha256": "00e3c72d6949d60db543ce0ea289b4b6d25b26ff58a925b8bf65abbf3157ccd6",
+                "sha256_in_prefix": "00e3c72d6949d60db543ce0ea289b4b6d25b26ff58a925b8bf65abbf3157ccd6",
+                "size_in_bytes": 125250
+            },
+            {
+                "_path": "share/openlane/designs/io_placer/macros/user_proj_example2.gds",
+                "path_type": "hardlink",
+                "sha256": "0965cfe3c5e6bcfdc991b3dc6d3c6e3ffc6196a025de053de0d24f6257424008",
+                "sha256_in_prefix": "0965cfe3c5e6bcfdc991b3dc6d3c6e3ffc6196a025de053de0d24f6257424008",
+                "size_in_bytes": 8095958
+            },
+            {
+                "_path": "share/openlane/designs/io_placer/macros/user_proj_example2.lef",
+                "path_type": "hardlink",
+                "sha256": "9d64f5a547a8efac723816fdf0d26106ff4703cbebda2bb54b7fa489cc687f63",
+                "sha256_in_prefix": "9d64f5a547a8efac723816fdf0d26106ff4703cbebda2bb54b7fa489cc687f63",
+                "size_in_bytes": 125253
+            },
+            {
+                "_path": "share/openlane/designs/io_placer/pin_order.cfg",
+                "path_type": "hardlink",
+                "sha256": "b75a04cb4a0cc11115f02cd2c2eeed23989af23378cafb7033818aeb9d641df3",
+                "sha256_in_prefix": "b75a04cb4a0cc11115f02cd2c2eeed23989af23378cafb7033818aeb9d641df3",
+                "size_in_bytes": 1958
+            },
+            {
+                "_path": "share/openlane/designs/io_placer/src/defines.v",
+                "path_type": "hardlink",
+                "sha256": "4d47eec264458940a363a31d5892c6af42d68aeca83e91f551e05b69c0ea1432",
+                "sha256_in_prefix": "4d47eec264458940a363a31d5892c6af42d68aeca83e91f551e05b69c0ea1432",
+                "size_in_bytes": 2236
+            },
+            {
+                "_path": "share/openlane/designs/io_placer/src/user_proj_example.v",
+                "path_type": "hardlink",
+                "sha256": "5b7a059dd239b8eede5f296daab703b0d789ae8f1656b4a249cc70da51426147",
+                "sha256_in_prefix": "5b7a059dd239b8eede5f296daab703b0d789ae8f1656b4a249cc70da51426147",
+                "size_in_bytes": 4539
+            },
+            {
+                "_path": "share/openlane/designs/io_placer/src/user_proj_example2.v",
+                "path_type": "hardlink",
+                "sha256": "01df341c3f206f08e8a980d125bf97c77182e67d7319925bd53df843c97fa273",
+                "sha256_in_prefix": "01df341c3f206f08e8a980d125bf97c77182e67d7319925bd53df843c97fa273",
+                "size_in_bytes": 4540
+            },
+            {
+                "_path": "share/openlane/designs/io_placer/src/user_project_wrapper.v",
+                "path_type": "hardlink",
+                "sha256": "72264f8f3f404dc9f99c7b37b7708c07d70e4fa8a3a7d2d06736b49bd58186ee",
+                "sha256_in_prefix": "72264f8f3f404dc9f99c7b37b7708c07d70e4fa8a3a7d2d06736b49bd58186ee",
+                "size_in_bytes": 4030
+            },
+            {
+                "_path": "share/openlane/designs/manual_macro_placement_test/base.sdc",
+                "path_type": "hardlink",
+                "sha256": "dc6f772516147b8bfe79a613b1085e463484693e00e05e5f91e2bb30132d1904",
+                "sha256_in_prefix": "dc6f772516147b8bfe79a613b1085e463484693e00e05e5f91e2bb30132d1904",
+                "size_in_bytes": 16330
+            },
+            {
+                "_path": "share/openlane/designs/manual_macro_placement_test/config.json",
+                "path_type": "hardlink",
+                "sha256": "d2bdcdcf89ce49507fe7ac5d1ec54e1323c2c76debacbb5c3ffff5dd70f7c06b",
+                "sha256_in_prefix": "d2bdcdcf89ce49507fe7ac5d1ec54e1323c2c76debacbb5c3ffff5dd70f7c06b",
+                "size_in_bytes": 730
+            },
+            {
+                "_path": "share/openlane/designs/manual_macro_placement_test/macro_placement.cfg",
+                "path_type": "hardlink",
+                "sha256": "7a369e48a70f61b817d3235522b461a7724cf1c41c6e951bfabaa72b119dd6cf",
+                "sha256_in_prefix": "7a369e48a70f61b817d3235522b461a7724cf1c41c6e951bfabaa72b119dd6cf",
+                "size_in_bytes": 54
+            },
+            {
+                "_path": "share/openlane/designs/manual_macro_placement_test/macros/gds/spm.gds",
+                "path_type": "hardlink",
+                "sha256": "320fb57ea51a3680f03ab9406a59a307155efb5e69018daffad15e709920635d",
+                "sha256_in_prefix": "320fb57ea51a3680f03ab9406a59a307155efb5e69018daffad15e709920635d",
+                "size_in_bytes": 1000274
+            },
+            {
+                "_path": "share/openlane/designs/manual_macro_placement_test/macros/lef/spm.lef",
+                "path_type": "hardlink",
+                "sha256": "5a19216227686b123b9d0cbdade9502b8554bdd307131e75c31282bb305f6dcd",
+                "sha256_in_prefix": "5a19216227686b123b9d0cbdade9502b8554bdd307131e75c31282bb305f6dcd",
+                "size_in_bytes": 7445
+            },
+            {
+                "_path": "share/openlane/designs/manual_macro_placement_test/src/design.v",
+                "path_type": "hardlink",
+                "sha256": "7cb8761c3246f9ef3c4a434f0a6c5f0bd10624aa811cd24505a319db57689739",
+                "sha256_in_prefix": "7cb8761c3246f9ef3c4a434f0a6c5f0bd10624aa811cd24505a319db57689739",
+                "size_in_bytes": 1223
+            },
+            {
+                "_path": "share/openlane/designs/mem_1r1w/config.json",
+                "path_type": "hardlink",
+                "sha256": "4b2617b4e0714b7c158937164e84958d261348f8a4bf99a40e8ca55e4f4ea3db",
+                "sha256_in_prefix": "4b2617b4e0714b7c158937164e84958d261348f8a4bf99a40e8ca55e4f4ea3db",
+                "size_in_bytes": 209
+            },
+            {
+                "_path": "share/openlane/designs/mem_1r1w/src/mem_1r1w.v",
+                "path_type": "hardlink",
+                "sha256": "8dc8d05a927ad787794fa2e2a7215cbbba8509653b9dc3dfabdbc9e7ce19fced",
+                "sha256_in_prefix": "8dc8d05a927ad787794fa2e2a7215cbbba8509653b9dc3dfabdbc9e7ce19fced",
+                "size_in_bytes": 576
+            },
+            {
+                "_path": "share/openlane/designs/picorv32a/config.json",
+                "path_type": "hardlink",
+                "sha256": "42ef77ee2c0693f0251c78bdf8098d06a857ffaf156c552941cc639887d73aad",
+                "sha256_in_prefix": "42ef77ee2c0693f0251c78bdf8098d06a857ffaf156c552941cc639887d73aad",
+                "size_in_bytes": 410
+            },
+            {
+                "_path": "share/openlane/designs/picorv32a/src/picorv32a.v",
+                "path_type": "hardlink",
+                "sha256": "f862900d19d41857c7167a3234f15fa812dbd25f0d3c46245ba3677f4425d2ee",
+                "sha256_in_prefix": "f862900d19d41857c7167a3234f15fa812dbd25f0d3c46245ba3677f4425d2ee",
+                "size_in_bytes": 94474
+            },
+            {
+                "_path": "share/openlane/designs/regfile_2r1w/bb/mem_1r1w.bb.v",
+                "path_type": "hardlink",
+                "sha256": "e4d4885de860cd6445e87170160f08dd9d04e605a5771877d7163bbf2da95d72",
+                "sha256_in_prefix": "e4d4885de860cd6445e87170160f08dd9d04e605a5771877d7163bbf2da95d72",
+                "size_in_bytes": 412
+            },
+            {
+                "_path": "share/openlane/designs/regfile_2r1w/config.json",
+                "path_type": "hardlink",
+                "sha256": "58b29a212ea2cc88c9703232d3b2f684f1d4bce4ab017f38c61dc590ce1f424b",
+                "sha256_in_prefix": "58b29a212ea2cc88c9703232d3b2f684f1d4bce4ab017f38c61dc590ce1f424b",
+                "size_in_bytes": 425
+            },
+            {
+                "_path": "share/openlane/designs/regfile_2r1w/src/regfile_2r1w.v",
+                "path_type": "hardlink",
+                "sha256": "6299304041a2bb14491d8020ff21b549ee737ca51d2da1729080f737cb8dc6db",
+                "sha256_in_prefix": "6299304041a2bb14491d8020ff21b549ee737ca51d2da1729080f737cb8dc6db",
+                "size_in_bytes": 1255
+            },
+            {
+                "_path": "share/openlane/designs/s44/config.json",
+                "path_type": "hardlink",
+                "sha256": "2f7a4b204a0efde45c30137633f07dee74de8a7ce663c8d556d1aa61949f637c",
+                "sha256_in_prefix": "2f7a4b204a0efde45c30137633f07dee74de8a7ce663c8d556d1aa61949f637c",
+                "size_in_bytes": 257
+            },
+            {
+                "_path": "share/openlane/designs/s44/src/lut.v",
+                "path_type": "hardlink",
+                "sha256": "468ac247c393d65dd89e9226505fd273c48c27e31d5a53fddc5035c465210170",
+                "sha256_in_prefix": "468ac247c393d65dd89e9226505fd273c48c27e31d5a53fddc5035c465210170",
+                "size_in_bytes": 1094
+            },
+            {
+                "_path": "share/openlane/designs/s44/src/lut_s44.v",
+                "path_type": "hardlink",
+                "sha256": "d155bc66b9f47ea4ab2e921239fe01836e81cc03d4602451af6953a38eb4bc94",
+                "sha256_in_prefix": "d155bc66b9f47ea4ab2e921239fe01836e81cc03d4602451af6953a38eb4bc94",
+                "size_in_bytes": 1243
+            },
+            {
+                "_path": "share/openlane/designs/salsa20/config.json",
+                "path_type": "hardlink",
+                "sha256": "a4869f46b583845854d2752a0f487215d1954e4959c4b951eebee6ef28c3a9fc",
+                "sha256_in_prefix": "a4869f46b583845854d2752a0f487215d1954e4959c4b951eebee6ef28c3a9fc",
+                "size_in_bytes": 464
+            },
+            {
+                "_path": "share/openlane/designs/salsa20/src/salsa20.v",
+                "path_type": "hardlink",
+                "sha256": "1e150658f1eab9fead106d07b5375b8cb05e48e647ac991dc6e1f151a9580c34",
+                "sha256_in_prefix": "1e150658f1eab9fead106d07b5375b8cb05e48e647ac991dc6e1f151a9580c34",
+                "size_in_bytes": 69874
+            },
+            {
+                "_path": "share/openlane/designs/spm/config.json",
+                "path_type": "hardlink",
+                "sha256": "69c086ecbf3324658e2ca765794cc867e0add7b21b665e7251bfd76708be0ae0",
+                "sha256_in_prefix": "69c086ecbf3324658e2ca765794cc867e0add7b21b665e7251bfd76708be0ae0",
+                "size_in_bytes": 902
+            },
+            {
+                "_path": "share/openlane/designs/spm/pin_order.cfg",
+                "path_type": "hardlink",
+                "sha256": "77114278fc337d539680ee7bac5a8e0cf0febecb54d0a4a4c01a16a6eef2352f",
+                "sha256_in_prefix": "77114278fc337d539680ee7bac5a8e0cf0febecb54d0a4a4c01a16a6eef2352f",
+                "size_in_bytes": 52
+            },
+            {
+                "_path": "share/openlane/designs/spm/src/spm.sdc",
+                "path_type": "hardlink",
+                "sha256": "39d24b007c423fe4339c313cde7d87fd0d3c0471c29c49723ad0bb2c418f14a1",
+                "sha256_in_prefix": "39d24b007c423fe4339c313cde7d87fd0d3c0471c29c49723ad0bb2c418f14a1",
+                "size_in_bytes": 78
+            },
+            {
+                "_path": "share/openlane/designs/spm/src/spm.v",
+                "path_type": "hardlink",
+                "sha256": "3dac88db70d03f00e920a8881059b714a2f5164955fa6871ddd31ae819419489",
+                "sha256_in_prefix": "3dac88db70d03f00e920a8881059b714a2f5164955fa6871ddd31ae819419489",
+                "size_in_bytes": 2781
+            },
+            {
+                "_path": "share/openlane/designs/test_sram_macro/config.json",
+                "path_type": "hardlink",
+                "sha256": "81c430016ab21e3375ec79344f4234e2641fa52c96513c509fb93753b238de6a",
+                "sha256_in_prefix": "81c430016ab21e3375ec79344f4234e2641fa52c96513c509fb93753b238de6a",
+                "size_in_bytes": 935
+            },
+            {
+                "_path": "share/openlane/designs/test_sram_macro/macro_placement.cfg",
+                "path_type": "hardlink",
+                "sha256": "e2316e18f47ce3f0f142ab078160af835756172ee20ece8908cdc45dd309e195",
+                "sha256_in_prefix": "e2316e18f47ce3f0f142ab078160af835756172ee20ece8908cdc45dd309e195",
+                "size_in_bytes": 51
+            },
+            {
+                "_path": "share/openlane/designs/test_sram_macro/sky130_sram_1kbyte_1rw1r_32x256_8.bb.v",
+                "path_type": "hardlink",
+                "sha256": "8be4f3b18aea647c049f5c55dd888c153a7713c9917b0b55260965e4853feb97",
+                "sha256_in_prefix": "8be4f3b18aea647c049f5c55dd888c153a7713c9917b0b55260965e4853feb97",
+                "size_in_bytes": 1081
+            },
+            {
+                "_path": "share/openlane/designs/test_sram_macro/src/test_sram_macro.v",
+                "path_type": "hardlink",
+                "sha256": "c2fa230b48c2eea32983e2f7b11a30739b102f560dff30476dda11b11f97ba6e",
+                "sha256_in_prefix": "c2fa230b48c2eea32983e2f7b11a30739b102f560dff30476dda11b11f97ba6e",
+                "size_in_bytes": 1347
+            },
+            {
+                "_path": "share/openlane/designs/usb/config.json",
+                "path_type": "hardlink",
+                "sha256": "5eb21301f914082adeb262bc92e3184e3805c64646eebcefcbb1d66ae93e9ca5",
+                "sha256_in_prefix": "5eb21301f914082adeb262bc92e3184e3805c64646eebcefcbb1d66ae93e9ca5",
+                "size_in_bytes": 520
+            },
+            {
+                "_path": "share/openlane/designs/usb/src/usb2p0_core.v",
+                "path_type": "hardlink",
+                "sha256": "09f63197ff1300cd55c2353f4d1a3a2e5ae90ab22f1c73a71dd3a0ba1989cbdc",
+                "sha256_in_prefix": "09f63197ff1300cd55c2353f4d1a3a2e5ae90ab22f1c73a71dd3a0ba1989cbdc",
+                "size_in_bytes": 32667
+            },
+            {
+                "_path": "share/openlane/designs/usb_cdc_core/config.json",
+                "path_type": "hardlink",
+                "sha256": "dbfa47ab440d46d3df0614cf4a5bddbe9595cc326a0819bb9cc4c149d3577221",
+                "sha256_in_prefix": "dbfa47ab440d46d3df0614cf4a5bddbe9595cc326a0819bb9cc4c149d3577221",
+                "size_in_bytes": 525
+            },
+            {
+                "_path": "share/openlane/designs/usb_cdc_core/src/usb_cdc_core.v",
+                "path_type": "hardlink",
+                "sha256": "23cb5f1b08a885dcd2939b83a72ee276110cbbc26b6449f528ed55c44e2c4877",
+                "sha256_in_prefix": "23cb5f1b08a885dcd2939b83a72ee276110cbbc26b6449f528ed55c44e2c4877",
+                "size_in_bytes": 32951
+            },
+            {
+                "_path": "share/openlane/designs/usb_cdc_core/src/usb_desc_rom.v",
+                "path_type": "hardlink",
+                "sha256": "88ca70d23a44d25230723226e1c8a2a84de5b0f9cf85e65db13c60afb41f3c69",
+                "sha256_in_prefix": "88ca70d23a44d25230723226e1c8a2a84de5b0f9cf85e65db13c60afb41f3c69",
+                "size_in_bytes": 7377
+            },
+            {
+                "_path": "share/openlane/designs/usb_cdc_core/src/usbf_crc16.v",
+                "path_type": "hardlink",
+                "sha256": "ad478724e9e71c724788274c237a8324d27deb17724b39d0681740eda92f18d9",
+                "sha256_in_prefix": "ad478724e9e71c724788274c237a8324d27deb17724b39d0681740eda92f18d9",
+                "size_in_bytes": 3731
+            },
+            {
+                "_path": "share/openlane/designs/usb_cdc_core/src/usbf_defs.v",
+                "path_type": "hardlink",
+                "sha256": "5ea9871d316cea1a9b7f5faf33c0f9b3bb513594aacb33288638c2a64a28f484",
+                "sha256_in_prefix": "5ea9871d316cea1a9b7f5faf33c0f9b3bb513594aacb33288638c2a64a28f484",
+                "size_in_bytes": 2541
+            },
+            {
+                "_path": "share/openlane/designs/usb_cdc_core/src/usbf_device_core.v",
+                "path_type": "hardlink",
+                "sha256": "1f58285528261cd78340a50df8126a0feb1b3692b230ab297c760c80f18479d5",
+                "sha256_in_prefix": "1f58285528261cd78340a50df8126a0feb1b3692b230ab297c760c80f18479d5",
+                "size_in_bytes": 29760
+            },
+            {
+                "_path": "share/openlane/designs/usb_cdc_core/src/usbf_sie_rx.v",
+                "path_type": "hardlink",
+                "sha256": "8b357ce23dfa2ad8ce418289be7056f6a1fd2af41afa0e088f7846cff7638464",
+                "sha256_in_prefix": "8b357ce23dfa2ad8ce418289be7056f6a1fd2af41afa0e088f7846cff7638464",
+                "size_in_bytes": 13480
+            },
+            {
+                "_path": "share/openlane/designs/usb_cdc_core/src/usbf_sie_tx.v",
+                "path_type": "hardlink",
+                "sha256": "46d7fa236a8a03d1fab7f99ffb4b8b18e81c866d85ead4b849dd0c4556eaec59",
+                "sha256_in_prefix": "46d7fa236a8a03d1fab7f99ffb4b8b18e81c866d85ead4b849dd0c4556eaec59",
+                "size_in_bytes": 9186
+            },
+            {
+                "_path": "share/openlane/designs/wbqspiflash/config.json",
+                "path_type": "hardlink",
+                "sha256": "d308d2a6fe4a3b6bfde5c7450fc7872b8eba43f7a7741bc225a7a2de26dfda58",
+                "sha256_in_prefix": "d308d2a6fe4a3b6bfde5c7450fc7872b8eba43f7a7741bc225a7a2de26dfda58",
+                "size_in_bytes": 791
+            },
+            {
+                "_path": "share/openlane/designs/wbqspiflash/matrix.json",
+                "path_type": "hardlink",
+                "sha256": "11c38f323d1c4e4a863d5337b036d71b86b83d8026d5d03a84e411338f9afd93",
+                "sha256_in_prefix": "11c38f323d1c4e4a863d5337b036d71b86b83d8026d5d03a84e411338f9afd93",
+                "size_in_bytes": 162
+            },
+            {
+                "_path": "share/openlane/designs/wbqspiflash/src/wbqspiflash.v",
+                "path_type": "hardlink",
+                "sha256": "31c1f1b9d627a542379d59359149a33ba9b596afe43598297f1a67b07fff2d1f",
+                "sha256_in_prefix": "31c1f1b9d627a542379d59359149a33ba9b596afe43598297f1a67b07fff2d1f",
+                "size_in_bytes": 51177
+            },
+            {
+                "_path": "share/openlane/designs/xtea/config.tcl",
+                "path_type": "hardlink",
+                "sha256": "cfed0a594cc2285f923b5a8881579f970ed5ed326ee1824ab4de65fca2e3d4d3",
+                "sha256_in_prefix": "cfed0a594cc2285f923b5a8881579f970ed5ed326ee1824ab4de65fca2e3d4d3",
+                "size_in_bytes": 359
+            },
+            {
+                "_path": "share/openlane/designs/xtea/gf180mcuC_gf180mcu_fd_sc_mcu7t5v0_config.tcl",
+                "path_type": "hardlink",
+                "sha256": "a67e979339479f1139a759b337e120d297f0ed3f32d194ce38c2b9defc94d95d",
+                "sha256_in_prefix": "a67e979339479f1139a759b337e120d297f0ed3f32d194ce38c2b9defc94d95d",
+                "size_in_bytes": 61
+            },
+            {
+                "_path": "share/openlane/designs/xtea/sky130A_sky130_fd_sc_hd_config.tcl",
+                "path_type": "hardlink",
+                "sha256": "8c12247c02480dd198d903db6f6a5395e9125b4d76f579011015612bc9c3da93",
+                "sha256_in_prefix": "8c12247c02480dd198d903db6f6a5395e9125b4d76f579011015612bc9c3da93",
+                "size_in_bytes": 175
+            },
+            {
+                "_path": "share/openlane/designs/xtea/sky130A_sky130_fd_sc_hdll_config.tcl",
+                "path_type": "hardlink",
+                "sha256": "8c12247c02480dd198d903db6f6a5395e9125b4d76f579011015612bc9c3da93",
+                "sha256_in_prefix": "8c12247c02480dd198d903db6f6a5395e9125b4d76f579011015612bc9c3da93",
+                "size_in_bytes": 175
+            },
+            {
+                "_path": "share/openlane/designs/xtea/sky130A_sky130_fd_sc_hs_config.tcl",
+                "path_type": "hardlink",
+                "sha256": "e4cfd05bfe312657b147d206a00036ea9acbadfc0fbfcd60ff9a09ee188cee01",
+                "sha256_in_prefix": "e4cfd05bfe312657b147d206a00036ea9acbadfc0fbfcd60ff9a09ee188cee01",
+                "size_in_bytes": 203
+            },
+            {
+                "_path": "share/openlane/designs/xtea/sky130A_sky130_fd_sc_ls_config.tcl",
+                "path_type": "hardlink",
+                "sha256": "a9e510932779633eac2191ed5b89c0a26b4a7f22abd26b14c2cbb442afa14fbc",
+                "sha256_in_prefix": "a9e510932779633eac2191ed5b89c0a26b4a7f22abd26b14c2cbb442afa14fbc",
+                "size_in_bytes": 175
+            },
+            {
+                "_path": "share/openlane/designs/xtea/sky130A_sky130_fd_sc_ms_config.tcl",
+                "path_type": "hardlink",
+                "sha256": "2cdbb327e8a779d73bac7ff0cd573c78569869cb8c84b0b268be13a7639056dd",
+                "sha256_in_prefix": "2cdbb327e8a779d73bac7ff0cd573c78569869cb8c84b0b268be13a7639056dd",
+                "size_in_bytes": 202
+            },
+            {
+                "_path": "share/openlane/designs/xtea/src/xtea.sdc",
+                "path_type": "hardlink",
+                "sha256": "387e2bd4e3be3620ede916a00a44f26b1e6ef7d7ccbcf13d5400407a102013d9",
+                "sha256_in_prefix": "387e2bd4e3be3620ede916a00a44f26b1e6ef7d7ccbcf13d5400407a102013d9",
+                "size_in_bytes": 1608
+            },
+            {
+                "_path": "share/openlane/designs/xtea/src/xtea.v",
+                "path_type": "hardlink",
+                "sha256": "27e302c760660bad28d0e72533e65a2af1a482cd39313ca174b00f1fd7ab4ece",
+                "sha256_in_prefix": "27e302c760660bad28d0e72533e65a2af1a482cd39313ca174b00f1fd7ab4ece",
+                "size_in_bytes": 8736
+            },
+            {
+                "_path": "share/openlane/designs/y_huff/config.json",
+                "path_type": "hardlink",
+                "sha256": "b990b202fe49672381aa51d7af842f79ef73495f5d27e538d0547d7ef66301c7",
+                "sha256_in_prefix": "b990b202fe49672381aa51d7af842f79ef73495f5d27e538d0547d7ef66301c7",
+                "size_in_bytes": 427
+            },
+            {
+                "_path": "share/openlane/designs/y_huff/src/y_huff.v",
+                "path_type": "hardlink",
+                "sha256": "4e3a095fc58ff176b5cd9774f546b7a77761575ec2e061759a24f3c02f7d9c02",
+                "sha256_in_prefix": "4e3a095fc58ff176b5cd9774f546b7a77761575ec2e061759a24f3c02f7d9c02",
+                "size_in_bytes": 68051
+            },
+            {
+                "_path": "share/openlane/designs/zipdiv/config.json",
+                "path_type": "hardlink",
+                "sha256": "80fb9a1f4261ce31c41bf0291ef398fffd73eeb5e48b20ba399d542024ea0e1f",
+                "sha256_in_prefix": "80fb9a1f4261ce31c41bf0291ef398fffd73eeb5e48b20ba399d542024ea0e1f",
+                "size_in_bytes": 644
+            },
+            {
+                "_path": "share/openlane/designs/zipdiv/src/zipdiv.v",
+                "path_type": "hardlink",
+                "sha256": "58775b1ff9abf5d66876f65072a5d5d0199de3832d7850b6926fc35ac1bb6f61",
+                "sha256_in_prefix": "58775b1ff9abf5d66876f65072a5d5d0199de3832d7850b6926fc35ac1bb6f61",
+                "size_in_bytes": 16124
+            },
+            {
+                "_path": "share/openlane/docker/.gitignore",
+                "path_type": "hardlink",
+                "sha256": "2efc3d05c4819d265f515e89dfd265a318bda0ff57634fcbd09a34faefb99d39",
+                "sha256_in_prefix": "2efc3d05c4819d265f515e89dfd265a318bda0ff57634fcbd09a34faefb99d39",
+                "size_in_bytes": 66
+            },
+            {
+                "_path": "share/openlane/docker/Makefile",
+                "path_type": "hardlink",
+                "sha256": "2dc947cb1f72e620822b799fc321d3d5f8fcef0c169e5f7002edd49761b40d4a",
+                "sha256_in_prefix": "2dc947cb1f72e620822b799fc321d3d5f8fcef0c169e5f7002edd49761b40d4a",
+                "size_in_bytes": 4358
+            },
+            {
+                "_path": "share/openlane/docker/README.md",
+                "path_type": "hardlink",
+                "sha256": "3807c967c5695de75b6f09327a0c56473d79c57a7947daf2a267707c66667e48",
+                "sha256_in_prefix": "3807c967c5695de75b6f09327a0c56473d79c57a7947daf2a267707c66667e48",
+                "size_in_bytes": 3750
+            },
+            {
+                "_path": "share/openlane/docker/build_base/.gitignore",
+                "path_type": "hardlink",
+                "sha256": "79e81fa3bb6452612511b469702f4078dbe849c35297b08933d3fca8eeacde64",
+                "sha256_in_prefix": "79e81fa3bb6452612511b469702f4078dbe849c35297b08933d3fca8eeacde64",
+                "size_in_bytes": 5
+            },
+            {
+                "_path": "share/openlane/docker/build_base/Dockerfile",
+                "path_type": "hardlink",
+                "sha256": "c4fd2552d4c14a8d3bbe4542bacda376aa7b8d78e67214dde57c77b16f46887b",
+                "sha256_in_prefix": "c4fd2552d4c14a8d3bbe4542bacda376aa7b8d78e67214dde57c77b16f46887b",
+                "size_in_bytes": 2629
+            },
+            {
+                "_path": "share/openlane/docker/current_platform.py",
+                "path_type": "hardlink",
+                "sha256": "0de207c59507185397056474eeb2e3589325feef28ae523289a3a2854dc01362",
+                "sha256_in_prefix": "0de207c59507185397056474eeb2e3589325feef28ae523289a3a2854dc01362",
+                "size_in_bytes": 536
+            },
+            {
+                "_path": "share/openlane/docker/cvc_rv/Dockerfile",
+                "path_type": "hardlink",
+                "sha256": "42a2b663ea693418928ed17f03f25a5868fe36cba80a5958490e88cac90d9003",
+                "sha256_in_prefix": "42a2b663ea693418928ed17f03f25a5868fe36cba80a5958490e88cac90d9003",
+                "size_in_bytes": 1366
+            },
+            {
+                "_path": "share/openlane/docker/git/Dockerfile",
+                "path_type": "hardlink",
+                "sha256": "2cce732811bd54fa376c3a5bc6ec2bbd25d4b63ea8f75db45ffee833be881b86",
+                "sha256_in_prefix": "2cce732811bd54fa376c3a5bc6ec2bbd25d4b63ea8f75db45ffee833be881b86",
+                "size_in_bytes": 1231
+            },
+            {
+                "_path": "share/openlane/docker/klayout/Dockerfile",
+                "path_type": "hardlink",
+                "sha256": "3da73b514633b649343e8dee35cec8e97121ce173f05a69f18c753464a34d42e",
+                "sha256_in_prefix": "3da73b514633b649343e8dee35cec8e97121ce173f05a69f18c753464a34d42e",
+                "size_in_bytes": 1281
+            },
+            {
+                "_path": "share/openlane/docker/klayout/build_klayout.sh",
+                "path_type": "hardlink",
+                "sha256": "827ba7a6ed4e939bc762ce3cba3fe61147c11a1d8fc356f11ca1915d33051a18",
+                "sha256_in_prefix": "827ba7a6ed4e939bc762ce3cba3fe61147c11a1d8fc356f11ca1915d33051a18",
+                "size_in_bytes": 1191
+            },
+            {
+                "_path": "share/openlane/docker/magic/Dockerfile",
+                "path_type": "hardlink",
+                "sha256": "9a41373384d88faa6d9fd4a8bc0b7cfc2c14787c9f183d7a00ab4b597a9a0ffc",
+                "sha256_in_prefix": "9a41373384d88faa6d9fd4a8bc0b7cfc2c14787c9f183d7a00ab4b597a9a0ffc",
+                "size_in_bytes": 1325
+            },
+            {
+                "_path": "share/openlane/docker/netgen/Dockerfile",
+                "path_type": "hardlink",
+                "sha256": "440675a72828d93457bbbb299db2e83c7fd61bf994e95385c149bfbc82aefd17",
+                "sha256_in_prefix": "440675a72828d93457bbbb299db2e83c7fd61bf994e95385c149bfbc82aefd17",
+                "size_in_bytes": 1351
+            },
+            {
+                "_path": "share/openlane/docker/openlane/.gitignore",
+                "path_type": "hardlink",
+                "sha256": "0946cf978ceb807421be4e9219e2896c8efdb3277d53ceb304c8e66dc80262f5",
+                "sha256_in_prefix": "0946cf978ceb807421be4e9219e2896c8efdb3277d53ceb304c8e66dc80262f5",
+                "size_in_bytes": 11
+            },
+            {
+                "_path": "share/openlane/docker/openlane/Dockerfile.tpl",
+                "path_type": "hardlink",
+                "sha256": "0e120b326fa5c2515c70650472b506b012115a278bf389bcf333f08832a38d59",
+                "sha256_in_prefix": "0e120b326fa5c2515c70650472b506b012115a278bf389bcf333f08832a38d59",
+                "size_in_bytes": 1590
+            },
+            {
+                "_path": "share/openlane/docker/openroad_app/Dockerfile",
+                "path_type": "hardlink",
+                "sha256": "46c56d864a3cfb92142c450e77c85a50de158017c3c21c2e3368ec390127ed5a",
+                "sha256_in_prefix": "46c56d864a3cfb92142c450e77c85a50de158017c3c21c2e3368ec390127ed5a",
+                "size_in_bytes": 3725
+            },
+            {
+                "_path": "share/openlane/docker/padring/Dockerfile",
+                "path_type": "hardlink",
+                "sha256": "dc5cefd1a26e08f821d671c0a65ddf66989878828b2250c521b51da1d8b117b1",
+                "sha256_in_prefix": "dc5cefd1a26e08f821d671c0a65ddf66989878828b2250c521b51da1d8b117b1",
+                "size_in_bytes": 1311
+            },
+            {
+                "_path": "share/openlane/docker/run_base/.gitignore",
+                "path_type": "hardlink",
+                "sha256": "351d0bcb1b45acbcb63644d1d77bfa3a1748a644b44a0f107045e7bf7eaefbd8",
+                "sha256_in_prefix": "351d0bcb1b45acbcb63644d1d77bfa3a1748a644b44a0f107045e7bf7eaefbd8",
+                "size_in_bytes": 55
+            },
+            {
+                "_path": "share/openlane/docker/run_base/Dockerfile",
+                "path_type": "hardlink",
+                "sha256": "9bd943750727b25a5389d35b7800437d20d7e480a96f0016c2c78893e15bf9b7",
+                "sha256_in_prefix": "9bd943750727b25a5389d35b7800437d20d7e480a96f0016c2c78893e15bf9b7",
+                "size_in_bytes": 1399
+            },
+            {
+                "_path": "share/openlane/docker/tar/.bashrc",
+                "path_type": "hardlink",
+                "sha256": "76b98b95e007005dad47164dd5dae22adcd55cf66bafb36115a2388d1583af03",
+                "sha256_in_prefix": "76b98b95e007005dad47164dd5dae22adcd55cf66bafb36115a2388d1583af03",
+                "size_in_bytes": 229
+            },
+            {
+                "_path": "share/openlane/docker/tar/.gitignore",
+                "path_type": "hardlink",
+                "sha256": "47b7224785292af79de27583e07a946ea75c9dff6f4149bf36040813a1807d26",
+                "sha256_in_prefix": "47b7224785292af79de27583e07a946ea75c9dff6f4149bf36040813a1807d26",
+                "size_in_bytes": 72
+            },
+            {
+                "_path": "share/openlane/docker/tar/.tclshrc",
+                "path_type": "hardlink",
+                "sha256": "4980603e36ae3760143612f707d9f2b9c337a9f91bdf9c943475d6403c2123cb",
+                "sha256_in_prefix": "4980603e36ae3760143612f707d9f2b9c337a9f91bdf9c943475d6403c2123cb",
+                "size_in_bytes": 72
+            },
+            {
+                "_path": "share/openlane/docker/utils.py",
+                "path_type": "hardlink",
+                "sha256": "a4dff08e4990fb10945fac08ade5c26cee5c39628117147676b4c888155f7252",
+                "sha256_in_prefix": "a4dff08e4990fb10945fac08ade5c26cee5c39628117147676b4c888155f7252",
+                "size_in_bytes": 10890
+            },
+            {
+                "_path": "share/openlane/docker/vlogtoverilog/Dockerfile",
+                "path_type": "hardlink",
+                "sha256": "f3bac4c2526251e81841450e509c7f5265ec0049584e08a2bd8389657367f7c2",
+                "sha256_in_prefix": "f3bac4c2526251e81841450e509c7f5265ec0049584e08a2bd8389657367f7c2",
+                "size_in_bytes": 1336
+            },
+            {
+                "_path": "share/openlane/docker/yosys/Dockerfile",
+                "path_type": "hardlink",
+                "sha256": "dd7a522609448582054183366cfe95d44356e49a39ae1e1d58cc7058fa3383ee",
+                "sha256_in_prefix": "dd7a522609448582054183366cfe95d44356e49a39ae1e1d58cc7058fa3383ee",
+                "size_in_bytes": 1323
+            },
+            {
+                "_path": "share/openlane/docs/Makefile",
+                "path_type": "hardlink",
+                "sha256": "0f3d9d4ac4869da23cdbfb46f1f0c21ffbe8866ef7a662eb3b038c52f75c2d57",
+                "sha256_in_prefix": "0f3d9d4ac4869da23cdbfb46f1f0c21ffbe8866ef7a662eb3b038c52f75c2d57",
+                "size_in_bytes": 1424
+            },
+            {
+                "_path": "share/openlane/docs/_ext/image_links.py",
+                "path_type": "hardlink",
+                "sha256": "b8789209ef5cf0ab23badf5c0dd6780f4e857c306eba254859ac37846d2c64b8",
+                "sha256_in_prefix": "b8789209ef5cf0ab23badf5c0dd6780f4e857c306eba254859ac37846d2c64b8",
+                "size_in_bytes": 1442
+            },
+            {
+                "_path": "share/openlane/docs/_ext/markdown_code_links.py",
+                "path_type": "hardlink",
+                "sha256": "aadde78b2002d44d3665e677a92bcca2814cbd09355c05d7d79e7381a3279a6a",
+                "sha256_in_prefix": "aadde78b2002d44d3665e677a92bcca2814cbd09355c05d7d79e7381a3279a6a",
+                "size_in_bytes": 4328
+            },
+            {
+                "_path": "share/openlane/docs/_ext/markdown_cross_doc_section_links.py",
+                "path_type": "hardlink",
+                "sha256": "c4d944b5f3b1fc40855f63c5968d0c3c67ef7384ef0161321376c3af710eed6f",
+                "sha256_in_prefix": "c4d944b5f3b1fc40855f63c5968d0c3c67ef7384ef0161321376c3af710eed6f",
+                "size_in_bytes": 1874
+            },
+            {
+                "_path": "share/openlane/docs/_ext/util.py",
+                "path_type": "hardlink",
+                "sha256": "c68855b6d332612a624b78f023ee64fc648090fe359339fa8e202e3baf37d32c",
+                "sha256_in_prefix": "c68855b6d332612a624b78f023ee64fc648090fe359339fa8e202e3baf37d32c",
+                "size_in_bytes": 119
+            },
+            {
+                "_path": "share/openlane/docs/_static/digital_flow/broken_aspect_ratio.png",
+                "path_type": "hardlink",
+                "sha256": "5d149d806753bcba6148c58ea5117dded5b3ae4ed5e74f3df5ab01bcde7bd118",
+                "sha256_in_prefix": "5d149d806753bcba6148c58ea5117dded5b3ae4ed5e74f3df5ab01bcde7bd118",
+                "size_in_bytes": 175640
+            },
+            {
+                "_path": "share/openlane/docs/_static/digital_flow/final_def.png",
+                "path_type": "hardlink",
+                "sha256": "5238cf67a948e09525fea7de5237473e8672d0ad05cdcf295a89ccfb433658d9",
+                "sha256_in_prefix": "5238cf67a948e09525fea7de5237473e8672d0ad05cdcf295a89ccfb433658d9",
+                "size_in_bytes": 372018
+            },
+            {
+                "_path": "share/openlane/docs/_static/digital_flow/final_gds.png",
+                "path_type": "hardlink",
+                "sha256": "ffc6a591d6ce978259a0a1f933c0d8c177fa7c7ec3fffa8e912f7b9db06157ca",
+                "sha256_in_prefix": "ffc6a591d6ce978259a0a1f933c0d8c177fa7c7ec3fffa8e912f7b9db06157ca",
+                "size_in_bytes": 269183
+            },
+            {
+                "_path": "share/openlane/docs/_static/digital_flow/floorplan_def_loaded.png",
+                "path_type": "hardlink",
+                "sha256": "fa3cb5eb8a8cdb8d9309295a8870e8a43748cdda1464ac1c847077396607c99b",
+                "sha256_in_prefix": "fa3cb5eb8a8cdb8d9309295a8870e8a43748cdda1464ac1c847077396607c99b",
+                "size_in_bytes": 238370
+            },
+            {
+                "_path": "share/openlane/docs/_static/digital_flow/lvs_issue.png",
+                "path_type": "hardlink",
+                "sha256": "7823097acba39dd0f0f587e2bd781c40ebde8f7ae5d4a4ba3924aeeb4f070875",
+                "sha256_in_prefix": "7823097acba39dd0f0f587e2bd781c40ebde8f7ae5d4a4ba3924aeeb4f070875",
+                "size_in_bytes": 176551
+            },
+            {
+                "_path": "share/openlane/docs/_static/digital_flow/lvs_issue_comparison.png",
+                "path_type": "hardlink",
+                "sha256": "d27d1d7a333b4bb426441ac61e5d76338419ed4d3a6b8f258e0dc7cd382e2e5c",
+                "sha256_in_prefix": "d27d1d7a333b4bb426441ac61e5d76338419ed4d3a6b8f258e0dc7cd382e2e5c",
+                "size_in_bytes": 368242
+            },
+            {
+                "_path": "share/openlane/docs/_static/digital_flow/mem_1r1w_def.png",
+                "path_type": "hardlink",
+                "sha256": "29ac90939430c3bf0b72c4994193cfd7167379d5577fc24e17ac15320447450b",
+                "sha256_in_prefix": "29ac90939430c3bf0b72c4994193cfd7167379d5577fc24e17ac15320447450b",
+                "size_in_bytes": 393806
+            },
+            {
+                "_path": "share/openlane/docs/_static/digital_flow/ring_around_macro.png",
+                "path_type": "hardlink",
+                "sha256": "5783e955b6f44c0b9e172f7e2db1558bfa1fd13017f091258671cce8f1ef75c0",
+                "sha256_in_prefix": "5783e955b6f44c0b9e172f7e2db1558bfa1fd13017f091258671cce8f1ef75c0",
+                "size_in_bytes": 1566732
+            },
+            {
+                "_path": "share/openlane/docs/_static/docs_contribution/code_block_issue.png",
+                "path_type": "hardlink",
+                "sha256": "588f8099439e518d2026411267c7dc38b8957e8ab75faf2e1a9fe976737d6952",
+                "sha256_in_prefix": "588f8099439e518d2026411267c7dc38b8957e8ab75faf2e1a9fe976737d6952",
+                "size_in_bytes": 33017
+            },
+            {
+                "_path": "share/openlane/docs/_static/docs_contribution/code_block_spaces_around_the_code.png",
+                "path_type": "hardlink",
+                "sha256": "bba8f69ed54ad518cacbdb057f8349f337f48b62f81a5bde621fa641a199a3e0",
+                "sha256_in_prefix": "bba8f69ed54ad518cacbdb057f8349f337f48b62f81a5bde621fa641a199a3e0",
+                "size_in_bytes": 20536
+            },
+            {
+                "_path": "share/openlane/docs/_static/docs_contribution/code_block_supposed_look.png",
+                "path_type": "hardlink",
+                "sha256": "309081a01d4303d1f530f83a3e3d68fd0532a84c5d8856b002dc1c78e7ea723c",
+                "sha256_in_prefix": "309081a01d4303d1f530f83a3e3d68fd0532a84c5d8856b002dc1c78e7ea723c",
+                "size_in_bytes": 29131
+            },
+            {
+                "_path": "share/openlane/docs/_static/eco_flow.png",
+                "path_type": "hardlink",
+                "sha256": "abfaedabca47cdf13c899f533fcd08033fcbcc754884a1b919b27c05331e8bbb",
+                "sha256_in_prefix": "abfaedabca47cdf13c899f533fcd08033fcbcc754884a1b919b27c05331e8bbb",
+                "size_in_bytes": 154809
+            },
+            {
+                "_path": "share/openlane/docs/_static/eco_results.png",
+                "path_type": "hardlink",
+                "sha256": "1b2c29c37fe9538687135c6d55beddf9fa0fd46b260623468fc2be67b0b54d00",
+                "sha256_in_prefix": "1b2c29c37fe9538687135c6d55beddf9fa0fd46b260623468fc2be67b0b54d00",
+                "size_in_bytes": 26288
+            },
+            {
+                "_path": "share/openlane/docs/_static/flow_v1.png",
+                "path_type": "hardlink",
+                "sha256": "47c6a200dfb17d5374a16b360d1bfc5aa3f248c4a3307ed0c7e69fc97b377b43",
+                "sha256_in_prefix": "47c6a200dfb17d5374a16b360d1bfc5aa3f248c4a3307ed0c7e69fc97b377b43",
+                "size_in_bytes": 151663
+            },
+            {
+                "_path": "share/openlane/docs/_static/gha.png",
+                "path_type": "hardlink",
+                "sha256": "bdae179125bc4168a550d1c682c078828f664eb1eab19fde2de5e3c314c011f7",
+                "sha256_in_prefix": "bdae179125bc4168a550d1c682c078828f664eb1eab19fde2de5e3c314c011f7",
+                "size_in_bytes": 148578
+            },
+            {
+                "_path": "share/openlane/docs/_static/installation/powershell.png",
+                "path_type": "hardlink",
+                "sha256": "141ffed03527dd25e3bbe7e6712662b3f8cd030a572a0024a60b83e9cf83d01a",
+                "sha256_in_prefix": "141ffed03527dd25e3bbe7e6712662b3f8cd030a572a0024a60b83e9cf83d01a",
+                "size_in_bytes": 128149
+            },
+            {
+                "_path": "share/openlane/docs/_static/installation/spm.png",
+                "path_type": "hardlink",
+                "sha256": "a2333378e951da8d07e1e632cab7aaa3394fcdadc2a45856e3597b711334a9c3",
+                "sha256_in_prefix": "a2333378e951da8d07e1e632cab7aaa3394fcdadc2a45856e3597b711334a9c3",
+                "size_in_bytes": 192829
+            },
+            {
+                "_path": "share/openlane/docs/_static/installation/wsl.png",
+                "path_type": "hardlink",
+                "sha256": "69237433326c7b29259f583578b450ca31035072dd93fc8e8865484e0290c37a",
+                "sha256_in_prefix": "69237433326c7b29259f583578b450ca31035072dd93fc8e8865484e0290c37a",
+                "size_in_bytes": 163098
+            },
+            {
+                "_path": "share/openlane/docs/_static/installation/wsl_docker_settings.png",
+                "path_type": "hardlink",
+                "sha256": "1aaba20f08ecfbf47c0879937dd90b040ad73abf3d1774ef58f8fedafaea5d37",
+                "sha256_in_prefix": "1aaba20f08ecfbf47c0879937dd90b040ad73abf3d1774ef58f8fedafaea5d37",
+                "size_in_bytes": 48266
+            },
+            {
+                "_path": "share/openlane/docs/_static/openram/basic_fp.png",
+                "path_type": "hardlink",
+                "sha256": "ae9a1f6eae29cabeb0c1f337a7e20309b319eaeb794706e6d6c5c2380b982e01",
+                "sha256_in_prefix": "ae9a1f6eae29cabeb0c1f337a7e20309b319eaeb794706e6d6c5c2380b982e01",
+                "size_in_bytes": 140569
+            },
+            {
+                "_path": "share/openlane/docs/_static/openram/final.png",
+                "path_type": "hardlink",
+                "sha256": "e5035af49c10d60110012eb931333e13d4bb7c483f4b63a476d4ba000b7ea27a",
+                "sha256_in_prefix": "e5035af49c10d60110012eb931333e13d4bb7c483f4b63a476d4ba000b7ea27a",
+                "size_in_bytes": 365532
+            },
+            {
+                "_path": "share/openlane/docs/_static/openram/floorplan_v2.png",
+                "path_type": "hardlink",
+                "sha256": "b5fa873b3e26e999be06b73b81eeb9d7f54d1c1aa84853d95b3cffa3efbd92b9",
+                "sha256_in_prefix": "b5fa873b3e26e999be06b73b81eeb9d7f54d1c1aa84853d95b3cffa3efbd92b9",
+                "size_in_bytes": 117684
+            },
+            {
+                "_path": "share/openlane/docs/_static/openram/pdn_macro_hooks_missing.png",
+                "path_type": "hardlink",
+                "sha256": "be2466f6cc2482517334b685b4d7cfadfb3f0a4c0368436ec653825f3873ea2c",
+                "sha256_in_prefix": "be2466f6cc2482517334b685b4d7cfadfb3f0a4c0368436ec653825f3873ea2c",
+                "size_in_bytes": 44414
+            },
+            {
+                "_path": "share/openlane/docs/_static/src/actor.png",
+                "path_type": "hardlink",
+                "sha256": "57131085673b9339bac9fe9fb46ac1271a9ad10bf7cb0b5ad8df00f28252f585",
+                "sha256_in_prefix": "57131085673b9339bac9fe9fb46ac1271a9ad10bf7cb0b5ad8df00f28252f585",
+                "size_in_bytes": 1668
+            },
+            {
+                "_path": "share/openlane/docs/_static/src/flow.dot",
+                "path_type": "hardlink",
+                "sha256": "18c9a5f088a61eb471fb151bee8b2d1666417c7987464243784bd42ceb7c8e2a",
+                "sha256_in_prefix": "18c9a5f088a61eb471fb151bee8b2d1666417c7987464243784bd42ceb7c8e2a",
+                "size_in_bytes": 2185
+            },
+            {
+                "_path": "share/openlane/docs/_static/src/lvs_issue_comparison.xcf",
+                "path_type": "hardlink",
+                "sha256": "a4d3607944a1d1b66271192c5db5a9fab5b654fd89febd655af19e48073fc8c2",
+                "sha256_in_prefix": "a4d3607944a1d1b66271192c5db5a9fab5b654fd89febd655af19e48073fc8c2",
+                "size_in_bytes": 623528
+            },
+            {
+                "_path": "share/openlane/docs/_static/src/ring_around_macro.xcf",
+                "path_type": "hardlink",
+                "sha256": "43d805681baf54bfb14b24172edf6de44013b3638b3fdc824aa30c3379b232f4",
+                "sha256_in_prefix": "43d805681baf54bfb14b24172edf6de44013b3638b3fdc824aa30c3379b232f4",
+                "size_in_bytes": 3237267
+            },
+            {
+                "_path": "share/openlane/docs/_static/striVe.jpeg",
+                "path_type": "hardlink",
+                "sha256": "26d7f68e04dd3bf255ddc0c9b2673148a47a12b0cc520e76f2a73e1fb72d5e2a",
+                "sha256_in_prefix": "26d7f68e04dd3bf255ddc0c9b2673148a47a12b0cc520e76f2a73e1fb72d5e2a",
+                "size_in_bytes": 360882
+            },
+            {
+                "_path": "share/openlane/docs/requirements.txt",
+                "path_type": "hardlink",
+                "sha256": "36e88a112f3c40e1d43af252820fe6e229878d1c003e26efc6018d00f5949e81",
+                "sha256_in_prefix": "36e88a112f3c40e1d43af252820fe6e229878d1c003e26efc6018d00f5949e81",
+                "size_in_bytes": 93
+            },
+            {
+                "_path": "share/openlane/docs/source/additional_material.md",
+                "path_type": "hardlink",
+                "sha256": "1ed8a68c562210cefd4f84bd031b17e103aae687232f440cc783512bf06d8e23",
+                "sha256_in_prefix": "1ed8a68c562210cefd4f84bd031b17e103aae687232f440cc783512bf06d8e23",
+                "size_in_bytes": 3234
+            },
+            {
+                "_path": "share/openlane/docs/source/authors.md",
+                "path_type": "softlink",
+                "sha256_in_prefix": "a1e2e96a68dc62e38ea79265ec2cb9b82facbc039b73b23a9f6ea6504f6d20d8",
+                "size_in_bytes": 1117
+            },
+            {
+                "_path": "share/openlane/docs/source/conf.py",
+                "path_type": "hardlink",
+                "sha256": "0fc7b4db410af157e3f4eaed19ef5cfa8fd2feba154bfcc8ded17fe7eac98955",
+                "sha256_in_prefix": "0fc7b4db410af157e3f4eaed19ef5cfa8fd2feba154bfcc8ded17fe7eac98955",
+                "size_in_bytes": 4444
+            },
+            {
+                "_path": "share/openlane/docs/source/flow_overview.md",
+                "path_type": "hardlink",
+                "sha256": "e971ae36fd8b1b94d38e970aaa6e642ae6ec7396b92664b9abb27c71a7b80cb4",
+                "sha256_in_prefix": "e971ae36fd8b1b94d38e970aaa6e642ae6ec7396b92664b9abb27c71a7b80cb4",
+                "size_in_bytes": 5534
+            },
+            {
+                "_path": "share/openlane/docs/source/for_developers/code_contribution.md",
+                "path_type": "softlink",
+                "sha256_in_prefix": "dbc3a5efa2f799b166bfaef43911df257dae8a1d2646ae92f1c625c6ed51772e",
+                "size_in_bytes": 3138
+            },
+            {
+                "_path": "share/openlane/docs/source/for_developers/docker.md",
+                "path_type": "softlink",
+                "sha256_in_prefix": "3807c967c5695de75b6f09327a0c56473d79c57a7947daf2a267707c66667e48",
+                "size_in_bytes": 3750
+            },
+            {
+                "_path": "share/openlane/docs/source/for_developers/docs_contribution.md",
+                "path_type": "hardlink",
+                "sha256": "59612ce791fe0ba409b39a8797baa3e32d35f732b8c141552735c000dee15cd0",
+                "sha256_in_prefix": "59612ce791fe0ba409b39a8797baa3e32d35f732b8c141552735c000dee15cd0",
+                "size_in_bytes": 6491
+            },
+            {
+                "_path": "share/openlane/docs/source/for_developers/gha_workflow.md",
+                "path_type": "hardlink",
+                "sha256": "66546fab21e655352d0e6015d33c7f990518e41208d26d49f9351a6d581cfb39",
+                "sha256_in_prefix": "66546fab21e655352d0e6015d33c7f990518e41208d26d49f9351a6d581cfb39",
+                "size_in_bytes": 2653
+            },
+            {
+                "_path": "share/openlane/docs/source/for_developers/index.rst",
+                "path_type": "hardlink",
+                "sha256": "de2d94a4f8a62601c4233b18d535a5bdb938125189890c753459957acd76e39b",
+                "sha256_in_prefix": "de2d94a4f8a62601c4233b18d535a5bdb938125189890c753459957acd76e39b",
+                "size_in_bytes": 260
+            },
+            {
+                "_path": "share/openlane/docs/source/for_developers/issue_regression_tests.md",
+                "path_type": "hardlink",
+                "sha256": "f9107a4de178096aa9a3881235470c22d4a6f40234e4da8b06fe516ab3606cd2",
+                "sha256_in_prefix": "f9107a4de178096aa9a3881235470c22d4a6f40234e4da8b06fe516ab3606cd2",
+                "size_in_bytes": 1364
+            },
+            {
+                "_path": "share/openlane/docs/source/for_developers/pdk_structure.md",
+                "path_type": "hardlink",
+                "sha256": "35577873c943a21bc9d73cbab94e7684a0f4c8725efcba0713d765a2cc291edd",
+                "sha256_in_prefix": "35577873c943a21bc9d73cbab94e7684a0f4c8725efcba0713d765a2cc291edd",
+                "size_in_bytes": 13076
+            },
+            {
+                "_path": "share/openlane/docs/source/for_developers/using_or_issue.md",
+                "path_type": "hardlink",
+                "sha256": "29d20203da1ac448cba7f5bb7edccb396ede4ad51445bd5a1ce88eb2abb9fa37",
+                "sha256_in_prefix": "29d20203da1ac448cba7f5bb7edccb396ede4ad51445bd5a1ce88eb2abb9fa37",
+                "size_in_bytes": 4168
+            },
+            {
+                "_path": "share/openlane/docs/source/getting_started/index.rst",
+                "path_type": "hardlink",
+                "sha256": "f45ec7cafc6e3e5d3a80e0ad6780770f3aa2def34602fbb0f379d34051e99292",
+                "sha256_in_prefix": "f45ec7cafc6e3e5d3a80e0ad6780770f3aa2def34602fbb0f379d34051e99292",
+                "size_in_bytes": 114
+            },
+            {
+                "_path": "share/openlane/docs/source/getting_started/installation/docker_no_root.md",
+                "path_type": "hardlink",
+                "sha256": "f458d71797a33f2a6aefe644329c9862ad9e3d3cf7907bd12d010a5be0f892de",
+                "sha256_in_prefix": "f458d71797a33f2a6aefe644329c9862ad9e3d3cf7907bd12d010a5be0f892de",
+                "size_in_bytes": 654
+            },
+            {
+                "_path": "share/openlane/docs/source/getting_started/installation/index.rst",
+                "path_type": "hardlink",
+                "sha256": "b46c0e880f49793bd2b98e2e3d69100118a1e9325c55039b719c13cb5b17fb4f",
+                "sha256_in_prefix": "b46c0e880f49793bd2b98e2e3d69100118a1e9325c55039b719c13cb5b17fb4f",
+                "size_in_bytes": 169
+            },
+            {
+                "_path": "share/openlane/docs/source/getting_started/installation/installation_common_section.md",
+                "path_type": "hardlink",
+                "sha256": "53b4827c992538cf64428c8267507c70f185507b4e4eeee450d47ed14f427efa",
+                "sha256_in_prefix": "53b4827c992538cf64428c8267507c70f185507b4e4eeee450d47ed14f427efa",
+                "size_in_bytes": 4173
+            },
+            {
+                "_path": "share/openlane/docs/source/getting_started/installation/installation_linux.md",
+                "path_type": "hardlink",
+                "sha256": "b12077aeee63610fe2f0339b567e3c7092f9f121c32753a8fe90e4f58f35caaf",
+                "sha256_in_prefix": "b12077aeee63610fe2f0339b567e3c7092f9f121c32753a8fe90e4f58f35caaf",
+                "size_in_bytes": 1615
+            },
+            {
+                "_path": "share/openlane/docs/source/getting_started/installation/installation_local.md",
+                "path_type": "hardlink",
+                "sha256": "69acdcd9885a2672df514729e4d39e4d8160dc6e2e98b2092874fc629beb26b0",
+                "sha256_in_prefix": "69acdcd9885a2672df514729e4d39e4d8160dc6e2e98b2092874fc629beb26b0",
+                "size_in_bytes": 1923
+            },
+            {
+                "_path": "share/openlane/docs/source/getting_started/installation/installation_macos.md",
+                "path_type": "hardlink",
+                "sha256": "e894fbad3adbd390f3c10690bf4ce306b83a1d46e1538ac9cf9fa83aca909a05",
+                "sha256_in_prefix": "e894fbad3adbd390f3c10690bf4ce306b83a1d46e1538ac9cf9fa83aca909a05",
+                "size_in_bytes": 305
+            },
+            {
+                "_path": "share/openlane/docs/source/getting_started/installation/installation_overview.md",
+                "path_type": "hardlink",
+                "sha256": "a26223d1b8c17bd899d68136e11b4f72e3a1a74d16876ace1e6b082b636f7211",
+                "sha256_in_prefix": "a26223d1b8c17bd899d68136e11b4f72e3a1a74d16876ace1e6b082b636f7211",
+                "size_in_bytes": 271
+            },
+            {
+                "_path": "share/openlane/docs/source/getting_started/installation/installation_ubuntu.md",
+                "path_type": "hardlink",
+                "sha256": "9c384716397cdf518bedb5703658b9f31a22809572cf546b667ede52a0f5380b",
+                "sha256_in_prefix": "9c384716397cdf518bedb5703658b9f31a22809572cf546b667ede52a0f5380b",
+                "size_in_bytes": 2287
+            },
+            {
+                "_path": "share/openlane/docs/source/getting_started/installation/installation_win.md",
+                "path_type": "hardlink",
+                "sha256": "da227e63707a40f6907847b35fbb6e7e384560590d6cc5f81a17098e1efdbfe4",
+                "sha256_in_prefix": "da227e63707a40f6907847b35fbb6e7e384560590d6cc5f81a17098e1efdbfe4",
+                "size_in_bytes": 2512
+            },
+            {
+                "_path": "share/openlane/docs/source/getting_started/installation/wsl_ubuntu_packages.md",
+                "path_type": "hardlink",
+                "sha256": "1b8420633dcdd284587ff7e092d083d330ad6e9281ed8cf75367bb11e09b7012",
+                "sha256_in_prefix": "1b8420633dcdd284587ff7e092d083d330ad6e9281ed8cf75367bb11e09b7012",
+                "size_in_bytes": 280
+            },
+            {
+                "_path": "share/openlane/docs/source/getting_started/quickstart.md",
+                "path_type": "hardlink",
+                "sha256": "110e666aa21e5f66e733324841df664f53d27202b411c0334756dc5bca32f287",
+                "sha256_in_prefix": "110e666aa21e5f66e733324841df664f53d27202b411c0334756dc5bca32f287",
+                "size_in_bytes": 4383
+            },
+            {
+                "_path": "share/openlane/docs/source/getting_started/updating.md",
+                "path_type": "hardlink",
+                "sha256": "239cc048dd5edd2c080b483189a46e7046b36de90068945be29cfe3e81063fe6",
+                "sha256_in_prefix": "239cc048dd5edd2c080b483189a46e7046b36de90068945be29cfe3e81063fe6",
+                "size_in_bytes": 432
+            },
+            {
+                "_path": "share/openlane/docs/source/index.rst",
+                "path_type": "hardlink",
+                "sha256": "939f097de2657b244aa7ba5bff48df772f4579043eefbd7bd04e0ec4bb79b950",
+                "sha256_in_prefix": "939f097de2657b244aa7ba5bff48df772f4579043eefbd7bd04e0ec4bb79b950",
+                "size_in_bytes": 996
+            },
+            {
+                "_path": "share/openlane/docs/source/reference/cli.md",
+                "path_type": "hardlink",
+                "sha256": "8bba861a99fc05a061817826bc4a39006e0948e74fd8681af1c43f24259f5c1f",
+                "sha256_in_prefix": "8bba861a99fc05a061817826bc4a39006e0948e74fd8681af1c43f24259f5c1f",
+                "size_in_bytes": 4245
+            },
+            {
+                "_path": "share/openlane/docs/source/reference/configuration.md",
+                "path_type": "hardlink",
+                "sha256": "f6242ce889f1861bafa5f03e1dff66331046de310ccbd7266c9c19bcb8331b02",
+                "sha256_in_prefix": "f6242ce889f1861bafa5f03e1dff66331046de310ccbd7266c9c19bcb8331b02",
+                "size_in_bytes": 45380
+            },
+            {
+                "_path": "share/openlane/docs/source/reference/configuration_files.md",
+                "path_type": "hardlink",
+                "sha256": "947bdfe910bf0d7902faa701cdc7d9e5cafe244cb5139fc5445f5b918e40e620",
+                "sha256_in_prefix": "947bdfe910bf0d7902faa701cdc7d9e5cafe244cb5139fc5445f5b918e40e620",
+                "size_in_bytes": 11836
+            },
+            {
+                "_path": "share/openlane/docs/source/reference/datapoint_definitions.md",
+                "path_type": "hardlink",
+                "sha256": "4b9cb180d9b8984e6318b0e63490581198f5d88c8430199c51cca996ca2f26c9",
+                "sha256_in_prefix": "4b9cb180d9b8984e6318b0e63490581198f5d88c8430199c51cca996ca2f26c9",
+                "size_in_bytes": 12052
+            },
+            {
+                "_path": "share/openlane/docs/source/reference/index.rst",
+                "path_type": "hardlink",
+                "sha256": "2f5441225313dea31ec7bb31029f72b284484d4da9e3b91a161cb5c3567ed912",
+                "sha256_in_prefix": "2f5441225313dea31ec7bb31029f72b284484d4da9e3b91a161cb5c3567ed912",
+                "size_in_bytes": 236
+            },
+            {
+                "_path": "share/openlane/docs/source/reference/interactive_mode.md",
+                "path_type": "hardlink",
+                "sha256": "f2bfaaf6b74b91cf4a9df54da0effdf7f39a55e533fd40beaae03ff90ccc6d92",
+                "sha256_in_prefix": "f2bfaaf6b74b91cf4a9df54da0effdf7f39a55e533fd40beaae03ff90ccc6d92",
+                "size_in_bytes": 1488
+            },
+            {
+                "_path": "share/openlane/docs/source/reference/openlane_commands.md",
+                "path_type": "hardlink",
+                "sha256": "8ed9ca1b8637a09dd1c3471052a45fdd3c2f488b5b102c07f16e3c28763a5f83",
+                "sha256_in_prefix": "8ed9ca1b8637a09dd1c3471052a45fdd3c2f488b5b102c07f16e3c28763a5f83",
+                "size_in_bytes": 40076
+            },
+            {
+                "_path": "share/openlane/docs/source/tutorials/digital_guide.md",
+                "path_type": "hardlink",
+                "sha256": "25e19f691645245fb393a2b87829ad7eac5ef08d9fad8a354114557d6e0e02dc",
+                "sha256_in_prefix": "25e19f691645245fb393a2b87829ad7eac5ef08d9fad8a354114557d6e0e02dc",
+                "size_in_bytes": 25629
+            },
+            {
+                "_path": "share/openlane/docs/source/tutorials/index.rst",
+                "path_type": "hardlink",
+                "sha256": "f7724f1135b61d646c1eb0f80784af23086a51349afbfc219c8ac9edafff3576",
+                "sha256_in_prefix": "f7724f1135b61d646c1eb0f80784af23086a51349afbfc219c8ac9edafff3576",
+                "size_in_bytes": 88
+            },
+            {
+                "_path": "share/openlane/docs/source/tutorials/openram.md",
+                "path_type": "hardlink",
+                "sha256": "93cbbb1b27725b340598876df75cf784dbec7b6b6b1f4517d8524fb071e77268",
+                "sha256_in_prefix": "93cbbb1b27725b340598876df75cf784dbec7b6b6b1f4517d8524fb071e77268",
+                "size_in_bytes": 14653
+            },
+            {
+                "_path": "share/openlane/docs/source/usage/advanced_power_grid_control.md",
+                "path_type": "hardlink",
+                "sha256": "09ba5722bfd69b764a356d1975bc4bb334937da9a675ff19f444a4d521351197",
+                "sha256_in_prefix": "09ba5722bfd69b764a356d1975bc4bb334937da9a675ff19f444a4d521351197",
+                "size_in_bytes": 9663
+            },
+            {
+                "_path": "share/openlane/docs/source/usage/chip_integration.md",
+                "path_type": "hardlink",
+                "sha256": "7e1f7767cc5cb5b37ff9c2d7186a1ceac9973c6f39421a6bc212b898c1dcee9b",
+                "sha256_in_prefix": "7e1f7767cc5cb5b37ff9c2d7186a1ceac9973c6f39421a6bc212b898c1dcee9b",
+                "size_in_bytes": 6167
+            },
+            {
+                "_path": "share/openlane/docs/source/usage/custom_pdk_builds.md",
+                "path_type": "hardlink",
+                "sha256": "428ae280caa3d53ec865b483cafa46ded2d288836e98c4d96ad1f7abdaf17797",
+                "sha256_in_prefix": "428ae280caa3d53ec865b483cafa46ded2d288836e98c4d96ad1f7abdaf17797",
+                "size_in_bytes": 1492
+            },
+            {
+                "_path": "share/openlane/docs/source/usage/designs.md",
+                "path_type": "hardlink",
+                "sha256": "316b133f986d8ef8eb6c91c42d620ceb31f2162180baa47ae0fd81f4c6923bbb",
+                "sha256_in_prefix": "316b133f986d8ef8eb6c91c42d620ceb31f2162180baa47ae0fd81f4c6923bbb",
+                "size_in_bytes": 2012
+            },
+            {
+                "_path": "share/openlane/docs/source/usage/exploration_script.md",
+                "path_type": "hardlink",
+                "sha256": "3881e9309af049fd266d92a48cbb7e46722cda8765f7ff4e1923b11445f4cd82",
+                "sha256_in_prefix": "3881e9309af049fd266d92a48cbb7e46722cda8765f7ff4e1923b11445f4cd82",
+                "size_in_bytes": 5812
+            },
+            {
+                "_path": "share/openlane/docs/source/usage/hardening_macros.md",
+                "path_type": "hardlink",
+                "sha256": "86bdd493500a9360fb15631b3c2897e1b6b1153f4b788b0361ea44077e8e2ff4",
+                "sha256_in_prefix": "86bdd493500a9360fb15631b3c2897e1b6b1153f4b788b0361ea44077e8e2ff4",
+                "size_in_bytes": 13987
+            },
+            {
+                "_path": "share/openlane/docs/source/usage/index.rst",
+                "path_type": "hardlink",
+                "sha256": "eebb9878fde27872596d37b46dbdaee6bfcd2f78ab972a643b403533ee79d7d0",
+                "sha256_in_prefix": "eebb9878fde27872596d37b46dbdaee6bfcd2f78ab972a643b403533ee79d7d0",
+                "size_in_bytes": 192
+            },
+            {
+                "_path": "share/openlane/env.py",
+                "path_type": "hardlink",
+                "sha256": "56641ac245b7a9e567857846afcd994ed05d236d194efbce25b1e4cd60bf22ee",
+                "sha256_in_prefix": "56641ac245b7a9e567857846afcd994ed05d236d194efbce25b1e4cd60bf22ee",
+                "size_in_bytes": 7546
+            },
+            {
+                "_path": "share/openlane/flow.tcl",
+                "path_type": "hardlink",
+                "sha256": "68199c2964a0f8e447e0e61b7a1e215f737a0e589801f94beb70029e2028d28e",
+                "sha256_in_prefix": "68199c2964a0f8e447e0e61b7a1e215f737a0e589801f94beb70029e2028d28e",
+                "size_in_bytes": 12516
+            },
+            {
+                "_path": "share/openlane/install/build/versions/.keep-directory",
+                "path_type": "hardlink",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+                "_path": "share/openlane/install/env.tcl",
+                "path_type": "hardlink",
+                "sha256": "82136ddefee74502092bf16538ce3b7eab52c91982afa0b3e1d43ab3d9d125c7",
+                "sha256_in_prefix": "82136ddefee74502092bf16538ce3b7eab52c91982afa0b3e1d43ab3d9d125c7",
+                "size_in_bytes": 1016
+            },
+            {
+                "_path": "share/openlane/install/installed_version",
+                "path_type": "hardlink",
+                "sha256": "d88b7c12c1b69bbca9c33dfedb64515e14dea8dbb6b3e7964ba980ca51c2ccfe",
+                "sha256_in_prefix": "d88b7c12c1b69bbca9c33dfedb64515e14dea8dbb6b3e7964ba980ca51c2ccfe",
+                "size_in_bytes": 29
+            },
+            {
+                "_path": "share/openlane/klayoutrc",
+                "path_type": "hardlink",
+                "sha256": "b8ff1f7b70273370d5a816bb3e3614ebe7033d90d71cf470f9237d5c3bb7e32d",
+                "sha256_in_prefix": "b8ff1f7b70273370d5a816bb3e3614ebe7033d90d71cf470f9237d5c3bb7e32d",
+                "size_in_bytes": 194
+            },
+            {
+                "_path": "share/openlane/metadata_conda_debug.yaml",
+                "path_type": "hardlink",
+                "sha256": "3d53866eca4caf65e5ca998d6e6f3ebea38e94a5453fecf9855ac12b9eab826a",
+                "sha256_in_prefix": "3d53866eca4caf65e5ca998d6e6f3ebea38e94a5453fecf9855ac12b9eab826a",
+                "size_in_bytes": 1662
+            },
+            {
+                "_path": "share/openlane/regression_results/.gitignore",
+                "path_type": "hardlink",
+                "sha256": "a0c9ed6a00b898d3974e13c87f3b2f0f82bdb54e27dc8822a284d47070ad0d19",
+                "sha256_in_prefix": "a0c9ed6a00b898d3974e13c87f3b2f0f82bdb54e27dc8822a284d47070ad0d19",
+                "size_in_bytes": 105
+            },
+            {
+                "_path": "share/openlane/regression_results/benchmark_results/sky130A/sky130_fd_sc_hd.csv",
+                "path_type": "hardlink",
+                "sha256": "5bbc67d5b3c5334f8906b569f6a337609fe46d6507d94d10ce61f61af5d02ff1",
+                "sha256_in_prefix": "5bbc67d5b3c5334f8906b569f6a337609fe46d6507d94d10ce61f61af5d02ff1",
+                "size_in_bytes": 10178
+            },
+            {
+                "_path": "share/openlane/requirements.txt",
+                "path_type": "hardlink",
+                "sha256": "650dbb63a029465622de1cba98ec94efde1baae4ec4b376bc5dab8faa9c16cf5",
+                "sha256_in_prefix": "650dbb63a029465622de1cba98ec94efde1baae4ec4b376bc5dab8faa9c16cf5",
+                "size_in_bytes": 82
+            },
+            {
+                "_path": "share/openlane/requirements_dev.txt",
+                "path_type": "hardlink",
+                "sha256": "1e5d4121b64a4f5da6cc72fa4e06a4efd08bf6db83f0fc1ae285c9066edff022",
+                "sha256_in_prefix": "1e5d4121b64a4f5da6cc72fa4e06a4efd08bf6db83f0fc1ae285c9066edff022",
+                "size_in_bytes": 90
+            },
+            {
+                "_path": "share/openlane/requirements_lint.txt",
+                "path_type": "hardlink",
+                "sha256": "00bf0b3ceb06727d7bef54d914fc9d2d23e8501c2b2f1a266afa82227e3bb0a9",
+                "sha256_in_prefix": "00bf0b3ceb06727d7bef54d914fc9d2d23e8501c2b2f1a266afa82227e3bb0a9",
+                "size_in_bytes": 61
+            },
+            {
+                "_path": "share/openlane/run_designs.py",
+                "path_type": "hardlink",
+                "sha256": "a276f73ec697dbadecdac22c11ae8ac27c9b51dd443e0bc0e0978a19961c16c5",
+                "sha256_in_prefix": "a276f73ec697dbadecdac22c11ae8ac27c9b51dd443e0bc0e0978a19961c16c5",
+                "size_in_bytes": 16690
+            },
+            {
+                "_path": "share/openlane/scripts/base.sdc",
+                "path_type": "hardlink",
+                "sha256": "87f6c97cf839d675f125f35a63050eb0bf05fabdb156cf450c4fe80edddce0d7",
+                "sha256_in_prefix": "87f6c97cf839d675f125f35a63050eb0bf05fabdb156cf450c4fe80edddce0d7",
+                "size_in_bytes": 2404
+            },
+            {
+                "_path": "share/openlane/scripts/compare_regression_design.py",
+                "path_type": "hardlink",
+                "sha256": "b95689c9328a84a2c34569845b040b2dc85f08047de870b7ec1e16b697abda7f",
+                "sha256_in_prefix": "b95689c9328a84a2c34569845b040b2dc85f08047de870b7ec1e16b697abda7f",
+                "size_in_bytes": 6136
+            },
+            {
+                "_path": "share/openlane/scripts/compare_regression_reports.py",
+                "path_type": "hardlink",
+                "sha256": "7267ddc8e803bb6d64477256b54e61c0bccbae0c368d4e910562c816e525c4bb",
+                "sha256_in_prefix": "7267ddc8e803bb6d64477256b54e61c0bccbae0c368d4e910562c816e525c4bb",
+                "size_in_bytes": 22575
+            },
+            {
+                "_path": "share/openlane/scripts/config/config.py",
+                "path_type": "hardlink",
+                "sha256": "08046a368b95fbf1cc61f1b07402be1314edc5d1e01167cb63c363517a1e90c1",
+                "sha256_in_prefix": "08046a368b95fbf1cc61f1b07402be1314edc5d1e01167cb63c363517a1e90c1",
+                "size_in_bytes": 5025
+            },
+            {
+                "_path": "share/openlane/scripts/config/extract_opt_variables.py",
+                "path_type": "hardlink",
+                "sha256": "b3eddb63f17487f1f6d2e9de330e5fa4fb7f360e603b03849bbea16ffe7ea52c",
+                "sha256_in_prefix": "b3eddb63f17487f1f6d2e9de330e5fa4fb7f360e603b03849bbea16ffe7ea52c",
+                "size_in_bytes": 2563
+            },
+            {
+                "_path": "share/openlane/scripts/config/init.py",
+                "path_type": "hardlink",
+                "sha256": "c5ad8c98e7f1b42455ba65a6a26267295c05676b36cf84160a596abb48987886",
+                "sha256_in_prefix": "c5ad8c98e7f1b42455ba65a6a26267295c05676b36cf84160a596abb48987886",
+                "size_in_bytes": 4089
+            },
+            {
+                "_path": "share/openlane/scripts/config/migrate.py",
+                "path_type": "hardlink",
+                "sha256": "864d91d3eafce3dd3629fd353d2d821ed463ae53f3149f3b7cc707216984f0af",
+                "sha256_in_prefix": "864d91d3eafce3dd3629fd353d2d821ed463ae53f3149f3b7cc707216984f0af",
+                "size_in_bytes": 2663
+            },
+            {
+                "_path": "share/openlane/scripts/config/replicate.py",
+                "path_type": "hardlink",
+                "sha256": "dd1dcb00df5ffeb02607c018bdeec624c42484e28afe04a89e9dc2e1bab73afd",
+                "sha256_in_prefix": "dd1dcb00df5ffeb02607c018bdeec624c42484e28afe04a89e9dc2e1bab73afd",
+                "size_in_bytes": 3377
+            },
+            {
+                "_path": "share/openlane/scripts/config/tcl.py",
+                "path_type": "hardlink",
+                "sha256": "c6a42949550a1d45f24fea50997fce8e5fad789a420c6e23f13407e7da415bc6",
+                "sha256_in_prefix": "c6a42949550a1d45f24fea50997fce8e5fad789a420c6e23f13407e7da415bc6",
+                "size_in_bytes": 15723
+            },
+            {
+                "_path": "share/openlane/scripts/config/update.py",
+                "path_type": "hardlink",
+                "sha256": "94e477cc24ecd9d289b8bf06a611803480442290cbfb85d36791d56555fc656f",
+                "sha256_in_prefix": "94e477cc24ecd9d289b8bf06a611803480442290cbfb85d36791d56555fc656f",
+                "size_in_bytes": 5651
+            },
+            {
+                "_path": "share/openlane/scripts/count_lvs.py",
+                "path_type": "hardlink",
+                "sha256": "ddff0bfa2701bf3ef6c1bc98dd93c4d709d73467979304275ed591e20359476e",
+                "sha256_in_prefix": "ddff0bfa2701bf3ef6c1bc98dd93c4d709d73467979304275ed591e20359476e",
+                "size_in_bytes": 4820
+            },
+            {
+                "_path": "share/openlane/scripts/drc_rosetta.py",
+                "path_type": "hardlink",
+                "sha256": "fe1541b130bba316808eecc6871ee306ce0c2804dbe753bd43ecd6ccc430d3a8",
+                "sha256_in_prefix": "fe1541b130bba316808eecc6871ee306ce0c2804dbe753bd43ecd6ccc430d3a8",
+                "size_in_bytes": 12922
+            },
+            {
+                "_path": "share/openlane/scripts/extract_antenna_count.py",
+                "path_type": "hardlink",
+                "sha256": "aa37159ad57a20fe0e7d756e47624794145722c3af16686390182d151ce74f0d",
+                "sha256_in_prefix": "aa37159ad57a20fe0e7d756e47624794145722c3af16686390182d151ce74f0d",
+                "size_in_bytes": 143
+            },
+            {
+                "_path": "share/openlane/scripts/extract_antenna_violators.py",
+                "path_type": "hardlink",
+                "sha256": "365b60274c4a5809e597eebb7a86f875bc77b3adf7da6a7a0b2611a1cf9d2641",
+                "sha256_in_prefix": "365b60274c4a5809e597eebb7a86f875bc77b3adf7da6a7a0b2611a1cf9d2641",
+                "size_in_bytes": 1563
+            },
+            {
+                "_path": "share/openlane/scripts/gen_report_routing.py",
+                "path_type": "hardlink",
+                "sha256": "0f3d86cad6465a712d2c393edb8ec460fa549d54cbca3d850f66eb4f38497998",
+                "sha256_in_prefix": "0f3d86cad6465a712d2c393edb8ec460fa549d54cbca3d850f66eb4f38497998",
+                "size_in_bytes": 1342
+            },
+            {
+                "_path": "share/openlane/scripts/generate_reports.py",
+                "path_type": "hardlink",
+                "sha256": "7def4696651e7e66ed13343209e0cabc50f82960eca1e5c3f488256ab845b255",
+                "sha256_in_prefix": "7def4696651e7e66ed13343209e0cabc50f82960eca1e5c3f488256ab845b255",
+                "size_in_bytes": 6569
+            },
+            {
+                "_path": "share/openlane/scripts/iterate_timing_closure.py",
+                "path_type": "hardlink",
+                "sha256": "43809663ac1a073680525a16be5e2b8eb2eea08bf8d43396d354d3e8d2c58cf2",
+                "sha256_in_prefix": "43809663ac1a073680525a16be5e2b8eb2eea08bf8d43396d354d3e8d2c58cf2",
+                "size_in_bytes": 5747
+            },
+            {
+                "_path": "share/openlane/scripts/klayout/Readme.md",
+                "path_type": "hardlink",
+                "sha256": "849b38e10201de51cf0f713e67eb5b002d51066b79165d64873405da045ec0b1",
+                "sha256_in_prefix": "849b38e10201de51cf0f713e67eb5b002d51066b79165d64873405da045ec0b1",
+                "size_in_bytes": 76
+            },
+            {
+                "_path": "share/openlane/scripts/klayout/open_design.py",
+                "path_type": "hardlink",
+                "sha256": "02af0ec344ed006bf4573d1f456c60948daf789952a198e19b7b44c0971c461d",
+                "sha256_in_prefix": "02af0ec344ed006bf4573d1f456c60948daf789952a198e19b7b44c0971c461d",
+                "size_in_bytes": 2772
+            },
+            {
+                "_path": "share/openlane/scripts/klayout/run_drc.sh",
+                "path_type": "hardlink",
+                "sha256": "92da7961a5a6929bd7b67c93d72c8cfdbf3b741842611e2b96c1d4c361f90ea8",
+                "sha256_in_prefix": "92da7961a5a6929bd7b67c93d72c8cfdbf3b741842611e2b96c1d4c361f90ea8",
+                "size_in_bytes": 1015
+            },
+            {
+                "_path": "share/openlane/scripts/klayout/stream_out.py",
+                "path_type": "hardlink",
+                "sha256": "f970ebb2f5b347124b39114bf53e0d7ac5ce8512591b0e07c64634ebb637cd45",
+                "sha256_in_prefix": "f970ebb2f5b347124b39114bf53e0d7ac5ce8512591b0e07c64634ebb637cd45",
+                "size_in_bytes": 6573
+            },
+            {
+                "_path": "share/openlane/scripts/klayout/xor.drc",
+                "path_type": "hardlink",
+                "sha256": "364b755bd93e123042903d834c1dcb3fd7791a5d6029750ed4a4e100843096f3",
+                "sha256_in_prefix": "364b755bd93e123042903d834c1dcb3fd7791a5d6029750ed4a4e100843096f3",
+                "size_in_bytes": 2911
+            },
+            {
+                "_path": "share/openlane/scripts/libtrim.py",
+                "path_type": "hardlink",
+                "sha256": "d54500e5aa1214178279d710928e93e4701fd18c404a66debc9f382715dcdab0",
+                "sha256_in_prefix": "d54500e5aa1214178279d710928e93e4701fd18c404a66debc9f382715dcdab0",
+                "size_in_bytes": 2381
+            },
+            {
+                "_path": "share/openlane/scripts/magic/Readme.md",
+                "path_type": "hardlink",
+                "sha256": "35a42b97163c97c193fa4a2424d94c1de011dcf92c5956c5a52ce73965ac861c",
+                "sha256_in_prefix": "35a42b97163c97c193fa4a2424d94c1de011dcf92c5956c5a52ce73965ac861c",
+                "size_in_bytes": 126
+            },
+            {
+                "_path": "share/openlane/scripts/magic/def/antenna_check.tcl",
+                "path_type": "hardlink",
+                "sha256": "0afdef94e11618e7e0e4ed5dbf4039a70d83b4b6f66a1fcc7bd84dd190a64573",
+                "sha256_in_prefix": "0afdef94e11618e7e0e4ed5dbf4039a70d83b4b6f66a1fcc7bd84dd190a64573",
+                "size_in_bytes": 1019
+            },
+            {
+                "_path": "share/openlane/scripts/magic/def/mag.tcl",
+                "path_type": "hardlink",
+                "sha256": "5fbce9628d8e541b581f0ece7d34871c5736600faa6916a4fb0a4fb2f3c74ff2",
+                "sha256_in_prefix": "5fbce9628d8e541b581f0ece7d34871c5736600faa6916a4fb0a4fb2f3c74ff2",
+                "size_in_bytes": 708
+            },
+            {
+                "_path": "share/openlane/scripts/magic/def/mag_gds.tcl",
+                "path_type": "hardlink",
+                "sha256": "811e52f06dd22529f99b6520eb0b41332d16ef75cb8503ad33c2664c5811abeb",
+                "sha256_in_prefix": "811e52f06dd22529f99b6520eb0b41332d16ef75cb8503ad33c2664c5811abeb",
+                "size_in_bytes": 2796
+            },
+            {
+                "_path": "share/openlane/scripts/magic/def/read.tcl",
+                "path_type": "hardlink",
+                "sha256": "86bc10404d770b8a32fac91a628d706dfbc613194abffabfa63632127cee74e2",
+                "sha256_in_prefix": "86bc10404d770b8a32fac91a628d706dfbc613194abffabfa63632127cee74e2",
+                "size_in_bytes": 975
+            },
+            {
+                "_path": "share/openlane/scripts/magic/drc.tcl",
+                "path_type": "hardlink",
+                "sha256": "a2f9b2662ddab7b5daaf3fede979b920c8c34342fc26bd91eaca19142ad5b24a",
+                "sha256_in_prefix": "a2f9b2662ddab7b5daaf3fede979b920c8c34342fc26bd91eaca19142ad5b24a",
+                "size_in_bytes": 2217
+            },
+            {
+                "_path": "share/openlane/scripts/magic/erase_box.sh",
+                "path_type": "hardlink",
+                "sha256": "bc1458b9d82e1174e16d63f7da60ecac57eba63248a9343f21a85eaa672f4406",
+                "sha256_in_prefix": "bc1458b9d82e1174e16d63f7da60ecac57eba63248a9343f21a85eaa672f4406",
+                "size_in_bytes": 957
+            },
+            {
+                "_path": "share/openlane/scripts/magic/extract_spice.tcl",
+                "path_type": "hardlink",
+                "sha256": "0639fde02edd9a4881410709226c9025c002daedb2db2ecfa28733014da64b7a",
+                "sha256_in_prefix": "0639fde02edd9a4881410709226c9025c002daedb2db2ecfa28733014da64b7a",
+                "size_in_bytes": 1311
+            },
+            {
+                "_path": "share/openlane/scripts/magic/gds/drc_batch.tcl",
+                "path_type": "hardlink",
+                "sha256": "ac1d1220da59fc7632d3900c63a689dcbf4237a2eb30c4e198d7410dd17c24c8",
+                "sha256_in_prefix": "ac1d1220da59fc7632d3900c63a689dcbf4237a2eb30c4e198d7410dd17c24c8",
+                "size_in_bytes": 2200
+            },
+            {
+                "_path": "share/openlane/scripts/magic/gds/erase_box.tcl",
+                "path_type": "hardlink",
+                "sha256": "f0b50441d877ab2e531b9cda98472dc6395abb598eb9252b3e2097f530c5c930",
+                "sha256_in_prefix": "f0b50441d877ab2e531b9cda98472dc6395abb598eb9252b3e2097f530c5c930",
+                "size_in_bytes": 997
+            },
+            {
+                "_path": "share/openlane/scripts/magic/gds/extras_mag.tcl",
+                "path_type": "hardlink",
+                "sha256": "b574e9580fb9ced744a87fe5b234677a33bb07763d67cd8b54ff763c76e76e0a",
+                "sha256_in_prefix": "b574e9580fb9ced744a87fe5b234677a33bb07763d67cd8b54ff763c76e76e0a",
+                "size_in_bytes": 1356
+            },
+            {
+                "_path": "share/openlane/scripts/magic/gds/mag_with_pointers.tcl",
+                "path_type": "hardlink",
+                "sha256": "317c1ba9bf9cda4b6fa0b88d0b19edc9e21bf5a13bf79545145c13325196d697",
+                "sha256_in_prefix": "317c1ba9bf9cda4b6fa0b88d0b19edc9e21bf5a13bf79545145c13325196d697",
+                "size_in_bytes": 1064
+            },
+            {
+                "_path": "share/openlane/scripts/magic/lef.tcl",
+                "path_type": "hardlink",
+                "sha256": "14fd59b3fcc79fd97b8f9640f8dceaa51c0bc7adf4f2f8813f9b26eda7e7b7f3",
+                "sha256_in_prefix": "14fd59b3fcc79fd97b8f9640f8dceaa51c0bc7adf4f2f8813f9b26eda7e7b7f3",
+                "size_in_bytes": 1111
+            },
+            {
+                "_path": "share/openlane/scripts/magic/lef/extras_maglef.tcl",
+                "path_type": "hardlink",
+                "sha256": "3ec2c21f12ec952dd4c6ca6661ffef9e22f8273ab9e276536b6001e45f748b9f",
+                "sha256_in_prefix": "3ec2c21f12ec952dd4c6ca6661ffef9e22f8273ab9e276536b6001e45f748b9f",
+                "size_in_bytes": 1594
+            },
+            {
+                "_path": "share/openlane/scripts/magic/lef/maglef.tcl",
+                "path_type": "hardlink",
+                "sha256": "1a9627f1bc1b942569f8875e6ca65d361d901b861e00120758c50211854d4f17",
+                "sha256_in_prefix": "1a9627f1bc1b942569f8875e6ca65d361d901b861e00120758c50211854d4f17",
+                "size_in_bytes": 864
+            },
+            {
+                "_path": "share/openlane/scripts/magic/wrapper.tcl",
+                "path_type": "hardlink",
+                "sha256": "89ef46abf17341a9b2e832b35f6493a6f9f1bb6de3b1bf6c89e949b81dcdac6c",
+                "sha256_in_prefix": "89ef46abf17341a9b2e832b35f6493a6f9f1bb6de3b1bf6c89e949b81dcdac6c",
+                "size_in_bytes": 676
+            },
+            {
+                "_path": "share/openlane/scripts/mergeLef.py",
+                "path_type": "hardlink",
+                "sha256": "5302a44a6571e489f7f9b4b228cbf16281b1d46f85175e3db1a1c1176eeae3dd",
+                "sha256_in_prefix": "5302a44a6571e489f7f9b4b228cbf16281b1d46f85175e3db1a1c1176eeae3dd",
+                "size_in_bytes": 3437
+            },
+            {
+                "_path": "share/openlane/scripts/mergeLib.py",
+                "path_type": "hardlink",
+                "sha256": "bfce251ebc5eb71fc5d164b51b69d5215a24f4960ed1d0fd70af17bcaa34ac9d",
+                "sha256_in_prefix": "bfce251ebc5eb71fc5d164b51b69d5215a24f4960ed1d0fd70af17bcaa34ac9d",
+                "size_in_bytes": 2808
+            },
+            {
+                "_path": "share/openlane/scripts/most_recent_run.py",
+                "path_type": "hardlink",
+                "sha256": "5ea3b99ecd5ef251802869655302ec3685fc8b1f0c3271fb7e7e89b3192ea38c",
+                "sha256_in_prefix": "5ea3b99ecd5ef251802869655302ec3685fc8b1f0c3271fb7e7e89b3192ea38c",
+                "size_in_bytes": 1460
+            },
+            {
+                "_path": "share/openlane/scripts/new_tracks.py",
+                "path_type": "hardlink",
+                "sha256": "3b9abc9a1588f405eac8e92b7dbe5995a2d0f461bfa655fe61001f65afdbf2e7",
+                "sha256_in_prefix": "3b9abc9a1588f405eac8e92b7dbe5995a2d0f461bfa655fe61001f65afdbf2e7",
+                "size_in_bytes": 2584
+            },
+            {
+                "_path": "share/openlane/scripts/odbpy/apply_def_template.py",
+                "path_type": "hardlink",
+                "sha256": "2495f1e543ef2baa8b07985d21f72ecb8486f91f4da4b6fd72a418a9df424225",
+                "sha256_in_prefix": "2495f1e543ef2baa8b07985d21f72ecb8486f91f4da4b6fd72a418a9df424225",
+                "size_in_bytes": 1037
+            },
+            {
+                "_path": "share/openlane/scripts/odbpy/contextualize.py",
+                "path_type": "hardlink",
+                "sha256": "fb3510bcf4aff2901c4e50767a85166949324e37c9c8b4a789fa4a61c9ad44f7",
+                "sha256_in_prefix": "fb3510bcf4aff2901c4e50767a85166949324e37c9c8b4a789fa4a61c9ad44f7",
+                "size_in_bytes": 4027
+            },
+            {
+                "_path": "share/openlane/scripts/odbpy/defutil.py",
+                "path_type": "hardlink",
+                "sha256": "454d1ca12761baff2ac635bda26c7cfae2cdc8dd28b9ce1a037c36439391ba7e",
+                "sha256_in_prefix": "454d1ca12761baff2ac635bda26c7cfae2cdc8dd28b9ce1a037c36439391ba7e",
+                "size_in_bytes": 14441
+            },
+            {
+                "_path": "share/openlane/scripts/odbpy/diodes.py",
+                "path_type": "hardlink",
+                "sha256": "1d0a9958305dcb0d1c6dc255df2cca954f764204dd4bf98453ea0a5653e75a9d",
+                "sha256_in_prefix": "1d0a9958305dcb0d1c6dc255df2cca954f764204dd4bf98453ea0a5653e75a9d",
+                "size_in_bytes": 10433
+            },
+            {
+                "_path": "share/openlane/scripts/odbpy/io_place.py",
+                "path_type": "hardlink",
+                "sha256": "7b7edfda9b4d64ac6272a5fcfe1c329494b0b78fec4e06f486ad92053dcf58c1",
+                "sha256_in_prefix": "7b7edfda9b4d64ac6272a5fcfe1c329494b0b78fec4e06f486ad92053dcf58c1",
+                "size_in_bytes": 15668
+            },
+            {
+                "_path": "share/openlane/scripts/odbpy/label_macro_pins.py",
+                "path_type": "hardlink",
+                "sha256": "8550e226d3f4b8d87f075a0f89af9a55fc2442fabf331b7dbd17423ba1f771a3",
+                "sha256_in_prefix": "8550e226d3f4b8d87f075a0f89af9a55fc2442fabf331b7dbd17423ba1f771a3",
+                "size_in_bytes": 8625
+            },
+            {
+                "_path": "share/openlane/scripts/odbpy/lefutil.py",
+                "path_type": "hardlink",
+                "sha256": "678dbcdc316fe6484c5059f07f7ab8aad6513a59497d0cd83f569083c750da08",
+                "sha256_in_prefix": "678dbcdc316fe6484c5059f07f7ab8aad6513a59497d0cd83f569083c750da08",
+                "size_in_bytes": 3054
+            },
+            {
+                "_path": "share/openlane/scripts/odbpy/manual_macro_place.py",
+                "path_type": "hardlink",
+                "sha256": "236e85c718102f4889fda40cdb807b23dd3f9e14f3b1e4a2f64f6aa80e47e036",
+                "sha256_in_prefix": "236e85c718102f4889fda40cdb807b23dd3f9e14f3b1e4a2f64f6aa80e47e036",
+                "size_in_bytes": 2984
+            },
+            {
+                "_path": "share/openlane/scripts/odbpy/padringer.py",
+                "path_type": "hardlink",
+                "sha256": "4ff25c8753dd55bc88624fbb3809328bcdac53f04890ff17a68cf1d0490a9cd0",
+                "sha256_in_prefix": "4ff25c8753dd55bc88624fbb3809328bcdac53f04890ff17a68cf1d0490a9cd0",
+                "size_in_bytes": 13270
+            },
+            {
+                "_path": "share/openlane/scripts/odbpy/power_utils.py",
+                "path_type": "hardlink",
+                "sha256": "a42a4f0bc660f24e5c3da80af97fa02544fd094bd0464feceb8ad98b1d553b50",
+                "sha256_in_prefix": "a42a4f0bc660f24e5c3da80af97fa02544fd094bd0464feceb8ad98b1d553b50",
+                "size_in_bytes": 40057
+            },
+            {
+                "_path": "share/openlane/scripts/odbpy/random_place.py",
+                "path_type": "hardlink",
+                "sha256": "a4c6265d3b4bd489d6dc7d441703939f2d956665da57e99b07c7c935e7ba3938",
+                "sha256_in_prefix": "a4c6265d3b4bd489d6dc7d441703939f2d956665da57e99b07c7c935e7ba3938",
+                "size_in_bytes": 1655
+            },
+            {
+                "_path": "share/openlane/scripts/odbpy/reader.py",
+                "path_type": "hardlink",
+                "sha256": "2ef33cc7d7325ecb468718371e4bdfd0f81fb61e9ea3cfffa7d4b5774c3bde35",
+                "sha256_in_prefix": "2ef33cc7d7325ecb468718371e4bdfd0f81fb61e9ea3cfffa7d4b5774c3bde35",
+                "size_in_bytes": 3032
+            },
+            {
+                "_path": "share/openlane/scripts/odbpy/remove_buffers.py",
+                "path_type": "hardlink",
+                "sha256": "4643a176cf80cfa657189beea507f7b1c5c3056d603ba605a9233dbccd8f372e",
+                "sha256_in_prefix": "4643a176cf80cfa657189beea507f7b1c5c3056d603ba605a9233dbccd8f372e",
+                "size_in_bytes": 5501
+            },
+            {
+                "_path": "share/openlane/scripts/odbpy/snap_to_grid.py",
+                "path_type": "hardlink",
+                "sha256": "7acb9989413ac97ebff946b23505e89b23599a54e10c0547ea93280c89ea00d2",
+                "sha256_in_prefix": "7acb9989413ac97ebff946b23505e89b23599a54e10c0547ea93280c89ea00d2",
+                "size_in_bytes": 1750
+            },
+            {
+                "_path": "share/openlane/scripts/odbpy/wire_lengths.py",
+                "path_type": "hardlink",
+                "sha256": "1bd5abec7fe56d0deed8c6dcde3a4f3ffe1e51c182c732c545f96120d1995536",
+                "sha256_in_prefix": "1bd5abec7fe56d0deed8c6dcde3a4f3ffe1e51c182c732c545f96120d1995536",
+                "size_in_bytes": 2982
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/antenna_check.tcl",
+                "path_type": "hardlink",
+                "sha256": "5e8cc1319394e5360d16241a72379df86408282d928396f3028cf8ac8e4d3036",
+                "sha256_in_prefix": "5e8cc1319394e5360d16241a72379df86408282d928396f3028cf8ac8e4d3036",
+                "size_in_bytes": 725
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/basic_mp.tcl",
+                "path_type": "hardlink",
+                "sha256": "6e7cd4db4e633cf2b1ffdb7126cadee76d24bf47f4463441794e6051c70d1923",
+                "sha256_in_prefix": "6e7cd4db4e633cf2b1ffdb7126cadee76d24bf47f4463441794e6051c70d1923",
+                "size_in_bytes": 741
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/common/dpl_cell_pad.tcl",
+                "path_type": "hardlink",
+                "sha256": "4ae9e373c9ae4a70996d160c31799e921e32bc26dc8cf862630de232e0e3ee99",
+                "sha256_in_prefix": "4ae9e373c9ae4a70996d160c31799e921e32bc26dc8cf862630de232e0e3ee99",
+                "size_in_bytes": 948
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/common/io.tcl",
+                "path_type": "hardlink",
+                "sha256": "78bcec99bb295a5d09eb988801faf041516ad403041e6ccdb76035bdae6b8b1c",
+                "sha256_in_prefix": "78bcec99bb295a5d09eb988801faf041516ad403041e6ccdb76035bdae6b8b1c",
+                "size_in_bytes": 8924
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/common/pdn_cfg.tcl",
+                "path_type": "hardlink",
+                "sha256": "dadca6e7adb837939bc8cf8673a13473338fb27fe4015044868b879dfbf063c8",
+                "sha256_in_prefix": "dadca6e7adb837939bc8cf8673a13473338fb27fe4015044868b879dfbf063c8",
+                "size_in_bytes": 4199
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/common/resizer.tcl",
+                "path_type": "hardlink",
+                "sha256": "44ddb8095aca17a2e0351dd447e5638bf8e6247baa0a36095108e6f2b77a8915",
+                "sha256_in_prefix": "44ddb8095aca17a2e0351dd447e5638bf8e6247baa0a36095108e6f2b77a8915",
+                "size_in_bytes": 1677
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/common/set_global_connections.tcl",
+                "path_type": "hardlink",
+                "sha256": "2fb63bce34d7fae13ea29f04e110c5b40046434002ba56c6cca0fc843dea3d55",
+                "sha256_in_prefix": "2fb63bce34d7fae13ea29f04e110c5b40046434002ba56c6cca0fc843dea3d55",
+                "size_in_bytes": 2715
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/common/set_layer_adjustments.tcl",
+                "path_type": "hardlink",
+                "sha256": "a80ece796f70d4ec140195c11814e3791d5ae4bdf0e44e6b44edbef77805f03d",
+                "sha256_in_prefix": "a80ece796f70d4ec140195c11814e3791d5ae4bdf0e44e6b44edbef77805f03d",
+                "size_in_bytes": 874
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/common/set_rc.tcl",
+                "path_type": "hardlink",
+                "sha256": "cd9b17bcb0185cfcd1068a0e63e8d4c74a748b9add1b3885108ea525b93bca17",
+                "sha256_in_prefix": "cd9b17bcb0185cfcd1068a0e63e8d4c74a748b9add1b3885108ea525b93bca17",
+                "size_in_bytes": 1485
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/common/set_routing_layers.tcl",
+                "path_type": "hardlink",
+                "sha256": "3781a67a4234df4da2f6acee72abebe134fa66768575b59d058b4692a9fed921",
+                "sha256_in_prefix": "3781a67a4234df4da2f6acee72abebe134fa66768575b59d058b4692a9fed921",
+                "size_in_bytes": 1335
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/cts.tcl",
+                "path_type": "hardlink",
+                "sha256": "ca514c734458e78433e9db99b339f468577ab06cdd15d85a753065756ff1e489",
+                "sha256_in_prefix": "ca514c734458e78433e9db99b339f468577ab06cdd15d85a753065756ff1e489",
+                "size_in_bytes": 2642
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/diodes.tcl",
+                "path_type": "hardlink",
+                "sha256": "dd665639222889d1c96efa8f85aac1b01baee3e19396c4257781af583b3fc2f8",
+                "sha256_in_prefix": "dd665639222889d1c96efa8f85aac1b01baee3e19396c4257781af583b3fc2f8",
+                "size_in_bytes": 3223
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/dpl.tcl",
+                "path_type": "hardlink",
+                "sha256": "a9de89f9827a079fc103096f2aad36ff4810832bbedaecb672c2b3143f76bc9d",
+                "sha256_in_prefix": "a9de89f9827a079fc103096f2aad36ff4810832bbedaecb672c2b3143f76bc9d",
+                "size_in_bytes": 1027
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/droute.tcl",
+                "path_type": "hardlink",
+                "sha256": "d1e9bfc696cdf54ac8285335adcd757df771d9b1497a60630253560a81e0ba93",
+                "sha256_in_prefix": "d1e9bfc696cdf54ac8285335adcd757df771d9b1497a60630253560a81e0ba93",
+                "size_in_bytes": 1241
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/fill.tcl",
+                "path_type": "hardlink",
+                "sha256": "559f11c1ba7bb53916364f1f56a913c5be52b15a594c52936783be189f1c84a1",
+                "sha256_in_prefix": "559f11c1ba7bb53916364f1f56a913c5be52b15a594c52936783be189f1c84a1",
+                "size_in_bytes": 708
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/floorplan.tcl",
+                "path_type": "hardlink",
+                "sha256": "d66c6f1509395c98feed319715df18c2987f0f569047ed52c54981fc0ccb9855",
+                "sha256_in_prefix": "d66c6f1509395c98feed319715df18c2987f0f569047ed52c54981fc0ccb9855",
+                "size_in_bytes": 4150
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/gpl.tcl",
+                "path_type": "hardlink",
+                "sha256": "bc1b53907aee47ec626ed83ecf291f3452956f0725ddd171ef1a7b0592dc93bf",
+                "sha256_in_prefix": "bc1b53907aee47ec626ed83ecf291f3452956f0725ddd171ef1a7b0592dc93bf",
+                "size_in_bytes": 2338
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/groute.tcl",
+                "path_type": "hardlink",
+                "sha256": "74729a7ad359f5daac0c476df02159f59263c135c70bb0a46dd0c69341ded0a7",
+                "sha256_in_prefix": "74729a7ad359f5daac0c476df02159f59263c135c70bb0a46dd0c69341ded0a7",
+                "size_in_bytes": 1739
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/gui.tcl",
+                "path_type": "hardlink",
+                "sha256": "5d495e2c96873574e34dd76317e9f5009f6f0bccd64e1cbeddc188ba0b4cf145",
+                "sha256_in_prefix": "5d495e2c96873574e34dd76317e9f5009f6f0bccd64e1cbeddc188ba0b4cf145",
+                "size_in_bytes": 919
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/insert_buffer.tcl",
+                "path_type": "hardlink",
+                "sha256": "0156508b00b49ed130009cfe90f25ad021bae1fff4d26c2d9138ff88e3cdaa3d",
+                "sha256_in_prefix": "0156508b00b49ed130009cfe90f25ad021bae1fff4d26c2d9138ff88e3cdaa3d",
+                "size_in_bytes": 4378
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/ioplacer.tcl",
+                "path_type": "hardlink",
+                "sha256": "c23324f3bcc067e2d6072aa92922a545e76151dad68d6dcbdf3cc027c081936e",
+                "sha256_in_prefix": "c23324f3bcc067e2d6072aa92922a545e76151dad68d6dcbdf3cc027c081936e",
+                "size_in_bytes": 1635
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/irdrop.tcl",
+                "path_type": "hardlink",
+                "sha256": "db4c48e882c01b6b159d07121c5bda9611033949dded8ce5c0e7884dc8acba5d",
+                "sha256_in_prefix": "db4c48e882c01b6b159d07121c5bda9611033949dded8ce5c0e7884dc8acba5d",
+                "size_in_bytes": 1073
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/pdn.tcl",
+                "path_type": "hardlink",
+                "sha256": "9b01f4cf3ee44126d565ff7dac6c903ac7810f552416dc8ee01a038143f4554d",
+                "sha256_in_prefix": "9b01f4cf3ee44126d565ff7dac6c903ac7810f552416dc8ee01a038143f4554d",
+                "size_in_bytes": 1238
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/rcx.tcl",
+                "path_type": "hardlink",
+                "sha256": "82eb041dd8933f7b825875a548f9025a6fc927dde137b22762987197fb5041f0",
+                "sha256_in_prefix": "82eb041dd8933f7b825875a548f9025a6fc927dde137b22762987197fb5041f0",
+                "size_in_bytes": 1099
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/resizer.tcl",
+                "path_type": "hardlink",
+                "sha256": "8c58ffb8887f09d76c097f860584279ee79416263d845398a2ecdbbb2331363b",
+                "sha256_in_prefix": "8c58ffb8887f09d76c097f860584279ee79416263d845398a2ecdbbb2331363b",
+                "size_in_bytes": 2588
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/resizer_routing_design.tcl",
+                "path_type": "hardlink",
+                "sha256": "698f7a64d5d45f38844017c9ea2f79fb6a10c963b6ced597c4c9c76e1be8f67f",
+                "sha256_in_prefix": "698f7a64d5d45f38844017c9ea2f79fb6a10c963b6ced597c4c9c76e1be8f67f",
+                "size_in_bytes": 2185
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/resizer_routing_timing.tcl",
+                "path_type": "hardlink",
+                "sha256": "85c8684a5a808247dde4a1596fb32fa638b304a66508d8c93b021e7219bf9aac",
+                "sha256_in_prefix": "85c8684a5a808247dde4a1596fb32fa638b304a66508d8c93b021e7219bf9aac",
+                "size_in_bytes": 2376
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/resizer_timing.tcl",
+                "path_type": "hardlink",
+                "sha256": "3b83ce5c395da32b9ef429a4cc03c8738d1200422feb34375b120432ba1e1d24",
+                "sha256_in_prefix": "3b83ce5c395da32b9ef429a4cc03c8738d1200422feb34375b120432ba1e1d24",
+                "size_in_bytes": 2103
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/sta/multi_corner.tcl",
+                "path_type": "hardlink",
+                "sha256": "fab86133ede32eb9b7dd7cb12877f46680a6273ec869b455c399c1fd36a59134",
+                "sha256_in_prefix": "fab86133ede32eb9b7dd7cb12877f46680a6273ec869b455c399c1fd36a59134",
+                "size_in_bytes": 6319
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/tapcell.tcl",
+                "path_type": "hardlink",
+                "sha256": "80b3bf03058cef61eec96befa49c5017677248e4d85659000ee566707710aca6",
+                "sha256_in_prefix": "80b3bf03058cef61eec96befa49c5017677248e4d85659000ee566707710aca6",
+                "size_in_bytes": 889
+            },
+            {
+                "_path": "share/openlane/scripts/openroad/write_views.tcl",
+                "path_type": "hardlink",
+                "sha256": "a6377a6a4be9c5ee4bf20d4e2368949bc5af14e65ec9baac70cba9fcd75e4484",
+                "sha256_in_prefix": "a6377a6a4be9c5ee4bf20d4e2368949bc5af14e65ec9baac70cba9fcd75e4484",
+                "size_in_bytes": 645
+            },
+            {
+                "_path": "share/openlane/scripts/or_issue.py",
+                "path_type": "hardlink",
+                "sha256": "c5fe9f716738a312b4269d98d5aa1df59bc93fbec49b8bd59d74267ecf988815",
+                "sha256_in_prefix": "c5fe9f716738a312b4269d98d5aa1df59bc93fbec49b8bd59d74267ecf988815",
+                "size_in_bytes": 13279
+            },
+            {
+                "_path": "share/openlane/scripts/padframe_generator.py",
+                "path_type": "hardlink",
+                "sha256": "8b8a03e8e674a7d1f2ed699995dcb0c10e24d23ab5ec1d407e552834476394cd",
+                "sha256_in_prefix": "8b8a03e8e674a7d1f2ed699995dcb0c10e24d23ab5ec1d407e552834476394cd",
+                "size_in_bytes": 116779
+            },
+            {
+                "_path": "share/openlane/scripts/parse_yosys_check.py",
+                "path_type": "hardlink",
+                "sha256": "d26570b14331a08d1109b0ab0388dcf08cc71813218a091c44cde06e27839222",
+                "sha256_in_prefix": "d26570b14331a08d1109b0ab0388dcf08cc71813218a091c44cde06e27839222",
+                "size_in_bytes": 4166
+            },
+            {
+                "_path": "share/openlane/scripts/pdk_linker.py",
+                "path_type": "hardlink",
+                "sha256": "05be50115bf5d96dbea7873a685cef3088588656d5d6ef08fc8c393541173db8",
+                "sha256_in_prefix": "05be50115bf5d96dbea7873a685cef3088588656d5d6ef08fc8c393541173db8",
+                "size_in_bytes": 4160
+            },
+            {
+                "_path": "share/openlane/scripts/report/get_best.py",
+                "path_type": "hardlink",
+                "sha256": "e507c0a27bee7702f435ec9cbf731337fbe43805924d0395e5a658c5ac05f919",
+                "sha256_in_prefix": "e507c0a27bee7702f435ec9cbf731337fbe43805924d0395e5a658c5ac05f919",
+                "size_in_bytes": 8448
+            },
+            {
+                "_path": "share/openlane/scripts/report/get_file_name.py",
+                "path_type": "hardlink",
+                "sha256": "2f9f6a2be5e86cc9de3b36a61ed3840e254f423a3456008c5ddde9b836b39622",
+                "sha256_in_prefix": "2f9f6a2be5e86cc9de3b36a61ed3840e254f423a3456008c5ddde9b836b39622",
+                "size_in_bytes": 2613
+            },
+            {
+                "_path": "share/openlane/scripts/report/report.py",
+                "path_type": "hardlink",
+                "sha256": "4e21cacad3d411606a8c270d2a0154c6d3b0349f6787548e933e4c7d6dacad0f",
+                "sha256_in_prefix": "4e21cacad3d411606a8c270d2a0154c6d3b0349f6787548e933e4c7d6dacad0f",
+                "size_in_bytes": 28466
+            },
+            {
+                "_path": "share/openlane/scripts/report/report_routing.py",
+                "path_type": "hardlink",
+                "sha256": "dd78e0eb1f13095a850efe93e186d62aca313633302c4082676bbf95bd837d36",
+                "sha256_in_prefix": "dd78e0eb1f13095a850efe93e186d62aca313633302c4082676bbf95bd837d36",
+                "size_in_bytes": 7698
+            },
+            {
+                "_path": "share/openlane/scripts/synth_exp/analyze.py",
+                "path_type": "hardlink",
+                "sha256": "19ad118e427804bb284b8b0bee518a1b5c31317b45c59b1e671d6fab0d442b9b",
+                "sha256_in_prefix": "19ad118e427804bb284b8b0bee518a1b5c31317b45c59b1e671d6fab0d442b9b",
+                "size_in_bytes": 8134
+            },
+            {
+                "_path": "share/openlane/scripts/synth_exp/table.css",
+                "path_type": "hardlink",
+                "sha256": "504217c83684497d5bde187ec03d1c76858e5c607b79a8bc46e780a3fc60bcff",
+                "sha256_in_prefix": "504217c83684497d5bde187ec03d1c76858e5c607b79a8bc46e780a3fc60bcff",
+                "size_in_bytes": 1043
+            },
+            {
+                "_path": "share/openlane/scripts/synth_exp/utils.js",
+                "path_type": "hardlink",
+                "sha256": "6096c0bfd351ee5cc25d9d25667856197c18a964df0008e85554c24b37f00fc9",
+                "sha256_in_prefix": "6096c0bfd351ee5cc25d9d25667856197c18a964df0008e85554c24b37f00fc9",
+                "size_in_bytes": 4045
+            },
+            {
+                "_path": "share/openlane/scripts/tcl_commands/README.md",
+                "path_type": "hardlink",
+                "sha256": "cb9e8f0d475f13b831880a19b01b67ea22fd3813ca06ed43444884798fc51e61",
+                "sha256_in_prefix": "cb9e8f0d475f13b831880a19b01b67ea22fd3813ca06ed43444884798fc51e61",
+                "size_in_bytes": 222
+            },
+            {
+                "_path": "share/openlane/scripts/tcl_commands/all.tcl",
+                "path_type": "hardlink",
+                "sha256": "9969c2e2f2625c7757e132ef106466c450e5cd1440f0e75a09bd39d8b7198ff4",
+                "sha256_in_prefix": "9969c2e2f2625c7757e132ef106466c450e5cd1440f0e75a09bd39d8b7198ff4",
+                "size_in_bytes": 44901
+            },
+            {
+                "_path": "share/openlane/scripts/tcl_commands/checkers.tcl",
+                "path_type": "hardlink",
+                "sha256": "532ded5a8b78d1b9cf99aaaaba18d91892f7639d7ac31f71dd86a58bf68cdf72",
+                "sha256_in_prefix": "532ded5a8b78d1b9cf99aaaaba18d91892f7639d7ac31f71dd86a58bf68cdf72",
+                "size_in_bytes": 12686
+            },
+            {
+                "_path": "share/openlane/scripts/tcl_commands/cts.tcl",
+                "path_type": "hardlink",
+                "sha256": "277e9234bcc26879982b066f27e55288266111409b03c5b45b5fff10796a0d30",
+                "sha256_in_prefix": "277e9234bcc26879982b066f27e55288266111409b03c5b45b5fff10796a0d30",
+                "size_in_bytes": 2844
+            },
+            {
+                "_path": "share/openlane/scripts/tcl_commands/cvc_rv.tcl",
+                "path_type": "hardlink",
+                "sha256": "1b123e457b8eb2d56712cc18ca0083cabe95a776c278a18da162977ecb16700c",
+                "sha256_in_prefix": "1b123e457b8eb2d56712cc18ca0083cabe95a776c278a18da162977ecb16700c",
+                "size_in_bytes": 3037
+            },
+            {
+                "_path": "share/openlane/scripts/tcl_commands/floorplan.tcl",
+                "path_type": "hardlink",
+                "sha256": "86c990c94c7edf9a3b1a95dd3b36e6616decd65561e226c44a0b362261f7fb6e",
+                "sha256_in_prefix": "86c990c94c7edf9a3b1a95dd3b36e6616decd65561e226c44a0b362261f7fb6e",
+                "size_in_bytes": 18879
+            },
+            {
+                "_path": "share/openlane/scripts/tcl_commands/init_design.tcl",
+                "path_type": "hardlink",
+                "sha256": "0b02792f4bba9ef0cd8f61137ab5b33fe7779ce399732a525d41e84697429cf4",
+                "sha256_in_prefix": "0b02792f4bba9ef0cd8f61137ab5b33fe7779ce399732a525d41e84697429cf4",
+                "size_in_bytes": 1843
+            },
+            {
+                "_path": "share/openlane/scripts/tcl_commands/klayout.tcl",
+                "path_type": "hardlink",
+                "sha256": "869ff48995d1f2a6e1d52aba9b202322c8aee833824c123a1eaa041b363ab7e8",
+                "sha256_in_prefix": "869ff48995d1f2a6e1d52aba9b202322c8aee833824c123a1eaa041b363ab7e8",
+                "size_in_bytes": 7901
+            },
+            {
+                "_path": "share/openlane/scripts/tcl_commands/lvs.tcl",
+                "path_type": "hardlink",
+                "sha256": "49b74f11b21d292c124813904e76b40766aefcc418b887cd8be080a6b3329a3e",
+                "sha256_in_prefix": "49b74f11b21d292c124813904e76b40766aefcc418b887cd8be080a6b3329a3e",
+                "size_in_bytes": 7839
+            },
+            {
+                "_path": "share/openlane/scripts/tcl_commands/magic.tcl",
+                "path_type": "hardlink",
+                "sha256": "330e195396313e589c7d0b43e0145f9e9683322d3e08741565fe11dd42979ede",
+                "sha256_in_prefix": "330e195396313e589c7d0b43e0145f9e9683322d3e08741565fe11dd42979ede",
+                "size_in_bytes": 10484
+            },
+            {
+                "_path": "share/openlane/scripts/tcl_commands/pkgIndex.tcl",
+                "path_type": "hardlink",
+                "sha256": "11b814c817f6da007d77519cd7093f6dadce560fba67a03bbac98080886f045e",
+                "sha256_in_prefix": "11b814c817f6da007d77519cd7093f6dadce560fba67a03bbac98080886f045e",
+                "size_in_bytes": 1645
+            },
+            {
+                "_path": "share/openlane/scripts/tcl_commands/placement.tcl",
+                "path_type": "hardlink",
+                "sha256": "ae98f9633cc616780a5e3d953999208dbf849a12148c679ad694c21f9e7ab7b7",
+                "sha256_in_prefix": "ae98f9633cc616780a5e3d953999208dbf849a12148c679ad694c21f9e7ab7b7",
+                "size_in_bytes": 8411
+            },
+            {
+                "_path": "share/openlane/scripts/tcl_commands/refresh.tcl",
+                "path_type": "hardlink",
+                "sha256": "aca199bb10092535b2e64182bc4e26fd0ab105638a7229c49159c7a10b6c8b55",
+                "sha256_in_prefix": "aca199bb10092535b2e64182bc4e26fd0ab105638a7229c49159c7a10b6c8b55",
+                "size_in_bytes": 600
+            },
+            {
+                "_path": "share/openlane/scripts/tcl_commands/routing.tcl",
+                "path_type": "hardlink",
+                "sha256": "9ace22741121f47641061edfa804d7e8ac0b4b8372baed089af69c83bac96da6",
+                "sha256_in_prefix": "9ace22741121f47641061edfa804d7e8ac0b4b8372baed089af69c83bac96da6",
+                "size_in_bytes": 16727
+            },
+            {
+                "_path": "share/openlane/scripts/tcl_commands/sta.tcl",
+                "path_type": "hardlink",
+                "sha256": "a91f51ecec6b1202ccda23b27bd9eb784abe62337405a0fe3b1bdcdb16316551",
+                "sha256_in_prefix": "a91f51ecec6b1202ccda23b27bd9eb784abe62337405a0fe3b1bdcdb16316551",
+                "size_in_bytes": 5959
+            },
+            {
+                "_path": "share/openlane/scripts/tcl_commands/synthesis.tcl",
+                "path_type": "hardlink",
+                "sha256": "d33a2b5ff7edbdcfe8e6553e1a032e6dfbd07d8ac4c305d97fc6872c066fe110",
+                "sha256_in_prefix": "d33a2b5ff7edbdcfe8e6553e1a032e6dfbd07d8ac4c305d97fc6872c066fe110",
+                "size_in_bytes": 8950
+            },
+            {
+                "_path": "share/openlane/scripts/topModuleGen/README.md",
+                "path_type": "hardlink",
+                "sha256": "15c546f6435e27c38897957b54f2681855feeda348678f6c886032947e0a3df8",
+                "sha256_in_prefix": "15c546f6435e27c38897957b54f2681855feeda348678f6c886032947e0a3df8",
+                "size_in_bytes": 6063
+            },
+            {
+                "_path": "share/openlane/scripts/topModuleGen/src/TopModuleGen.py",
+                "path_type": "hardlink",
+                "sha256": "6cf28afe2c99e7288d3ca291a7904fe413d48b32a059b3a3735b948723e44bec",
+                "sha256_in_prefix": "6cf28afe2c99e7288d3ca291a7904fe413d48b32a059b3a3735b948723e44bec",
+                "size_in_bytes": 33787
+            },
+            {
+                "_path": "share/openlane/scripts/topModuleGen/src/padHelper.py",
+                "path_type": "hardlink",
+                "sha256": "449bdd86b16cee3291bf22eaf2e1cff985135a86faf4a1ee20d49d9df8f04a8f",
+                "sha256_in_prefix": "449bdd86b16cee3291bf22eaf2e1cff985135a86faf4a1ee20d49d9df8f04a8f",
+                "size_in_bytes": 2782
+            },
+            {
+                "_path": "share/openlane/scripts/utils/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "fba82826ebcefe02d83c8c5c237fd8897714d045915d02cc3fb0308ce3779402",
+                "sha256_in_prefix": "fba82826ebcefe02d83c8c5c237fd8897714d045915d02cc3fb0308ce3779402",
+                "size_in_bytes": 585
+            },
+            {
+                "_path": "share/openlane/scripts/utils/deflef_utils.tcl",
+                "path_type": "hardlink",
+                "sha256": "7ec94190d2c32ad2cd06a4d029a4ecace5564536bb60a602a269ab38c835642b",
+                "sha256_in_prefix": "7ec94190d2c32ad2cd06a4d029a4ecace5564536bb60a602a269ab38c835642b",
+                "size_in_bytes": 6760
+            },
+            {
+                "_path": "share/openlane/scripts/utils/fake_display_buffer.tcl",
+                "path_type": "hardlink",
+                "sha256": "c476e94365b66c940aae913a01dd5e2170790f2e65ef602ba2d745a8fe92776b",
+                "sha256_in_prefix": "c476e94365b66c940aae913a01dd5e2170790f2e65ef602ba2d745a8fe92776b",
+                "size_in_bytes": 800
+            },
+            {
+                "_path": "share/openlane/scripts/utils/pkgIndex.tcl",
+                "path_type": "hardlink",
+                "sha256": "3b0a1a35d41fb660c3ab77fde10ccdfeeb5523a3291f91b8f8cfed3588730450",
+                "sha256_in_prefix": "3b0a1a35d41fb660c3ab77fde10ccdfeeb5523a3291f91b8f8cfed3588730450",
+                "size_in_bytes": 1234
+            },
+            {
+                "_path": "share/openlane/scripts/utils/utils.py",
+                "path_type": "hardlink",
+                "sha256": "8f25b24e394df8d6a51eda0c75e4ee73af007905a8af2dc8a97f95e52d88b5e4",
+                "sha256_in_prefix": "8f25b24e394df8d6a51eda0c75e4ee73af007905a8af2dc8a97f95e52d88b5e4",
+                "size_in_bytes": 2273
+            },
+            {
+                "_path": "share/openlane/scripts/utils/utils.tcl",
+                "path_type": "hardlink",
+                "sha256": "645f36a9c53b5928f26c22939808cd3d4f4522cccc9156712a9ae30863f43a74",
+                "sha256_in_prefix": "645f36a9c53b5928f26c22939808cd3d4f4522cccc9156712a9ae30863f43a74",
+                "size_in_bytes": 25155
+            },
+            {
+                "_path": "share/openlane/scripts/write_runtime.py",
+                "path_type": "hardlink",
+                "sha256": "f69360f84abd62a824ecf3c831dcd32ea5eac40b2f85f9b2e463820a7171f3e8",
+                "sha256_in_prefix": "f69360f84abd62a824ecf3c831dcd32ea5eac40b2f85f9b2e463820a7171f3e8",
+                "size_in_bytes": 4224
+            },
+            {
+                "_path": "share/openlane/scripts/yosys/elaborate.tcl",
+                "path_type": "hardlink",
+                "sha256": "26afc9c40b2c74550f400ca4fa21f4939fdd7fdf781d5d3cb199ac3208578649",
+                "sha256_in_prefix": "26afc9c40b2c74550f400ca4fa21f4939fdd7fdf781d5d3cb199ac3208578649",
+                "size_in_bytes": 2431
+            },
+            {
+                "_path": "share/openlane/scripts/yosys/logic_equiv_check.tcl",
+                "path_type": "hardlink",
+                "sha256": "0f9afb52204cca424b808df6fb80cf336be9d0d2f2563614c0b77fd1d2201272",
+                "sha256_in_prefix": "0f9afb52204cca424b808df6fb80cf336be9d0d2f2563614c0b77fd1d2201272",
+                "size_in_bytes": 1705
+            },
+            {
+                "_path": "share/openlane/scripts/yosys/rewrite_verilog.tcl",
+                "path_type": "hardlink",
+                "sha256": "7448d6d993b85bd3595d1145c2f8c8af5d5be7edb2422c067cd290f42a9157e6",
+                "sha256_in_prefix": "7448d6d993b85bd3595d1145c2f8c8af5d5be7edb2422c067cd290f42a9157e6",
+                "size_in_bytes": 778
+            },
+            {
+                "_path": "share/openlane/scripts/yosys/synth.tcl",
+                "path_type": "hardlink",
+                "sha256": "9f7de0e4f1b382c99ce2141498fa7dcb27c7b23224f6050055e5ae9e487f670b",
+                "sha256_in_prefix": "9f7de0e4f1b382c99ce2141498fa7dcb27c7b23224f6050055e5ae9e487f670b",
+                "size_in_bytes": 15700
+            },
+            {
+                "_path": "share/openlane/tests/.gitignore",
+                "path_type": "hardlink",
+                "sha256": "852ff170d8e27b832e4dc5aa418178a97d5ee04d45094a126e460a508d3b11d4",
+                "sha256_in_prefix": "852ff170d8e27b832e4dc5aa418178a97d5ee04d45094a126e460a508d3b11d4",
+                "size_in_bytes": 89
+            },
+            {
+                "_path": "share/openlane/tests/1007/.gitignore",
+                "path_type": "hardlink",
+                "sha256": "2d1dd27717f1bd760cf385c176f935fd13c5a38185985197debf5b7c7edf62d0",
+                "sha256_in_prefix": "2d1dd27717f1bd760cf385c176f935fd13c5a38185985197debf5b7c7edf62d0",
+                "size_in_bytes": 22
+            },
+            {
+                "_path": "share/openlane/tests/1007/config.tcl",
+                "path_type": "hardlink",
+                "sha256": "8ddc4d8f252e41993fe8ea0c9d15a963ab9fc0efa48de2fdb3f033c98c611bcb",
+                "sha256_in_prefix": "8ddc4d8f252e41993fe8ea0c9d15a963ab9fc0efa48de2fdb3f033c98c611bcb",
+                "size_in_bytes": 31
+            },
+            {
+                "_path": "share/openlane/tests/1007/hooks/post_run.py",
+                "path_type": "hardlink",
+                "sha256": "fc70aebd147470b15a60df14bb7e9b32564155111ab8cd34ebce9d4ae9a49df9",
+                "sha256_in_prefix": "fc70aebd147470b15a60df14bb7e9b32564155111ab8cd34ebce9d4ae9a49df9",
+                "size_in_bytes": 1088
+            },
+            {
+                "_path": "share/openlane/tests/1007/in.def",
+                "path_type": "hardlink",
+                "sha256": "aaff200fb3523b926c09873f4690e7c8bbe56a042686cc245694f48e4b7d4784",
+                "sha256_in_prefix": "aaff200fb3523b926c09873f4690e7c8bbe56a042686cc245694f48e4b7d4784",
+                "size_in_bytes": 4301
+            },
+            {
+                "_path": "share/openlane/tests/1007/interactive.tcl",
+                "path_type": "hardlink",
+                "sha256": "d5c9be64a5fe44d1a44364a494e8e2867e1a98254d6ba2dda2ad646ec3dca9d9",
+                "sha256_in_prefix": "d5c9be64a5fe44d1a44364a494e8e2867e1a98254d6ba2dda2ad646ec3dca9d9",
+                "size_in_bytes": 500
+            },
+            {
+                "_path": "share/openlane/tests/1413/.gitignore",
+                "path_type": "hardlink",
+                "sha256": "2d1dd27717f1bd760cf385c176f935fd13c5a38185985197debf5b7c7edf62d0",
+                "sha256_in_prefix": "2d1dd27717f1bd760cf385c176f935fd13c5a38185985197debf5b7c7edf62d0",
+                "size_in_bytes": 22
+            },
+            {
+                "_path": "share/openlane/tests/1413/config.tcl",
+                "path_type": "hardlink",
+                "sha256": "8ddc4d8f252e41993fe8ea0c9d15a963ab9fc0efa48de2fdb3f033c98c611bcb",
+                "sha256_in_prefix": "8ddc4d8f252e41993fe8ea0c9d15a963ab9fc0efa48de2fdb3f033c98c611bcb",
+                "size_in_bytes": 31
+            },
+            {
+                "_path": "share/openlane/tests/1413/hooks/post_run.py",
+                "path_type": "hardlink",
+                "sha256": "bbf7638e5e01def7d68bbe061467a7c62e7730d44cc9e990efb282c228c560bb",
+                "sha256_in_prefix": "bbf7638e5e01def7d68bbe061467a7c62e7730d44cc9e990efb282c228c560bb",
+                "size_in_bytes": 966
+            },
+            {
+                "_path": "share/openlane/tests/1413/in.def",
+                "path_type": "softlink",
+                "sha256_in_prefix": "aaff200fb3523b926c09873f4690e7c8bbe56a042686cc245694f48e4b7d4784",
+                "size_in_bytes": 4301
+            },
+            {
+                "_path": "share/openlane/tests/1413/interactive.tcl",
+                "path_type": "hardlink",
+                "sha256": "ccece26b724a24cf526eab69b5301e515ac1f87e305ca4d6b599cab22e149776",
+                "sha256_in_prefix": "ccece26b724a24cf526eab69b5301e515ac1f87e305ca4d6b599cab22e149776",
+                "size_in_bytes": 667
+            },
+            {
+                "_path": "share/openlane/tests/1506/config.json",
+                "path_type": "hardlink",
+                "sha256": "79ec42f0632dcc4e6a6afb6138f894110b11855a534f20bd54cff83abb1362d2",
+                "sha256_in_prefix": "79ec42f0632dcc4e6a6afb6138f894110b11855a534f20bd54cff83abb1362d2",
+                "size_in_bytes": 666
+            },
+            {
+                "_path": "share/openlane/tests/1506/hooks/post_run.py",
+                "path_type": "hardlink",
+                "sha256": "fb143d55ebe1ac98fb70cc89f30c5876a86b59f4fe1b7cd954f63f705b309764",
+                "sha256_in_prefix": "fb143d55ebe1ac98fb70cc89f30c5876a86b59f4fe1b7cd954f63f705b309764",
+                "size_in_bytes": 358
+            },
+            {
+                "_path": "share/openlane/tests/1506/interactive.tcl",
+                "path_type": "hardlink",
+                "sha256": "2ad1efbf74767e750470bbaf30a055317116f9c7131e54ac5d4aaf8d837f86f4",
+                "sha256_in_prefix": "2ad1efbf74767e750470bbaf30a055317116f9c7131e54ac5d4aaf8d837f86f4",
+                "size_in_bytes": 85
+            },
+            {
+                "_path": "share/openlane/tests/1506/src/inverter.v",
+                "path_type": "hardlink",
+                "sha256": "67c88d7f7cb6ef1697d691f2d9dc32bf35fd3aee4a4071c187c5d58fb0a121cd",
+                "sha256_in_prefix": "67c88d7f7cb6ef1697d691f2d9dc32bf35fd3aee4a4071c187c5d58fb0a121cd",
+                "size_in_bytes": 699
+            },
+            {
+                "_path": "share/openlane/tests/912/config.tcl",
+                "path_type": "hardlink",
+                "sha256": "7c1d228ed0f63563dd46688ffeb9ead8353695fab885abe90c35122670b73d9f",
+                "sha256_in_prefix": "7c1d228ed0f63563dd46688ffeb9ead8353695fab885abe90c35122670b73d9f",
+                "size_in_bytes": 533
+            },
+            {
+                "_path": "share/openlane/tests/912/def_test.def",
+                "path_type": "hardlink",
+                "sha256": "38c939299c2c95ae317307bf43c5c572dafa665814c3345885b8a47155302a18",
+                "sha256_in_prefix": "38c939299c2c95ae317307bf43c5c572dafa665814c3345885b8a47155302a18",
+                "size_in_bytes": 1153
+            },
+            {
+                "_path": "share/openlane/tests/912/issue_regression.py",
+                "path_type": "hardlink",
+                "sha256": "da5e1b84c8505e6373d15e171f1d4f0ad5c9f1c8ce12d843420350db07a59515",
+                "sha256_in_prefix": "da5e1b84c8505e6373d15e171f1d4f0ad5c9f1c8ce12d843420350db07a59515",
+                "size_in_bytes": 1426
+            },
+            {
+                "_path": "share/openlane/tests/912/src/def_test.v",
+                "path_type": "hardlink",
+                "sha256": "dbea8d5210ec1edc560508d32155a05da31bfcc2723420512f4ed3573ddf0746",
+                "sha256_in_prefix": "dbea8d5210ec1edc560508d32155a05da31bfcc2723420512f4ed3573ddf0746",
+                "size_in_bytes": 939
+            },
+            {
+                "_path": "share/openlane/tests/Readme.md",
+                "path_type": "hardlink",
+                "sha256": "3d92f55f03a6eeb8dd7eae436393137bc77167bc18c634584f9ffb436c40140e",
+                "sha256_in_prefix": "3d92f55f03a6eeb8dd7eae436393137bc77167bc18c634584f9ffb436c40140e",
+                "size_in_bytes": 186
+            },
+            {
+                "_path": "share/openlane/tests/__main__.py",
+                "path_type": "hardlink",
+                "sha256": "95abe8683e8937b313e41efdb24c63193631f30afb7bd2eef250293f2b75b5b8",
+                "sha256_in_prefix": "95abe8683e8937b313e41efdb24c63193631f30afb7bd2eef250293f2b75b5b8",
+                "size_in_bytes": 5926
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": null,
+    "requested_spec": "openlane",
+    "sha256": "e5cae72a4db47ad40b7bd869dc5d4c859c6eac1091ffc3f87dd65b7769778930",
+    "size": 12132912,
+    "subdir": "noarch",
+    "timestamp": 1681297880644,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/litex-hub/noarch/openlane-2023.04.12_0_g23e367a9-20230412_103222.tar.bz2",
+    "version": "2023.04.12_0_g23e367a9"
+}

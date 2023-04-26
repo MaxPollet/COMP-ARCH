@@ -1,0 +1,79 @@
+{
+    "arch": "x86_64",
+    "build": "20230412_103222",
+    "build_number": 20230412103222,
+    "build_string": "20230412_103222",
+    "channel": "https://conda.anaconda.org/litex-hub/linux-64",
+    "constrains": [],
+    "depends": [
+        "libgcc-ng >=11.2.0",
+        "libstdcxx-ng >=11.2.0"
+    ],
+    "extracted_package_dir": "/users/students/r0757781/micromamba/pkgs/ngspice-39.3_87_g6eeb48bb5-20230412_103222",
+    "files": [
+        "bin/ngspice",
+        "share/man/man1/ngspice.1",
+        "share/ngspice/scripts/setplot",
+        "share/ngspice/scripts/spectrum",
+        "share/ngspice/scripts/spinit"
+    ],
+    "fn": "ngspice-39.3_87_g6eeb48bb5-20230412_103222.tar.bz2",
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "link": {
+        "source": "/users/students/r0757781/micromamba/pkgs/ngspice-39.3_87_g6eeb48bb5-20230412_103222",
+        "type": 1
+    },
+    "md5": "6c9a7de305a111229df7dde5739c58ac",
+    "name": "ngspice",
+    "package_tarball_full_path": "/users/students/r0757781/micromamba/pkgs/ngspice-39.3_87_g6eeb48bb5-20230412_103222.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "bin/ngspice",
+                "path_type": "hardlink",
+                "sha256": "4408076f431220a491046cb85d5b3c0d173a51d285ee218f7822fae1a6e36117",
+                "sha256_in_prefix": "8881e90f6473e4504c6ec927e3e0dd744b4dcdda54ec46e7956fec373057ef5d",
+                "size_in_bytes": 7552152
+            },
+            {
+                "_path": "share/man/man1/ngspice.1",
+                "path_type": "hardlink",
+                "sha256": "37e38077b9c7faa4a5d82473cfb1544580cbdf3bd97645ad9df3e035ce77066e",
+                "sha256_in_prefix": "37e38077b9c7faa4a5d82473cfb1544580cbdf3bd97645ad9df3e035ce77066e",
+                "size_in_bytes": 4928
+            },
+            {
+                "_path": "share/ngspice/scripts/setplot",
+                "path_type": "hardlink",
+                "sha256": "b8765ee62d06c5b98dd56fea0673c66a85e18010ba693a5c1e76b6a8c3e11d4b",
+                "sha256_in_prefix": "b8765ee62d06c5b98dd56fea0673c66a85e18010ba693a5c1e76b6a8c3e11d4b",
+                "size_in_bytes": 1015
+            },
+            {
+                "_path": "share/ngspice/scripts/spectrum",
+                "path_type": "hardlink",
+                "sha256": "0da086eec298834c734125a4d1ed1b3a6da6bfdb724abf1161f4381a10c115e8",
+                "sha256_in_prefix": "0da086eec298834c734125a4d1ed1b3a6da6bfdb724abf1161f4381a10c115e8",
+                "size_in_bytes": 5271
+            },
+            {
+                "_path": "share/ngspice/scripts/spinit",
+                "path_type": "hardlink",
+                "sha256": "c17b105107da2e5e3adc865821c82d997fe72a2a24626efd4eedffe81e70c64d",
+                "sha256_in_prefix": "e011705cc0720d87be7a8aa35395933ac1c77d5ff643f666963d27846cbdb8c3",
+                "size_in_bytes": 4561
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "ngspice",
+    "sha256": "51bdc0cd956192f4bfada956452e1981cc471bb62fb677a04c8b70dd597c1598",
+    "size": 2652578,
+    "subdir": "linux-64",
+    "timestamp": 1681296049784,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/litex-hub/linux-64/ngspice-39.3_87_g6eeb48bb5-20230412_103222.tar.bz2",
+    "version": "39.3_87_g6eeb48bb5"
+}

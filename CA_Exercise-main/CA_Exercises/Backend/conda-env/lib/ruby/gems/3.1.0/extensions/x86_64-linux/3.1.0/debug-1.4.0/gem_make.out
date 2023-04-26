@@ -1,0 +1,22 @@
+current directory: /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/gems/3.1.0/gems/debug-1.4.0/ext/debug
+/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/bin/ruby --disable\=gems -I/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/3.1.0/x86_64-linux -I /croot/ruby_1669295902971/work/lib -r ./siteconf20221124-13680-dyr8tm.rb extconf.rb
+creating Makefile
+
+current directory: /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/gems/3.1.0/gems/debug-1.4.0/ext/debug
+make DESTDIR\= clean
+make[1]: Entering directory '/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/gems/3.1.0/gems/debug-1.4.0/ext/debug'
+make[1]: Leaving directory '/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/gems/3.1.0/gems/debug-1.4.0/ext/debug'
+
+current directory: /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/gems/3.1.0/gems/debug-1.4.0/ext/debug
+make DESTDIR\=
+make[1]: Entering directory '/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/gems/3.1.0/gems/debug-1.4.0/ext/debug'
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+make[1]: Leaving directory '/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/gems/3.1.0/gems/debug-1.4.0/ext/debug'
+
+current directory: /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/gems/3.1.0/gems/debug-1.4.0/ext/debug
+make DESTDIR\= install
+make[1]: Entering directory '/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/gems/3.1.0/gems/debug-1.4.0/ext/debug'
+/usr/bin/install -c -m 0755 debug.so ./.gem.20221124-13680-b90iu0/debug
+make[1]: Leaving directory '/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/gems/3.1.0/gems/debug-1.4.0/ext/debug'

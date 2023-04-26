@@ -1,0 +1,12 @@
+prefix=/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: cairo-xlib
+Description: Xlib surface backend for cairo graphics library
+Version: 1.14.12
+
+Requires: cairo 
+Libs:   -lX11 -lXext  
+Cflags: -I${includedir}/cairo 

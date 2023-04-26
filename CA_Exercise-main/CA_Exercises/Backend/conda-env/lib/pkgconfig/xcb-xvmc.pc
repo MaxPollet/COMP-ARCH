@@ -1,0 +1,11 @@
+prefix=/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: XCB XvMC
+Description: XCB XvMC Extension
+Version: 1.15
+Requires.private: xcb xcb-xv
+Libs: -L${libdir} -lxcb-xvmc
+Cflags: -I${includedir}

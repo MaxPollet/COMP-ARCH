@@ -1,0 +1,11 @@
+prefix=/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: GNU MP
+Description: GNU Multiple Precision Arithmetic Library
+URL: https://gmplib.org
+Version: 6.2.1
+Cflags: -I${includedir}
+Libs: -L${libdir} -lgmp

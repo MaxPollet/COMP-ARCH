@@ -1,0 +1,41 @@
+- scl: sky130A/sky130_fd_sc_hd
+  name: fastest_test_set
+  designs:
+    - inverter
+    - wbqspiflash
+    - APU
+    - s44
+    - zipdiv
+    - xtea
+    - usb
+    - usb_cdc_core
+    - manual_macro_placement_test
+    - spm
+    - gcd
+    - caravel_upw
+- scl: sky130A/sky130_fd_sc_hd
+  name: extended_test_set
+  designs:
+    - BM64
+    - salsa20
+    - aes_core
+    - blabla
+    - picorv32a
+    - PPU
+    - y_huff
+    - aes
+- scl: gf180mcuC/gf180mcu_fd_sc_mcu7t5v0
+  name: fastest_test_set
+  designs:
+    - spm
+    - APU
+    - usb
+    # - usb_cdc_core
+    # - zipdiv
+    # - wbqspiflash
+- scl: gf180mcuC/gf180mcu_fd_sc_mcu7t5v0
+  name: extended_test_set
+  designs:
+    - picorv32a
+    - PPU
+    - y_huff

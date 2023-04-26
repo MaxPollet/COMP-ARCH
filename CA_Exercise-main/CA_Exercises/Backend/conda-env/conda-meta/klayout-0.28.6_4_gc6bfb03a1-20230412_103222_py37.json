@@ -1,0 +1,1526 @@
+{
+    "arch": "x86_64",
+    "build": "20230412_103222_py37",
+    "build_number": 20230412103222,
+    "build_string": "20230412_103222_py37",
+    "channel": "https://conda.anaconda.org/litex-hub/linux-64",
+    "constrains": [],
+    "depends": [
+        "libgcc-ng >=11.2.0",
+        "libstdcxx-ng >=11.2.0",
+        "python >=3.7,<3.8.0a0",
+        "qt >=5.0,<6.0",
+        "qt >=5.9.7,<5.10.0a0",
+        "ruby >=3.1.2,<3.2.0a0",
+        "zlib >=1.2.13,<1.3.0a0"
+    ],
+    "extracted_package_dir": "/users/students/r0757781/micromamba/pkgs/klayout-0.28.6_4_gc6bfb03a1-20230412_103222_py37",
+    "files": [
+        "bin/klayout",
+        "bin/strm2cif",
+        "bin/strm2dxf",
+        "bin/strm2gds",
+        "bin/strm2gdstxt",
+        "bin/strm2mag",
+        "bin/strm2oas",
+        "bin/strm2txt",
+        "bin/strmclip",
+        "bin/strmcmp",
+        "bin/strmrun",
+        "bin/strmxor",
+        "lib/db_plugins/libcif.so",
+        "lib/db_plugins/libcif.so.0",
+        "lib/db_plugins/libcif.so.0.28",
+        "lib/db_plugins/libcif.so.0.28.6",
+        "lib/db_plugins/libdxf.so",
+        "lib/db_plugins/libdxf.so.0",
+        "lib/db_plugins/libdxf.so.0.28",
+        "lib/db_plugins/libdxf.so.0.28.6",
+        "lib/db_plugins/libgds2.so",
+        "lib/db_plugins/libgds2.so.0",
+        "lib/db_plugins/libgds2.so.0.28",
+        "lib/db_plugins/libgds2.so.0.28.6",
+        "lib/db_plugins/liblefdef.so",
+        "lib/db_plugins/liblefdef.so.0",
+        "lib/db_plugins/liblefdef.so.0.28",
+        "lib/db_plugins/liblefdef.so.0.28.6",
+        "lib/db_plugins/libmag.so",
+        "lib/db_plugins/libmag.so.0",
+        "lib/db_plugins/libmag.so.0.28",
+        "lib/db_plugins/libmag.so.0.28.6",
+        "lib/db_plugins/libnet_tracer.so",
+        "lib/db_plugins/libnet_tracer.so.0",
+        "lib/db_plugins/libnet_tracer.so.0.28",
+        "lib/db_plugins/libnet_tracer.so.0.28.6",
+        "lib/db_plugins/liboasis.so",
+        "lib/db_plugins/liboasis.so.0",
+        "lib/db_plugins/liboasis.so.0.28",
+        "lib/db_plugins/liboasis.so.0.28.6",
+        "lib/db_plugins/libpcb.so",
+        "lib/db_plugins/libpcb.so.0",
+        "lib/db_plugins/libpcb.so.0.28",
+        "lib/db_plugins/libpcb.so.0.28.6",
+        "lib/lay_plugins/libbool_ui.so",
+        "lib/lay_plugins/libbool_ui.so.0",
+        "lib/lay_plugins/libbool_ui.so.0.28",
+        "lib/lay_plugins/libbool_ui.so.0.28.6",
+        "lib/lay_plugins/libcif_ui.so",
+        "lib/lay_plugins/libcif_ui.so.0",
+        "lib/lay_plugins/libcif_ui.so.0.28",
+        "lib/lay_plugins/libcif_ui.so.0.28.6",
+        "lib/lay_plugins/libcommon_ui.so",
+        "lib/lay_plugins/libcommon_ui.so.0",
+        "lib/lay_plugins/libcommon_ui.so.0.28",
+        "lib/lay_plugins/libcommon_ui.so.0.28.6",
+        "lib/lay_plugins/libd25_ui.so",
+        "lib/lay_plugins/libd25_ui.so.0",
+        "lib/lay_plugins/libd25_ui.so.0.28",
+        "lib/lay_plugins/libd25_ui.so.0.28.6",
+        "lib/lay_plugins/libdiff_ui.so",
+        "lib/lay_plugins/libdiff_ui.so.0",
+        "lib/lay_plugins/libdiff_ui.so.0.28",
+        "lib/lay_plugins/libdiff_ui.so.0.28.6",
+        "lib/lay_plugins/libdxf_ui.so",
+        "lib/lay_plugins/libdxf_ui.so.0",
+        "lib/lay_plugins/libdxf_ui.so.0.28",
+        "lib/lay_plugins/libdxf_ui.so.0.28.6",
+        "lib/lay_plugins/libgds2_ui.so",
+        "lib/lay_plugins/libgds2_ui.so.0",
+        "lib/lay_plugins/libgds2_ui.so.0.28",
+        "lib/lay_plugins/libgds2_ui.so.0.28.6",
+        "lib/lay_plugins/libimport_ui.so",
+        "lib/lay_plugins/libimport_ui.so.0",
+        "lib/lay_plugins/libimport_ui.so.0.28",
+        "lib/lay_plugins/libimport_ui.so.0.28.6",
+        "lib/lay_plugins/liblefdef_ui.so",
+        "lib/lay_plugins/liblefdef_ui.so.0",
+        "lib/lay_plugins/liblefdef_ui.so.0.28",
+        "lib/lay_plugins/liblefdef_ui.so.0.28.6",
+        "lib/lay_plugins/libmag_ui.so",
+        "lib/lay_plugins/libmag_ui.so.0",
+        "lib/lay_plugins/libmag_ui.so.0.28",
+        "lib/lay_plugins/libmag_ui.so.0.28.6",
+        "lib/lay_plugins/libnet_tracer_ui.so",
+        "lib/lay_plugins/libnet_tracer_ui.so.0",
+        "lib/lay_plugins/libnet_tracer_ui.so.0.28",
+        "lib/lay_plugins/libnet_tracer_ui.so.0.28.6",
+        "lib/lay_plugins/liboasis_ui.so",
+        "lib/lay_plugins/liboasis_ui.so.0",
+        "lib/lay_plugins/liboasis_ui.so.0.28",
+        "lib/lay_plugins/liboasis_ui.so.0.28.6",
+        "lib/lay_plugins/libpcb_ui.so",
+        "lib/lay_plugins/libpcb_ui.so.0",
+        "lib/lay_plugins/libpcb_ui.so.0.28",
+        "lib/lay_plugins/libpcb_ui.so.0.28.6",
+        "lib/lay_plugins/libxor_ui.so",
+        "lib/lay_plugins/libxor_ui.so.0",
+        "lib/lay_plugins/libxor_ui.so.0.28",
+        "lib/lay_plugins/libxor_ui.so.0.28.6",
+        "lib/libklayout_ant.so",
+        "lib/libklayout_ant.so.0",
+        "lib/libklayout_ant.so.0.28",
+        "lib/libklayout_ant.so.0.28.6",
+        "lib/libklayout_bd.so",
+        "lib/libklayout_bd.so.0",
+        "lib/libklayout_bd.so.0.28",
+        "lib/libklayout_bd.so.0.28.6",
+        "lib/libklayout_db.so",
+        "lib/libklayout_db.so.0",
+        "lib/libklayout_db.so.0.28",
+        "lib/libklayout_db.so.0.28.6",
+        "lib/libklayout_doc.so",
+        "lib/libklayout_doc.so.0",
+        "lib/libklayout_doc.so.0.28",
+        "lib/libklayout_doc.so.0.28.6",
+        "lib/libklayout_drc.so",
+        "lib/libklayout_drc.so.0",
+        "lib/libklayout_drc.so.0.28",
+        "lib/libklayout_drc.so.0.28.6",
+        "lib/libklayout_edt.so",
+        "lib/libklayout_edt.so.0",
+        "lib/libklayout_edt.so.0.28",
+        "lib/libklayout_edt.so.0.28.6",
+        "lib/libklayout_gsi.so",
+        "lib/libklayout_gsi.so.0",
+        "lib/libklayout_gsi.so.0.28",
+        "lib/libklayout_gsi.so.0.28.6",
+        "lib/libklayout_icons.so",
+        "lib/libklayout_icons.so.0",
+        "lib/libklayout_icons.so.0.28",
+        "lib/libklayout_icons.so.0.28.6",
+        "lib/libklayout_img.so",
+        "lib/libklayout_img.so.0",
+        "lib/libklayout_img.so.0.28",
+        "lib/libklayout_img.so.0.28.6",
+        "lib/libklayout_lay.so",
+        "lib/libklayout_lay.so.0",
+        "lib/libklayout_lay.so.0.28",
+        "lib/libklayout_lay.so.0.28.6",
+        "lib/libklayout_laybasic.so",
+        "lib/libklayout_laybasic.so.0",
+        "lib/libklayout_laybasic.so.0.28",
+        "lib/libklayout_laybasic.so.0.28.6",
+        "lib/libklayout_layui.so",
+        "lib/libklayout_layui.so.0",
+        "lib/libklayout_layui.so.0.28",
+        "lib/libklayout_layui.so.0.28.6",
+        "lib/libklayout_layview.so",
+        "lib/libklayout_layview.so.0",
+        "lib/libklayout_layview.so.0.28",
+        "lib/libklayout_layview.so.0.28.6",
+        "lib/libklayout_lib.so",
+        "lib/libklayout_lib.so.0",
+        "lib/libklayout_lib.so.0.28",
+        "lib/libklayout_lib.so.0.28.6",
+        "lib/libklayout_lvs.so",
+        "lib/libklayout_lvs.so.0",
+        "lib/libklayout_lvs.so.0.28",
+        "lib/libklayout_lvs.so.0.28.6",
+        "lib/libklayout_lym.so",
+        "lib/libklayout_lym.so.0",
+        "lib/libklayout_lym.so.0.28",
+        "lib/libklayout_lym.so.0.28.6",
+        "lib/libklayout_pya.so",
+        "lib/libklayout_pya.so.0",
+        "lib/libklayout_pya.so.0.28",
+        "lib/libklayout_pya.so.0.28.6",
+        "lib/libklayout_rba.so",
+        "lib/libklayout_rba.so.0",
+        "lib/libklayout_rba.so.0.28",
+        "lib/libklayout_rba.so.0.28.6",
+        "lib/libklayout_rdb.so",
+        "lib/libklayout_rdb.so.0",
+        "lib/libklayout_rdb.so.0.28",
+        "lib/libklayout_rdb.so.0.28.6",
+        "lib/libklayout_tl.so",
+        "lib/libklayout_tl.so.0",
+        "lib/libklayout_tl.so.0.28",
+        "lib/libklayout_tl.so.0.28.6",
+        "lib/pymod/klayout/__init__.py",
+        "lib/pymod/klayout/__pycache__/__init__.cpython-37.pyc",
+        "lib/pymod/klayout/db/__init__.py",
+        "lib/pymod/klayout/db/__pycache__/__init__.cpython-37.pyc",
+        "lib/pymod/klayout/db/__pycache__/pcell_declaration_helper.cpython-37.pyc",
+        "lib/pymod/klayout/db/pcell_declaration_helper.py",
+        "lib/pymod/klayout/dbcore.cpython-37m-x86_64-linux-gnu.so",
+        "lib/pymod/klayout/lay/__init__.py",
+        "lib/pymod/klayout/lay/__pycache__/__init__.cpython-37.pyc",
+        "lib/pymod/klayout/laycore.cpython-37m-x86_64-linux-gnu.so",
+        "lib/pymod/klayout/lib/__init__.py",
+        "lib/pymod/klayout/lib/__pycache__/__init__.cpython-37.pyc",
+        "lib/pymod/klayout/libcore.cpython-37m-x86_64-linux-gnu.so",
+        "lib/pymod/klayout/rdb/__init__.py",
+        "lib/pymod/klayout/rdb/__pycache__/__init__.cpython-37.pyc",
+        "lib/pymod/klayout/rdbcore.cpython-37m-x86_64-linux-gnu.so",
+        "lib/pymod/klayout/tl/__init__.py",
+        "lib/pymod/klayout/tl/__pycache__/__init__.cpython-37.pyc",
+        "lib/pymod/klayout/tlcore.cpython-37m-x86_64-linux-gnu.so",
+        "lib/pymod/pya/__init__.py",
+        "lib/pymod/pya/__pycache__/__init__.cpython-37.pyc"
+    ],
+    "fn": "klayout-0.28.6_4_gc6bfb03a1-20230412_103222_py37.tar.bz2",
+    "license": "GPL-2.0-or-later",
+    "license_family": "GPL",
+    "link": {
+        "source": "/users/students/r0757781/micromamba/pkgs/klayout-0.28.6_4_gc6bfb03a1-20230412_103222_py37",
+        "type": 1
+    },
+    "md5": "ea0d0bf6d37a4fd1a450f647677d2872",
+    "name": "klayout",
+    "package_tarball_full_path": "/users/students/r0757781/micromamba/pkgs/klayout-0.28.6_4_gc6bfb03a1-20230412_103222_py37.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "bin/klayout",
+                "path_type": "hardlink",
+                "sha256": "8660207defa350de1047535227f0b01ce90035719d3a2c7e7df0c05da67ce06e",
+                "sha256_in_prefix": "8660207defa350de1047535227f0b01ce90035719d3a2c7e7df0c05da67ce06e",
+                "size_in_bytes": 34232
+            },
+            {
+                "_path": "bin/strm2cif",
+                "path_type": "hardlink",
+                "sha256": "97c50011a5d3be9bc679e000a53cdb82aca3d9bd60414da0c7895165026b502c",
+                "sha256_in_prefix": "97c50011a5d3be9bc679e000a53cdb82aca3d9bd60414da0c7895165026b502c",
+                "size_in_bytes": 16368
+            },
+            {
+                "_path": "bin/strm2dxf",
+                "path_type": "hardlink",
+                "sha256": "df822754d4dff9643978c3b6915031ad6b27f5739791b8671c5b80bfb4746011",
+                "sha256_in_prefix": "df822754d4dff9643978c3b6915031ad6b27f5739791b8671c5b80bfb4746011",
+                "size_in_bytes": 16368
+            },
+            {
+                "_path": "bin/strm2gds",
+                "path_type": "hardlink",
+                "sha256": "a19d23a7d7ebbc1c2b05670b1dc43b942c582c017b98145cd32eb63bb27f3ac1",
+                "sha256_in_prefix": "a19d23a7d7ebbc1c2b05670b1dc43b942c582c017b98145cd32eb63bb27f3ac1",
+                "size_in_bytes": 16368
+            },
+            {
+                "_path": "bin/strm2gdstxt",
+                "path_type": "hardlink",
+                "sha256": "d3a04c0c43277f80da21c439b70fd19fa4a1d0ee4b9d9a0c7935e10dc38f9457",
+                "sha256_in_prefix": "d3a04c0c43277f80da21c439b70fd19fa4a1d0ee4b9d9a0c7935e10dc38f9457",
+                "size_in_bytes": 16376
+            },
+            {
+                "_path": "bin/strm2mag",
+                "path_type": "hardlink",
+                "sha256": "5a704d1f03fd57eccfec80ec9d0ae57b090370c5c6eb18c8c539a3d1e6859882",
+                "sha256_in_prefix": "5a704d1f03fd57eccfec80ec9d0ae57b090370c5c6eb18c8c539a3d1e6859882",
+                "size_in_bytes": 16368
+            },
+            {
+                "_path": "bin/strm2oas",
+                "path_type": "hardlink",
+                "sha256": "e33100105b52fecf291eae9e8735b3ca1139b3300fd7ea163d15897c7518b339",
+                "sha256_in_prefix": "e33100105b52fecf291eae9e8735b3ca1139b3300fd7ea163d15897c7518b339",
+                "size_in_bytes": 16368
+            },
+            {
+                "_path": "bin/strm2txt",
+                "path_type": "hardlink",
+                "sha256": "f9e088a6113f87f17e690450d8d0ff46726c86fb97effbb90ed641bd9d4ccb0a",
+                "sha256_in_prefix": "f9e088a6113f87f17e690450d8d0ff46726c86fb97effbb90ed641bd9d4ccb0a",
+                "size_in_bytes": 16368
+            },
+            {
+                "_path": "bin/strmclip",
+                "path_type": "hardlink",
+                "sha256": "f049e8c9758299ab4734ac931e153547ef415fcb847a48a880fabe8111037808",
+                "sha256_in_prefix": "f049e8c9758299ab4734ac931e153547ef415fcb847a48a880fabe8111037808",
+                "size_in_bytes": 16368
+            },
+            {
+                "_path": "bin/strmcmp",
+                "path_type": "hardlink",
+                "sha256": "5c11e114d8444bb993cd21cae7cfa15394fda9f7b26df06256b92fff0e673393",
+                "sha256_in_prefix": "5c11e114d8444bb993cd21cae7cfa15394fda9f7b26df06256b92fff0e673393",
+                "size_in_bytes": 16368
+            },
+            {
+                "_path": "bin/strmrun",
+                "path_type": "hardlink",
+                "sha256": "1d1f6fd098c3a78f8b4a85e10d3dc68c5912bfbf75d7df25d40dd6255200a6f6",
+                "sha256_in_prefix": "1d1f6fd098c3a78f8b4a85e10d3dc68c5912bfbf75d7df25d40dd6255200a6f6",
+                "size_in_bytes": 16368
+            },
+            {
+                "_path": "bin/strmxor",
+                "path_type": "hardlink",
+                "sha256": "439459d37fda8169daa38b203e2c796f9e7023e8d0cd5553f35b955620ca21d6",
+                "sha256_in_prefix": "439459d37fda8169daa38b203e2c796f9e7023e8d0cd5553f35b955620ca21d6",
+                "size_in_bytes": 16368
+            },
+            {
+                "_path": "lib/db_plugins/libcif.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "0523c4d3c4ba3cd13c35fcbebcc9ad4b624eb7b2d1984c202e521f0fe822f204",
+                "size_in_bytes": 464200
+            },
+            {
+                "_path": "lib/db_plugins/libcif.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "0523c4d3c4ba3cd13c35fcbebcc9ad4b624eb7b2d1984c202e521f0fe822f204",
+                "size_in_bytes": 464200
+            },
+            {
+                "_path": "lib/db_plugins/libcif.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "0523c4d3c4ba3cd13c35fcbebcc9ad4b624eb7b2d1984c202e521f0fe822f204",
+                "size_in_bytes": 464200
+            },
+            {
+                "_path": "lib/db_plugins/libcif.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "0523c4d3c4ba3cd13c35fcbebcc9ad4b624eb7b2d1984c202e521f0fe822f204",
+                "sha256_in_prefix": "0523c4d3c4ba3cd13c35fcbebcc9ad4b624eb7b2d1984c202e521f0fe822f204",
+                "size_in_bytes": 464200
+            },
+            {
+                "_path": "lib/db_plugins/libdxf.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "a89169450101c988d9bf630f1a3f2372d05b01768333ba39a34b3b41c069cda8",
+                "size_in_bytes": 679360
+            },
+            {
+                "_path": "lib/db_plugins/libdxf.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "a89169450101c988d9bf630f1a3f2372d05b01768333ba39a34b3b41c069cda8",
+                "size_in_bytes": 679360
+            },
+            {
+                "_path": "lib/db_plugins/libdxf.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "a89169450101c988d9bf630f1a3f2372d05b01768333ba39a34b3b41c069cda8",
+                "size_in_bytes": 679360
+            },
+            {
+                "_path": "lib/db_plugins/libdxf.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "a89169450101c988d9bf630f1a3f2372d05b01768333ba39a34b3b41c069cda8",
+                "sha256_in_prefix": "a89169450101c988d9bf630f1a3f2372d05b01768333ba39a34b3b41c069cda8",
+                "size_in_bytes": 679360
+            },
+            {
+                "_path": "lib/db_plugins/libgds2.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "80428777891c96de66eb999a8a39446d9e776421663babe77b7987c63aa55582",
+                "size_in_bytes": 617192
+            },
+            {
+                "_path": "lib/db_plugins/libgds2.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "80428777891c96de66eb999a8a39446d9e776421663babe77b7987c63aa55582",
+                "size_in_bytes": 617192
+            },
+            {
+                "_path": "lib/db_plugins/libgds2.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "80428777891c96de66eb999a8a39446d9e776421663babe77b7987c63aa55582",
+                "size_in_bytes": 617192
+            },
+            {
+                "_path": "lib/db_plugins/libgds2.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "80428777891c96de66eb999a8a39446d9e776421663babe77b7987c63aa55582",
+                "sha256_in_prefix": "80428777891c96de66eb999a8a39446d9e776421663babe77b7987c63aa55582",
+                "size_in_bytes": 617192
+            },
+            {
+                "_path": "lib/db_plugins/liblefdef.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "df69d121b8bc073638bc48f59ce58b9781115b23798d4635bd17abaf9f0acf31",
+                "size_in_bytes": 1210936
+            },
+            {
+                "_path": "lib/db_plugins/liblefdef.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "df69d121b8bc073638bc48f59ce58b9781115b23798d4635bd17abaf9f0acf31",
+                "size_in_bytes": 1210936
+            },
+            {
+                "_path": "lib/db_plugins/liblefdef.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "df69d121b8bc073638bc48f59ce58b9781115b23798d4635bd17abaf9f0acf31",
+                "size_in_bytes": 1210936
+            },
+            {
+                "_path": "lib/db_plugins/liblefdef.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "df69d121b8bc073638bc48f59ce58b9781115b23798d4635bd17abaf9f0acf31",
+                "sha256_in_prefix": "df69d121b8bc073638bc48f59ce58b9781115b23798d4635bd17abaf9f0acf31",
+                "size_in_bytes": 1210936
+            },
+            {
+                "_path": "lib/db_plugins/libmag.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "c3a3fb7056cfc070821cb0dfb6a9db51b88a04f473f468b1103d1fda74e70c37",
+                "size_in_bytes": 598080
+            },
+            {
+                "_path": "lib/db_plugins/libmag.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "c3a3fb7056cfc070821cb0dfb6a9db51b88a04f473f468b1103d1fda74e70c37",
+                "size_in_bytes": 598080
+            },
+            {
+                "_path": "lib/db_plugins/libmag.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "c3a3fb7056cfc070821cb0dfb6a9db51b88a04f473f468b1103d1fda74e70c37",
+                "size_in_bytes": 598080
+            },
+            {
+                "_path": "lib/db_plugins/libmag.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "c3a3fb7056cfc070821cb0dfb6a9db51b88a04f473f468b1103d1fda74e70c37",
+                "sha256_in_prefix": "c3a3fb7056cfc070821cb0dfb6a9db51b88a04f473f468b1103d1fda74e70c37",
+                "size_in_bytes": 598080
+            },
+            {
+                "_path": "lib/db_plugins/libnet_tracer.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "123acb40e1864363cb87c2058a54a342ff471823ebc875ca8d963a61c39f5e71",
+                "size_in_bytes": 764312
+            },
+            {
+                "_path": "lib/db_plugins/libnet_tracer.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "123acb40e1864363cb87c2058a54a342ff471823ebc875ca8d963a61c39f5e71",
+                "size_in_bytes": 764312
+            },
+            {
+                "_path": "lib/db_plugins/libnet_tracer.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "123acb40e1864363cb87c2058a54a342ff471823ebc875ca8d963a61c39f5e71",
+                "size_in_bytes": 764312
+            },
+            {
+                "_path": "lib/db_plugins/libnet_tracer.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "123acb40e1864363cb87c2058a54a342ff471823ebc875ca8d963a61c39f5e71",
+                "sha256_in_prefix": "123acb40e1864363cb87c2058a54a342ff471823ebc875ca8d963a61c39f5e71",
+                "size_in_bytes": 764312
+            },
+            {
+                "_path": "lib/db_plugins/liboasis.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "683aba2efd29d412e89f2b6ac5b5369055da280c08a160b93554e7b190f079e4",
+                "size_in_bytes": 1014016
+            },
+            {
+                "_path": "lib/db_plugins/liboasis.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "683aba2efd29d412e89f2b6ac5b5369055da280c08a160b93554e7b190f079e4",
+                "size_in_bytes": 1014016
+            },
+            {
+                "_path": "lib/db_plugins/liboasis.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "683aba2efd29d412e89f2b6ac5b5369055da280c08a160b93554e7b190f079e4",
+                "size_in_bytes": 1014016
+            },
+            {
+                "_path": "lib/db_plugins/liboasis.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "683aba2efd29d412e89f2b6ac5b5369055da280c08a160b93554e7b190f079e4",
+                "sha256_in_prefix": "683aba2efd29d412e89f2b6ac5b5369055da280c08a160b93554e7b190f079e4",
+                "size_in_bytes": 1014016
+            },
+            {
+                "_path": "lib/db_plugins/libpcb.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "dc5004afa0ba71a4c99fbf28783c24afe6a6ac80354986317815a8b0f9add705",
+                "size_in_bytes": 646456
+            },
+            {
+                "_path": "lib/db_plugins/libpcb.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "dc5004afa0ba71a4c99fbf28783c24afe6a6ac80354986317815a8b0f9add705",
+                "size_in_bytes": 646456
+            },
+            {
+                "_path": "lib/db_plugins/libpcb.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "dc5004afa0ba71a4c99fbf28783c24afe6a6ac80354986317815a8b0f9add705",
+                "size_in_bytes": 646456
+            },
+            {
+                "_path": "lib/db_plugins/libpcb.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "dc5004afa0ba71a4c99fbf28783c24afe6a6ac80354986317815a8b0f9add705",
+                "sha256_in_prefix": "dc5004afa0ba71a4c99fbf28783c24afe6a6ac80354986317815a8b0f9add705",
+                "size_in_bytes": 646456
+            },
+            {
+                "_path": "lib/lay_plugins/libbool_ui.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "528195d7e0bd1a8f23b4dca1f9f3e4320acfed3d92cb06f0bfb7c375177d2320",
+                "size_in_bytes": 156808
+            },
+            {
+                "_path": "lib/lay_plugins/libbool_ui.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "528195d7e0bd1a8f23b4dca1f9f3e4320acfed3d92cb06f0bfb7c375177d2320",
+                "size_in_bytes": 156808
+            },
+            {
+                "_path": "lib/lay_plugins/libbool_ui.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "528195d7e0bd1a8f23b4dca1f9f3e4320acfed3d92cb06f0bfb7c375177d2320",
+                "size_in_bytes": 156808
+            },
+            {
+                "_path": "lib/lay_plugins/libbool_ui.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "528195d7e0bd1a8f23b4dca1f9f3e4320acfed3d92cb06f0bfb7c375177d2320",
+                "sha256_in_prefix": "528195d7e0bd1a8f23b4dca1f9f3e4320acfed3d92cb06f0bfb7c375177d2320",
+                "size_in_bytes": 156808
+            },
+            {
+                "_path": "lib/lay_plugins/libcif_ui.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "aa204b755d68f1df59893430f908b7434b26bfbf125588377d3681f7e869c363",
+                "size_in_bytes": 121384
+            },
+            {
+                "_path": "lib/lay_plugins/libcif_ui.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "aa204b755d68f1df59893430f908b7434b26bfbf125588377d3681f7e869c363",
+                "size_in_bytes": 121384
+            },
+            {
+                "_path": "lib/lay_plugins/libcif_ui.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "aa204b755d68f1df59893430f908b7434b26bfbf125588377d3681f7e869c363",
+                "size_in_bytes": 121384
+            },
+            {
+                "_path": "lib/lay_plugins/libcif_ui.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "aa204b755d68f1df59893430f908b7434b26bfbf125588377d3681f7e869c363",
+                "sha256_in_prefix": "aa204b755d68f1df59893430f908b7434b26bfbf125588377d3681f7e869c363",
+                "size_in_bytes": 121384
+            },
+            {
+                "_path": "lib/lay_plugins/libcommon_ui.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "78bba2a9eb11c7adcbd61bcf7bd7e2eab90b232fdf2300c10b429c9a98d3aca4",
+                "size_in_bytes": 88960
+            },
+            {
+                "_path": "lib/lay_plugins/libcommon_ui.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "78bba2a9eb11c7adcbd61bcf7bd7e2eab90b232fdf2300c10b429c9a98d3aca4",
+                "size_in_bytes": 88960
+            },
+            {
+                "_path": "lib/lay_plugins/libcommon_ui.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "78bba2a9eb11c7adcbd61bcf7bd7e2eab90b232fdf2300c10b429c9a98d3aca4",
+                "size_in_bytes": 88960
+            },
+            {
+                "_path": "lib/lay_plugins/libcommon_ui.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "78bba2a9eb11c7adcbd61bcf7bd7e2eab90b232fdf2300c10b429c9a98d3aca4",
+                "sha256_in_prefix": "78bba2a9eb11c7adcbd61bcf7bd7e2eab90b232fdf2300c10b429c9a98d3aca4",
+                "size_in_bytes": 88960
+            },
+            {
+                "_path": "lib/lay_plugins/libd25_ui.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "d679dd8c167c45a587166887e84c5b72a04d8a9e8c15a591c8d9d9b02f8cf2fc",
+                "size_in_bytes": 426416
+            },
+            {
+                "_path": "lib/lay_plugins/libd25_ui.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "d679dd8c167c45a587166887e84c5b72a04d8a9e8c15a591c8d9d9b02f8cf2fc",
+                "size_in_bytes": 426416
+            },
+            {
+                "_path": "lib/lay_plugins/libd25_ui.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "d679dd8c167c45a587166887e84c5b72a04d8a9e8c15a591c8d9d9b02f8cf2fc",
+                "size_in_bytes": 426416
+            },
+            {
+                "_path": "lib/lay_plugins/libd25_ui.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "d679dd8c167c45a587166887e84c5b72a04d8a9e8c15a591c8d9d9b02f8cf2fc",
+                "sha256_in_prefix": "d679dd8c167c45a587166887e84c5b72a04d8a9e8c15a591c8d9d9b02f8cf2fc",
+                "size_in_bytes": 426416
+            },
+            {
+                "_path": "lib/lay_plugins/libdiff_ui.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "8560df1055417a361db745d2ca18b7796886d0a4dcd1c84f9411f5d0fd19655d",
+                "size_in_bytes": 302336
+            },
+            {
+                "_path": "lib/lay_plugins/libdiff_ui.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "8560df1055417a361db745d2ca18b7796886d0a4dcd1c84f9411f5d0fd19655d",
+                "size_in_bytes": 302336
+            },
+            {
+                "_path": "lib/lay_plugins/libdiff_ui.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "8560df1055417a361db745d2ca18b7796886d0a4dcd1c84f9411f5d0fd19655d",
+                "size_in_bytes": 302336
+            },
+            {
+                "_path": "lib/lay_plugins/libdiff_ui.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "8560df1055417a361db745d2ca18b7796886d0a4dcd1c84f9411f5d0fd19655d",
+                "sha256_in_prefix": "8560df1055417a361db745d2ca18b7796886d0a4dcd1c84f9411f5d0fd19655d",
+                "size_in_bytes": 302336
+            },
+            {
+                "_path": "lib/lay_plugins/libdxf_ui.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "a8a43b3b09228a63947ca7d2fbe0f79d640146b4456c97d44527ecb69b476f62",
+                "size_in_bytes": 135840
+            },
+            {
+                "_path": "lib/lay_plugins/libdxf_ui.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "a8a43b3b09228a63947ca7d2fbe0f79d640146b4456c97d44527ecb69b476f62",
+                "size_in_bytes": 135840
+            },
+            {
+                "_path": "lib/lay_plugins/libdxf_ui.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "a8a43b3b09228a63947ca7d2fbe0f79d640146b4456c97d44527ecb69b476f62",
+                "size_in_bytes": 135840
+            },
+            {
+                "_path": "lib/lay_plugins/libdxf_ui.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "a8a43b3b09228a63947ca7d2fbe0f79d640146b4456c97d44527ecb69b476f62",
+                "sha256_in_prefix": "a8a43b3b09228a63947ca7d2fbe0f79d640146b4456c97d44527ecb69b476f62",
+                "size_in_bytes": 135840
+            },
+            {
+                "_path": "lib/lay_plugins/libgds2_ui.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "5df33b248c26fdd7523f3ebe9dc3d0bb6e3fb97da5e01c129547a867c850ee9f",
+                "size_in_bytes": 118392
+            },
+            {
+                "_path": "lib/lay_plugins/libgds2_ui.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "5df33b248c26fdd7523f3ebe9dc3d0bb6e3fb97da5e01c129547a867c850ee9f",
+                "size_in_bytes": 118392
+            },
+            {
+                "_path": "lib/lay_plugins/libgds2_ui.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "5df33b248c26fdd7523f3ebe9dc3d0bb6e3fb97da5e01c129547a867c850ee9f",
+                "size_in_bytes": 118392
+            },
+            {
+                "_path": "lib/lay_plugins/libgds2_ui.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "5df33b248c26fdd7523f3ebe9dc3d0bb6e3fb97da5e01c129547a867c850ee9f",
+                "sha256_in_prefix": "5df33b248c26fdd7523f3ebe9dc3d0bb6e3fb97da5e01c129547a867c850ee9f",
+                "size_in_bytes": 118392
+            },
+            {
+                "_path": "lib/lay_plugins/libimport_ui.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "b625693b9c43287463f5fc678a77074ea5663f90f33ed6aa54779c98e92ae16f",
+                "size_in_bytes": 308136
+            },
+            {
+                "_path": "lib/lay_plugins/libimport_ui.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "b625693b9c43287463f5fc678a77074ea5663f90f33ed6aa54779c98e92ae16f",
+                "size_in_bytes": 308136
+            },
+            {
+                "_path": "lib/lay_plugins/libimport_ui.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "b625693b9c43287463f5fc678a77074ea5663f90f33ed6aa54779c98e92ae16f",
+                "size_in_bytes": 308136
+            },
+            {
+                "_path": "lib/lay_plugins/libimport_ui.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "b625693b9c43287463f5fc678a77074ea5663f90f33ed6aa54779c98e92ae16f",
+                "sha256_in_prefix": "b625693b9c43287463f5fc678a77074ea5663f90f33ed6aa54779c98e92ae16f",
+                "size_in_bytes": 308136
+            },
+            {
+                "_path": "lib/lay_plugins/liblefdef_ui.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "9a346dccadd3ed1a07328f068f1c528c9523be47d9852b8c9e6d13fa4b1a8bda",
+                "size_in_bytes": 307824
+            },
+            {
+                "_path": "lib/lay_plugins/liblefdef_ui.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "9a346dccadd3ed1a07328f068f1c528c9523be47d9852b8c9e6d13fa4b1a8bda",
+                "size_in_bytes": 307824
+            },
+            {
+                "_path": "lib/lay_plugins/liblefdef_ui.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "9a346dccadd3ed1a07328f068f1c528c9523be47d9852b8c9e6d13fa4b1a8bda",
+                "size_in_bytes": 307824
+            },
+            {
+                "_path": "lib/lay_plugins/liblefdef_ui.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "9a346dccadd3ed1a07328f068f1c528c9523be47d9852b8c9e6d13fa4b1a8bda",
+                "sha256_in_prefix": "9a346dccadd3ed1a07328f068f1c528c9523be47d9852b8c9e6d13fa4b1a8bda",
+                "size_in_bytes": 307824
+            },
+            {
+                "_path": "lib/lay_plugins/libmag_ui.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "f4c60c775c6ed5856cf96a2dc44286dbe3c67e6623eae47f287814e0ff48bc90",
+                "size_in_bytes": 141616
+            },
+            {
+                "_path": "lib/lay_plugins/libmag_ui.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "f4c60c775c6ed5856cf96a2dc44286dbe3c67e6623eae47f287814e0ff48bc90",
+                "size_in_bytes": 141616
+            },
+            {
+                "_path": "lib/lay_plugins/libmag_ui.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "f4c60c775c6ed5856cf96a2dc44286dbe3c67e6623eae47f287814e0ff48bc90",
+                "size_in_bytes": 141616
+            },
+            {
+                "_path": "lib/lay_plugins/libmag_ui.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "f4c60c775c6ed5856cf96a2dc44286dbe3c67e6623eae47f287814e0ff48bc90",
+                "sha256_in_prefix": "f4c60c775c6ed5856cf96a2dc44286dbe3c67e6623eae47f287814e0ff48bc90",
+                "size_in_bytes": 141616
+            },
+            {
+                "_path": "lib/lay_plugins/libnet_tracer_ui.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "3a2aa7010226dcff03fedd4ef8471e909d06ad561430f6b2a2b059b18d8361f3",
+                "size_in_bytes": 591264
+            },
+            {
+                "_path": "lib/lay_plugins/libnet_tracer_ui.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "3a2aa7010226dcff03fedd4ef8471e909d06ad561430f6b2a2b059b18d8361f3",
+                "size_in_bytes": 591264
+            },
+            {
+                "_path": "lib/lay_plugins/libnet_tracer_ui.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "3a2aa7010226dcff03fedd4ef8471e909d06ad561430f6b2a2b059b18d8361f3",
+                "size_in_bytes": 591264
+            },
+            {
+                "_path": "lib/lay_plugins/libnet_tracer_ui.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "3a2aa7010226dcff03fedd4ef8471e909d06ad561430f6b2a2b059b18d8361f3",
+                "sha256_in_prefix": "3a2aa7010226dcff03fedd4ef8471e909d06ad561430f6b2a2b059b18d8361f3",
+                "size_in_bytes": 591264
+            },
+            {
+                "_path": "lib/lay_plugins/liboasis_ui.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "4bef993220ad09c73a5f5117fbf0c244c0cc489d70aa7dfdf4ef3008915c18c8",
+                "size_in_bytes": 111248
+            },
+            {
+                "_path": "lib/lay_plugins/liboasis_ui.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "4bef993220ad09c73a5f5117fbf0c244c0cc489d70aa7dfdf4ef3008915c18c8",
+                "size_in_bytes": 111248
+            },
+            {
+                "_path": "lib/lay_plugins/liboasis_ui.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "4bef993220ad09c73a5f5117fbf0c244c0cc489d70aa7dfdf4ef3008915c18c8",
+                "size_in_bytes": 111248
+            },
+            {
+                "_path": "lib/lay_plugins/liboasis_ui.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "4bef993220ad09c73a5f5117fbf0c244c0cc489d70aa7dfdf4ef3008915c18c8",
+                "sha256_in_prefix": "4bef993220ad09c73a5f5117fbf0c244c0cc489d70aa7dfdf4ef3008915c18c8",
+                "size_in_bytes": 111248
+            },
+            {
+                "_path": "lib/lay_plugins/libpcb_ui.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "42c2c335e8386900b8b6a0751c4cb629e35a1d7526deba8ce1516b3f26076822",
+                "size_in_bytes": 349624
+            },
+            {
+                "_path": "lib/lay_plugins/libpcb_ui.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "42c2c335e8386900b8b6a0751c4cb629e35a1d7526deba8ce1516b3f26076822",
+                "size_in_bytes": 349624
+            },
+            {
+                "_path": "lib/lay_plugins/libpcb_ui.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "42c2c335e8386900b8b6a0751c4cb629e35a1d7526deba8ce1516b3f26076822",
+                "size_in_bytes": 349624
+            },
+            {
+                "_path": "lib/lay_plugins/libpcb_ui.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "42c2c335e8386900b8b6a0751c4cb629e35a1d7526deba8ce1516b3f26076822",
+                "sha256_in_prefix": "42c2c335e8386900b8b6a0751c4cb629e35a1d7526deba8ce1516b3f26076822",
+                "size_in_bytes": 349624
+            },
+            {
+                "_path": "lib/lay_plugins/libxor_ui.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "174583d3a208a61d259802336638f724448a732719a6e49231f1e48ab19c282d",
+                "size_in_bytes": 394736
+            },
+            {
+                "_path": "lib/lay_plugins/libxor_ui.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "174583d3a208a61d259802336638f724448a732719a6e49231f1e48ab19c282d",
+                "size_in_bytes": 394736
+            },
+            {
+                "_path": "lib/lay_plugins/libxor_ui.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "174583d3a208a61d259802336638f724448a732719a6e49231f1e48ab19c282d",
+                "size_in_bytes": 394736
+            },
+            {
+                "_path": "lib/lay_plugins/libxor_ui.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "174583d3a208a61d259802336638f724448a732719a6e49231f1e48ab19c282d",
+                "sha256_in_prefix": "174583d3a208a61d259802336638f724448a732719a6e49231f1e48ab19c282d",
+                "size_in_bytes": 394736
+            },
+            {
+                "_path": "lib/libklayout_ant.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "ff635ad970c38fb7bf72f0331c7d2f09055e4bc1d1ee2fd7889a854c9008b4f8",
+                "size_in_bytes": 1035808
+            },
+            {
+                "_path": "lib/libklayout_ant.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "ff635ad970c38fb7bf72f0331c7d2f09055e4bc1d1ee2fd7889a854c9008b4f8",
+                "size_in_bytes": 1035808
+            },
+            {
+                "_path": "lib/libklayout_ant.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "ff635ad970c38fb7bf72f0331c7d2f09055e4bc1d1ee2fd7889a854c9008b4f8",
+                "size_in_bytes": 1035808
+            },
+            {
+                "_path": "lib/libklayout_ant.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "ff635ad970c38fb7bf72f0331c7d2f09055e4bc1d1ee2fd7889a854c9008b4f8",
+                "sha256_in_prefix": "ff635ad970c38fb7bf72f0331c7d2f09055e4bc1d1ee2fd7889a854c9008b4f8",
+                "size_in_bytes": 1035808
+            },
+            {
+                "_path": "lib/libklayout_bd.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "04f6a63a9b0fe73a91aeb8ff076dbbe5bab414da79fa864047cfbcb7b49443b9",
+                "size_in_bytes": 514680
+            },
+            {
+                "_path": "lib/libklayout_bd.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "04f6a63a9b0fe73a91aeb8ff076dbbe5bab414da79fa864047cfbcb7b49443b9",
+                "size_in_bytes": 514680
+            },
+            {
+                "_path": "lib/libklayout_bd.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "04f6a63a9b0fe73a91aeb8ff076dbbe5bab414da79fa864047cfbcb7b49443b9",
+                "size_in_bytes": 514680
+            },
+            {
+                "_path": "lib/libklayout_bd.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "04f6a63a9b0fe73a91aeb8ff076dbbe5bab414da79fa864047cfbcb7b49443b9",
+                "sha256_in_prefix": "04f6a63a9b0fe73a91aeb8ff076dbbe5bab414da79fa864047cfbcb7b49443b9",
+                "size_in_bytes": 514680
+            },
+            {
+                "_path": "lib/libklayout_db.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "537a2eaf2ba3313262960734aad70081339a26c1c2acee15a6dfa437e400628b",
+                "size_in_bytes": 40183312
+            },
+            {
+                "_path": "lib/libklayout_db.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "537a2eaf2ba3313262960734aad70081339a26c1c2acee15a6dfa437e400628b",
+                "size_in_bytes": 40183312
+            },
+            {
+                "_path": "lib/libklayout_db.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "537a2eaf2ba3313262960734aad70081339a26c1c2acee15a6dfa437e400628b",
+                "size_in_bytes": 40183312
+            },
+            {
+                "_path": "lib/libklayout_db.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "537a2eaf2ba3313262960734aad70081339a26c1c2acee15a6dfa437e400628b",
+                "sha256_in_prefix": "537a2eaf2ba3313262960734aad70081339a26c1c2acee15a6dfa437e400628b",
+                "size_in_bytes": 40183312
+            },
+            {
+                "_path": "lib/libklayout_doc.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "11cc066e4b2f5099b4d8433c465e4ccb5cac7bfd73d96d0b54de9ee734e5bba2",
+                "size_in_bytes": 4993176
+            },
+            {
+                "_path": "lib/libklayout_doc.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "11cc066e4b2f5099b4d8433c465e4ccb5cac7bfd73d96d0b54de9ee734e5bba2",
+                "size_in_bytes": 4993176
+            },
+            {
+                "_path": "lib/libklayout_doc.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "11cc066e4b2f5099b4d8433c465e4ccb5cac7bfd73d96d0b54de9ee734e5bba2",
+                "size_in_bytes": 4993176
+            },
+            {
+                "_path": "lib/libklayout_doc.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "11cc066e4b2f5099b4d8433c465e4ccb5cac7bfd73d96d0b54de9ee734e5bba2",
+                "sha256_in_prefix": "11cc066e4b2f5099b4d8433c465e4ccb5cac7bfd73d96d0b54de9ee734e5bba2",
+                "size_in_bytes": 4993176
+            },
+            {
+                "_path": "lib/libklayout_drc.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "b6b45254127fa78fafc360be75e101cffe456dff7d40c102e29ee6c47616afe6",
+                "size_in_bytes": 118832
+            },
+            {
+                "_path": "lib/libklayout_drc.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "b6b45254127fa78fafc360be75e101cffe456dff7d40c102e29ee6c47616afe6",
+                "size_in_bytes": 118832
+            },
+            {
+                "_path": "lib/libklayout_drc.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "b6b45254127fa78fafc360be75e101cffe456dff7d40c102e29ee6c47616afe6",
+                "size_in_bytes": 118832
+            },
+            {
+                "_path": "lib/libklayout_drc.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "b6b45254127fa78fafc360be75e101cffe456dff7d40c102e29ee6c47616afe6",
+                "sha256_in_prefix": "b6b45254127fa78fafc360be75e101cffe456dff7d40c102e29ee6c47616afe6",
+                "size_in_bytes": 118832
+            },
+            {
+                "_path": "lib/libklayout_edt.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "795b3121dff4ee3c1e3f9fe1d788de87dad05b466189a3750e0eb22804075145",
+                "size_in_bytes": 2366872
+            },
+            {
+                "_path": "lib/libklayout_edt.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "795b3121dff4ee3c1e3f9fe1d788de87dad05b466189a3750e0eb22804075145",
+                "size_in_bytes": 2366872
+            },
+            {
+                "_path": "lib/libklayout_edt.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "795b3121dff4ee3c1e3f9fe1d788de87dad05b466189a3750e0eb22804075145",
+                "size_in_bytes": 2366872
+            },
+            {
+                "_path": "lib/libklayout_edt.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "795b3121dff4ee3c1e3f9fe1d788de87dad05b466189a3750e0eb22804075145",
+                "sha256_in_prefix": "795b3121dff4ee3c1e3f9fe1d788de87dad05b466189a3750e0eb22804075145",
+                "size_in_bytes": 2366872
+            },
+            {
+                "_path": "lib/libklayout_gsi.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "1475334cce5bd5d861d0ba57ffdd0fe98e258edd37ee5782f3d74326770aa9a9",
+                "size_in_bytes": 1349016
+            },
+            {
+                "_path": "lib/libklayout_gsi.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "1475334cce5bd5d861d0ba57ffdd0fe98e258edd37ee5782f3d74326770aa9a9",
+                "size_in_bytes": 1349016
+            },
+            {
+                "_path": "lib/libklayout_gsi.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "1475334cce5bd5d861d0ba57ffdd0fe98e258edd37ee5782f3d74326770aa9a9",
+                "size_in_bytes": 1349016
+            },
+            {
+                "_path": "lib/libklayout_gsi.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "1475334cce5bd5d861d0ba57ffdd0fe98e258edd37ee5782f3d74326770aa9a9",
+                "sha256_in_prefix": "1475334cce5bd5d861d0ba57ffdd0fe98e258edd37ee5782f3d74326770aa9a9",
+                "size_in_bytes": 1349016
+            },
+            {
+                "_path": "lib/libklayout_icons.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "c8bdf30f5c3bbb19d3022fe7cc26191d3057ae874acf7fc9b9a631aa90bdda5b",
+                "size_in_bytes": 606048
+            },
+            {
+                "_path": "lib/libklayout_icons.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "c8bdf30f5c3bbb19d3022fe7cc26191d3057ae874acf7fc9b9a631aa90bdda5b",
+                "size_in_bytes": 606048
+            },
+            {
+                "_path": "lib/libklayout_icons.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "c8bdf30f5c3bbb19d3022fe7cc26191d3057ae874acf7fc9b9a631aa90bdda5b",
+                "size_in_bytes": 606048
+            },
+            {
+                "_path": "lib/libklayout_icons.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "c8bdf30f5c3bbb19d3022fe7cc26191d3057ae874acf7fc9b9a631aa90bdda5b",
+                "sha256_in_prefix": "c8bdf30f5c3bbb19d3022fe7cc26191d3057ae874acf7fc9b9a631aa90bdda5b",
+                "size_in_bytes": 606048
+            },
+            {
+                "_path": "lib/libklayout_img.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "c15d9ecbbc151e491d57b19d7a6f7c8965a38f302eae761b7ab3365b75e41a4a",
+                "size_in_bytes": 1310624
+            },
+            {
+                "_path": "lib/libklayout_img.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "c15d9ecbbc151e491d57b19d7a6f7c8965a38f302eae761b7ab3365b75e41a4a",
+                "size_in_bytes": 1310624
+            },
+            {
+                "_path": "lib/libklayout_img.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "c15d9ecbbc151e491d57b19d7a6f7c8965a38f302eae761b7ab3365b75e41a4a",
+                "size_in_bytes": 1310624
+            },
+            {
+                "_path": "lib/libklayout_img.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "c15d9ecbbc151e491d57b19d7a6f7c8965a38f302eae761b7ab3365b75e41a4a",
+                "sha256_in_prefix": "c15d9ecbbc151e491d57b19d7a6f7c8965a38f302eae761b7ab3365b75e41a4a",
+                "size_in_bytes": 1310624
+            },
+            {
+                "_path": "lib/libklayout_lay.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "55a73e9302fd2904888db4d3e92e0e5f31cd1dd1792f43dbf8a8c6506cabbe83",
+                "size_in_bytes": 4905704
+            },
+            {
+                "_path": "lib/libklayout_lay.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "55a73e9302fd2904888db4d3e92e0e5f31cd1dd1792f43dbf8a8c6506cabbe83",
+                "size_in_bytes": 4905704
+            },
+            {
+                "_path": "lib/libklayout_lay.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "55a73e9302fd2904888db4d3e92e0e5f31cd1dd1792f43dbf8a8c6506cabbe83",
+                "size_in_bytes": 4905704
+            },
+            {
+                "_path": "lib/libklayout_lay.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "55a73e9302fd2904888db4d3e92e0e5f31cd1dd1792f43dbf8a8c6506cabbe83",
+                "sha256_in_prefix": "55a73e9302fd2904888db4d3e92e0e5f31cd1dd1792f43dbf8a8c6506cabbe83",
+                "size_in_bytes": 4905704
+            },
+            {
+                "_path": "lib/libklayout_laybasic.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "4e98a8ca9a7d705ac309d200547653cc63190ff3f2d61423976228054d5ca9e5",
+                "size_in_bytes": 12493000
+            },
+            {
+                "_path": "lib/libklayout_laybasic.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "4e98a8ca9a7d705ac309d200547653cc63190ff3f2d61423976228054d5ca9e5",
+                "size_in_bytes": 12493000
+            },
+            {
+                "_path": "lib/libklayout_laybasic.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "4e98a8ca9a7d705ac309d200547653cc63190ff3f2d61423976228054d5ca9e5",
+                "size_in_bytes": 12493000
+            },
+            {
+                "_path": "lib/libklayout_laybasic.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "4e98a8ca9a7d705ac309d200547653cc63190ff3f2d61423976228054d5ca9e5",
+                "sha256_in_prefix": "4e98a8ca9a7d705ac309d200547653cc63190ff3f2d61423976228054d5ca9e5",
+                "size_in_bytes": 12493000
+            },
+            {
+                "_path": "lib/libklayout_layui.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "db3a01150b80839238f89d075f82794cdb377d7f3f098800d778494daab235c2",
+                "size_in_bytes": 4976616
+            },
+            {
+                "_path": "lib/libklayout_layui.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "db3a01150b80839238f89d075f82794cdb377d7f3f098800d778494daab235c2",
+                "size_in_bytes": 4976616
+            },
+            {
+                "_path": "lib/libklayout_layui.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "db3a01150b80839238f89d075f82794cdb377d7f3f098800d778494daab235c2",
+                "size_in_bytes": 4976616
+            },
+            {
+                "_path": "lib/libklayout_layui.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "db3a01150b80839238f89d075f82794cdb377d7f3f098800d778494daab235c2",
+                "sha256_in_prefix": "db3a01150b80839238f89d075f82794cdb377d7f3f098800d778494daab235c2",
+                "size_in_bytes": 4976616
+            },
+            {
+                "_path": "lib/libklayout_layview.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "b79de19d7e1717b740cbd2196be0eea7870793a726b404dc2c738bedb42ca893",
+                "size_in_bytes": 455336
+            },
+            {
+                "_path": "lib/libklayout_layview.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "b79de19d7e1717b740cbd2196be0eea7870793a726b404dc2c738bedb42ca893",
+                "size_in_bytes": 455336
+            },
+            {
+                "_path": "lib/libklayout_layview.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "b79de19d7e1717b740cbd2196be0eea7870793a726b404dc2c738bedb42ca893",
+                "size_in_bytes": 455336
+            },
+            {
+                "_path": "lib/libklayout_layview.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "b79de19d7e1717b740cbd2196be0eea7870793a726b404dc2c738bedb42ca893",
+                "sha256_in_prefix": "b79de19d7e1717b740cbd2196be0eea7870793a726b404dc2c738bedb42ca893",
+                "size_in_bytes": 455336
+            },
+            {
+                "_path": "lib/libklayout_lib.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "b66cd86c3d28008e4a30bcd62af3f3fa18d9fb896646e7274ceb75cc57505bea",
+                "size_in_bytes": 418360
+            },
+            {
+                "_path": "lib/libklayout_lib.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "b66cd86c3d28008e4a30bcd62af3f3fa18d9fb896646e7274ceb75cc57505bea",
+                "size_in_bytes": 418360
+            },
+            {
+                "_path": "lib/libklayout_lib.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "b66cd86c3d28008e4a30bcd62af3f3fa18d9fb896646e7274ceb75cc57505bea",
+                "size_in_bytes": 418360
+            },
+            {
+                "_path": "lib/libklayout_lib.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "b66cd86c3d28008e4a30bcd62af3f3fa18d9fb896646e7274ceb75cc57505bea",
+                "sha256_in_prefix": "b66cd86c3d28008e4a30bcd62af3f3fa18d9fb896646e7274ceb75cc57505bea",
+                "size_in_bytes": 418360
+            },
+            {
+                "_path": "lib/libklayout_lvs.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "85fa37c1ae350e30c8d9585c933f1c9e82a556a61644ee196d648889450e9f71",
+                "size_in_bytes": 36912
+            },
+            {
+                "_path": "lib/libklayout_lvs.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "85fa37c1ae350e30c8d9585c933f1c9e82a556a61644ee196d648889450e9f71",
+                "size_in_bytes": 36912
+            },
+            {
+                "_path": "lib/libklayout_lvs.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "85fa37c1ae350e30c8d9585c933f1c9e82a556a61644ee196d648889450e9f71",
+                "size_in_bytes": 36912
+            },
+            {
+                "_path": "lib/libklayout_lvs.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "85fa37c1ae350e30c8d9585c933f1c9e82a556a61644ee196d648889450e9f71",
+                "sha256_in_prefix": "85fa37c1ae350e30c8d9585c933f1c9e82a556a61644ee196d648889450e9f71",
+                "size_in_bytes": 36912
+            },
+            {
+                "_path": "lib/libklayout_lym.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "47e4b94b137bc737208164a533af33b4e261da646eb3275c6f1ae69850bedaac",
+                "size_in_bytes": 651112
+            },
+            {
+                "_path": "lib/libklayout_lym.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "47e4b94b137bc737208164a533af33b4e261da646eb3275c6f1ae69850bedaac",
+                "size_in_bytes": 651112
+            },
+            {
+                "_path": "lib/libklayout_lym.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "47e4b94b137bc737208164a533af33b4e261da646eb3275c6f1ae69850bedaac",
+                "size_in_bytes": 651112
+            },
+            {
+                "_path": "lib/libklayout_lym.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "47e4b94b137bc737208164a533af33b4e261da646eb3275c6f1ae69850bedaac",
+                "sha256_in_prefix": "47e4b94b137bc737208164a533af33b4e261da646eb3275c6f1ae69850bedaac",
+                "size_in_bytes": 651112
+            },
+            {
+                "_path": "lib/libklayout_pya.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "cf3e0d87619658bfae71196b2eaa96097d34b246ca1c68091b73b39d0832ce0b",
+                "size_in_bytes": 1350992
+            },
+            {
+                "_path": "lib/libklayout_pya.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "cf3e0d87619658bfae71196b2eaa96097d34b246ca1c68091b73b39d0832ce0b",
+                "size_in_bytes": 1350992
+            },
+            {
+                "_path": "lib/libklayout_pya.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "cf3e0d87619658bfae71196b2eaa96097d34b246ca1c68091b73b39d0832ce0b",
+                "size_in_bytes": 1350992
+            },
+            {
+                "_path": "lib/libklayout_pya.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "cf3e0d87619658bfae71196b2eaa96097d34b246ca1c68091b73b39d0832ce0b",
+                "sha256_in_prefix": "cf3e0d87619658bfae71196b2eaa96097d34b246ca1c68091b73b39d0832ce0b",
+                "size_in_bytes": 1350992
+            },
+            {
+                "_path": "lib/libklayout_rba.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "b6627ef719d68b00c1c871219a1b65d1de90eefc2d5da689c1d223d718de6114",
+                "size_in_bytes": 714360
+            },
+            {
+                "_path": "lib/libklayout_rba.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "b6627ef719d68b00c1c871219a1b65d1de90eefc2d5da689c1d223d718de6114",
+                "size_in_bytes": 714360
+            },
+            {
+                "_path": "lib/libklayout_rba.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "b6627ef719d68b00c1c871219a1b65d1de90eefc2d5da689c1d223d718de6114",
+                "size_in_bytes": 714360
+            },
+            {
+                "_path": "lib/libklayout_rba.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "b6627ef719d68b00c1c871219a1b65d1de90eefc2d5da689c1d223d718de6114",
+                "sha256_in_prefix": "b6627ef719d68b00c1c871219a1b65d1de90eefc2d5da689c1d223d718de6114",
+                "size_in_bytes": 714360
+            },
+            {
+                "_path": "lib/libklayout_rdb.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "aeeb2f15df9ce3025cae5d4127b2dd7cacc5dbf500d0417ef9a0d8bdcbc9b6c3",
+                "size_in_bytes": 1517296
+            },
+            {
+                "_path": "lib/libklayout_rdb.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "aeeb2f15df9ce3025cae5d4127b2dd7cacc5dbf500d0417ef9a0d8bdcbc9b6c3",
+                "size_in_bytes": 1517296
+            },
+            {
+                "_path": "lib/libklayout_rdb.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "aeeb2f15df9ce3025cae5d4127b2dd7cacc5dbf500d0417ef9a0d8bdcbc9b6c3",
+                "size_in_bytes": 1517296
+            },
+            {
+                "_path": "lib/libklayout_rdb.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "aeeb2f15df9ce3025cae5d4127b2dd7cacc5dbf500d0417ef9a0d8bdcbc9b6c3",
+                "sha256_in_prefix": "aeeb2f15df9ce3025cae5d4127b2dd7cacc5dbf500d0417ef9a0d8bdcbc9b6c3",
+                "size_in_bytes": 1517296
+            },
+            {
+                "_path": "lib/libklayout_tl.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "dcc852e9feb8f208d15f952ab11c5a30289acbc74d2ef84b03c7cc08775674b7",
+                "size_in_bytes": 1349848
+            },
+            {
+                "_path": "lib/libklayout_tl.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "dcc852e9feb8f208d15f952ab11c5a30289acbc74d2ef84b03c7cc08775674b7",
+                "size_in_bytes": 1349848
+            },
+            {
+                "_path": "lib/libklayout_tl.so.0.28",
+                "path_type": "softlink",
+                "sha256_in_prefix": "dcc852e9feb8f208d15f952ab11c5a30289acbc74d2ef84b03c7cc08775674b7",
+                "size_in_bytes": 1349848
+            },
+            {
+                "_path": "lib/libklayout_tl.so.0.28.6",
+                "path_type": "hardlink",
+                "sha256": "dcc852e9feb8f208d15f952ab11c5a30289acbc74d2ef84b03c7cc08775674b7",
+                "sha256_in_prefix": "dcc852e9feb8f208d15f952ab11c5a30289acbc74d2ef84b03c7cc08775674b7",
+                "size_in_bytes": 1349848
+            },
+            {
+                "_path": "lib/pymod/klayout/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "a36f4c1cd4949681ec87c84bf7a390ae9d7b185d9cf26f08343ad94bda77d549",
+                "sha256_in_prefix": "a36f4c1cd4949681ec87c84bf7a390ae9d7b185d9cf26f08343ad94bda77d549",
+                "size_in_bytes": 83
+            },
+            {
+                "_path": "lib/pymod/klayout/__pycache__/__init__.cpython-37.pyc",
+                "path_type": "hardlink",
+                "sha256": "31a951234e88a7565303646dbce1644a0ed92f48272f5b3420444fde488ec966",
+                "sha256_in_prefix": "31a951234e88a7565303646dbce1644a0ed92f48272f5b3420444fde488ec966",
+                "size_in_bytes": 159
+            },
+            {
+                "_path": "lib/pymod/klayout/db/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "4d63d9220f7f5e5dd4a32431b94653c680a86cd63e2306988eb0a4fd359063d4",
+                "sha256_in_prefix": "4d63d9220f7f5e5dd4a32431b94653c680a86cd63e2306988eb0a4fd359063d4",
+                "size_in_bytes": 718
+            },
+            {
+                "_path": "lib/pymod/klayout/db/__pycache__/__init__.cpython-37.pyc",
+                "path_type": "hardlink",
+                "sha256": "4422be650dc043162dc37d91a6c694ebf859b071c6cd7c95f77e8bc61edaaea1",
+                "sha256_in_prefix": "4422be650dc043162dc37d91a6c694ebf859b071c6cd7c95f77e8bc61edaaea1",
+                "size_in_bytes": 704
+            },
+            {
+                "_path": "lib/pymod/klayout/db/__pycache__/pcell_declaration_helper.cpython-37.pyc",
+                "path_type": "hardlink",
+                "sha256": "7388003e4548113d0d8c9550676f563b44ca1d3e07c4b87e5aa1a7cfff4fc6f1",
+                "sha256_in_prefix": "7388003e4548113d0d8c9550676f563b44ca1d3e07c4b87e5aa1a7cfff4fc6f1",
+                "size_in_bytes": 8885
+            },
+            {
+                "_path": "lib/pymod/klayout/db/pcell_declaration_helper.py",
+                "path_type": "hardlink",
+                "sha256": "85c9a74788a0f18b01f2836f1c112ed34ab7f08fd93adc8caaaae57284682b1b",
+                "sha256_in_prefix": "85c9a74788a0f18b01f2836f1c112ed34ab7f08fd93adc8caaaae57284682b1b",
+                "size_in_bytes": 8886
+            },
+            {
+                "_path": "lib/pymod/klayout/dbcore.cpython-37m-x86_64-linux-gnu.so",
+                "path_type": "hardlink",
+                "sha256": "d33bbf5f32975f18743cb3f932090b302013425b81c4d8bcb0151197344b5291",
+                "sha256_in_prefix": "d33bbf5f32975f18743cb3f932090b302013425b81c4d8bcb0151197344b5291",
+                "size_in_bytes": 22072
+            },
+            {
+                "_path": "lib/pymod/klayout/lay/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "55e9c58995500bf909ac0d97e69c60996fd79db26ce1c2fecac8e2c7b7b0a5bb",
+                "sha256_in_prefix": "55e9c58995500bf909ac0d97e69c60996fd79db26ce1c2fecac8e2c7b7b0a5bb",
+                "size_in_bytes": 144
+            },
+            {
+                "_path": "lib/pymod/klayout/lay/__pycache__/__init__.cpython-37.pyc",
+                "path_type": "hardlink",
+                "sha256": "71be8d92b703624ea4f2aa04c2df976e93cb9cd5b49cb0f7328e7afae950f92f",
+                "sha256_in_prefix": "71be8d92b703624ea4f2aa04c2df976e93cb9cd5b49cb0f7328e7afae950f92f",
+                "size_in_bytes": 225
+            },
+            {
+                "_path": "lib/pymod/klayout/laycore.cpython-37m-x86_64-linux-gnu.so",
+                "path_type": "hardlink",
+                "sha256": "b5f24d4234392e5a34f67f918ecfce0e12321a33ed09549e8ba3cbb63c71f892",
+                "sha256_in_prefix": "b5f24d4234392e5a34f67f918ecfce0e12321a33ed09549e8ba3cbb63c71f892",
+                "size_in_bytes": 22160
+            },
+            {
+                "_path": "lib/pymod/klayout/lib/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "79727bf8d986e72616b637eac7f647a3f3251b969cae442e9e9e9bb9ed311f2b",
+                "sha256_in_prefix": "79727bf8d986e72616b637eac7f647a3f3251b969cae442e9e9e9bb9ed311f2b",
+                "size_in_bytes": 88
+            },
+            {
+                "_path": "lib/pymod/klayout/lib/__pycache__/__init__.cpython-37.pyc",
+                "path_type": "hardlink",
+                "sha256": "aec4b2ead7d0500d8506a84156c166ebe965d7f5e743d23c010c3701a9e30d53",
+                "sha256_in_prefix": "aec4b2ead7d0500d8506a84156c166ebe965d7f5e743d23c010c3701a9e30d53",
+                "size_in_bytes": 199
+            },
+            {
+                "_path": "lib/pymod/klayout/libcore.cpython-37m-x86_64-linux-gnu.so",
+                "path_type": "hardlink",
+                "sha256": "ded93f9e6e3e320740271479f25bc5aa2ea3661b519fa2094f1869ecc5edb70a",
+                "sha256_in_prefix": "ded93f9e6e3e320740271479f25bc5aa2ea3661b519fa2094f1869ecc5edb70a",
+                "size_in_bytes": 22016
+            },
+            {
+                "_path": "lib/pymod/klayout/rdb/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "e09ab26554ba3674572121cde97505a0c02a28327edf55ff73e15af23bf6ac25",
+                "sha256_in_prefix": "e09ab26554ba3674572121cde97505a0c02a28327edf55ff73e15af23bf6ac25",
+                "size_in_bytes": 88
+            },
+            {
+                "_path": "lib/pymod/klayout/rdb/__pycache__/__init__.cpython-37.pyc",
+                "path_type": "hardlink",
+                "sha256": "66cbb28145d7440245b405d344c23e073a2a22eb8cb76fc32b8c0516115dbd9f",
+                "sha256_in_prefix": "66cbb28145d7440245b405d344c23e073a2a22eb8cb76fc32b8c0516115dbd9f",
+                "size_in_bytes": 199
+            },
+            {
+                "_path": "lib/pymod/klayout/rdbcore.cpython-37m-x86_64-linux-gnu.so",
+                "path_type": "hardlink",
+                "sha256": "6c03c3e6d263f6ed9408a23d1eafccc32d52c5e33d5cbd301290cab30d0d7e01",
+                "sha256_in_prefix": "6c03c3e6d263f6ed9408a23d1eafccc32d52c5e33d5cbd301290cab30d0d7e01",
+                "size_in_bytes": 21960
+            },
+            {
+                "_path": "lib/pymod/klayout/tl/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "c1621853f5dc6c6b13f640fde3d02b3f8fdc023eeea7eb3017cfb66f42690dd4",
+                "sha256_in_prefix": "c1621853f5dc6c6b13f640fde3d02b3f8fdc023eeea7eb3017cfb66f42690dd4",
+                "size_in_bytes": 85
+            },
+            {
+                "_path": "lib/pymod/klayout/tl/__pycache__/__init__.cpython-37.pyc",
+                "path_type": "hardlink",
+                "sha256": "65c8548d642ac0056609392a0d7bc80ad065feba23b3e222d6edf8c525510292",
+                "sha256_in_prefix": "65c8548d642ac0056609392a0d7bc80ad065feba23b3e222d6edf8c525510292",
+                "size_in_bytes": 196
+            },
+            {
+                "_path": "lib/pymod/klayout/tlcore.cpython-37m-x86_64-linux-gnu.so",
+                "path_type": "hardlink",
+                "sha256": "2bc3197d55c527159aab6e90c9bf107c2c5c846ced98a5df4afe6e92f90a1b67",
+                "sha256_in_prefix": "2bc3197d55c527159aab6e90c9bf107c2c5c846ced98a5df4afe6e92f90a1b67",
+                "size_in_bytes": 21800
+            },
+            {
+                "_path": "lib/pymod/pya/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "3c1867f551aab2824279248d338842c98cdb9a15ce90dc18b4dc3986ed2a156f",
+                "sha256_in_prefix": "3c1867f551aab2824279248d338842c98cdb9a15ce90dc18b4dc3986ed2a156f",
+                "size_in_bytes": 373
+            },
+            {
+                "_path": "lib/pymod/pya/__pycache__/__init__.cpython-37.pyc",
+                "path_type": "hardlink",
+                "sha256": "e12b6574d5a4f206783c81b5e3769d878cc0f4473fcae59172387b26c68c6372",
+                "sha256_in_prefix": "e12b6574d5a4f206783c81b5e3769d878cc0f4473fcae59172387b26c68c6372",
+                "size_in_bytes": 230
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "b868681000d82be5ad1e61bc2eda5cbb180faa48fbd00b811b0bb102456a1dce",
+    "size": 25946131,
+    "subdir": "linux-64",
+    "timestamp": 1681297821113,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/litex-hub/linux-64/klayout-0.28.6_4_gc6bfb03a1-20230412_103222_py37.tar.bz2",
+    "version": "0.28.6_4_gc6bfb03a1"
+}

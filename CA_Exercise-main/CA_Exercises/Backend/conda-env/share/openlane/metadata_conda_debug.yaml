@@ -1,0 +1,66 @@
+package:
+  name: openlane
+  version: 2023.04.12_0_g23e367a9
+source:
+  git_rev: master
+  git_url: /root/conda-eda/conda-eda/workdir/git-repos/OpenLane
+  patches:
+    - handle-unknown-terminal.patch
+    - disable-version-check.patch
+build:
+  noarch: generic
+  number: '20230412103222'
+  script_env:
+    - CI
+  string: '20230412_103222'
+requirements:
+  build: []
+  run:
+    - klayout
+    - netgen
+    - tcllib
+    - openroad
+    - pyyaml
+    - magic
+    - yosys
+    - click
+test:
+  commands:
+    - PDK=sky130A STD_CELL_LIBRARY=sky130_fd_sc_hd STD_CELL_LIBRARY_OPT=sky130_fd_sc_hd
+      flow.tcl -design inverter
+  requires:
+    - open_pdks.sky130a
+about:
+  description: 'OpenLane is an automated RTL to GDSII flow based on several
+
+    components including OpenROAD, Yosys, Magic, Netgen, CVC,
+
+    SPEF-Extractor, KLayout and a number of custom scripts for design
+
+    exploration and optimization. It also provides a number of custom
+
+    scripts for design exploration, optimization and ECO.
+
+    '
+  dev_url: https://github.com/The-OpenROAD-Project/OpenLane
+  doc_url: https://openlane.readthedocs.io/
+  home: https://github.com/The-OpenROAD-Project/OpenLane
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE
+  summary: OpenLane is an automated RTL to GDSII flow.
+extra:
+  build_type: github_actions
+  copy_test_source_files: true
+  final: true
+  github_actions:
+    action_id: __self
+    event: push
+    run_id: '4677328625'
+    run_num: '620'
+  recipe_source:
+    branch: refs/heads/master
+    commit: 04cfa7f6be4e84038e3ce071d8e82c5ff45f100c
+    date: '20230412_110950'
+    describe: GIT_ERROR
+    repo: https://github.com/hdl/conda-eda

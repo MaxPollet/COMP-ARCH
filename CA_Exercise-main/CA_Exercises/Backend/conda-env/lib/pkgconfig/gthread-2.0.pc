@@ -1,0 +1,10 @@
+prefix=/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: GThread
+Description: Thread support for GLib
+Version: 2.69.1
+Requires: glib-2.0
+Libs: -L${libdir} -lgthread-2.0 -pthread
+Cflags: -I${includedir} -pthread

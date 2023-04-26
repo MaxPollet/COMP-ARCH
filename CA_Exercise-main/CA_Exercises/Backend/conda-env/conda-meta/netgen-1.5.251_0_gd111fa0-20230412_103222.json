@@ -1,0 +1,231 @@
+{
+    "arch": "x86_64",
+    "build": "20230412_103222",
+    "build_number": 20230412103222,
+    "build_string": "20230412_103222",
+    "channel": "https://conda.anaconda.org/litex-hub/linux-64",
+    "constrains": [],
+    "depends": [
+        "libgcc-ng >=11.2.0",
+        "python >=3.7,<3.8.0a0",
+        "tk >=8.6.12,<8.7.0a0"
+    ],
+    "extracted_package_dir": "/users/students/r0757781/micromamba/pkgs/netgen-1.5.251_0_gd111fa0-20230412_103222",
+    "files": [
+        "bin/netgen",
+        "lib/netgen/doc/netgen.doc",
+        "lib/netgen/ntk2adl.sh",
+        "lib/netgen/python/__pycache__/consoletext.cpython-37.pyc",
+        "lib/netgen/python/__pycache__/helpwindow.cpython-37.pyc",
+        "lib/netgen/python/__pycache__/lvs_manager.cpython-37.pyc",
+        "lib/netgen/python/__pycache__/tksimpledialog.cpython-37.pyc",
+        "lib/netgen/python/__pycache__/tooltip.cpython-37.pyc",
+        "lib/netgen/python/__pycache__/treeviewsplit.cpython-37.pyc",
+        "lib/netgen/python/consoletext.py",
+        "lib/netgen/python/helpwindow.py",
+        "lib/netgen/python/lvs_help.txt",
+        "lib/netgen/python/lvs_manager.py",
+        "lib/netgen/python/tksimpledialog.py",
+        "lib/netgen/python/tooltip.py",
+        "lib/netgen/python/treeviewsplit.py",
+        "lib/netgen/spice",
+        "lib/netgen/spice.bot",
+        "lib/netgen/spice.top",
+        "lib/netgen/tcl/console.tcl",
+        "lib/netgen/tcl/netgen.tcl",
+        "lib/netgen/tcl/netgenexec",
+        "lib/netgen/tcl/tclnetgen.so",
+        "lib/netgen/tcl/tkcon.tcl"
+    ],
+    "fn": "netgen-1.5.251_0_gd111fa0-20230412_103222.tar.bz2",
+    "license": "",
+    "link": {
+        "source": "/users/students/r0757781/micromamba/pkgs/netgen-1.5.251_0_gd111fa0-20230412_103222",
+        "type": 1
+    },
+    "md5": "42934b5ba074645b2c42cb903c36dd5a",
+    "name": "netgen",
+    "package_tarball_full_path": "/users/students/r0757781/micromamba/pkgs/netgen-1.5.251_0_gd111fa0-20230412_103222.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "bin/netgen",
+                "path_type": "hardlink",
+                "sha256": "01e2f1132230a8f6331435568fea4ea01068d59cd1dbbbdf63732e8bf5138e14",
+                "sha256_in_prefix": "3c7ee472d43c271f88990f1a347f0d3e413b58989d78f216dbd417fa6947caf9",
+                "size_in_bytes": 3422
+            },
+            {
+                "_path": "lib/netgen/doc/netgen.doc",
+                "path_type": "hardlink",
+                "sha256": "a3c42a37f25757b309008301bf133240e3881d5adacb69290753f78b6ff9e31d",
+                "sha256_in_prefix": "a3c42a37f25757b309008301bf133240e3881d5adacb69290753f78b6ff9e31d",
+                "size_in_bytes": 23755
+            },
+            {
+                "_path": "lib/netgen/ntk2adl.sh",
+                "path_type": "hardlink",
+                "sha256": "2b75bd92e9365a5c80911b054ca2a2184a100965d7771600e3ea0c161b850460",
+                "sha256_in_prefix": "2b75bd92e9365a5c80911b054ca2a2184a100965d7771600e3ea0c161b850460",
+                "size_in_bytes": 49
+            },
+            {
+                "_path": "lib/netgen/python/__pycache__/consoletext.cpython-37.pyc",
+                "path_type": "hardlink",
+                "sha256": "d5a51c3ea499d5b0450b8478e8c043aff1f42b38239020498871b61dea9c9017",
+                "sha256_in_prefix": "d5a51c3ea499d5b0450b8478e8c043aff1f42b38239020498871b61dea9c9017",
+                "size_in_bytes": 2443
+            },
+            {
+                "_path": "lib/netgen/python/__pycache__/helpwindow.cpython-37.pyc",
+                "path_type": "hardlink",
+                "sha256": "4c4ea9ae41cd71bb478c039a6f1aec193e1819ddadf579a73c0b7cf5ab6df66a",
+                "sha256_in_prefix": "4c4ea9ae41cd71bb478c039a6f1aec193e1819ddadf579a73c0b7cf5ab6df66a",
+                "size_in_bytes": 6049
+            },
+            {
+                "_path": "lib/netgen/python/__pycache__/lvs_manager.cpython-37.pyc",
+                "path_type": "hardlink",
+                "sha256": "1a2bb3af6e216017c378430d8fa92a2093fd13c982cf7f4576a32db1d73d05de",
+                "sha256_in_prefix": "1a2bb3af6e216017c378430d8fa92a2093fd13c982cf7f4576a32db1d73d05de",
+                "size_in_bytes": 19902
+            },
+            {
+                "_path": "lib/netgen/python/__pycache__/tksimpledialog.cpython-37.pyc",
+                "path_type": "hardlink",
+                "sha256": "08e0d94e6076444cb67e7ecf1a5e22cd4211b4f7f0a4cda28d7355da4d43f553",
+                "sha256_in_prefix": "08e0d94e6076444cb67e7ecf1a5e22cd4211b4f7f0a4cda28d7355da4d43f553",
+                "size_in_bytes": 2299
+            },
+            {
+                "_path": "lib/netgen/python/__pycache__/tooltip.cpython-37.pyc",
+                "path_type": "hardlink",
+                "sha256": "4e8cfbde44b0783d9feeb3d53ffc341aa1acc7670a5df9946f6b3c23b61554c1",
+                "sha256_in_prefix": "4e8cfbde44b0783d9feeb3d53ffc341aa1acc7670a5df9946f6b3c23b61554c1",
+                "size_in_bytes": 6569
+            },
+            {
+                "_path": "lib/netgen/python/__pycache__/treeviewsplit.cpython-37.pyc",
+                "path_type": "hardlink",
+                "sha256": "da36b6df0009de312c5123b906758ea01b2d4d8063a31bf32787a8f6b0f7bfaf",
+                "sha256_in_prefix": "da36b6df0009de312c5123b906758ea01b2d4d8063a31bf32787a8f6b0f7bfaf",
+                "size_in_bytes": 12059
+            },
+            {
+                "_path": "lib/netgen/python/consoletext.py",
+                "path_type": "hardlink",
+                "sha256": "e96baa15c0941dde424c1b40a9113dc1562e5d219b1696c5606f34c683d8ba04",
+                "sha256_in_prefix": "e96baa15c0941dde424c1b40a9113dc1562e5d219b1696c5606f34c683d8ba04",
+                "size_in_bytes": 1856
+            },
+            {
+                "_path": "lib/netgen/python/helpwindow.py",
+                "path_type": "hardlink",
+                "sha256": "1bf5800aed9c054d752d2eb77eb3f8a09b8df5f08233019468d5a2ab6d3769aa",
+                "sha256_in_prefix": "1bf5800aed9c054d752d2eb77eb3f8a09b8df5f08233019468d5a2ab6d3769aa",
+                "size_in_bytes": 8969
+            },
+            {
+                "_path": "lib/netgen/python/lvs_help.txt",
+                "path_type": "hardlink",
+                "sha256": "aced12e1607e9020b732d4a5a923773e76ef3fa02e8712d9283f1dadeb1dea7d",
+                "sha256_in_prefix": "aced12e1607e9020b732d4a5a923773e76ef3fa02e8712d9283f1dadeb1dea7d",
+                "size_in_bytes": 234
+            },
+            {
+                "_path": "lib/netgen/python/lvs_manager.py",
+                "path_type": "hardlink",
+                "sha256": "06c5aa884797392e29a8cc52c50a63f2091872946667c04e0e14b7a31e150f85",
+                "sha256_in_prefix": "9e760ecb56703fe0797785f4d4c4cc82abdbeee4a1c9b6ca1f59710d8c5c2ae5",
+                "size_in_bytes": 38307
+            },
+            {
+                "_path": "lib/netgen/python/tksimpledialog.py",
+                "path_type": "hardlink",
+                "sha256": "71000dc68fce0bd1c14d7d4d2f12b2870e522f770c7400e4bb1ee5c2758e2cc1",
+                "sha256_in_prefix": "71000dc68fce0bd1c14d7d4d2f12b2870e522f770c7400e4bb1ee5c2758e2cc1",
+                "size_in_bytes": 2386
+            },
+            {
+                "_path": "lib/netgen/python/tooltip.py",
+                "path_type": "hardlink",
+                "sha256": "374329c57b0a15677667630b519e7b188717918c171cf9d1cbe860959092a28e",
+                "sha256_in_prefix": "374329c57b0a15677667630b519e7b188717918c171cf9d1cbe860959092a28e",
+                "size_in_bytes": 7455
+            },
+            {
+                "_path": "lib/netgen/python/treeviewsplit.py",
+                "path_type": "hardlink",
+                "sha256": "ac1e32f4e06283af9d5be7f6e4a921374758b78e437ac935e3fd62366392084b",
+                "sha256_in_prefix": "ac1e32f4e06283af9d5be7f6e4a921374758b78e437ac935e3fd62366392084b",
+                "size_in_bytes": 27113
+            },
+            {
+                "_path": "lib/netgen/spice",
+                "path_type": "hardlink",
+                "sha256": "b7de36f7ca8245c0428cfd6a6742df69166ba5f91bdfb7ccdd7b1fc250a9c025",
+                "sha256_in_prefix": "b7de36f7ca8245c0428cfd6a6742df69166ba5f91bdfb7ccdd7b1fc250a9c025",
+                "size_in_bytes": 2556
+            },
+            {
+                "_path": "lib/netgen/spice.bot",
+                "path_type": "hardlink",
+                "sha256": "d0fe20d68b2c7f21b3d47cffbed6e080cf89649c29e4db3aefac881253ea50fa",
+                "sha256_in_prefix": "d0fe20d68b2c7f21b3d47cffbed6e080cf89649c29e4db3aefac881253ea50fa",
+                "size_in_bytes": 61
+            },
+            {
+                "_path": "lib/netgen/spice.top",
+                "path_type": "hardlink",
+                "sha256": "527f8cea8a74ff0d4914b0c20d0c39dd08597c2a9804b1e12347487ffde4a0c4",
+                "sha256_in_prefix": "527f8cea8a74ff0d4914b0c20d0c39dd08597c2a9804b1e12347487ffde4a0c4",
+                "size_in_bytes": 819
+            },
+            {
+                "_path": "lib/netgen/tcl/console.tcl",
+                "path_type": "hardlink",
+                "sha256": "cf9732a39d9d7220dd0cf74b3483d9dc7121066329a679d1f5ac0b1225149bb3",
+                "sha256_in_prefix": "cf9732a39d9d7220dd0cf74b3483d9dc7121066329a679d1f5ac0b1225149bb3",
+                "size_in_bytes": 162
+            },
+            {
+                "_path": "lib/netgen/tcl/netgen.tcl",
+                "path_type": "hardlink",
+                "sha256": "e8ee139716bbe537b97bb27faa1760ec18346086c8e06fb9e3fb6ea82ec8ff14",
+                "sha256_in_prefix": "06d686f2105acddfd9a3514b76c3e96487453b5d03fb389be6366fa085ae2054",
+                "size_in_bytes": 28062
+            },
+            {
+                "_path": "lib/netgen/tcl/netgenexec",
+                "path_type": "hardlink",
+                "sha256": "3a51e8f850528e220863fb2ffc32cb8a7dc94225cb455f1e63696a4a85b3cdc0",
+                "sha256_in_prefix": "c5238f3a5aa0893dedb6f05bcca52f7b3ed80f8e79b93f2d9d6a60506043e565",
+                "size_in_bytes": 18520
+            },
+            {
+                "_path": "lib/netgen/tcl/tclnetgen.so",
+                "path_type": "hardlink",
+                "sha256": "539318f84fe5ce235dea9a10a56393ad6bd5b227d34e41cf40d5dd511d4fe4e8",
+                "sha256_in_prefix": "13bcd26379f9374934398851a835ab8c3f96e6a43b3f23c36bbcfa02601bb2af",
+                "size_in_bytes": 1569088
+            },
+            {
+                "_path": "lib/netgen/tcl/tkcon.tcl",
+                "path_type": "hardlink",
+                "sha256": "49d4eb2245ea17323278f3968149b030b7c902daa5e6fbc97206cff149ce715d",
+                "sha256_in_prefix": "49d4eb2245ea17323278f3968149b030b7c902daa5e6fbc97206cff149ce715d",
+                "size_in_bytes": 161917
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "netgen",
+    "sha256": "de83db282022ea3d4fa08c288773c2b0e4443afb629fe6b691f6184e9768e7d7",
+    "size": 803986,
+    "subdir": "linux-64",
+    "timestamp": 1681295864266,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/litex-hub/linux-64/netgen-1.5.251_0_gd111fa0-20230412_103222.tar.bz2",
+    "version": "1.5.251_0_gd111fa0"
+}

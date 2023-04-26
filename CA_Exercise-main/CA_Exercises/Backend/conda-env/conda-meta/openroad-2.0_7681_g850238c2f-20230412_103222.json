@@ -1,0 +1,934 @@
+{
+    "arch": "x86_64",
+    "build": "20230412_103222",
+    "build_number": 20230412103222,
+    "build_string": "20230412_103222",
+    "channel": "https://conda.anaconda.org/litex-hub/linux-64",
+    "constrains": [],
+    "depends": [
+        "_openmp_mutex >=5.1",
+        "libboost >=1.73,<1.74.0a0",
+        "libgcc-ng >=11.2.0",
+        "libstdcxx-ng >=11.2.0",
+        "python >=3.7,<3.8.0a0",
+        "qt >=5.9.7,<5.10.0a0",
+        "spdlog >=1.9,<1.10",
+        "spdlog >=1.9.2,<2.0a0",
+        "tk >=8.6.12,<8.7.0a0",
+        "zlib >=1.2.13,<1.3.0a0"
+    ],
+    "extracted_package_dir": "/users/students/r0757781/micromamba/pkgs/openroad-2.0_7681_g850238c2f-20230412_103222",
+    "files": [
+        "bin/dimacs-solver",
+        "bin/dimacs-to-lgf",
+        "bin/lemon-0.x-to-1.x.sh",
+        "bin/lgf-gen",
+        "bin/openroad",
+        "bin/sta",
+        "include/lemon/adaptors.h",
+        "include/lemon/arg_parser.h",
+        "include/lemon/assert.h",
+        "include/lemon/bellman_ford.h",
+        "include/lemon/bfs.h",
+        "include/lemon/bin_heap.h",
+        "include/lemon/binomial_heap.h",
+        "include/lemon/bits/alteration_notifier.h",
+        "include/lemon/bits/array_map.h",
+        "include/lemon/bits/bezier.h",
+        "include/lemon/bits/default_map.h",
+        "include/lemon/bits/edge_set_extender.h",
+        "include/lemon/bits/enable_if.h",
+        "include/lemon/bits/graph_adaptor_extender.h",
+        "include/lemon/bits/graph_extender.h",
+        "include/lemon/bits/lock.h",
+        "include/lemon/bits/map_extender.h",
+        "include/lemon/bits/path_dump.h",
+        "include/lemon/bits/solver_bits.h",
+        "include/lemon/bits/traits.h",
+        "include/lemon/bits/variant.h",
+        "include/lemon/bits/vector_map.h",
+        "include/lemon/bits/windows.h",
+        "include/lemon/bucket_heap.h",
+        "include/lemon/capacity_scaling.h",
+        "include/lemon/cbc.h",
+        "include/lemon/christofides_tsp.h",
+        "include/lemon/circulation.h",
+        "include/lemon/clp.h",
+        "include/lemon/color.h",
+        "include/lemon/concept_check.h",
+        "include/lemon/concepts/bpgraph.h",
+        "include/lemon/concepts/digraph.h",
+        "include/lemon/concepts/graph.h",
+        "include/lemon/concepts/graph_components.h",
+        "include/lemon/concepts/heap.h",
+        "include/lemon/concepts/maps.h",
+        "include/lemon/concepts/path.h",
+        "include/lemon/config.h",
+        "include/lemon/connectivity.h",
+        "include/lemon/core.h",
+        "include/lemon/cost_scaling.h",
+        "include/lemon/counter.h",
+        "include/lemon/cplex.h",
+        "include/lemon/cycle_canceling.h",
+        "include/lemon/dfs.h",
+        "include/lemon/dheap.h",
+        "include/lemon/dijkstra.h",
+        "include/lemon/dim2.h",
+        "include/lemon/dimacs.h",
+        "include/lemon/edge_set.h",
+        "include/lemon/edmonds_karp.h",
+        "include/lemon/elevator.h",
+        "include/lemon/error.h",
+        "include/lemon/euler.h",
+        "include/lemon/fib_heap.h",
+        "include/lemon/fractional_matching.h",
+        "include/lemon/full_graph.h",
+        "include/lemon/glpk.h",
+        "include/lemon/gomory_hu.h",
+        "include/lemon/graph_to_eps.h",
+        "include/lemon/greedy_tsp.h",
+        "include/lemon/grid_graph.h",
+        "include/lemon/grosso_locatelli_pullan_mc.h",
+        "include/lemon/hao_orlin.h",
+        "include/lemon/hartmann_orlin_mmc.h",
+        "include/lemon/howard_mmc.h",
+        "include/lemon/hypercube_graph.h",
+        "include/lemon/insertion_tsp.h",
+        "include/lemon/karp_mmc.h",
+        "include/lemon/kruskal.h",
+        "include/lemon/lgf_reader.h",
+        "include/lemon/lgf_writer.h",
+        "include/lemon/list_graph.h",
+        "include/lemon/lp.h",
+        "include/lemon/lp_base.h",
+        "include/lemon/lp_skeleton.h",
+        "include/lemon/maps.h",
+        "include/lemon/matching.h",
+        "include/lemon/math.h",
+        "include/lemon/max_cardinality_search.h",
+        "include/lemon/min_cost_arborescence.h",
+        "include/lemon/nagamochi_ibaraki.h",
+        "include/lemon/nauty_reader.h",
+        "include/lemon/nearest_neighbor_tsp.h",
+        "include/lemon/network_simplex.h",
+        "include/lemon/opt2_tsp.h",
+        "include/lemon/pairing_heap.h",
+        "include/lemon/path.h",
+        "include/lemon/planarity.h",
+        "include/lemon/preflow.h",
+        "include/lemon/quad_heap.h",
+        "include/lemon/radix_heap.h",
+        "include/lemon/radix_sort.h",
+        "include/lemon/random.h",
+        "include/lemon/smart_graph.h",
+        "include/lemon/soplex.h",
+        "include/lemon/static_graph.h",
+        "include/lemon/suurballe.h",
+        "include/lemon/time_measure.h",
+        "include/lemon/tolerance.h",
+        "include/lemon/unionfind.h",
+        "lib/libemon.a",
+        "lib/pkgconfig/lemon.pc",
+        "share/lemon/cmake/LEMONConfig.cmake"
+    ],
+    "fn": "openroad-2.0_7681_g850238c2f-20230412_103222.tar.bz2",
+    "license": "BSD-3-Clause",
+    "link": {
+        "source": "/users/students/r0757781/micromamba/pkgs/openroad-2.0_7681_g850238c2f-20230412_103222",
+        "type": 1
+    },
+    "md5": "629b8ad2ee6bc1874ff0e11e91d9f4fc",
+    "name": "openroad",
+    "package_tarball_full_path": "/users/students/r0757781/micromamba/pkgs/openroad-2.0_7681_g850238c2f-20230412_103222.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "bin/dimacs-solver",
+                "path_type": "hardlink",
+                "sha256": "2aacc2cf85beefa8577163e1992b3ae18eeb3248f2653773d6af5a9e65b009f9",
+                "sha256_in_prefix": "2aacc2cf85beefa8577163e1992b3ae18eeb3248f2653773d6af5a9e65b009f9",
+                "size_in_bytes": 444072
+            },
+            {
+                "_path": "bin/dimacs-to-lgf",
+                "path_type": "hardlink",
+                "sha256": "706c0b28516daba84658913da31eba3f4dfb6d7d6dad474537dd04bb8df2bf57",
+                "sha256_in_prefix": "706c0b28516daba84658913da31eba3f4dfb6d7d6dad474537dd04bb8df2bf57",
+                "size_in_bytes": 209608
+            },
+            {
+                "_path": "bin/lemon-0.x-to-1.x.sh",
+                "path_type": "hardlink",
+                "sha256": "be4026e2d3897cce065309fc9c0ee5c03bad88d3f1422f2fd2ddade9b4a12267",
+                "sha256_in_prefix": "be4026e2d3897cce065309fc9c0ee5c03bad88d3f1422f2fd2ddade9b4a12267",
+                "size_in_bytes": 5880
+            },
+            {
+                "_path": "bin/lgf-gen",
+                "path_type": "hardlink",
+                "sha256": "e4aaa4d08f6691c1fcaa2e57ae612b5fb7b23e9bc0a7a2f8c230905f9a2b6bb0",
+                "sha256_in_prefix": "e4aaa4d08f6691c1fcaa2e57ae612b5fb7b23e9bc0a7a2f8c230905f9a2b6bb0",
+                "size_in_bytes": 367616
+            },
+            {
+                "_path": "bin/openroad",
+                "path_type": "hardlink",
+                "sha256": "3f2bfb1c25375899428eb6fd2928a61169c136dbbe1a266ccd0c11332ee957ad",
+                "sha256_in_prefix": "6868e095e2a3f316af65e4b9f9239b18356e95714d392d49241c0e0e4ecffedb",
+                "size_in_bytes": 75844776
+            },
+            {
+                "_path": "bin/sta",
+                "path_type": "hardlink",
+                "sha256": "575ecada38b04fe7481a5ef8efb3af5cfb34a11a2902761a43b2751a1b82e21a",
+                "sha256_in_prefix": "575ecada38b04fe7481a5ef8efb3af5cfb34a11a2902761a43b2751a1b82e21a",
+                "size_in_bytes": 5734888
+            },
+            {
+                "_path": "include/lemon/adaptors.h",
+                "path_type": "hardlink",
+                "sha256": "1162294a0f626a41c7fd6bb11bd47ea61de09077d3434fabbe8832b9a3a342f2",
+                "sha256_in_prefix": "1162294a0f626a41c7fd6bb11bd47ea61de09077d3434fabbe8832b9a3a342f2",
+                "size_in_bytes": 112976
+            },
+            {
+                "_path": "include/lemon/arg_parser.h",
+                "path_type": "hardlink",
+                "sha256": "3f1e8f3d7d88a8bb69c914aae56066b3f3b67b03492579a89444f800cd900ebd",
+                "sha256_in_prefix": "3f1e8f3d7d88a8bb69c914aae56066b3f3b67b03492579a89444f800cd900ebd",
+                "size_in_bytes": 13639
+            },
+            {
+                "_path": "include/lemon/assert.h",
+                "path_type": "hardlink",
+                "sha256": "4834da7ac2bca235bf1e752c8bb982f4fb4d5670d207902ea6831beb75dab013",
+                "sha256_in_prefix": "4834da7ac2bca235bf1e752c8bb982f4fb4d5670d207902ea6831beb75dab013",
+                "size_in_bytes": 7547
+            },
+            {
+                "_path": "include/lemon/bellman_ford.h",
+                "path_type": "hardlink",
+                "sha256": "2d9619d5e2a5908f4797c308868a191006d564478d69b6706e4db3ce513deedc",
+                "sha256_in_prefix": "2d9619d5e2a5908f4797c308868a191006d564478d69b6706e4db3ce513deedc",
+                "size_in_bytes": 38788
+            },
+            {
+                "_path": "include/lemon/bfs.h",
+                "path_type": "hardlink",
+                "sha256": "d595a7798a050ea78f408f1ee6ba4488b1b02f71bf04806405f654ebc427c19f",
+                "sha256_in_prefix": "d595a7798a050ea78f408f1ee6ba4488b1b02f71bf04806405f654ebc427c19f",
+                "size_in_bytes": 55605
+            },
+            {
+                "_path": "include/lemon/bin_heap.h",
+                "path_type": "hardlink",
+                "sha256": "52451e49afa225be3619d8aa8cc189690f4052bd6d2e665588cc0a26ca2f6c2b",
+                "sha256_in_prefix": "52451e49afa225be3619d8aa8cc189690f4052bd6d2e665588cc0a26ca2f6c2b",
+                "size_in_bytes": 10430
+            },
+            {
+                "_path": "include/lemon/binomial_heap.h",
+                "path_type": "hardlink",
+                "sha256": "905538659c939fb1dbb02fd44f13c00cc952070029d440ae36ec9907b437a3ea",
+                "sha256_in_prefix": "905538659c939fb1dbb02fd44f13c00cc952070029d440ae36ec9907b437a3ea",
+                "size_in_bytes": 13225
+            },
+            {
+                "_path": "include/lemon/bits/alteration_notifier.h",
+                "path_type": "hardlink",
+                "sha256": "6a2b546751ad0de1ec8ee16e86c64978f9e25e209a3e872356e1eea45b930e2a",
+                "sha256_in_prefix": "6a2b546751ad0de1ec8ee16e86c64978f9e25e209a3e872356e1eea45b930e2a",
+                "size_in_bytes": 15730
+            },
+            {
+                "_path": "include/lemon/bits/array_map.h",
+                "path_type": "hardlink",
+                "sha256": "bb59aecb4dade28ef4e207fad110c61cb040cc761c2b26cbaccce609693b1a4d",
+                "sha256_in_prefix": "bb59aecb4dade28ef4e207fad110c61cb040cc761c2b26cbaccce609693b1a4d",
+                "size_in_bytes": 10493
+            },
+            {
+                "_path": "include/lemon/bits/bezier.h",
+                "path_type": "hardlink",
+                "sha256": "1c3d425b0b654a32bddfdc993161c7f61311a2a86cdd4f03a20b814d605132cb",
+                "sha256_in_prefix": "1c3d425b0b654a32bddfdc993161c7f61311a2a86cdd4f03a20b814d605132cb",
+                "size_in_bytes": 4908
+            },
+            {
+                "_path": "include/lemon/bits/default_map.h",
+                "path_type": "hardlink",
+                "sha256": "7b1b2a1d223b14e93ba7fad98a01a45c7d3abaecd848104b03a43df0b94cf914",
+                "sha256_in_prefix": "7b1b2a1d223b14e93ba7fad98a01a45c7d3abaecd848104b03a43df0b94cf914",
+                "size_in_bytes": 4903
+            },
+            {
+                "_path": "include/lemon/bits/edge_set_extender.h",
+                "path_type": "hardlink",
+                "sha256": "eeb6b3d8a2f195ec683967662dc13485f5f349693ecc2c1155e32a572f665ebc",
+                "sha256_in_prefix": "eeb6b3d8a2f195ec683967662dc13485f5f349693ecc2c1155e32a572f665ebc",
+                "size_in_bytes": 14025
+            },
+            {
+                "_path": "include/lemon/bits/enable_if.h",
+                "path_type": "hardlink",
+                "sha256": "6356649233e7383ffb1c95a6e18b2aabbe313eb38525a70d6bb933c92b070cff",
+                "sha256_in_prefix": "6356649233e7383ffb1c95a6e18b2aabbe313eb38525a70d6bb933c92b070cff",
+                "size_in_bytes": 3213
+            },
+            {
+                "_path": "include/lemon/bits/graph_adaptor_extender.h",
+                "path_type": "hardlink",
+                "sha256": "fb235a8f504bc57041f5f7b3c802f59210e21e75aaa66669d0bec56e18657157",
+                "sha256_in_prefix": "fb235a8f504bc57041f5f7b3c802f59210e21e75aaa66669d0bec56e18657157",
+                "size_in_bytes": 8676
+            },
+            {
+                "_path": "include/lemon/bits/graph_extender.h",
+                "path_type": "hardlink",
+                "sha256": "646399eb34ba87499d78046edd0a689bfb0022cd9d5adc2496539ec38c05bb03",
+                "sha256_in_prefix": "646399eb34ba87499d78046edd0a689bfb0022cd9d5adc2496539ec38c05bb03",
+                "size_in_bytes": 31670
+            },
+            {
+                "_path": "include/lemon/bits/lock.h",
+                "path_type": "hardlink",
+                "sha256": "6c188cdf83299408be6677a2615b116dd3dcc565c06b5c43bfb266437495af10",
+                "sha256_in_prefix": "6c188cdf83299408be6677a2615b116dd3dcc565c06b5c43bfb266437495af10",
+                "size_in_bytes": 1456
+            },
+            {
+                "_path": "include/lemon/bits/map_extender.h",
+                "path_type": "hardlink",
+                "sha256": "5129c5f1a13c7909b0ae1a62dfcbeaaaf84e817d4ed2535ae52b27076472e669",
+                "sha256_in_prefix": "5129c5f1a13c7909b0ae1a62dfcbeaaaf84e817d4ed2535ae52b27076472e669",
+                "size_in_bytes": 7113
+            },
+            {
+                "_path": "include/lemon/bits/path_dump.h",
+                "path_type": "hardlink",
+                "sha256": "9a96d901c59790346dd1f5d11fe1d7b093c11440ab2b4e2240b9b0d092e79d4a",
+                "sha256_in_prefix": "9a96d901c59790346dd1f5d11fe1d7b093c11440ab2b4e2240b9b0d092e79d4a",
+                "size_in_bytes": 4665
+            },
+            {
+                "_path": "include/lemon/bits/solver_bits.h",
+                "path_type": "hardlink",
+                "sha256": "e56f62fdf4122b6a59afa5ac86c55f5a9e04a19dc2e0c596c749ba34b3a47bb8",
+                "sha256_in_prefix": "e56f62fdf4122b6a59afa5ac86c55f5a9e04a19dc2e0c596c749ba34b3a47bb8",
+                "size_in_bytes": 4684
+            },
+            {
+                "_path": "include/lemon/bits/traits.h",
+                "path_type": "hardlink",
+                "sha256": "e1c02ba5376edb7bdde009ed746ed721150f0b735a854679fdfec3b22cd43da7",
+                "sha256_in_prefix": "e1c02ba5376edb7bdde009ed746ed721150f0b735a854679fdfec3b22cd43da7",
+                "size_in_bytes": 9662
+            },
+            {
+                "_path": "include/lemon/bits/variant.h",
+                "path_type": "hardlink",
+                "sha256": "80df7a0a675d5c0ebea56b570c064c3fdcbd7fd7956c973655fb3d83d9b2fc76",
+                "sha256_in_prefix": "80df7a0a675d5c0ebea56b570c064c3fdcbd7fd7956c973655fb3d83d9b2fc76",
+                "size_in_bytes": 14129
+            },
+            {
+                "_path": "include/lemon/bits/vector_map.h",
+                "path_type": "hardlink",
+                "sha256": "7ab1d75cd6739049367c7511b7bfc29cc04b3cba01660ec97b89e00c4e860fb5",
+                "sha256_in_prefix": "7ab1d75cd6739049367c7511b7bfc29cc04b3cba01660ec97b89e00c4e860fb5",
+                "size_in_bytes": 7306
+            },
+            {
+                "_path": "include/lemon/bits/windows.h",
+                "path_type": "hardlink",
+                "sha256": "4cd0ff49187646a9a49f595cbd536617712b63efb04923d27a768a616cd80052",
+                "sha256_in_prefix": "4cd0ff49187646a9a49f595cbd536617712b63efb04923d27a768a616cd80052",
+                "size_in_bytes": 1119
+            },
+            {
+                "_path": "include/lemon/bucket_heap.h",
+                "path_type": "hardlink",
+                "sha256": "2fd300638dc23e17676084d3c3639fa9484a4a7c84115d8c3fb3782c31460010",
+                "sha256_in_prefix": "2fd300638dc23e17676084d3c3639fa9484a4a7c84115d8c3fb3782c31460010",
+                "size_in_bytes": 17729
+            },
+            {
+                "_path": "include/lemon/capacity_scaling.h",
+                "path_type": "hardlink",
+                "sha256": "f6d804d03695d2b96019dc6154bc1a16f947d017633255f3e4ee3fc55ee6cc8d",
+                "sha256_in_prefix": "f6d804d03695d2b96019dc6154bc1a16f947d017633255f3e4ee3fc55ee6cc8d",
+                "size_in_bytes": 32476
+            },
+            {
+                "_path": "include/lemon/cbc.h",
+                "path_type": "hardlink",
+                "sha256": "fba063f5dca755410e5bd118be54ae0450fd37daee0022cd3d872056d68b2054",
+                "sha256_in_prefix": "fba063f5dca755410e5bd118be54ae0450fd37daee0022cd3d872056d68b2054",
+                "size_in_bytes": 3585
+            },
+            {
+                "_path": "include/lemon/christofides_tsp.h",
+                "path_type": "hardlink",
+                "sha256": "49357739945f7afb9850c0773062b03bc438eecee4a78f2b2908d5d71f188e86",
+                "sha256_in_prefix": "49357739945f7afb9850c0773062b03bc438eecee4a78f2b2908d5d71f188e86",
+                "size_in_bytes": 7936
+            },
+            {
+                "_path": "include/lemon/circulation.h",
+                "path_type": "hardlink",
+                "sha256": "db9de6c8b2cb9aaf11f4db50b9511f491955c976e957c4f43be4cfca6e08d368",
+                "sha256_in_prefix": "db9de6c8b2cb9aaf11f4db50b9511f491955c976e957c4f43be4cfca6e08d368",
+                "size_in_bytes": 25481
+            },
+            {
+                "_path": "include/lemon/clp.h",
+                "path_type": "hardlink",
+                "sha256": "40743d462dc7bffb298ef9949a64251d9551dc64347910f056e70d59869b28e0",
+                "sha256_in_prefix": "40743d462dc7bffb298ef9949a64251d9551dc64347910f056e70d59869b28e0",
+                "size_in_bytes": 4531
+            },
+            {
+                "_path": "include/lemon/color.h",
+                "path_type": "hardlink",
+                "sha256": "3a961c98c528e73862908bb018bb085bff6563616fe633f2c1c8437f3611f72d",
+                "sha256_in_prefix": "3a961c98c528e73862908bb018bb085bff6563616fe633f2c1c8437f3611f72d",
+                "size_in_bytes": 6061
+            },
+            {
+                "_path": "include/lemon/concept_check.h",
+                "path_type": "hardlink",
+                "sha256": "aa6cf641fc628064482b7154f13869e3aecd84b96d19a48a8503db99224747cb",
+                "sha256_in_prefix": "aa6cf641fc628064482b7154f13869e3aecd84b96d19a48a8503db99224747cb",
+                "size_in_bytes": 2668
+            },
+            {
+                "_path": "include/lemon/concepts/bpgraph.h",
+                "path_type": "hardlink",
+                "sha256": "9f97107eaeba9ae31e90644efe67cbd14964996583a63b42806dde44aee7230e",
+                "sha256_in_prefix": "9f97107eaeba9ae31e90644efe67cbd14964996583a63b42806dde44aee7230e",
+                "size_in_bytes": 33103
+            },
+            {
+                "_path": "include/lemon/concepts/digraph.h",
+                "path_type": "hardlink",
+                "sha256": "a8def3fc9393cfc510d70a06e33a8993a9a5507b8674288585ded8ca54dba8f4",
+                "sha256_in_prefix": "a8def3fc9393cfc510d70a06e33a8993a9a5507b8674288585ded8ca54dba8f4",
+                "size_in_bytes": 15443
+            },
+            {
+                "_path": "include/lemon/concepts/graph.h",
+                "path_type": "hardlink",
+                "sha256": "7cf4516aa192f209d7a5f108f5dd8d8ea5b8a1f4ba2a0aed9e5ad3eb9756aa1e",
+                "sha256_in_prefix": "7cf4516aa192f209d7a5f108f5dd8d8ea5b8a1f4ba2a0aed9e5ad3eb9756aa1e",
+                "size_in_bytes": 25759
+            },
+            {
+                "_path": "include/lemon/concepts/graph_components.h",
+                "path_type": "hardlink",
+                "sha256": "28d9822a36e87072f5ab48a41531979796e7e5faf792dd0638bdcc8aed6e346a",
+                "sha256_in_prefix": "28d9822a36e87072f5ab48a41531979796e7e5faf792dd0638bdcc8aed6e346a",
+                "size_in_bytes": 70657
+            },
+            {
+                "_path": "include/lemon/concepts/heap.h",
+                "path_type": "hardlink",
+                "sha256": "986fcf7de7ead19d82bad9bcd7d145c4ed56d10163984abed0ec6ab39b9d5a6e",
+                "sha256_in_prefix": "986fcf7de7ead19d82bad9bcd7d145c4ed56d10163984abed0ec6ab39b9d5a6e",
+                "size_in_bytes": 10687
+            },
+            {
+                "_path": "include/lemon/concepts/maps.h",
+                "path_type": "hardlink",
+                "sha256": "15a81ac5dcb72fe9873a14262e3fd505fb46ab61dd9f6b1353e6cf66a34bee9c",
+                "sha256_in_prefix": "15a81ac5dcb72fe9873a14262e3fd505fb46ab61dd9f6b1353e6cf66a34bee9c",
+                "size_in_bytes": 6041
+            },
+            {
+                "_path": "include/lemon/concepts/path.h",
+                "path_type": "hardlink",
+                "sha256": "4ad261deb09ef6b74141ca294b7538342b5932060556f74fe14d15bbe7fd2a09",
+                "sha256_in_prefix": "4ad261deb09ef6b74141ca294b7538342b5932060556f74fe14d15bbe7fd2a09",
+                "size_in_bytes": 9318
+            },
+            {
+                "_path": "include/lemon/config.h",
+                "path_type": "hardlink",
+                "sha256": "5fafb965cdc9446fa25825f6a394b58f2cb2e2bb97ac51eddc98497ac9fb2505",
+                "sha256_in_prefix": "5fafb965cdc9446fa25825f6a394b58f2cb2e2bb97ac51eddc98497ac9fb2505",
+                "size_in_bytes": 503
+            },
+            {
+                "_path": "include/lemon/connectivity.h",
+                "path_type": "hardlink",
+                "sha256": "16be5c3304d353870710049fc1894b34fd209f129fa50d842723ead082005b54",
+                "sha256_in_prefix": "16be5c3304d353870710049fc1894b34fd209f129fa50d842723ead082005b54",
+                "size_in_bytes": 51928
+            },
+            {
+                "_path": "include/lemon/core.h",
+                "path_type": "hardlink",
+                "sha256": "b7e8d81c076cfdd48eb019169df2855273603b69cb5ca7e5718b86ce375ebb33",
+                "sha256_in_prefix": "b7e8d81c076cfdd48eb019169df2855273603b69cb5ca7e5718b86ce375ebb33",
+                "size_in_bytes": 84609
+            },
+            {
+                "_path": "include/lemon/cost_scaling.h",
+                "path_type": "hardlink",
+                "sha256": "079816041012df29f487d9aa30a70f9ba4217901817123d7ecd71a83a441bb36",
+                "sha256_in_prefix": "079816041012df29f487d9aa30a70f9ba4217901817123d7ecd71a83a441bb36",
+                "size_in_bytes": 52740
+            },
+            {
+                "_path": "include/lemon/counter.h",
+                "path_type": "hardlink",
+                "sha256": "752d53677f1537534db61c018b43af65ca02b44ebe17246be82a5d9822b4db00",
+                "sha256_in_prefix": "752d53677f1537534db61c018b43af65ca02b44ebe17246be82a5d9822b4db00",
+                "size_in_bytes": 8097
+            },
+            {
+                "_path": "include/lemon/cplex.h",
+                "path_type": "hardlink",
+                "sha256": "df151af64f66daab2aa02c63e7a5269e73e1f8ec348a4188b9553aab484bfa16",
+                "sha256_in_prefix": "df151af64f66daab2aa02c63e7a5269e73e1f8ec348a4188b9553aab484bfa16",
+                "size_in_bytes": 7886
+            },
+            {
+                "_path": "include/lemon/cycle_canceling.h",
+                "path_type": "hardlink",
+                "sha256": "9527706f08560fa66bf15f3d90ed1b79a69d604eedc0b7f48adcaebb2f0a366e",
+                "sha256_in_prefix": "9527706f08560fa66bf15f3d90ed1b79a69d604eedc0b7f48adcaebb2f0a366e",
+                "size_in_bytes": 41529
+            },
+            {
+                "_path": "include/lemon/dfs.h",
+                "path_type": "hardlink",
+                "sha256": "bf05245fdf5fbd9c0967143a01cfa6f32903224ada3b04336000e12bc5fe1eea",
+                "sha256_in_prefix": "bf05245fdf5fbd9c0967143a01cfa6f32903224ada3b04336000e12bc5fe1eea",
+                "size_in_bytes": 51690
+            },
+            {
+                "_path": "include/lemon/dheap.h",
+                "path_type": "hardlink",
+                "sha256": "18a6737aea90b01e6aa52e7428c84f799c5630da5ed01fa87d739308d61a63c9",
+                "sha256_in_prefix": "18a6737aea90b01e6aa52e7428c84f799c5630da5ed01fa87d739308d61a63c9",
+                "size_in_bytes": 11221
+            },
+            {
+                "_path": "include/lemon/dijkstra.h",
+                "path_type": "hardlink",
+                "sha256": "6aab770e44c7ef12267105b37f81c7b43cfdcf1721ea2a31efdf44ca2bffe1d1",
+                "sha256_in_prefix": "6aab770e44c7ef12267105b37f81c7b43cfdcf1721ea2a31efdf44ca2bffe1d1",
+                "size_in_bytes": 44037
+            },
+            {
+                "_path": "include/lemon/dim2.h",
+                "path_type": "hardlink",
+                "sha256": "6b3347f11c0339ccd68b3f671f5d685e738e86af214fcfb7ad3de4eb4b2da104",
+                "sha256_in_prefix": "6b3347f11c0339ccd68b3f671f5d685e738e86af214fcfb7ad3de4eb4b2da104",
+                "size_in_bytes": 17437
+            },
+            {
+                "_path": "include/lemon/dimacs.h",
+                "path_type": "hardlink",
+                "sha256": "164d6301df037bb55db166bc88ab81db06e90a88a7dce719b5a5e869695911de",
+                "sha256_in_prefix": "164d6301df037bb55db166bc88ab81db06e90a88a7dce719b5a5e869695911de",
+                "size_in_bytes": 15075
+            },
+            {
+                "_path": "include/lemon/edge_set.h",
+                "path_type": "hardlink",
+                "sha256": "11cc25300578e054582a8a1bb78ac9451147423d9c2b707c7ef1baa79825eed0",
+                "sha256_in_prefix": "11cc25300578e054582a8a1bb78ac9451147423d9c2b707c7ef1baa79825eed0",
+                "size_in_bytes": 37594
+            },
+            {
+                "_path": "include/lemon/edmonds_karp.h",
+                "path_type": "hardlink",
+                "sha256": "9fe022ea10578a70b73aebcad8d17a36b2e667ab329cbea1f9a2ed9435975113",
+                "sha256_in_prefix": "9fe022ea10578a70b73aebcad8d17a36b2e667ab329cbea1f9a2ed9435975113",
+                "size_in_bytes": 16804
+            },
+            {
+                "_path": "include/lemon/elevator.h",
+                "path_type": "hardlink",
+                "sha256": "3041b940a6febf95fc294029163363066c0db47b0fdf266ae280d0ee17a04f86",
+                "sha256_in_prefix": "3041b940a6febf95fc294029163363066c0db47b0fdf266ae280d0ee17a04f86",
+                "size_in_bytes": 27039
+            },
+            {
+                "_path": "include/lemon/error.h",
+                "path_type": "hardlink",
+                "sha256": "6619fdabe22e94086948bb317fee4aeb98176ed8faef7288e122645dfde71355",
+                "sha256_in_prefix": "6619fdabe22e94086948bb317fee4aeb98176ed8faef7288e122645dfde71355",
+                "size_in_bytes": 6835
+            },
+            {
+                "_path": "include/lemon/euler.h",
+                "path_type": "hardlink",
+                "sha256": "e0a32a79a9fca29eb3df2825fc13bfeac4cfa3173f69789e3b1a1750cddfed7c",
+                "sha256_in_prefix": "e0a32a79a9fca29eb3df2825fc13bfeac4cfa3173f69789e3b1a1750cddfed7c",
+                "size_in_bytes": 8528
+            },
+            {
+                "_path": "include/lemon/fib_heap.h",
+                "path_type": "hardlink",
+                "sha256": "36d5c5138ba2e99b70e671a8426398309ee320054960c5b3c8019757784267ff",
+                "sha256_in_prefix": "36d5c5138ba2e99b70e671a8426398309ee320054960c5b3c8019757784267ff",
+                "size_in_bytes": 13830
+            },
+            {
+                "_path": "include/lemon/fractional_matching.h",
+                "path_type": "hardlink",
+                "sha256": "3533473e0638efa5b7fcaee7ee3ccf25caa2d91cf57d4a4298d58da5e464b2b1",
+                "sha256_in_prefix": "3533473e0638efa5b7fcaee7ee3ccf25caa2d91cf57d4a4298d58da5e464b2b1",
+                "size_in_bytes": 64564
+            },
+            {
+                "_path": "include/lemon/full_graph.h",
+                "path_type": "hardlink",
+                "sha256": "20495006572d39d18dbdda574a21339e43102fd933b0d5bcdb961a03abafc17b",
+                "sha256_in_prefix": "20495006572d39d18dbdda574a21339e43102fd933b0d5bcdb961a03abafc17b",
+                "size_in_bytes": 29946
+            },
+            {
+                "_path": "include/lemon/glpk.h",
+                "path_type": "hardlink",
+                "sha256": "5bf6f4491d1a42775e1343b3695ed42a26ac034f45447c5663fd019972487c1b",
+                "sha256_in_prefix": "5bf6f4491d1a42775e1343b3695ed42a26ac034f45447c5663fd019972487c1b",
+                "size_in_bytes": 6811
+            },
+            {
+                "_path": "include/lemon/gomory_hu.h",
+                "path_type": "hardlink",
+                "sha256": "3a966da1052d32443397ce9a70467ac79e2b89c483935657c2285f4821a98c03",
+                "sha256_in_prefix": "3a966da1052d32443397ce9a70467ac79e2b89c483935657c2285f4821a98c03",
+                "size_in_bytes": 17217
+            },
+            {
+                "_path": "include/lemon/graph_to_eps.h",
+                "path_type": "hardlink",
+                "sha256": "0e54bbed60363b91472f6f7d060fa28786c9070cc28b198b4b3f7ab223266f9e",
+                "sha256_in_prefix": "0e54bbed60363b91472f6f7d060fa28786c9070cc28b198b4b3f7ab223266f9e",
+                "size_in_bytes": 38686
+            },
+            {
+                "_path": "include/lemon/greedy_tsp.h",
+                "path_type": "hardlink",
+                "sha256": "2423c1be44767c9ca28a0cc67c22b0eb115d264c2dd753d0d8522bb8eb0b5eed",
+                "sha256_in_prefix": "2423c1be44767c9ca28a0cc67c22b0eb115d264c2dd753d0d8522bb8eb0b5eed",
+                "size_in_bytes": 7129
+            },
+            {
+                "_path": "include/lemon/grid_graph.h",
+                "path_type": "hardlink",
+                "sha256": "ee312600d13f486171afcfbea19065f8a0226b4052ce2c4a87bd56b9a3e4c841",
+                "sha256_in_prefix": "ee312600d13f486171afcfbea19065f8a0226b4052ce2c4a87bd56b9a3e4c841",
+                "size_in_bytes": 18975
+            },
+            {
+                "_path": "include/lemon/grosso_locatelli_pullan_mc.h",
+                "path_type": "hardlink",
+                "sha256": "482dbdbb3456ea2eebcde06ffc99d0bd88149d17da8692675273c05685f635ab",
+                "sha256_in_prefix": "482dbdbb3456ea2eebcde06ffc99d0bd88149d17da8692675273c05685f635ab",
+                "size_in_bytes": 25284
+            },
+            {
+                "_path": "include/lemon/hao_orlin.h",
+                "path_type": "hardlink",
+                "sha256": "7348ee1c318d1275f2f69eb94af5beb3433a996009ec0dc39e28ec7cd4ccb234",
+                "sha256_in_prefix": "7348ee1c318d1275f2f69eb94af5beb3433a996009ec0dc39e28ec7cd4ccb234",
+                "size_in_bytes": 31632
+            },
+            {
+                "_path": "include/lemon/hartmann_orlin_mmc.h",
+                "path_type": "hardlink",
+                "sha256": "629cafff44cecd9bf2226445fc9c3f047018142dad7e6bb8752b78626265027f",
+                "sha256_in_prefix": "629cafff44cecd9bf2226445fc9c3f047018142dad7e6bb8752b78626265027f",
+                "size_in_bytes": 19939
+            },
+            {
+                "_path": "include/lemon/howard_mmc.h",
+                "path_type": "hardlink",
+                "sha256": "559a2eb15b006ed4276b91ad39183b22c279f5dd8bda1955de003e88d928fc8e",
+                "sha256_in_prefix": "559a2eb15b006ed4276b91ad39183b22c279f5dd8bda1955de003e88d928fc8e",
+                "size_in_bytes": 20199
+            },
+            {
+                "_path": "include/lemon/hypercube_graph.h",
+                "path_type": "hardlink",
+                "sha256": "4aa3daf0b83511bd475f3d1296feb3ad7123d9ce518048cba556be6e7eb37221",
+                "sha256_in_prefix": "4aa3daf0b83511bd475f3d1296feb3ad7123d9ce518048cba556be6e7eb37221",
+                "size_in_bytes": 13049
+            },
+            {
+                "_path": "include/lemon/insertion_tsp.h",
+                "path_type": "hardlink",
+                "sha256": "0d60d05b873bf8dc0049180aaa78f7062643342d6467f397f3ff38611197c1ab",
+                "sha256_in_prefix": "0d60d05b873bf8dc0049180aaa78f7062643342d6467f397f3ff38611197c1ab",
+                "size_in_bytes": 17166
+            },
+            {
+                "_path": "include/lemon/karp_mmc.h",
+                "path_type": "hardlink",
+                "sha256": "89c66c04720c204edcc1ec2d3167977c3cf984439113312ed173e55f75178922",
+                "sha256_in_prefix": "89c66c04720c204edcc1ec2d3167977c3cf984439113312ed173e55f75178922",
+                "size_in_bytes": 17522
+            },
+            {
+                "_path": "include/lemon/kruskal.h",
+                "path_type": "hardlink",
+                "sha256": "82a27a70ec0ada0af3c79152466af5f465e7775dbc84dce5e800be9b86ad47bf",
+                "sha256_in_prefix": "82a27a70ec0ada0af3c79152466af5f465e7775dbc84dce5e800be9b86ad47bf",
+                "size_in_bytes": 10505
+            },
+            {
+                "_path": "include/lemon/lgf_reader.h",
+                "path_type": "hardlink",
+                "sha256": "d6a8272c1e6346bbeb50db32728678f5b9b7b00edb36f01d3a8b74ecbf2535ac",
+                "sha256_in_prefix": "d6a8272c1e6346bbeb50db32728678f5b9b7b00edb36f01d3a8b74ecbf2535ac",
+                "size_in_bytes": 119973
+            },
+            {
+                "_path": "include/lemon/lgf_writer.h",
+                "path_type": "hardlink",
+                "sha256": "b154a1834fcb2714468d8104bd67f498642c6348954de3143039a7e2d25eda76",
+                "sha256_in_prefix": "b154a1834fcb2714468d8104bd67f498642c6348954de3143039a7e2d25eda76",
+                "size_in_bytes": 84311
+            },
+            {
+                "_path": "include/lemon/list_graph.h",
+                "path_type": "hardlink",
+                "sha256": "2d56dcbfce356cf736f846f6d5cc4539ee4eeb803090dc4f32ac20c7aad1bbb4",
+                "sha256_in_prefix": "2d56dcbfce356cf736f846f6d5cc4539ee4eeb803090dc4f32ac20c7aad1bbb4",
+                "size_in_bytes": 71515
+            },
+            {
+                "_path": "include/lemon/lp.h",
+                "path_type": "hardlink",
+                "sha256": "0f37f123e1ef5d7016b090ef0b733fa8080bb6f18926aabfb5211f9111d783a3",
+                "sha256_in_prefix": "0f37f123e1ef5d7016b090ef0b733fa8080bb6f18926aabfb5211f9111d783a3",
+                "size_in_bytes": 2372
+            },
+            {
+                "_path": "include/lemon/lp_base.h",
+                "path_type": "hardlink",
+                "sha256": "a821bed6427e3647436dd081ea4a3dbc0191b8238d5218034b49d9ddd9098878",
+                "sha256_in_prefix": "a821bed6427e3647436dd081ea4a3dbc0191b8238d5218034b49d9ddd9098878",
+                "size_in_bytes": 64377
+            },
+            {
+                "_path": "include/lemon/lp_skeleton.h",
+                "path_type": "hardlink",
+                "sha256": "204aa6603f0ae66c83c80b5f35b60244bd7781506bd8e270ea7a8ab15029484b",
+                "sha256_in_prefix": "204aa6603f0ae66c83c80b5f35b60244bd7781506bd8e270ea7a8ab15029484b",
+                "size_in_bytes": 6589
+            },
+            {
+                "_path": "include/lemon/maps.h",
+                "path_type": "hardlink",
+                "sha256": "879b1451c4adb30de484c353b03c41c52ab7cb27cffff700426c4f7f61328791",
+                "sha256_in_prefix": "879b1451c4adb30de484c353b03c41c52ab7cb27cffff700426c4f7f61328791",
+                "size_in_bytes": 119337
+            },
+            {
+                "_path": "include/lemon/matching.h",
+                "path_type": "hardlink",
+                "sha256": "8bb12c788b162c0b60222113ee19be5a781b0b49da969a087c7b7560d343be59",
+                "sha256_in_prefix": "8bb12c788b162c0b60222113ee19be5a781b0b49da969a087c7b7560d343be59",
+                "size_in_bytes": 112822
+            },
+            {
+                "_path": "include/lemon/math.h",
+                "path_type": "hardlink",
+                "sha256": "d1285f5a91ff074058bfd8dca285670fcf7e0202b2505b2430b38bfe63aa918d",
+                "sha256_in_prefix": "d1285f5a91ff074058bfd8dca285670fcf7e0202b2505b2430b38bfe63aa918d",
+                "size_in_bytes": 2242
+            },
+            {
+                "_path": "include/lemon/max_cardinality_search.h",
+                "path_type": "hardlink",
+                "sha256": "47e36665e2495c39ce472d5e26119749eab5a98bf5f197e43b6ca989b628d813",
+                "sha256_in_prefix": "47e36665e2495c39ce472d5e26119749eab5a98bf5f197e43b6ca989b628d813",
+                "size_in_bytes": 26717
+            },
+            {
+                "_path": "include/lemon/min_cost_arborescence.h",
+                "path_type": "hardlink",
+                "sha256": "0e3b3fd4fed133bf42b64670762d4b0839d90c5917839a1982a7eaeba5f194a5",
+                "sha256_in_prefix": "0e3b3fd4fed133bf42b64670762d4b0839d90c5917839a1982a7eaeba5f194a5",
+                "size_in_bytes": 24781
+            },
+            {
+                "_path": "include/lemon/nagamochi_ibaraki.h",
+                "path_type": "hardlink",
+                "sha256": "5adc2eec4f1fb36ee74a116bbad8fbba62ea41f35ebbfead6d07ca48bd538e9e",
+                "sha256_in_prefix": "5adc2eec4f1fb36ee74a116bbad8fbba62ea41f35ebbfead6d07ca48bd538e9e",
+                "size_in_bytes": 22036
+            },
+            {
+                "_path": "include/lemon/nauty_reader.h",
+                "path_type": "hardlink",
+                "sha256": "c5abf75c0cc227dc5410693c016dc0ded04a84bb4f41a20c4255ce70178ac5d6",
+                "sha256_in_prefix": "c5abf75c0cc227dc5410693c016dc0ded04a84bb4f41a20c4255ce70178ac5d6",
+                "size_in_bytes": 3094
+            },
+            {
+                "_path": "include/lemon/nearest_neighbor_tsp.h",
+                "path_type": "hardlink",
+                "sha256": "3e175ae21a88bb43d6209971d953286e8b0eb1a184d2226a606cfc2a55549f74",
+                "sha256_in_prefix": "3e175ae21a88bb43d6209971d953286e8b0eb1a184d2226a606cfc2a55549f74",
+                "size_in_bytes": 6869
+            },
+            {
+                "_path": "include/lemon/network_simplex.h",
+                "path_type": "hardlink",
+                "sha256": "d90231a8ee53f8503ef0725e9ac7563bf34183baf5ea6181a1f2bf1db7e6a096",
+                "sha256_in_prefix": "d90231a8ee53f8503ef0725e9ac7563bf34183baf5ea6181a1f2bf1db7e6a096",
+                "size_in_bytes": 52906
+            },
+            {
+                "_path": "include/lemon/opt2_tsp.h",
+                "path_type": "hardlink",
+                "sha256": "7a6cf53822f840df5ac0a5852f7a6ea9a6d291be0f4626d8468060f0b448f520",
+                "sha256_in_prefix": "7a6cf53822f840df5ac0a5852f7a6ea9a6d291be0f4626d8468060f0b448f520",
+                "size_in_bytes": 10780
+            },
+            {
+                "_path": "include/lemon/pairing_heap.h",
+                "path_type": "hardlink",
+                "sha256": "1fd199c6d4165888d8f1b085079542b1c51af80120dc9627fea4371454d78977",
+                "sha256_in_prefix": "1fd199c6d4165888d8f1b085079542b1c51af80120dc9627fea4371454d78977",
+                "size_in_bytes": 13997
+            },
+            {
+                "_path": "include/lemon/path.h",
+                "path_type": "hardlink",
+                "sha256": "1205f2488d8e793d49e20699f1fa81d4e620997a6ea86338d8a2ad3790d0ac05",
+                "sha256_in_prefix": "1205f2488d8e793d49e20699f1fa81d4e620997a6ea86338d8a2ad3790d0ac05",
+                "size_in_bytes": 31339
+            },
+            {
+                "_path": "include/lemon/planarity.h",
+                "path_type": "hardlink",
+                "sha256": "09eff29a00d2c29db4b8331894c8afd8b6195a170d217b0394ef8797498482e5",
+                "sha256_in_prefix": "09eff29a00d2c29db4b8331894c8afd8b6195a170d217b0394ef8797498482e5",
+                "size_in_bytes": 86230
+            },
+            {
+                "_path": "include/lemon/preflow.h",
+                "path_type": "hardlink",
+                "sha256": "280de8e43ef7b28c499dd168bdd813723570f5096a34017c441a0e4f89542c37",
+                "sha256_in_prefix": "280de8e43ef7b28c499dd168bdd813723570f5096a34017c441a0e4f89542c37",
+                "size_in_bytes": 31028
+            },
+            {
+                "_path": "include/lemon/quad_heap.h",
+                "path_type": "hardlink",
+                "sha256": "e5d73e1990034278eaa544b31d116d260984e5f4f2e0488fccf5a7afd2b8f61d",
+                "sha256_in_prefix": "e5d73e1990034278eaa544b31d116d260984e5f4f2e0488fccf5a7afd2b8f61d",
+                "size_in_bytes": 11011
+            },
+            {
+                "_path": "include/lemon/radix_heap.h",
+                "path_type": "hardlink",
+                "sha256": "7352aad495ec5a19b897440b78d9426d4cf0da445b71cb9326e981614248716c",
+                "sha256_in_prefix": "7352aad495ec5a19b897440b78d9426d4cf0da445b71cb9326e981614248716c",
+                "size_in_bytes": 13222
+            },
+            {
+                "_path": "include/lemon/radix_sort.h",
+                "path_type": "hardlink",
+                "sha256": "1f7be5939ef490810d44bd9992bde95939523d218642154b436e7dcba47f6e00",
+                "sha256_in_prefix": "1f7be5939ef490810d44bd9992bde95939523d218642154b436e7dcba47f6e00",
+                "size_in_bytes": 15761
+            },
+            {
+                "_path": "include/lemon/random.h",
+                "path_type": "hardlink",
+                "sha256": "e1d99949796dbdc8dcd55802e2f552e0dfb0b94418eef5e65a389e96b9dab93d",
+                "sha256_in_prefix": "e1d99949796dbdc8dcd55802e2f552e0dfb0b94418eef5e65a389e96b9dab93d",
+                "size_in_bytes": 30991
+            },
+            {
+                "_path": "include/lemon/smart_graph.h",
+                "path_type": "hardlink",
+                "sha256": "792cc1ad60f309d315398cd1b67fb5ba75bcafc54e40d4814161fb2785a6a7c3",
+                "sha256_in_prefix": "792cc1ad60f309d315398cd1b67fb5ba75bcafc54e40d4814161fb2785a6a7c3",
+                "size_in_bytes": 37408
+            },
+            {
+                "_path": "include/lemon/soplex.h",
+                "path_type": "hardlink",
+                "sha256": "f52308cc5786abdd833a09aced458dc6731aff9af86cc6e2ab0df701e06ec001",
+                "sha256_in_prefix": "f52308cc5786abdd833a09aced458dc6731aff9af86cc6e2ab0df701e06ec001",
+                "size_in_bytes": 4492
+            },
+            {
+                "_path": "include/lemon/static_graph.h",
+                "path_type": "hardlink",
+                "sha256": "de8fdaaad2562f0973a95118d4b363df2c0dcfbb36887c0e845b254b2d768e2f",
+                "sha256_in_prefix": "de8fdaaad2562f0973a95118d4b363df2c0dcfbb36887c0e845b254b2d768e2f",
+                "size_in_bytes": 15108
+            },
+            {
+                "_path": "include/lemon/suurballe.h",
+                "path_type": "hardlink",
+                "sha256": "5832f4f8c29672ef3fd2148e7305a5299ec9818525910bd1c482b1c0efe2f9e1",
+                "sha256_in_prefix": "5832f4f8c29672ef3fd2148e7305a5299ec9818525910bd1c482b1c0efe2f9e1",
+                "size_in_bytes": 23880
+            },
+            {
+                "_path": "include/lemon/time_measure.h",
+                "path_type": "hardlink",
+                "sha256": "4067de706869c0755df04b893b7768b00c09d3419d409b3959f0ec8d78849e02",
+                "sha256_in_prefix": "4067de706869c0755df04b893b7768b00c09d3419d409b3959f0ec8d78849e02",
+                "size_in_bytes": 15371
+            },
+            {
+                "_path": "include/lemon/tolerance.h",
+                "path_type": "hardlink",
+                "sha256": "8dcd189d1cfc28e691b2898fb913b10a76fe98b119e9b406a67eefe8f5012e00",
+                "sha256_in_prefix": "8dcd189d1cfc28e691b2898fb913b10a76fe98b119e9b406a67eefe8f5012e00",
+                "size_in_bytes": 7601
+            },
+            {
+                "_path": "include/lemon/unionfind.h",
+                "path_type": "hardlink",
+                "sha256": "49629c9e321aea96f4da3553067e662c7b0f79f8fa5bdeca73229cac48b877f2",
+                "sha256_in_prefix": "49629c9e321aea96f4da3553067e662c7b0f79f8fa5bdeca73229cac48b877f2",
+                "size_in_bytes": 50397
+            },
+            {
+                "_path": "lib/libemon.a",
+                "path_type": "hardlink",
+                "sha256": "d5735ee6a8e2eebc979dc3999bc02f17df71ff9e91ead610e7e251090a67d8e4",
+                "sha256_in_prefix": "d5735ee6a8e2eebc979dc3999bc02f17df71ff9e91ead610e7e251090a67d8e4",
+                "size_in_bytes": 208312
+            },
+            {
+                "_path": "lib/pkgconfig/lemon.pc",
+                "path_type": "hardlink",
+                "sha256": "f36d8ef836c462e70f0e615d5c3efb00fa229d5b5bcf2a557a651a2e44b36124",
+                "sha256_in_prefix": "a0c0f60f184150364ba7b455b21c61887948b4f74a26973fbfeb35bc91c9cf77",
+                "size_in_bytes": 1232
+            },
+            {
+                "_path": "share/lemon/cmake/LEMONConfig.cmake",
+                "path_type": "hardlink",
+                "sha256": "685007a53d87264f2be3290a520333f2e062938b857f5b20c9531183e86e594b",
+                "sha256_in_prefix": "f84a11c7395d9980c6234753caa9a530ce9da3ecc27f5a8b768206971ff72faf",
+                "size_in_bytes": 899
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "openroad",
+    "sha256": "050292ca5c8d40ef55346d1f9526e2c684a0d63b611d033a6a8acee762deaf61",
+    "size": 23793499,
+    "subdir": "linux-64",
+    "timestamp": 1681342977730,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/litex-hub/linux-64/openroad-2.0_7681_g850238c2f-20230412_103222.tar.bz2",
+    "version": "2.0_7681_g850238c2f"
+}

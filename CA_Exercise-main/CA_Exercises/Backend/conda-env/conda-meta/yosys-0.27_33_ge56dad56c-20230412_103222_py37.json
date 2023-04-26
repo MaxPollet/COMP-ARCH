@@ -1,0 +1,1986 @@
+{
+    "arch": "x86_64",
+    "build": "20230412_103222_py37",
+    "build_number": 20230412103222,
+    "build_string": "20230412_103222_py37",
+    "channel": "https://conda.anaconda.org/litex-hub/linux-64",
+    "constrains": [],
+    "depends": [
+        "libffi >=3.4,<4.0a0",
+        "libgcc-ng >=11.2.0",
+        "libstdcxx-ng >=11.2.0",
+        "python >=3.7,<3.8.0a0",
+        "tk >=8.6.12,<8.7.0a0",
+        "zlib >=1.2.13,<1.3.0a0"
+    ],
+    "extracted_package_dir": "/users/students/r0757781/micromamba/pkgs/yosys-0.27_33_ge56dad56c-20230412_103222_py37",
+    "files": [
+        "bin/yosys",
+        "bin/yosys-abc",
+        "bin/yosys-config",
+        "bin/yosys-filterlib",
+        "bin/yosys-smtbmc",
+        "bin/yosys-witness",
+        "share/yosys/abc9_map.v",
+        "share/yosys/abc9_model.v",
+        "share/yosys/abc9_unmap.v",
+        "share/yosys/achronix/speedster22i/cells_map.v",
+        "share/yosys/achronix/speedster22i/cells_sim.v",
+        "share/yosys/adff2dff.v",
+        "share/yosys/anlogic/arith_map.v",
+        "share/yosys/anlogic/brams.txt",
+        "share/yosys/anlogic/brams_map.v",
+        "share/yosys/anlogic/cells_map.v",
+        "share/yosys/anlogic/cells_sim.v",
+        "share/yosys/anlogic/eagle_bb.v",
+        "share/yosys/anlogic/lutrams.txt",
+        "share/yosys/anlogic/lutrams_map.v",
+        "share/yosys/cells.lib",
+        "share/yosys/cmp2lcu.v",
+        "share/yosys/cmp2lut.v",
+        "share/yosys/coolrunner2/cells_counter_map.v",
+        "share/yosys/coolrunner2/cells_latch.v",
+        "share/yosys/coolrunner2/cells_sim.v",
+        "share/yosys/coolrunner2/tff_extract.v",
+        "share/yosys/coolrunner2/xc2_dff.lib",
+        "share/yosys/dff2ff.v",
+        "share/yosys/ecp5/arith_map.v",
+        "share/yosys/ecp5/brams.txt",
+        "share/yosys/ecp5/brams_map.v",
+        "share/yosys/ecp5/cells_bb.v",
+        "share/yosys/ecp5/cells_ff.vh",
+        "share/yosys/ecp5/cells_io.vh",
+        "share/yosys/ecp5/cells_map.v",
+        "share/yosys/ecp5/cells_sim.v",
+        "share/yosys/ecp5/dsp_map.v",
+        "share/yosys/ecp5/latches_map.v",
+        "share/yosys/ecp5/lutrams.txt",
+        "share/yosys/ecp5/lutrams_map.v",
+        "share/yosys/efinix/arith_map.v",
+        "share/yosys/efinix/brams.txt",
+        "share/yosys/efinix/brams_map.v",
+        "share/yosys/efinix/cells_map.v",
+        "share/yosys/efinix/cells_sim.v",
+        "share/yosys/efinix/gbuf_map.v",
+        "share/yosys/fabulous/arith_map.v",
+        "share/yosys/fabulous/cells_map.v",
+        "share/yosys/fabulous/ff_map.v",
+        "share/yosys/fabulous/io_map.v",
+        "share/yosys/fabulous/latches_map.v",
+        "share/yosys/fabulous/prims.v",
+        "share/yosys/fabulous/ram_regfile.txt",
+        "share/yosys/fabulous/regfile_map.v",
+        "share/yosys/gate2lut.v",
+        "share/yosys/gatemate/arith_map.v",
+        "share/yosys/gatemate/brams.txt",
+        "share/yosys/gatemate/brams_init_20.vh",
+        "share/yosys/gatemate/brams_init_40.vh",
+        "share/yosys/gatemate/brams_map.v",
+        "share/yosys/gatemate/cells_bb.v",
+        "share/yosys/gatemate/cells_sim.v",
+        "share/yosys/gatemate/inv_map.v",
+        "share/yosys/gatemate/lut_map.v",
+        "share/yosys/gatemate/lut_tree_cells.genlib",
+        "share/yosys/gatemate/lut_tree_map.v",
+        "share/yosys/gatemate/mul_map.v",
+        "share/yosys/gatemate/mux_map.v",
+        "share/yosys/gatemate/reg_map.v",
+        "share/yosys/gowin/arith_map.v",
+        "share/yosys/gowin/brams.txt",
+        "share/yosys/gowin/brams_map.v",
+        "share/yosys/gowin/cells_map.v",
+        "share/yosys/gowin/cells_sim.v",
+        "share/yosys/gowin/lutrams.txt",
+        "share/yosys/gowin/lutrams_map.v",
+        "share/yosys/greenpak4/cells_blackbox.v",
+        "share/yosys/greenpak4/cells_latch.v",
+        "share/yosys/greenpak4/cells_map.v",
+        "share/yosys/greenpak4/cells_sim.v",
+        "share/yosys/greenpak4/cells_sim_ams.v",
+        "share/yosys/greenpak4/cells_sim_digital.v",
+        "share/yosys/greenpak4/cells_sim_wip.v",
+        "share/yosys/greenpak4/gp_dff.lib",
+        "share/yosys/ice40/abc9_model.v",
+        "share/yosys/ice40/arith_map.v",
+        "share/yosys/ice40/brams.txt",
+        "share/yosys/ice40/brams_map.v",
+        "share/yosys/ice40/cells_map.v",
+        "share/yosys/ice40/cells_sim.v",
+        "share/yosys/ice40/dsp_map.v",
+        "share/yosys/ice40/ff_map.v",
+        "share/yosys/ice40/latches_map.v",
+        "share/yosys/ice40/spram.txt",
+        "share/yosys/ice40/spram_map.v",
+        "share/yosys/include/backends/cxxrtl/cxxrtl.h",
+        "share/yosys/include/backends/cxxrtl/cxxrtl_capi.cc",
+        "share/yosys/include/backends/cxxrtl/cxxrtl_capi.h",
+        "share/yosys/include/backends/cxxrtl/cxxrtl_vcd.h",
+        "share/yosys/include/backends/cxxrtl/cxxrtl_vcd_capi.cc",
+        "share/yosys/include/backends/cxxrtl/cxxrtl_vcd_capi.h",
+        "share/yosys/include/backends/rtlil/rtlil_backend.h",
+        "share/yosys/include/frontends/ast/ast.h",
+        "share/yosys/include/frontends/ast/ast_binding.h",
+        "share/yosys/include/frontends/blif/blifparse.h",
+        "share/yosys/include/kernel/binding.h",
+        "share/yosys/include/kernel/celledges.h",
+        "share/yosys/include/kernel/celltypes.h",
+        "share/yosys/include/kernel/consteval.h",
+        "share/yosys/include/kernel/constids.inc",
+        "share/yosys/include/kernel/ff.h",
+        "share/yosys/include/kernel/ffinit.h",
+        "share/yosys/include/kernel/fstdata.h",
+        "share/yosys/include/kernel/hashlib.h",
+        "share/yosys/include/kernel/log.h",
+        "share/yosys/include/kernel/macc.h",
+        "share/yosys/include/kernel/mem.h",
+        "share/yosys/include/kernel/modtools.h",
+        "share/yosys/include/kernel/qcsat.h",
+        "share/yosys/include/kernel/register.h",
+        "share/yosys/include/kernel/rtlil.h",
+        "share/yosys/include/kernel/satgen.h",
+        "share/yosys/include/kernel/sigtools.h",
+        "share/yosys/include/kernel/utils.h",
+        "share/yosys/include/kernel/yosys.h",
+        "share/yosys/include/libs/ezsat/ezminisat.h",
+        "share/yosys/include/libs/ezsat/ezsat.h",
+        "share/yosys/include/libs/fst/fstapi.h",
+        "share/yosys/include/libs/json11/json11.hpp",
+        "share/yosys/include/libs/sha1/sha1.h",
+        "share/yosys/include/passes/fsm/fsmdata.h",
+        "share/yosys/intel/common/altpll_bb.v",
+        "share/yosys/intel/common/brams_m9k.txt",
+        "share/yosys/intel/common/brams_map_m9k.v",
+        "share/yosys/intel/common/ff_map.v",
+        "share/yosys/intel/common/m9k_bb.v",
+        "share/yosys/intel/cyclone10lp/cells_map.v",
+        "share/yosys/intel/cyclone10lp/cells_sim.v",
+        "share/yosys/intel/cycloneiv/cells_map.v",
+        "share/yosys/intel/cycloneiv/cells_sim.v",
+        "share/yosys/intel/cycloneive/cells_map.v",
+        "share/yosys/intel/cycloneive/cells_sim.v",
+        "share/yosys/intel/max10/cells_map.v",
+        "share/yosys/intel/max10/cells_sim.v",
+        "share/yosys/intel_alm/common/abc9_map.v",
+        "share/yosys/intel_alm/common/abc9_model.v",
+        "share/yosys/intel_alm/common/abc9_unmap.v",
+        "share/yosys/intel_alm/common/alm_map.v",
+        "share/yosys/intel_alm/common/alm_sim.v",
+        "share/yosys/intel_alm/common/arith_alm_map.v",
+        "share/yosys/intel_alm/common/bram_m10k.txt",
+        "share/yosys/intel_alm/common/bram_m10k_map.v",
+        "share/yosys/intel_alm/common/bram_m20k.txt",
+        "share/yosys/intel_alm/common/bram_m20k_map.v",
+        "share/yosys/intel_alm/common/dff_map.v",
+        "share/yosys/intel_alm/common/dff_sim.v",
+        "share/yosys/intel_alm/common/dsp_map.v",
+        "share/yosys/intel_alm/common/dsp_sim.v",
+        "share/yosys/intel_alm/common/lutram_mlab.txt",
+        "share/yosys/intel_alm/common/megafunction_bb.v",
+        "share/yosys/intel_alm/common/mem_sim.v",
+        "share/yosys/intel_alm/common/misc_sim.v",
+        "share/yosys/intel_alm/common/quartus_rename.v",
+        "share/yosys/intel_alm/cyclonev/cells_sim.v",
+        "share/yosys/machxo2/arith_map.v",
+        "share/yosys/machxo2/brams.txt",
+        "share/yosys/machxo2/brams_map.v",
+        "share/yosys/machxo2/cells_io.vh",
+        "share/yosys/machxo2/cells_map.v",
+        "share/yosys/machxo2/cells_sim.v",
+        "share/yosys/machxo2/lutrams.txt",
+        "share/yosys/machxo2/lutrams_map.v",
+        "share/yosys/mul2dsp.v",
+        "share/yosys/nexus/arith_map.v",
+        "share/yosys/nexus/brams.txt",
+        "share/yosys/nexus/brams_map.v",
+        "share/yosys/nexus/cells_map.v",
+        "share/yosys/nexus/cells_sim.v",
+        "share/yosys/nexus/cells_xtra.v",
+        "share/yosys/nexus/dsp_map.v",
+        "share/yosys/nexus/latches_map.v",
+        "share/yosys/nexus/lrams.txt",
+        "share/yosys/nexus/lrams_map.v",
+        "share/yosys/nexus/lutrams.txt",
+        "share/yosys/nexus/lutrams_map.v",
+        "share/yosys/nexus/parse_init.vh",
+        "share/yosys/pmux2mux.v",
+        "share/yosys/python3/__pycache__/smtio.cpython-37.pyc",
+        "share/yosys/python3/__pycache__/ywio.cpython-37.pyc",
+        "share/yosys/python3/smtio.py",
+        "share/yosys/python3/ywio.py",
+        "share/yosys/quicklogic/abc9_map.v",
+        "share/yosys/quicklogic/abc9_model.v",
+        "share/yosys/quicklogic/abc9_unmap.v",
+        "share/yosys/quicklogic/cells_sim.v",
+        "share/yosys/quicklogic/lut_sim.v",
+        "share/yosys/quicklogic/pp3_cells_map.v",
+        "share/yosys/quicklogic/pp3_cells_sim.v",
+        "share/yosys/quicklogic/pp3_ffs_map.v",
+        "share/yosys/quicklogic/pp3_latches_map.v",
+        "share/yosys/quicklogic/pp3_lut_map.v",
+        "share/yosys/sf2/arith_map.v",
+        "share/yosys/sf2/cells_map.v",
+        "share/yosys/sf2/cells_sim.v",
+        "share/yosys/simcells.v",
+        "share/yosys/simlib.v",
+        "share/yosys/smtmap.v",
+        "share/yosys/techmap.v",
+        "share/yosys/xilinx/abc9_model.v",
+        "share/yosys/xilinx/arith_map.v",
+        "share/yosys/xilinx/brams_defs.vh",
+        "share/yosys/xilinx/brams_xc2v.txt",
+        "share/yosys/xilinx/brams_xc2v_map.v",
+        "share/yosys/xilinx/brams_xc3sda.txt",
+        "share/yosys/xilinx/brams_xc3sda_map.v",
+        "share/yosys/xilinx/brams_xc4v.txt",
+        "share/yosys/xilinx/brams_xc4v_map.v",
+        "share/yosys/xilinx/brams_xc5v_map.v",
+        "share/yosys/xilinx/brams_xc6v_map.v",
+        "share/yosys/xilinx/brams_xcu_map.v",
+        "share/yosys/xilinx/brams_xcv.txt",
+        "share/yosys/xilinx/brams_xcv_map.v",
+        "share/yosys/xilinx/cells_map.v",
+        "share/yosys/xilinx/cells_sim.v",
+        "share/yosys/xilinx/cells_xtra.v",
+        "share/yosys/xilinx/ff_map.v",
+        "share/yosys/xilinx/lut_map.v",
+        "share/yosys/xilinx/lutrams_xc5v.txt",
+        "share/yosys/xilinx/lutrams_xc5v_map.v",
+        "share/yosys/xilinx/lutrams_xcu.txt",
+        "share/yosys/xilinx/lutrams_xcv.txt",
+        "share/yosys/xilinx/lutrams_xcv_map.v",
+        "share/yosys/xilinx/mux_map.v",
+        "share/yosys/xilinx/urams.txt",
+        "share/yosys/xilinx/urams_map.v",
+        "share/yosys/xilinx/xc3s_mult_map.v",
+        "share/yosys/xilinx/xc3sda_dsp_map.v",
+        "share/yosys/xilinx/xc4v_dsp_map.v",
+        "share/yosys/xilinx/xc5v_dsp_map.v",
+        "share/yosys/xilinx/xc6s_dsp_map.v",
+        "share/yosys/xilinx/xc7_dsp_map.v",
+        "share/yosys/xilinx/xcu_dsp_map.v"
+    ],
+    "fn": "yosys-0.27_33_ge56dad56c-20230412_103222_py37.tar.bz2",
+    "license": "ISC",
+    "link": {
+        "source": "/users/students/r0757781/micromamba/pkgs/yosys-0.27_33_ge56dad56c-20230412_103222_py37",
+        "type": 1
+    },
+    "md5": "1dcf43933609ebf4064f2d0c77f878a7",
+    "name": "yosys",
+    "package_tarball_full_path": "/users/students/r0757781/micromamba/pkgs/yosys-0.27_33_ge56dad56c-20230412_103222_py37.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "bin/yosys",
+                "path_type": "hardlink",
+                "sha256": "ce74bf248dcfdbd1959e125bd6766a28d08dac12f6bdcb2f3235f97548ec0ea3",
+                "sha256_in_prefix": "3b7e92ead19be426ec2762d740fed3b5c7a84102ffb221bd813d5537d35be15c",
+                "size_in_bytes": 11596224
+            },
+            {
+                "_path": "bin/yosys-abc",
+                "path_type": "hardlink",
+                "sha256": "c94a631485c5d6cff6caa35faa8acd08ad04cb990199a85994c30c8eb2bec714",
+                "sha256_in_prefix": "c94a631485c5d6cff6caa35faa8acd08ad04cb990199a85994c30c8eb2bec714",
+                "size_in_bytes": 17637136
+            },
+            {
+                "_path": "bin/yosys-config",
+                "path_type": "hardlink",
+                "sha256": "96acc0d08620c084a4feae996e9e6c5315ba71a8c8f7e88c858410b442ccb4bd",
+                "sha256_in_prefix": "d112a10a311d3f90060fc8ebe583dea46edce4e28767eb37fedec503fe0ce6c6",
+                "size_in_bytes": 11456
+            },
+            {
+                "_path": "bin/yosys-filterlib",
+                "path_type": "hardlink",
+                "sha256": "19ac67ae631e85911386c5372233b4c061f01f470f3cd56f5d54f4a766a079a8",
+                "sha256_in_prefix": "19ac67ae631e85911386c5372233b4c061f01f470f3cd56f5d54f4a766a079a8",
+                "size_in_bytes": 39056
+            },
+            {
+                "_path": "bin/yosys-smtbmc",
+                "path_type": "hardlink",
+                "sha256": "38729726d27c7789d81207e7fdd42f1a078a5967a4b598d6fa883426072047a8",
+                "sha256_in_prefix": "38729726d27c7789d81207e7fdd42f1a078a5967a4b598d6fa883426072047a8",
+                "size_in_bytes": 69597
+            },
+            {
+                "_path": "bin/yosys-witness",
+                "path_type": "hardlink",
+                "sha256": "d0916270cbc406f59aeb97fb68746176a3afbd08832defe1a346a3ae5cbe647e",
+                "sha256_in_prefix": "d0916270cbc406f59aeb97fb68746176a3afbd08832defe1a346a3ae5cbe647e",
+                "size_in_bytes": 14514
+            },
+            {
+                "_path": "share/yosys/abc9_map.v",
+                "path_type": "hardlink",
+                "sha256": "b960ea3290504de79a747d41947570902cb64ad285f3ddb16e006030a2cae7ec",
+                "sha256_in_prefix": "b960ea3290504de79a747d41947570902cb64ad285f3ddb16e006030a2cae7ec",
+                "size_in_bytes": 923
+            },
+            {
+                "_path": "share/yosys/abc9_model.v",
+                "path_type": "hardlink",
+                "sha256": "21f332106384501759ca256e95ed30321ad5615610a66488731ca06e0b4722d2",
+                "sha256_in_prefix": "21f332106384501759ca256e95ed30321ad5615610a66488731ca06e0b4722d2",
+                "size_in_bytes": 653
+            },
+            {
+                "_path": "share/yosys/abc9_unmap.v",
+                "path_type": "hardlink",
+                "sha256": "c35d3b6378898cc53a0ffebf6982dfd8dce25d39c08696b9fc2140c1a60ed625",
+                "sha256_in_prefix": "c35d3b6378898cc53a0ffebf6982dfd8dce25d39c08696b9fc2140c1a60ed625",
+                "size_in_bytes": 638
+            },
+            {
+                "_path": "share/yosys/achronix/speedster22i/cells_map.v",
+                "path_type": "hardlink",
+                "sha256": "97f26436a79b2f263dc4756468b6b92431c4c621110fbd96f9378a02a1de52a5",
+                "sha256_in_prefix": "97f26436a79b2f263dc4756468b6b92431c4c621110fbd96f9378a02a1de52a5",
+                "size_in_bytes": 2629
+            },
+            {
+                "_path": "share/yosys/achronix/speedster22i/cells_sim.v",
+                "path_type": "hardlink",
+                "sha256": "58001759aa3463114c8162146af52c3e1fabddd624429ca2a80c1d817cc3bc43",
+                "sha256_in_prefix": "58001759aa3463114c8162146af52c3e1fabddd624429ca2a80c1d817cc3bc43",
+                "size_in_bytes": 2343
+            },
+            {
+                "_path": "share/yosys/adff2dff.v",
+                "path_type": "hardlink",
+                "sha256": "beb053280dc959be7be1e88592b2be5cc68f0d6ea5c577691e4fd17eea7ceaf2",
+                "sha256_in_prefix": "beb053280dc959be7be1e88592b2be5cc68f0d6ea5c577691e4fd17eea7ceaf2",
+                "size_in_bytes": 575
+            },
+            {
+                "_path": "share/yosys/anlogic/arith_map.v",
+                "path_type": "hardlink",
+                "sha256": "b984bb3d6ec4266e9edc4132daa57738a8da115e25c373c43d8845992455baff",
+                "sha256_in_prefix": "b984bb3d6ec4266e9edc4132daa57738a8da115e25c373c43d8845992455baff",
+                "size_in_bytes": 2473
+            },
+            {
+                "_path": "share/yosys/anlogic/brams.txt",
+                "path_type": "hardlink",
+                "sha256": "5560988d9b4d3f9faa3f620af0e94e5b59dd1e800227bab0e839292350f8aff7",
+                "sha256_in_prefix": "5560988d9b4d3f9faa3f620af0e94e5b59dd1e800227bab0e839292350f8aff7",
+                "size_in_bytes": 1137
+            },
+            {
+                "_path": "share/yosys/anlogic/brams_map.v",
+                "path_type": "hardlink",
+                "sha256": "86c834ff3d737f5c9b5836e258d3b389a486d0d278fa077077598ca8245e8b18",
+                "sha256_in_prefix": "86c834ff3d737f5c9b5836e258d3b389a486d0d278fa077077598ca8245e8b18",
+                "size_in_bytes": 12152
+            },
+            {
+                "_path": "share/yosys/anlogic/cells_map.v",
+                "path_type": "hardlink",
+                "sha256": "867f06c7ae2404216b92e697924224fa5dd723f59ed386f0bb3971f8941434a0",
+                "sha256_in_prefix": "867f06c7ae2404216b92e697924224fa5dd723f59ed386f0bb3971f8941434a0",
+                "size_in_bytes": 3928
+            },
+            {
+                "_path": "share/yosys/anlogic/cells_sim.v",
+                "path_type": "hardlink",
+                "sha256": "7a9ada2471d00446f1fe449a8ffd1d192ea96d173422b3ffda0f65ab2eac32f1",
+                "sha256_in_prefix": "7a9ada2471d00446f1fe449a8ffd1d192ea96d173422b3ffda0f65ab2eac32f1",
+                "size_in_bytes": 3209
+            },
+            {
+                "_path": "share/yosys/anlogic/eagle_bb.v",
+                "path_type": "hardlink",
+                "sha256": "6508569de2922fe01e6db6998f7854bf6b233e9cebb51e025c2c1f836e5f88c1",
+                "sha256_in_prefix": "6508569de2922fe01e6db6998f7854bf6b233e9cebb51e025c2c1f836e5f88c1",
+                "size_in_bytes": 33586
+            },
+            {
+                "_path": "share/yosys/anlogic/lutrams.txt",
+                "path_type": "hardlink",
+                "sha256": "f7aa5d713fcda56593717d6fe471219e22c7d814e00fc7582642ba059a7370dd",
+                "sha256_in_prefix": "f7aa5d713fcda56593717d6fe471219e22c7d814e00fc7582642ba059a7370dd",
+                "size_in_bytes": 151
+            },
+            {
+                "_path": "share/yosys/anlogic/lutrams_map.v",
+                "path_type": "hardlink",
+                "sha256": "584bea29742f7744dd84fc92d43b8fc0e03795bc5c76a059d911d3d0b1d6d7a6",
+                "sha256_in_prefix": "584bea29742f7744dd84fc92d43b8fc0e03795bc5c76a059d911d3d0b1d6d7a6",
+                "size_in_bytes": 661
+            },
+            {
+                "_path": "share/yosys/cells.lib",
+                "path_type": "hardlink",
+                "sha256": "932ff5436ed3bea9b692c66e34006c6490250718eaac67526d940cdaf1b0ee51",
+                "sha256_in_prefix": "932ff5436ed3bea9b692c66e34006c6490250718eaac67526d940cdaf1b0ee51",
+                "size_in_bytes": 2432
+            },
+            {
+                "_path": "share/yosys/cmp2lcu.v",
+                "path_type": "hardlink",
+                "sha256": "dd41396c59636a27af5634276f826242644e0466c06ef91b309d33b956b3fdf2",
+                "sha256_in_prefix": "dd41396c59636a27af5634276f826242644e0466c06ef91b309d33b956b3fdf2",
+                "size_in_bytes": 5260
+            },
+            {
+                "_path": "share/yosys/cmp2lut.v",
+                "path_type": "hardlink",
+                "sha256": "0c5c6df785d0f8c333cfedc2a09beae130fa5eab50535b5074d586bcff667559",
+                "sha256_in_prefix": "0c5c6df785d0f8c333cfedc2a09beae130fa5eab50535b5074d586bcff667559",
+                "size_in_bytes": 2540
+            },
+            {
+                "_path": "share/yosys/coolrunner2/cells_counter_map.v",
+                "path_type": "hardlink",
+                "sha256": "ce2d186b494f275c3cca722419214400ca8f0d762b9f1bf58d9a05fdc52b5907",
+                "sha256_in_prefix": "ce2d186b494f275c3cca722419214400ca8f0d762b9f1bf58d9a05fdc52b5907",
+                "size_in_bytes": 4884
+            },
+            {
+                "_path": "share/yosys/coolrunner2/cells_latch.v",
+                "path_type": "hardlink",
+                "sha256": "3c6d380f6a49db157b429a29cef6cc6b35918695d62c2cb3b87c2037c6009053",
+                "sha256_in_prefix": "3c6d380f6a49db157b429a29cef6cc6b35918695d62c2cb3b87c2037c6009053",
+                "size_in_bytes": 367
+            },
+            {
+                "_path": "share/yosys/coolrunner2/cells_sim.v",
+                "path_type": "hardlink",
+                "sha256": "930546121fa04368cff11710ab4aaf9b45b9b49b790a2104f68df929650acdcf",
+                "sha256_in_prefix": "930546121fa04368cff11710ab4aaf9b45b9b49b790a2104f68df929650acdcf",
+                "size_in_bytes": 5435
+            },
+            {
+                "_path": "share/yosys/coolrunner2/tff_extract.v",
+                "path_type": "hardlink",
+                "sha256": "3350f896f7282939a4bb20f2a75edb19a1f0780034d1d7a0cf110dc59fc9e441",
+                "sha256_in_prefix": "3350f896f7282939a4bb20f2a75edb19a1f0780034d1d7a0cf110dc59fc9e441",
+                "size_in_bytes": 465
+            },
+            {
+                "_path": "share/yosys/coolrunner2/xc2_dff.lib",
+                "path_type": "hardlink",
+                "sha256": "8a09d329e4bd67f9ac76589bce4b535bede45d8e8ff087028a5b1478caded9f8",
+                "sha256_in_prefix": "8a09d329e4bd67f9ac76589bce4b535bede45d8e8ff087028a5b1478caded9f8",
+                "size_in_bytes": 839
+            },
+            {
+                "_path": "share/yosys/dff2ff.v",
+                "path_type": "hardlink",
+                "sha256": "cda7e5ad24b83525310e822d5dbc6dffe792a4b211a0fed9931cbb93460aa63c",
+                "sha256_in_prefix": "cda7e5ad24b83525310e822d5dbc6dffe792a4b211a0fed9931cbb93460aa63c",
+                "size_in_bytes": 299
+            },
+            {
+                "_path": "share/yosys/ecp5/arith_map.v",
+                "path_type": "hardlink",
+                "sha256": "49d75e6a2df8f85368b55edd7e2b1ce849f96862d69f301bcd5ff6d128ccb225",
+                "sha256_in_prefix": "49d75e6a2df8f85368b55edd7e2b1ce849f96862d69f301bcd5ff6d128ccb225",
+                "size_in_bytes": 2591
+            },
+            {
+                "_path": "share/yosys/ecp5/brams.txt",
+                "path_type": "hardlink",
+                "sha256": "3067f4e562f465da1ac1c5a3e7fab12913bfdfff1c3bc91bd441d41b1ae0e668",
+                "sha256_in_prefix": "3067f4e562f465da1ac1c5a3e7fab12913bfdfff1c3bc91bd441d41b1ae0e668",
+                "size_in_bytes": 822
+            },
+            {
+                "_path": "share/yosys/ecp5/brams_map.v",
+                "path_type": "hardlink",
+                "sha256": "c6f43de8cf238de2dd5aedb74eb07813f58c247bf0e55ded126d0f41ad05e2ca",
+                "sha256_in_prefix": "c6f43de8cf238de2dd5aedb74eb07813f58c247bf0e55ded126d0f41ad05e2ca",
+                "size_in_bytes": 11917
+            },
+            {
+                "_path": "share/yosys/ecp5/cells_bb.v",
+                "path_type": "hardlink",
+                "sha256": "ad0dc37be5e46afabba8d69915708b536919527a1f69399fb6ed6cb2f03d137c",
+                "sha256_in_prefix": "ad0dc37be5e46afabba8d69915708b536919527a1f69399fb6ed6cb2f03d137c",
+                "size_in_bytes": 36560
+            },
+            {
+                "_path": "share/yosys/ecp5/cells_ff.vh",
+                "path_type": "hardlink",
+                "sha256": "9d3c49d7a470d87a8888ffef5312334f5a4b9567d71bffb33782f88a59c296f4",
+                "sha256_in_prefix": "9d3c49d7a470d87a8888ffef5312334f5a4b9567d71bffb33782f88a59c296f4",
+                "size_in_bytes": 6129
+            },
+            {
+                "_path": "share/yosys/ecp5/cells_io.vh",
+                "path_type": "hardlink",
+                "sha256": "bbc7bb1406ed0d249ac588f1216c3c3964eb98a802816a4a21b14703d8dae62b",
+                "sha256_in_prefix": "bbc7bb1406ed0d249ac588f1216c3c3964eb98a802816a4a21b14703d8dae62b",
+                "size_in_bytes": 2055
+            },
+            {
+                "_path": "share/yosys/ecp5/cells_map.v",
+                "path_type": "hardlink",
+                "sha256": "ea608cada6e640bf555afb9a5328dfddf23e03137bf1e67ba80d195c113d2126",
+                "sha256_in_prefix": "ea608cada6e640bf555afb9a5328dfddf23e03137bf1e67ba80d195c113d2126",
+                "size_in_bytes": 15010
+            },
+            {
+                "_path": "share/yosys/ecp5/cells_sim.v",
+                "path_type": "hardlink",
+                "sha256": "23c1d1d35b5bd9ba5a07e17cf7d5c07fe7b6840e1deb6c2f746c3f430b4cec54",
+                "sha256_in_prefix": "23c1d1d35b5bd9ba5a07e17cf7d5c07fe7b6840e1deb6c2f746c3f430b4cec54",
+                "size_in_bytes": 22821
+            },
+            {
+                "_path": "share/yosys/ecp5/dsp_map.v",
+                "path_type": "hardlink",
+                "sha256": "aa05c8ea6efc57dd51cdf6a94d2af6fc7675f3a93325ec5cae8abc5ed97f2b44",
+                "sha256_in_prefix": "aa05c8ea6efc57dd51cdf6a94d2af6fc7675f3a93325ec5cae8abc5ed97f2b44",
+                "size_in_bytes": 1436
+            },
+            {
+                "_path": "share/yosys/ecp5/latches_map.v",
+                "path_type": "hardlink",
+                "sha256": "57937005a20c2faf1e3a5843694254b3c5be82045e3e33ec0ed527de69d2a5aa",
+                "sha256_in_prefix": "57937005a20c2faf1e3a5843694254b3c5be82045e3e33ec0ed527de69d2a5aa",
+                "size_in_bytes": 258
+            },
+            {
+                "_path": "share/yosys/ecp5/lutrams.txt",
+                "path_type": "hardlink",
+                "sha256": "60bc6b886d5323b7ba3e54508287b129d55afbd34a5b84ff15a65222b927730b",
+                "sha256_in_prefix": "60bc6b886d5323b7ba3e54508287b129d55afbd34a5b84ff15a65222b927730b",
+                "size_in_bytes": 145
+            },
+            {
+                "_path": "share/yosys/ecp5/lutrams_map.v",
+                "path_type": "hardlink",
+                "sha256": "0e36e11b61bbca96d424c83d991745bee2422453645431c3f72a370517984b3c",
+                "sha256_in_prefix": "0e36e11b61bbca96d424c83d991745bee2422453645431c3f72a370517984b3c",
+                "size_in_bytes": 519
+            },
+            {
+                "_path": "share/yosys/efinix/arith_map.v",
+                "path_type": "hardlink",
+                "sha256": "d2889f5ead413009da6dbe7c049289b4448ac35c970356c3a6339798cc46762a",
+                "sha256_in_prefix": "d2889f5ead413009da6dbe7c049289b4448ac35c970356c3a6339798cc46762a",
+                "size_in_bytes": 2437
+            },
+            {
+                "_path": "share/yosys/efinix/brams.txt",
+                "path_type": "hardlink",
+                "sha256": "0254219cb7244006ff3a665e5abaf97443c58b474a740d258688ddb53bbc6983",
+                "sha256_in_prefix": "0254219cb7244006ff3a665e5abaf97443c58b474a740d258688ddb53bbc6983",
+                "size_in_bytes": 296
+            },
+            {
+                "_path": "share/yosys/efinix/brams_map.v",
+                "path_type": "hardlink",
+                "sha256": "5d4226ec33309eb7e67f9d6aa9ed10ce3b57a4557e0a210a43c9beeb2a8f38e0",
+                "sha256_in_prefix": "5d4226ec33309eb7e67f9d6aa9ed10ce3b57a4557e0a210a43c9beeb2a8f38e0",
+                "size_in_bytes": 3603
+            },
+            {
+                "_path": "share/yosys/efinix/cells_map.v",
+                "path_type": "hardlink",
+                "sha256": "062b5bab163f62ff498325f5040a2b4e31c0dafd71079d13c40b59bfa69e260b",
+                "sha256_in_prefix": "062b5bab163f62ff498325f5040a2b4e31c0dafd71079d13c40b59bfa69e260b",
+                "size_in_bytes": 2693
+            },
+            {
+                "_path": "share/yosys/efinix/cells_sim.v",
+                "path_type": "hardlink",
+                "sha256": "a1215b79a68f53554de5b50d75826b62876319522331ddca1dec5c1da32d3b6d",
+                "sha256_in_prefix": "a1215b79a68f53554de5b50d75826b62876319522331ddca1dec5c1da32d3b6d",
+                "size_in_bytes": 5391
+            },
+            {
+                "_path": "share/yosys/efinix/gbuf_map.v",
+                "path_type": "hardlink",
+                "sha256": "1130400f5fed673226f5d936894d8b6d1146447d6a3b76041a2e89f8058c8fd1",
+                "sha256_in_prefix": "1130400f5fed673226f5d936894d8b6d1146447d6a3b76041a2e89f8058c8fd1",
+                "size_in_bytes": 131
+            },
+            {
+                "_path": "share/yosys/fabulous/arith_map.v",
+                "path_type": "hardlink",
+                "sha256": "ce64db1b44fc94aa6dcf70742b02fde6ed3b96422589f15dfde51e1fa64761b5",
+                "sha256_in_prefix": "ce64db1b44fc94aa6dcf70742b02fde6ed3b96422589f15dfde51e1fa64761b5",
+                "size_in_bytes": 1385
+            },
+            {
+                "_path": "share/yosys/fabulous/cells_map.v",
+                "path_type": "hardlink",
+                "sha256": "d7a0c6e414557dff86b99e288d6c781add1aad213a2eef4ac7d49831a808f67a",
+                "sha256_in_prefix": "d7a0c6e414557dff86b99e288d6c781add1aad213a2eef4ac7d49831a808f67a",
+                "size_in_bytes": 1063
+            },
+            {
+                "_path": "share/yosys/fabulous/ff_map.v",
+                "path_type": "hardlink",
+                "sha256": "23ec28311325dcfe9f935de12eb6eb767222bd0eede7c8c4a4a7642e5f26e5e7",
+                "sha256_in_prefix": "23ec28311325dcfe9f935de12eb6eb767222bd0eede7c8c4a4a7642e5f26e5e7",
+                "size_in_bytes": 720
+            },
+            {
+                "_path": "share/yosys/fabulous/io_map.v",
+                "path_type": "hardlink",
+                "sha256": "6a8dde6cce8766207399f18c854b7698bad048311913d9ac48d262e487a43264",
+                "sha256_in_prefix": "6a8dde6cce8766207399f18c854b7698bad048311913d9ac48d262e487a43264",
+                "size_in_bytes": 290
+            },
+            {
+                "_path": "share/yosys/fabulous/latches_map.v",
+                "path_type": "hardlink",
+                "sha256": "57937005a20c2faf1e3a5843694254b3c5be82045e3e33ec0ed527de69d2a5aa",
+                "sha256_in_prefix": "57937005a20c2faf1e3a5843694254b3c5be82045e3e33ec0ed527de69d2a5aa",
+                "size_in_bytes": 258
+            },
+            {
+                "_path": "share/yosys/fabulous/prims.v",
+                "path_type": "hardlink",
+                "sha256": "31ffc86217206abae5bc61bf997321c567be6faf309bdae24be2e2fc772a6c5a",
+                "sha256_in_prefix": "31ffc86217206abae5bc61bf997321c567be6faf309bdae24be2e2fc772a6c5a",
+                "size_in_bytes": 11731
+            },
+            {
+                "_path": "share/yosys/fabulous/ram_regfile.txt",
+                "path_type": "hardlink",
+                "sha256": "91e81487f040b366cc39fd3384da4332d0714294601b94fb9a613f59850c6aed",
+                "sha256_in_prefix": "91e81487f040b366cc39fd3384da4332d0714294601b94fb9a613f59850c6aed",
+                "size_in_bytes": 782
+            },
+            {
+                "_path": "share/yosys/fabulous/regfile_map.v",
+                "path_type": "hardlink",
+                "sha256": "266d05809945164414ccd82bf0112f444ef2b9c8f45423be0bf293e3c9305774",
+                "sha256_in_prefix": "266d05809945164414ccd82bf0112f444ef2b9c8f45423be0bf293e3c9305774",
+                "size_in_bytes": 1431
+            },
+            {
+                "_path": "share/yosys/gate2lut.v",
+                "path_type": "hardlink",
+                "sha256": "8f910902e06758dc35e63d2c8caf927aad814e095e79b0c5dda00dd2973ef0bd",
+                "sha256_in_prefix": "8f910902e06758dc35e63d2c8caf927aad814e095e79b0c5dda00dd2973ef0bd",
+                "size_in_bytes": 1447
+            },
+            {
+                "_path": "share/yosys/gatemate/arith_map.v",
+                "path_type": "hardlink",
+                "sha256": "53c2f3f308f45a9521f583fcf4c5507e4818730e31604d175849adfa8c1cfc3e",
+                "sha256_in_prefix": "53c2f3f308f45a9521f583fcf4c5507e4818730e31604d175849adfa8c1cfc3e",
+                "size_in_bytes": 2016
+            },
+            {
+                "_path": "share/yosys/gatemate/brams.txt",
+                "path_type": "hardlink",
+                "sha256": "945c31af3a1340e2a70aa3bd05640d6beca6ccc05949fecbc7229b8ab8f160e4",
+                "sha256_in_prefix": "945c31af3a1340e2a70aa3bd05640d6beca6ccc05949fecbc7229b8ab8f160e4",
+                "size_in_bytes": 1230
+            },
+            {
+                "_path": "share/yosys/gatemate/brams_init_20.vh",
+                "path_type": "hardlink",
+                "sha256": "3ca61245938bfe2e859a3cb5741fa5174792955f0114b8c6bc3aabc3ace12e9c",
+                "sha256_in_prefix": "3ca61245938bfe2e859a3cb5741fa5174792955f0114b8c6bc3aabc3ace12e9c",
+                "size_in_bytes": 4480
+            },
+            {
+                "_path": "share/yosys/gatemate/brams_init_40.vh",
+                "path_type": "hardlink",
+                "sha256": "c8ae748102b529ce7d4716db57dc63796a218489e4c99de0e8de569ada6a32e8",
+                "sha256_in_prefix": "c8ae748102b529ce7d4716db57dc63796a218489e4c99de0e8de569ada6a32e8",
+                "size_in_bytes": 17970
+            },
+            {
+                "_path": "share/yosys/gatemate/brams_map.v",
+                "path_type": "hardlink",
+                "sha256": "754b499ac52ac5ecf325fb85789abcc71082fcc7959440986a0c6c5e11842470",
+                "sha256_in_prefix": "754b499ac52ac5ecf325fb85789abcc71082fcc7959440986a0c6c5e11842470",
+                "size_in_bytes": 29326
+            },
+            {
+                "_path": "share/yosys/gatemate/cells_bb.v",
+                "path_type": "hardlink",
+                "sha256": "54e5023786218091c7c84282ab1c21f9c61ac666e4a309b757e81a9fc46b5d2b",
+                "sha256_in_prefix": "54e5023786218091c7c84282ab1c21f9c61ac666e4a309b757e81a9fc46b5d2b",
+                "size_in_bytes": 5191
+            },
+            {
+                "_path": "share/yosys/gatemate/cells_sim.v",
+                "path_type": "hardlink",
+                "sha256": "1a40151aeedb099fe33b7e992e971c3655e1757b0f8a15f0ffcfa954bad4f380",
+                "sha256_in_prefix": "1a40151aeedb099fe33b7e992e971c3655e1757b0f8a15f0ffcfa954bad4f380",
+                "size_in_bytes": 54776
+            },
+            {
+                "_path": "share/yosys/gatemate/inv_map.v",
+                "path_type": "hardlink",
+                "sha256": "5299997ed6eb646bfb2bca1dd6b8c8774f7d753baa43268fef3e33f95de14202",
+                "sha256_in_prefix": "5299997ed6eb646bfb2bca1dd6b8c8774f7d753baa43268fef3e33f95de14202",
+                "size_in_bytes": 180
+            },
+            {
+                "_path": "share/yosys/gatemate/lut_map.v",
+                "path_type": "hardlink",
+                "sha256": "30cdfa2d4878d12ed558a8146bf2145a8f6feb907a5893de079ebea27ec04fd3",
+                "sha256_in_prefix": "30cdfa2d4878d12ed558a8146bf2145a8f6feb907a5893de079ebea27ec04fd3",
+                "size_in_bytes": 1558
+            },
+            {
+                "_path": "share/yosys/gatemate/lut_tree_cells.genlib",
+                "path_type": "hardlink",
+                "sha256": "f040996864e7375591817ccbf23381f397b7694c1045e5dc62ee600bb11be7ab",
+                "sha256_in_prefix": "f040996864e7375591817ccbf23381f397b7694c1045e5dc62ee600bb11be7ab",
+                "size_in_bytes": 6422
+            },
+            {
+                "_path": "share/yosys/gatemate/lut_tree_map.v",
+                "path_type": "hardlink",
+                "sha256": "21e954d2111ce929ff32c69a1eb322ca2b65e7deb13fecee2b972d80d1263d95",
+                "sha256_in_prefix": "21e954d2111ce929ff32c69a1eb322ca2b65e7deb13fecee2b972d80d1263d95",
+                "size_in_bytes": 19119
+            },
+            {
+                "_path": "share/yosys/gatemate/mul_map.v",
+                "path_type": "hardlink",
+                "sha256": "2b5f05cfa902f6662105c9f4c30186f8aee2f38b1ffde084f43f2758841f307a",
+                "sha256_in_prefix": "2b5f05cfa902f6662105c9f4c30186f8aee2f38b1ffde084f43f2758841f307a",
+                "size_in_bytes": 2029
+            },
+            {
+                "_path": "share/yosys/gatemate/mux_map.v",
+                "path_type": "hardlink",
+                "sha256": "9db277cf9a35f59e107b94eced546696148aa41541e652e90f33c2448174cbde",
+                "sha256_in_prefix": "9db277cf9a35f59e107b94eced546696148aa41541e652e90f33c2448174cbde",
+                "size_in_bytes": 1493
+            },
+            {
+                "_path": "share/yosys/gatemate/reg_map.v",
+                "path_type": "hardlink",
+                "sha256": "5fd706a655be0a113cd517a6122e2df16b124da7734d5dbded2efc3a61f92947",
+                "sha256_in_prefix": "5fd706a655be0a113cd517a6122e2df16b124da7734d5dbded2efc3a61f92947",
+                "size_in_bytes": 1871
+            },
+            {
+                "_path": "share/yosys/gowin/arith_map.v",
+                "path_type": "hardlink",
+                "sha256": "0d98c42503df8fc3c881355dd0eab90d93c0ae327a0384f80748768958410dd6",
+                "sha256_in_prefix": "0d98c42503df8fc3c881355dd0eab90d93c0ae327a0384f80748768958410dd6",
+                "size_in_bytes": 2088
+            },
+            {
+                "_path": "share/yosys/gowin/brams.txt",
+                "path_type": "hardlink",
+                "sha256": "f570bee95d9a4ba7f3da3302771bb0dc8c07c37966bda38e2e799c39abeacb7b",
+                "sha256_in_prefix": "f570bee95d9a4ba7f3da3302771bb0dc8c07c37966bda38e2e799c39abeacb7b",
+                "size_in_bytes": 1225
+            },
+            {
+                "_path": "share/yosys/gowin/brams_map.v",
+                "path_type": "hardlink",
+                "sha256": "eaba8cdd5ae64cf643446636a3bafa68952b4407266983da2ce5715b42ae994f",
+                "sha256_in_prefix": "eaba8cdd5ae64cf643446636a3bafa68952b4407266983da2ce5715b42ae994f",
+                "size_in_bytes": 9019
+            },
+            {
+                "_path": "share/yosys/gowin/cells_map.v",
+                "path_type": "hardlink",
+                "sha256": "666ab656564e1411e150deb98f70ce59d80aa4a04ca124e2aa0601a71f7e8ff9",
+                "sha256_in_prefix": "666ab656564e1411e150deb98f70ce59d80aa4a04ca124e2aa0601a71f7e8ff9",
+                "size_in_bytes": 6100
+            },
+            {
+                "_path": "share/yosys/gowin/cells_sim.v",
+                "path_type": "hardlink",
+                "sha256": "2474380e2e4681c1bcb34f40845b95ba37c89b6db3353fef5de3f70515304938",
+                "sha256_in_prefix": "2474380e2e4681c1bcb34f40845b95ba37c89b6db3353fef5de3f70515304938",
+                "size_in_bytes": 42970
+            },
+            {
+                "_path": "share/yosys/gowin/lutrams.txt",
+                "path_type": "hardlink",
+                "sha256": "89bed0fe92e829e0f73c374ab6a677563552ac7a58a527051ec64f13d942a622",
+                "sha256_in_prefix": "89bed0fe92e829e0f73c374ab6a677563552ac7a58a527051ec64f13d942a622",
+                "size_in_bytes": 160
+            },
+            {
+                "_path": "share/yosys/gowin/lutrams_map.v",
+                "path_type": "hardlink",
+                "sha256": "51f6cbb7ebb5eeb4e7a565befcb3da74f37bd3678be9b4400e3694289816f5e6",
+                "sha256_in_prefix": "51f6cbb7ebb5eeb4e7a565befcb3da74f37bd3678be9b4400e3694289816f5e6",
+                "size_in_bytes": 1122
+            },
+            {
+                "_path": "share/yosys/greenpak4/cells_blackbox.v",
+                "path_type": "hardlink",
+                "sha256": "72359eae291db06748c70d7652b35930244b5c371c88e81d16f6328988b60500",
+                "sha256_in_prefix": "72359eae291db06748c70d7652b35930244b5c371c88e81d16f6328988b60500",
+                "size_in_bytes": 365
+            },
+            {
+                "_path": "share/yosys/greenpak4/cells_latch.v",
+                "path_type": "hardlink",
+                "sha256": "89a9d99bc9a160f5ce728a9c1814cd9d00f9e86181a2024acfa0523c36c967f4",
+                "sha256_in_prefix": "89a9d99bc9a160f5ce728a9c1814cd9d00f9e86181a2024acfa0523c36c967f4",
+                "size_in_bytes": 248
+            },
+            {
+                "_path": "share/yosys/greenpak4/cells_map.v",
+                "path_type": "hardlink",
+                "sha256": "9f3f393c44af5ab67282fcaa2124dd6ec76b60ce1697b4d3cddd36ac7ddc5bd9",
+                "sha256_in_prefix": "9f3f393c44af5ab67282fcaa2124dd6ec76b60ce1697b4d3cddd36ac7ddc5bd9",
+                "size_in_bytes": 5298
+            },
+            {
+                "_path": "share/yosys/greenpak4/cells_sim.v",
+                "path_type": "hardlink",
+                "sha256": "4b39e5d58856f84da366ae9bbd786d4614d0b443ec0c576e3e8adeca22bc370a",
+                "sha256_in_prefix": "4b39e5d58856f84da366ae9bbd786d4614d0b443ec0c576e3e8adeca22bc370a",
+                "size_in_bytes": 105
+            },
+            {
+                "_path": "share/yosys/greenpak4/cells_sim_ams.v",
+                "path_type": "hardlink",
+                "sha256": "ea76c3e1dc8670987696ba0aec11327a4ca54d3441e36b793a01268a22185353",
+                "sha256_in_prefix": "ea76c3e1dc8670987696ba0aec11327a4ca54d3441e36b793a01268a22185353",
+                "size_in_bytes": 2072
+            },
+            {
+                "_path": "share/yosys/greenpak4/cells_sim_digital.v",
+                "path_type": "hardlink",
+                "sha256": "5e80d82fbd90b9bff93f4faa60cc27f21fbf32e45f500d0ea247467dcabc6d73",
+                "sha256_in_prefix": "5e80d82fbd90b9bff93f4faa60cc27f21fbf32e45f500d0ea247467dcabc6d73",
+                "size_in_bytes": 15006
+            },
+            {
+                "_path": "share/yosys/greenpak4/cells_sim_wip.v",
+                "path_type": "hardlink",
+                "sha256": "17350d7cca55ce474f4ea9064d2f9e21f9a40910708794ab0a64b41206bf3c7e",
+                "sha256_in_prefix": "17350d7cca55ce474f4ea9064d2f9e21f9a40910708794ab0a64b41206bf3c7e",
+                "size_in_bytes": 2926
+            },
+            {
+                "_path": "share/yosys/greenpak4/gp_dff.lib",
+                "path_type": "hardlink",
+                "sha256": "68d7bb3bcb19841831c2b6975c754c3aaa85c540071209fb10f68edea96f2eb6",
+                "sha256_in_prefix": "68d7bb3bcb19841831c2b6975c754c3aaa85c540071209fb10f68edea96f2eb6",
+                "size_in_bytes": 998
+            },
+            {
+                "_path": "share/yosys/ice40/abc9_model.v",
+                "path_type": "hardlink",
+                "sha256": "c9becd1ccb295ccb8a79f70812739bf4bcd0bf846f77f22c2627ea802a3123ba",
+                "sha256_in_prefix": "c9becd1ccb295ccb8a79f70812739bf4bcd0bf846f77f22c2627ea802a3123ba",
+                "size_in_bytes": 3612
+            },
+            {
+                "_path": "share/yosys/ice40/arith_map.v",
+                "path_type": "hardlink",
+                "sha256": "5793343d6950e5b961cb2c0ccbd0241c0977f84aef8bfacaeac39381b94d18a8",
+                "sha256_in_prefix": "5793343d6950e5b961cb2c0ccbd0241c0977f84aef8bfacaeac39381b94d18a8",
+                "size_in_bytes": 2172
+            },
+            {
+                "_path": "share/yosys/ice40/brams.txt",
+                "path_type": "hardlink",
+                "sha256": "5b909e796ee26e7d18aca1637a4e396675d93b39300936dd31860490a6d3c13d",
+                "sha256_in_prefix": "5b909e796ee26e7d18aca1637a4e396675d93b39300936dd31860490a6d3c13d",
+                "size_in_bytes": 300
+            },
+            {
+                "_path": "share/yosys/ice40/brams_map.v",
+                "path_type": "hardlink",
+                "sha256": "b9f606a53b9fe24b1810601e4d74b057df287b8924989c0f1516ddc77b570d50",
+                "sha256_in_prefix": "b9f606a53b9fe24b1810601e4d74b057df287b8924989c0f1516ddc77b570d50",
+                "size_in_bytes": 3958
+            },
+            {
+                "_path": "share/yosys/ice40/cells_map.v",
+                "path_type": "hardlink",
+                "sha256": "4f3f2d0d036d3a494c5b433b0a2a1f1ea4fb5f170906a4b611d9e407c7c8ce92",
+                "sha256_in_prefix": "4f3f2d0d036d3a494c5b433b0a2a1f1ea4fb5f170906a4b611d9e407c7c8ce92",
+                "size_in_bytes": 1087
+            },
+            {
+                "_path": "share/yosys/ice40/cells_sim.v",
+                "path_type": "hardlink",
+                "sha256": "b5b2bcd86c0d6eea269015aaebff1d5fb66e7ec3f7eded0bde07406e5ac99527",
+                "sha256_in_prefix": "b5b2bcd86c0d6eea269015aaebff1d5fb66e7ec3f7eded0bde07406e5ac99527",
+                "size_in_bytes": 153943
+            },
+            {
+                "_path": "share/yosys/ice40/dsp_map.v",
+                "path_type": "hardlink",
+                "sha256": "6297d8ea9049a47f2bfddd8a98f2e91c5a86bb7f1b76c6ad4da90572855abdc8",
+                "sha256_in_prefix": "6297d8ea9049a47f2bfddd8a98f2e91c5a86bb7f1b76c6ad4da90572855abdc8",
+                "size_in_bytes": 789
+            },
+            {
+                "_path": "share/yosys/ice40/ff_map.v",
+                "path_type": "hardlink",
+                "sha256": "d2292afa2d7f5154fac6e14b323d997e2970bbac33f2889b31db4f7a06654eb3",
+                "sha256_in_prefix": "d2292afa2d7f5154fac6e14b323d997e2970bbac33f2889b31db4f7a06654eb3",
+                "size_in_bytes": 3043
+            },
+            {
+                "_path": "share/yosys/ice40/latches_map.v",
+                "path_type": "hardlink",
+                "sha256": "57937005a20c2faf1e3a5843694254b3c5be82045e3e33ec0ed527de69d2a5aa",
+                "sha256_in_prefix": "57937005a20c2faf1e3a5843694254b3c5be82045e3e33ec0ed527de69d2a5aa",
+                "size_in_bytes": 258
+            },
+            {
+                "_path": "share/yosys/ice40/spram.txt",
+                "path_type": "hardlink",
+                "sha256": "742455d1f95f26e9ef9ef295d10e4aab9341ae187f3e46465ef52debbe5a8889",
+                "sha256_in_prefix": "742455d1f95f26e9ef9ef295d10e4aab9341ae187f3e46465ef52debbe5a8889",
+                "size_in_bytes": 153
+            },
+            {
+                "_path": "share/yosys/ice40/spram_map.v",
+                "path_type": "hardlink",
+                "sha256": "3bc7d1915b87d5d8005c402d609821f304c79d910aef97cf00c048f8f81856ab",
+                "sha256_in_prefix": "3bc7d1915b87d5d8005c402d609821f304c79d910aef97cf00c048f8f81856ab",
+                "size_in_bytes": 475
+            },
+            {
+                "_path": "share/yosys/include/backends/cxxrtl/cxxrtl.h",
+                "path_type": "hardlink",
+                "sha256": "0ce4c89e66b81ce8e96682f3795234ffbf0b518ab6d02e21a52ff818048bf3d5",
+                "sha256_in_prefix": "0ce4c89e66b81ce8e96682f3795234ffbf0b518ab6d02e21a52ff818048bf3d5",
+                "size_in_bytes": 54042
+            },
+            {
+                "_path": "share/yosys/include/backends/cxxrtl/cxxrtl_capi.cc",
+                "path_type": "hardlink",
+                "sha256": "1337bea4ca354fc19f7420bf2bf277cfda2f97778c9b17e4a373373d604023a4",
+                "sha256_in_prefix": "1337bea4ca354fc19f7420bf2bf277cfda2f97778c9b17e4a373373d604023a4",
+                "size_in_bytes": 2951
+            },
+            {
+                "_path": "share/yosys/include/backends/cxxrtl/cxxrtl_capi.h",
+                "path_type": "hardlink",
+                "sha256": "0adae9176e2c6944b762c25b13d35ac90b8a1aa1b2576525b4951b43f05b5b7f",
+                "sha256_in_prefix": "0adae9176e2c6944b762c25b13d35ac90b8a1aa1b2576525b4951b43f05b5b7f",
+                "size_in_bytes": 13413
+            },
+            {
+                "_path": "share/yosys/include/backends/cxxrtl/cxxrtl_vcd.h",
+                "path_type": "hardlink",
+                "sha256": "cdb3017376d2ec3f564f7db08b3ce42e43abff4c6d62910c121e4f5438cde959",
+                "sha256_in_prefix": "cdb3017376d2ec3f564f7db08b3ce42e43abff4c6d62910c121e4f5438cde959",
+                "size_in_bytes": 8497
+            },
+            {
+                "_path": "share/yosys/include/backends/cxxrtl/cxxrtl_vcd_capi.cc",
+                "path_type": "hardlink",
+                "sha256": "0b5f00724aa73f17ff6d113f05ccf6f1e39bdbb60d81d258bbac1b3c27a3c414",
+                "sha256_in_prefix": "0b5f00724aa73f17ff6d113f05ccf6f1e39bdbb60d81d258bbac1b3c27a3c414",
+                "size_in_bytes": 2816
+            },
+            {
+                "_path": "share/yosys/include/backends/cxxrtl/cxxrtl_vcd_capi.h",
+                "path_type": "hardlink",
+                "sha256": "d68e112b8da8ce056dd9ce7e35ead33a1e63338015a83b822234f7154f360613",
+                "sha256_in_prefix": "d68e112b8da8ce056dd9ce7e35ead33a1e63338015a83b822234f7154f360613",
+                "size_in_bytes": 4290
+            },
+            {
+                "_path": "share/yosys/include/backends/rtlil/rtlil_backend.h",
+                "path_type": "hardlink",
+                "sha256": "87e924756b40a2c4990f3bc05b9d758c01daa3e743526ddfc932617cc5ec6439",
+                "sha256_in_prefix": "87e924756b40a2c4990f3bc05b9d758c01daa3e743526ddfc932617cc5ec6439",
+                "size_in_bytes": 2407
+            },
+            {
+                "_path": "share/yosys/include/frontends/ast/ast.h",
+                "path_type": "hardlink",
+                "sha256": "b57dfcbf35ffa03880a9e97561b0b4357a0fb951127b42f9c6ed61f6484ac278",
+                "sha256_in_prefix": "b57dfcbf35ffa03880a9e97561b0b4357a0fb951127b42f9c6ed61f6484ac278",
+                "size_in_bytes": 15185
+            },
+            {
+                "_path": "share/yosys/include/frontends/ast/ast_binding.h",
+                "path_type": "hardlink",
+                "sha256": "35d208dfe777f0d581ffcee6f403b3a902e392461a613a33df11d3b0735e954d",
+                "sha256_in_prefix": "35d208dfe777f0d581ffcee6f403b3a902e392461a613a33df11d3b0735e954d",
+                "size_in_bytes": 1756
+            },
+            {
+                "_path": "share/yosys/include/frontends/blif/blifparse.h",
+                "path_type": "hardlink",
+                "sha256": "18671e3849be7e53cad1074f2150d9e991a9913a614f5e284f126101821bd916",
+                "sha256_in_prefix": "18671e3849be7e53cad1074f2150d9e991a9913a614f5e284f126101821bd916",
+                "size_in_bytes": 1139
+            },
+            {
+                "_path": "share/yosys/include/kernel/binding.h",
+                "path_type": "hardlink",
+                "sha256": "04a7cc84d7ff1df96287009712ac99b81d73a7dc73562d0d44a7bee4cbc889d3",
+                "sha256_in_prefix": "04a7cc84d7ff1df96287009712ac99b81d73a7dc73562d0d44a7bee4cbc889d3",
+                "size_in_bytes": 1947
+            },
+            {
+                "_path": "share/yosys/include/kernel/celledges.h",
+                "path_type": "hardlink",
+                "sha256": "7c5fec1c93a937fa90d4fd31f0a2a8244f6e94332eb1f8e4174741a5332cd7d1",
+                "sha256_in_prefix": "7c5fec1c93a937fa90d4fd31f0a2a8244f6e94332eb1f8e4174741a5332cd7d1",
+                "size_in_bytes": 2216
+            },
+            {
+                "_path": "share/yosys/include/kernel/celltypes.h",
+                "path_type": "hardlink",
+                "sha256": "9fd56a6ff06dbf3bf9c782d852e0839ea2f6f088d33e053a5ade02625a1c8546",
+                "sha256_in_prefix": "9fd56a6ff06dbf3bf9c782d852e0839ea2f6f088d33e053a5ade02625a1c8546",
+                "size_in_bytes": 17823
+            },
+            {
+                "_path": "share/yosys/include/kernel/consteval.h",
+                "path_type": "hardlink",
+                "sha256": "7475df6879c3d2ff787a7b4e7d6966a39bb7421545f249e79f811370788be0f2",
+                "sha256_in_prefix": "7475df6879c3d2ff787a7b4e7d6966a39bb7421545f249e79f811370788be0f2",
+                "size_in_bytes": 10913
+            },
+            {
+                "_path": "share/yosys/include/kernel/constids.inc",
+                "path_type": "hardlink",
+                "sha256": "4ecd316dbb0de53eea6b1d9c49c84db753b1391ab8090a57531b17193263ac3b",
+                "sha256_in_prefix": "4ecd316dbb0de53eea6b1d9c49c84db753b1391ab8090a57531b17193263ac3b",
+                "size_in_bytes": 3416
+            },
+            {
+                "_path": "share/yosys/include/kernel/ff.h",
+                "path_type": "hardlink",
+                "sha256": "466f5aeaab1b5d33c00e2dd31bbf78b736178cebd191ec0d332f005cc039bed1",
+                "sha256_in_prefix": "466f5aeaab1b5d33c00e2dd31bbf78b736178cebd191ec0d332f005cc039bed1",
+                "size_in_bytes": 7574
+            },
+            {
+                "_path": "share/yosys/include/kernel/ffinit.h",
+                "path_type": "hardlink",
+                "sha256": "da470e4e0043c42b02a2782819814f82715766e818df859904308ddb1207bfc3",
+                "sha256_in_prefix": "da470e4e0043c42b02a2782819814f82715766e818df859904308ddb1207bfc3",
+                "size_in_bytes": 3473
+            },
+            {
+                "_path": "share/yosys/include/kernel/fstdata.h",
+                "path_type": "hardlink",
+                "sha256": "d7b0bf70dcdf5d2877328c6eb67a92d556a5aacfaf0ccfd234dd5f235964a896",
+                "sha256_in_prefix": "d7b0bf70dcdf5d2877328c6eb67a92d556a5aacfaf0ccfd234dd5f235964a896",
+                "size_in_bytes": 2465
+            },
+            {
+                "_path": "share/yosys/include/kernel/hashlib.h",
+                "path_type": "hardlink",
+                "sha256": "5a57b267c8d0079a26b1b407076b05eb30f69c0b4d27d44bffe1df822cbf670d",
+                "sha256_in_prefix": "5a57b267c8d0079a26b1b407076b05eb30f69c0b4d27d44bffe1df822cbf670d",
+                "size_in_bytes": 29220
+            },
+            {
+                "_path": "share/yosys/include/kernel/log.h",
+                "path_type": "hardlink",
+                "sha256": "3b58a07732a6dbcef52c3fd753a206197d3d532d925c507ab467a99315f4160e",
+                "sha256_in_prefix": "3b58a07732a6dbcef52c3fd753a206197d3d532d925c507ab467a99315f4160e",
+                "size_in_bytes": 14812
+            },
+            {
+                "_path": "share/yosys/include/kernel/macc.h",
+                "path_type": "hardlink",
+                "sha256": "58e530d320112d4ab1670e87859578ef3470500d97f17ee6c03fe36f5c946731",
+                "sha256_in_prefix": "58e530d320112d4ab1670e87859578ef3470500d97f17ee6c03fe36f5c946731",
+                "size_in_bytes": 6991
+            },
+            {
+                "_path": "share/yosys/include/kernel/mem.h",
+                "path_type": "hardlink",
+                "sha256": "9027a3a4b1c783b1363bc11c431d168bc3d135c50b0e6fbbb7f40462c5e834d7",
+                "sha256_in_prefix": "9027a3a4b1c783b1363bc11c431d168bc3d135c50b0e6fbbb7f40462c5e834d7",
+                "size_in_bytes": 9176
+            },
+            {
+                "_path": "share/yosys/include/kernel/modtools.h",
+                "path_type": "hardlink",
+                "sha256": "5b677e66c02082b8e5bdae9c010b0c282469cecb3f0259d85d410f583776c561",
+                "sha256_in_prefix": "5b677e66c02082b8e5bdae9c010b0c282469cecb3f0259d85d410f583776c561",
+                "size_in_bytes": 14281
+            },
+            {
+                "_path": "share/yosys/include/kernel/qcsat.h",
+                "path_type": "hardlink",
+                "sha256": "89b869251bb4ca8ba30d73e5957ac3262f39d55a705b591b27fcbde3f5fa2615",
+                "sha256_in_prefix": "89b869251bb4ca8ba30d73e5957ac3262f39d55a705b591b27fcbde3f5fa2615",
+                "size_in_bytes": 2804
+            },
+            {
+                "_path": "share/yosys/include/kernel/register.h",
+                "path_type": "hardlink",
+                "sha256": "36801bc3df1ad21da7be0472ba925bbd435780538a3a8dbc63f9adda6b648f9b",
+                "sha256_in_prefix": "36801bc3df1ad21da7be0472ba925bbd435780538a3a8dbc63f9adda6b648f9b",
+                "size_in_bytes": 5387
+            },
+            {
+                "_path": "share/yosys/include/kernel/rtlil.h",
+                "path_type": "hardlink",
+                "sha256": "06e31efe4072cfa71122ffdc29366754b0fb614e3cbc8c686180c2113419ca41",
+                "sha256_in_prefix": "06e31efe4072cfa71122ffdc29366754b0fb614e3cbc8c686180c2113419ca41",
+                "size_in_bytes": 83037
+            },
+            {
+                "_path": "share/yosys/include/kernel/satgen.h",
+                "path_type": "hardlink",
+                "sha256": "cf1f0ba6d22076cd19f6cc57c7a1c6c4d358ba4d39747a90672d5a5c55845c2d",
+                "sha256_in_prefix": "cf1f0ba6d22076cd19f6cc57c7a1c6c4d358ba4d39747a90672d5a5c55845c2d",
+                "size_in_bytes": 10483
+            },
+            {
+                "_path": "share/yosys/include/kernel/sigtools.h",
+                "path_type": "hardlink",
+                "sha256": "a82d0280adce2706a6fe58eab56fa46ae037763ca52cba08dab6d2b386619f9b",
+                "sha256_in_prefix": "a82d0280adce2706a6fe58eab56fa46ae037763ca52cba08dab6d2b386619f9b",
+                "size_in_bytes": 7504
+            },
+            {
+                "_path": "share/yosys/include/kernel/utils.h",
+                "path_type": "hardlink",
+                "sha256": "70507887e93ffa62911159f6bc2428aa72b94e035110870d353eed7eb96424ce",
+                "sha256_in_prefix": "70507887e93ffa62911159f6bc2428aa72b94e035110870d353eed7eb96424ce",
+                "size_in_bytes": 5032
+            },
+            {
+                "_path": "share/yosys/include/kernel/yosys.h",
+                "path_type": "hardlink",
+                "sha256": "117dd0d9e2867d05105ebba5b93c1ef9a963d75ee0a9f8179bd203fb09fef82a",
+                "sha256_in_prefix": "117dd0d9e2867d05105ebba5b93c1ef9a963d75ee0a9f8179bd203fb09fef82a",
+                "size_in_bytes": 12407
+            },
+            {
+                "_path": "share/yosys/include/libs/ezsat/ezminisat.h",
+                "path_type": "hardlink",
+                "sha256": "6d2ac32fa5518a7a577542e847c3fd950693d43cb89001197d370a8d128e7638",
+                "sha256_in_prefix": "6d2ac32fa5518a7a577542e847c3fd950693d43cb89001197d370a8d128e7638",
+                "size_in_bytes": 2098
+            },
+            {
+                "_path": "share/yosys/include/libs/ezsat/ezsat.h",
+                "path_type": "hardlink",
+                "sha256": "7a081e1b04bda45cb1498193d11b4ea97d7cf696d71402837cf6732184e6a889",
+                "sha256_in_prefix": "7a081e1b04bda45cb1498193d11b4ea97d7cf696d71402837cf6732184e6a889",
+                "size_in_bytes": 14523
+            },
+            {
+                "_path": "share/yosys/include/libs/fst/fstapi.h",
+                "path_type": "hardlink",
+                "sha256": "10866ba4a317b9e61a04ac40acadf039bdd6578d7f8555ac704d911aa00016f8",
+                "sha256_in_prefix": "10866ba4a317b9e61a04ac40acadf039bdd6578d7f8555ac704d911aa00016f8",
+                "size_in_bytes": 16653
+            },
+            {
+                "_path": "share/yosys/include/libs/json11/json11.hpp",
+                "path_type": "hardlink",
+                "sha256": "d3483048e71d6889b6e5b849bc1dd8dff18955ba667bb1254ee32d857603b4e8",
+                "sha256_in_prefix": "d3483048e71d6889b6e5b849bc1dd8dff18955ba667bb1254ee32d857603b4e8",
+                "size_in_bytes": 9268
+            },
+            {
+                "_path": "share/yosys/include/libs/sha1/sha1.h",
+                "path_type": "hardlink",
+                "sha256": "fc18584559e2293010622f0a6414e883a3e9930c0931258a5418299f2921c82b",
+                "sha256_in_prefix": "fc18584559e2293010622f0a6414e883a3e9930c0931258a5418299f2921c82b",
+                "size_in_bytes": 1382
+            },
+            {
+                "_path": "share/yosys/include/passes/fsm/fsmdata.h",
+                "path_type": "hardlink",
+                "sha256": "cb74c0e72f119e5fb95a3f8189bde3dc924228f5b72f81b02d10d413db2dd247",
+                "sha256_in_prefix": "cb74c0e72f119e5fb95a3f8189bde3dc924228f5b72f81b02d10d413db2dd247",
+                "size_in_bytes": 6753
+            },
+            {
+                "_path": "share/yosys/intel/common/altpll_bb.v",
+                "path_type": "hardlink",
+                "sha256": "16a26a5eff0bd07ba8496086ea7347d3105182c9d04a8ba53093932d9b7162b8",
+                "sha256_in_prefix": "16a26a5eff0bd07ba8496086ea7347d3105182c9d04a8ba53093932d9b7162b8",
+                "size_in_bytes": 14302
+            },
+            {
+                "_path": "share/yosys/intel/common/brams_m9k.txt",
+                "path_type": "hardlink",
+                "sha256": "b5d34e3dcf93104e6dfbdbe6e60ffe889925552626a36bbab6e804859d7a12fb",
+                "sha256_in_prefix": "b5d34e3dcf93104e6dfbdbe6e60ffe889925552626a36bbab6e804859d7a12fb",
+                "size_in_bytes": 518
+            },
+            {
+                "_path": "share/yosys/intel/common/brams_map_m9k.v",
+                "path_type": "hardlink",
+                "sha256": "58a7508a771a2150df2a3a6f801b90649b34178c213c454040e7e5ebe1967fb0",
+                "sha256_in_prefix": "58a7508a771a2150df2a3a6f801b90649b34178c213c454040e7e5ebe1967fb0",
+                "size_in_bytes": 4319
+            },
+            {
+                "_path": "share/yosys/intel/common/ff_map.v",
+                "path_type": "hardlink",
+                "sha256": "6de068e4123712bae46a0cc1f7b88c728bfb2f0e0be52440930eec5c714d9491",
+                "sha256_in_prefix": "6de068e4123712bae46a0cc1f7b88c728bfb2f0e0be52440930eec5c714d9491",
+                "size_in_bytes": 630
+            },
+            {
+                "_path": "share/yosys/intel/common/m9k_bb.v",
+                "path_type": "hardlink",
+                "sha256": "51eb1b2b6dd5c970722cd4d7d1a83f89fe023db5ad579535584abdbacd4e6ad3",
+                "sha256_in_prefix": "51eb1b2b6dd5c970722cd4d7d1a83f89fe023db5ad579535584abdbacd4e6ad3",
+                "size_in_bytes": 3076
+            },
+            {
+                "_path": "share/yosys/intel/cyclone10lp/cells_map.v",
+                "path_type": "hardlink",
+                "sha256": "c07c04f0aac2646387789900c7bb73ed6b92b490d71953a3cf7e869d1d2005d4",
+                "sha256_in_prefix": "c07c04f0aac2646387789900c7bb73ed6b92b490d71953a3cf7e869d1d2005d4",
+                "size_in_bytes": 3442
+            },
+            {
+                "_path": "share/yosys/intel/cyclone10lp/cells_sim.v",
+                "path_type": "hardlink",
+                "sha256": "142ce722a9b82e46f4ef353eb179c119a91e874539f0f52fd89a4e2746ba6eb1",
+                "sha256_in_prefix": "142ce722a9b82e46f4ef353eb179c119a91e874539f0f52fd89a4e2746ba6eb1",
+                "size_in_bytes": 4373
+            },
+            {
+                "_path": "share/yosys/intel/cycloneiv/cells_map.v",
+                "path_type": "hardlink",
+                "sha256": "132a66a41839120a8f377717b997e6690ae044bfea8b0ffa95ffac8fd0e97261",
+                "sha256_in_prefix": "132a66a41839120a8f377717b997e6690ae044bfea8b0ffa95ffac8fd0e97261",
+                "size_in_bytes": 2302
+            },
+            {
+                "_path": "share/yosys/intel/cycloneiv/cells_sim.v",
+                "path_type": "hardlink",
+                "sha256": "c71c01faf382912187cb28096e937f81d62eba582e37d4b0598e19df574b76e8",
+                "sha256_in_prefix": "c71c01faf382912187cb28096e937f81d62eba582e37d4b0598e19df574b76e8",
+                "size_in_bytes": 9690
+            },
+            {
+                "_path": "share/yosys/intel/cycloneive/cells_map.v",
+                "path_type": "hardlink",
+                "sha256": "b543ea008f927e85853a4243202dde543d1364bf848d8e9cc5aa2fd892fecd2a",
+                "sha256_in_prefix": "b543ea008f927e85853a4243202dde543d1364bf848d8e9cc5aa2fd892fecd2a",
+                "size_in_bytes": 3437
+            },
+            {
+                "_path": "share/yosys/intel/cycloneive/cells_sim.v",
+                "path_type": "hardlink",
+                "sha256": "d1f563a41bf1bb018646f073116a8e2d90850991bde15911a306df8cf0f73934",
+                "sha256_in_prefix": "d1f563a41bf1bb018646f073116a8e2d90850991bde15911a306df8cf0f73934",
+                "size_in_bytes": 9839
+            },
+            {
+                "_path": "share/yosys/intel/max10/cells_map.v",
+                "path_type": "hardlink",
+                "sha256": "ac62d1730994314807a5808f409b5d294279e218bbf02fcd2281b10eff8677b4",
+                "sha256_in_prefix": "ac62d1730994314807a5808f409b5d294279e218bbf02fcd2281b10eff8677b4",
+                "size_in_bytes": 2318
+            },
+            {
+                "_path": "share/yosys/intel/max10/cells_sim.v",
+                "path_type": "hardlink",
+                "sha256": "a9fa73b29fd98e72f3ccc1955c7f3299a1d9cb49e23f44d732ee77615fea8b55",
+                "sha256_in_prefix": "a9fa73b29fd98e72f3ccc1955c7f3299a1d9cb49e23f44d732ee77615fea8b55",
+                "size_in_bytes": 9538
+            },
+            {
+                "_path": "share/yosys/intel_alm/common/abc9_map.v",
+                "path_type": "hardlink",
+                "sha256": "fe9442025d78d51a104ca0f17a8214d4d333d76230d13a7646da102e0d441313",
+                "sha256_in_prefix": "fe9442025d78d51a104ca0f17a8214d4d333d76230d13a7646da102e0d441313",
+                "size_in_bytes": 632
+            },
+            {
+                "_path": "share/yosys/intel_alm/common/abc9_model.v",
+                "path_type": "hardlink",
+                "sha256": "96479f981e035a1f985615dbb9e4e96ece6a55caa927ecbf02e82000f1cccf08",
+                "sha256_in_prefix": "96479f981e035a1f985615dbb9e4e96ece6a55caa927ecbf02e82000f1cccf08",
+                "size_in_bytes": 342
+            },
+            {
+                "_path": "share/yosys/intel_alm/common/abc9_unmap.v",
+                "path_type": "hardlink",
+                "sha256": "07c96ef54a061bd4b34e07e080145e80a0fd56141baaa730b7d55dd7fbc73481",
+                "sha256_in_prefix": "07c96ef54a061bd4b34e07e080145e80a0fd56141baaa730b7d55dd7fbc73481",
+                "size_in_bytes": 352
+            },
+            {
+                "_path": "share/yosys/intel_alm/common/alm_map.v",
+                "path_type": "hardlink",
+                "sha256": "c3f6cb34359cf7e687780a1d8d853be16da291b482b9a467164243eb310f9f33",
+                "sha256_in_prefix": "c3f6cb34359cf7e687780a1d8d853be16da291b482b9a467164243eb310f9f33",
+                "size_in_bytes": 1504
+            },
+            {
+                "_path": "share/yosys/intel_alm/common/alm_sim.v",
+                "path_type": "hardlink",
+                "sha256": "0486da15938cdd7c4099c5d1b8f304280d1e10c9e06e2f00ce62661b0b77708b",
+                "sha256_in_prefix": "0486da15938cdd7c4099c5d1b8f304280d1e10c9e06e2f00ce62661b0b77708b",
+                "size_in_bytes": 16884
+            },
+            {
+                "_path": "share/yosys/intel_alm/common/arith_alm_map.v",
+                "path_type": "hardlink",
+                "sha256": "b2b3dcdce789ad09be53dd9066e0eecde7cdc3ebc9bdf58ed00e649a5bde21d9",
+                "sha256_in_prefix": "b2b3dcdce789ad09be53dd9066e0eecde7cdc3ebc9bdf58ed00e649a5bde21d9",
+                "size_in_bytes": 2096
+            },
+            {
+                "_path": "share/yosys/intel_alm/common/bram_m10k.txt",
+                "path_type": "hardlink",
+                "sha256": "bd03974e06b2a4bb3b74aa8a04dc593d58342515509989e0f1f05a3b3996da79",
+                "sha256_in_prefix": "bd03974e06b2a4bb3b74aa8a04dc593d58342515509989e0f1f05a3b3996da79",
+                "size_in_bytes": 588
+            },
+            {
+                "_path": "share/yosys/intel_alm/common/bram_m10k_map.v",
+                "path_type": "hardlink",
+                "sha256": "0ab7c78917ac82b35474f98264bff7a1637208aa8f3be33443d03391626f44d8",
+                "sha256_in_prefix": "0ab7c78917ac82b35474f98264bff7a1637208aa8f3be33443d03391626f44d8",
+                "size_in_bytes": 501
+            },
+            {
+                "_path": "share/yosys/intel_alm/common/bram_m20k.txt",
+                "path_type": "hardlink",
+                "sha256": "d723b4b155645cb95f06e8a37d44da3ead0acb5b5a323c30e6e532340710a833",
+                "sha256_in_prefix": "d723b4b155645cb95f06e8a37d44da3ead0acb5b5a323c30e6e532340710a833",
+                "size_in_bytes": 780
+            },
+            {
+                "_path": "share/yosys/intel_alm/common/bram_m20k_map.v",
+                "path_type": "hardlink",
+                "sha256": "4e90fc5d71cf8b47c3ed1d41ed1aa8f91f7dbeddfc93d0c0a78ca1fe1cfa6c8e",
+                "sha256_in_prefix": "4e90fc5d71cf8b47c3ed1d41ed1aa8f91f7dbeddfc93d0c0a78ca1fe1cfa6c8e",
+                "size_in_bytes": 696
+            },
+            {
+                "_path": "share/yosys/intel_alm/common/dff_map.v",
+                "path_type": "hardlink",
+                "sha256": "8281b81ba0f0699bce381083ea5d03c4884ff755858de4fe12111ee5aa678661",
+                "sha256_in_prefix": "8281b81ba0f0699bce381083ea5d03c4884ff755858de4fe12111ee5aa678661",
+                "size_in_bytes": 579
+            },
+            {
+                "_path": "share/yosys/intel_alm/common/dff_sim.v",
+                "path_type": "hardlink",
+                "sha256": "4f7dc95c4409216d691aae3dee0784ff77953ec3af16cc52f4e393327eeafbe4",
+                "sha256_in_prefix": "4f7dc95c4409216d691aae3dee0784ff77953ec3af16cc52f4e393327eeafbe4",
+                "size_in_bytes": 4803
+            },
+            {
+                "_path": "share/yosys/intel_alm/common/dsp_map.v",
+                "path_type": "hardlink",
+                "sha256": "bf4aadd88ef82cd617d49aaa2881de80e09a46fd9aae6bb35d6f6039e02e5671",
+                "sha256_in_prefix": "bf4aadd88ef82cd617d49aaa2881de80e09a46fd9aae6bb35d6f6039e02e5671",
+                "size_in_bytes": 891
+            },
+            {
+                "_path": "share/yosys/intel_alm/common/dsp_sim.v",
+                "path_type": "hardlink",
+                "sha256": "0e39b87aeebd14582aae668dc8a2d2cac35e4670a47fc3e9b1d1d53353c2ff77",
+                "sha256_in_prefix": "0e39b87aeebd14582aae668dc8a2d2cac35e4670a47fc3e9b1d1d53353c2ff77",
+                "size_in_bytes": 2238
+            },
+            {
+                "_path": "share/yosys/intel_alm/common/lutram_mlab.txt",
+                "path_type": "hardlink",
+                "sha256": "0e5c39c3c268e3aec35c7487103d959b05270404700c046375c1ae5f1051393e",
+                "sha256_in_prefix": "0e5c39c3c268e3aec35c7487103d959b05270404700c046375c1ae5f1051393e",
+                "size_in_bytes": 316
+            },
+            {
+                "_path": "share/yosys/intel_alm/common/megafunction_bb.v",
+                "path_type": "hardlink",
+                "sha256": "d725513db697fe76a66325bf410421eff54760a6c189317f0ff82f7e1b55f855",
+                "sha256_in_prefix": "d725513db697fe76a66325bf410421eff54760a6c189317f0ff82f7e1b55f855",
+                "size_in_bytes": 23589
+            },
+            {
+                "_path": "share/yosys/intel_alm/common/mem_sim.v",
+                "path_type": "hardlink",
+                "sha256": "4d0fda9f7bb0e1755eb95f118e25e64a977366df7a101fc018885399c1713839",
+                "sha256_in_prefix": "4d0fda9f7bb0e1755eb95f118e25e64a977366df7a101fc018885399c1713839",
+                "size_in_bytes": 5295
+            },
+            {
+                "_path": "share/yosys/intel_alm/common/misc_sim.v",
+                "path_type": "hardlink",
+                "sha256": "77d263a7c6ae02716eba386b1f153961872623fcad02f32a61319b59da751982",
+                "sha256_in_prefix": "77d263a7c6ae02716eba386b1f153961872623fcad02f32a61319b59da751982",
+                "size_in_bytes": 562
+            },
+            {
+                "_path": "share/yosys/intel_alm/common/quartus_rename.v",
+                "path_type": "hardlink",
+                "sha256": "1e9e1425f53acd3657cbfe4b2fd6ab5becf53944cb2f1faa39550fb311ababb2",
+                "sha256_in_prefix": "1e9e1425f53acd3657cbfe4b2fd6ab5becf53944cb2f1faa39550fb311ababb2",
+                "size_in_bytes": 7552
+            },
+            {
+                "_path": "share/yosys/intel_alm/cyclonev/cells_sim.v",
+                "path_type": "hardlink",
+                "sha256": "880c9d6d6fc24e1722bff7c70fbb34f65cd07ac023c8ca08703da3a833dfb8e6",
+                "sha256_in_prefix": "880c9d6d6fc24e1722bff7c70fbb34f65cd07ac023c8ca08703da3a833dfb8e6",
+                "size_in_bytes": 5522
+            },
+            {
+                "_path": "share/yosys/machxo2/arith_map.v",
+                "path_type": "hardlink",
+                "sha256": "d159571898177ab9c4913b71c8f0e3f0df3abb09c83ee6b7b3b8b347826c0fb3",
+                "sha256_in_prefix": "d159571898177ab9c4913b71c8f0e3f0df3abb09c83ee6b7b3b8b347826c0fb3",
+                "size_in_bytes": 2595
+            },
+            {
+                "_path": "share/yosys/machxo2/brams.txt",
+                "path_type": "hardlink",
+                "sha256": "87eab6ff8b3aa32abfd161959b02272df52b19ca67256f117b814a899652c106",
+                "sha256_in_prefix": "87eab6ff8b3aa32abfd161959b02272df52b19ca67256f117b814a899652c106",
+                "size_in_bytes": 776
+            },
+            {
+                "_path": "share/yosys/machxo2/brams_map.v",
+                "path_type": "hardlink",
+                "sha256": "3f890200d0a039dc86b28dec989097c1080aa6ea6885b9341ac7fbb5b7bec986",
+                "sha256_in_prefix": "3f890200d0a039dc86b28dec989097c1080aa6ea6885b9341ac7fbb5b7bec986",
+                "size_in_bytes": 9158
+            },
+            {
+                "_path": "share/yosys/machxo2/cells_io.vh",
+                "path_type": "hardlink",
+                "sha256": "bbc7bb1406ed0d249ac588f1216c3c3964eb98a802816a4a21b14703d8dae62b",
+                "sha256_in_prefix": "bbc7bb1406ed0d249ac588f1216c3c3964eb98a802816a4a21b14703d8dae62b",
+                "size_in_bytes": 2055
+            },
+            {
+                "_path": "share/yosys/machxo2/cells_map.v",
+                "path_type": "hardlink",
+                "sha256": "4541c5a61e11a791ac0d1fe487715d403183d59ca027c9e3bff46404fed5f1dd",
+                "sha256_in_prefix": "4541c5a61e11a791ac0d1fe487715d403183d59ca027c9e3bff46404fed5f1dd",
+                "size_in_bytes": 10243
+            },
+            {
+                "_path": "share/yosys/machxo2/cells_sim.v",
+                "path_type": "hardlink",
+                "sha256": "2825840ae9cc8706d15068c56c6c297dcc60fdccbad01048d0739faa76d4474b",
+                "sha256_in_prefix": "2825840ae9cc8706d15068c56c6c297dcc60fdccbad01048d0739faa76d4474b",
+                "size_in_bytes": 12480
+            },
+            {
+                "_path": "share/yosys/machxo2/lutrams.txt",
+                "path_type": "hardlink",
+                "sha256": "60bc6b886d5323b7ba3e54508287b129d55afbd34a5b84ff15a65222b927730b",
+                "sha256_in_prefix": "60bc6b886d5323b7ba3e54508287b129d55afbd34a5b84ff15a65222b927730b",
+                "size_in_bytes": 145
+            },
+            {
+                "_path": "share/yosys/machxo2/lutrams_map.v",
+                "path_type": "hardlink",
+                "sha256": "0e36e11b61bbca96d424c83d991745bee2422453645431c3f72a370517984b3c",
+                "sha256_in_prefix": "0e36e11b61bbca96d424c83d991745bee2422453645431c3f72a370517984b3c",
+                "size_in_bytes": 519
+            },
+            {
+                "_path": "share/yosys/mul2dsp.v",
+                "path_type": "hardlink",
+                "sha256": "4cbff6175da1c48b7eae79db6d9fb5c58bfd55724451d196f27fec169be91458",
+                "sha256_in_prefix": "4cbff6175da1c48b7eae79db6d9fb5c58bfd55724451d196f27fec169be91458",
+                "size_in_bytes": 9065
+            },
+            {
+                "_path": "share/yosys/nexus/arith_map.v",
+                "path_type": "hardlink",
+                "sha256": "e66415ae11bb05782dd64fbef0049191d9667dc09cfe4fc470438812824cb1f7",
+                "sha256_in_prefix": "e66415ae11bb05782dd64fbef0049191d9667dc09cfe4fc470438812824cb1f7",
+                "size_in_bytes": 2804
+            },
+            {
+                "_path": "share/yosys/nexus/brams.txt",
+                "path_type": "hardlink",
+                "sha256": "8987103eb718169bdcd8889850773634aef00cac4128599c6a03a8dc184d036a",
+                "sha256_in_prefix": "8987103eb718169bdcd8889850773634aef00cac4128599c6a03a8dc184d036a",
+                "size_in_bytes": 882
+            },
+            {
+                "_path": "share/yosys/nexus/brams_map.v",
+                "path_type": "hardlink",
+                "sha256": "1e5f57dcb1cf91b9949d48788e2f47d3f309d965884c41c2060ae115116e44e3",
+                "sha256_in_prefix": "1e5f57dcb1cf91b9949d48788e2f47d3f309d965884c41c2060ae115116e44e3",
+                "size_in_bytes": 15609
+            },
+            {
+                "_path": "share/yosys/nexus/cells_map.v",
+                "path_type": "hardlink",
+                "sha256": "9ca37ddc46e3e31ce3530c613a170124ff13f8234cda057b546fb23e6ac32e46",
+                "sha256_in_prefix": "9ca37ddc46e3e31ce3530c613a170124ff13f8234cda057b546fb23e6ac32e46",
+                "size_in_bytes": 3947
+            },
+            {
+                "_path": "share/yosys/nexus/cells_sim.v",
+                "path_type": "hardlink",
+                "sha256": "517e7713fc69a401fe6a624909b063047ffad5eca857e42fa3450383db381c0c",
+                "sha256_in_prefix": "517e7713fc69a401fe6a624909b063047ffad5eca857e42fa3450383db381c0c",
+                "size_in_bytes": 25106
+            },
+            {
+                "_path": "share/yosys/nexus/cells_xtra.v",
+                "path_type": "hardlink",
+                "sha256": "fc776d3c1a9559da2dbed4a20da1c9de4dcb7639912b8098df77156a24d8f01f",
+                "sha256_in_prefix": "fc776d3c1a9559da2dbed4a20da1c9de4dcb7639912b8098df77156a24d8f01f",
+                "size_in_bytes": 1161486
+            },
+            {
+                "_path": "share/yosys/nexus/dsp_map.v",
+                "path_type": "hardlink",
+                "sha256": "222ce292f3f61dd70e56ef73365735bf8e7273d810d45fcf06d2e92709c8202f",
+                "sha256_in_prefix": "222ce292f3f61dd70e56ef73365735bf8e7273d810d45fcf06d2e92709c8202f",
+                "size_in_bytes": 1671
+            },
+            {
+                "_path": "share/yosys/nexus/latches_map.v",
+                "path_type": "hardlink",
+                "sha256": "57937005a20c2faf1e3a5843694254b3c5be82045e3e33ec0ed527de69d2a5aa",
+                "sha256_in_prefix": "57937005a20c2faf1e3a5843694254b3c5be82045e3e33ec0ed527de69d2a5aa",
+                "size_in_bytes": 258
+            },
+            {
+                "_path": "share/yosys/nexus/lrams.txt",
+                "path_type": "hardlink",
+                "sha256": "7a48ad31266fcad1a1d640ee64a48151e7b033a76f396c2e532b5de675532c2e",
+                "sha256_in_prefix": "7a48ad31266fcad1a1d640ee64a48151e7b033a76f396c2e532b5de675532c2e",
+                "size_in_bytes": 324
+            },
+            {
+                "_path": "share/yosys/nexus/lrams_map.v",
+                "path_type": "hardlink",
+                "sha256": "e33acb1964f8e92b74d2247eeded1fd00ef15a9088a7023972b0b5e47d2058e4",
+                "sha256_in_prefix": "e33acb1964f8e92b74d2247eeded1fd00ef15a9088a7023972b0b5e47d2058e4",
+                "size_in_bytes": 8557
+            },
+            {
+                "_path": "share/yosys/nexus/lutrams.txt",
+                "path_type": "hardlink",
+                "sha256": "d67678115d2b08b3353475a276d6e92af0e6d94d7c509eaba6303d8a32ba2790",
+                "sha256_in_prefix": "d67678115d2b08b3353475a276d6e92af0e6d94d7c509eaba6303d8a32ba2790",
+                "size_in_bytes": 148
+            },
+            {
+                "_path": "share/yosys/nexus/lutrams_map.v",
+                "path_type": "hardlink",
+                "sha256": "cd3162c0ae587a88623b7923574e12de1d9d25da522a93882caa5f8491963463",
+                "sha256_in_prefix": "cd3162c0ae587a88623b7923574e12de1d9d25da522a93882caa5f8491963463",
+                "size_in_bytes": 428
+            },
+            {
+                "_path": "share/yosys/nexus/parse_init.vh",
+                "path_type": "hardlink",
+                "sha256": "59e7aff484d693c244a1aa2f21ddfa318c3fbd72e6b19be967d539f63142ee7e",
+                "sha256_in_prefix": "59e7aff484d693c244a1aa2f21ddfa318c3fbd72e6b19be967d539f63142ee7e",
+                "size_in_bytes": 855
+            },
+            {
+                "_path": "share/yosys/pmux2mux.v",
+                "path_type": "hardlink",
+                "sha256": "3fb31c0ed479d45648b97e674a57a35e4b76133ec8d67398d8907179a4f92fbf",
+                "sha256_in_prefix": "3fb31c0ed479d45648b97e674a57a35e4b76133ec8d67398d8907179a4f92fbf",
+                "size_in_bytes": 342
+            },
+            {
+                "_path": "share/yosys/python3/__pycache__/smtio.cpython-37.pyc",
+                "path_type": "hardlink",
+                "sha256": "ddf10daba5fb9682de7b473dbaa309a100eb63ac5a7d66c9c8dda02c865ba327",
+                "sha256_in_prefix": "ddf10daba5fb9682de7b473dbaa309a100eb63ac5a7d66c9c8dda02c865ba327",
+                "size_in_bytes": 33363
+            },
+            {
+                "_path": "share/yosys/python3/__pycache__/ywio.cpython-37.pyc",
+                "path_type": "hardlink",
+                "sha256": "e4e38ff3fc6de995f5af369d7701f4465ab7b95ea767594d63542b35181dfac3",
+                "sha256_in_prefix": "e4e38ff3fc6de995f5af369d7701f4465ab7b95ea767594d63542b35181dfac3",
+                "size_in_bytes": 12633
+            },
+            {
+                "_path": "share/yosys/python3/smtio.py",
+                "path_type": "hardlink",
+                "sha256": "33a64d7b052cc092ccf52babba81bd0daeff2f9800e8c307a470af26822d6a38",
+                "sha256_in_prefix": "33a64d7b052cc092ccf52babba81bd0daeff2f9800e8c307a470af26822d6a38",
+                "size_in_bytes": 44820
+            },
+            {
+                "_path": "share/yosys/python3/ywio.py",
+                "path_type": "hardlink",
+                "sha256": "1756a9b5aa7dd4a457bc2e118dffa561c6da950edeb6134c082198eb51b77bff",
+                "sha256_in_prefix": "1756a9b5aa7dd4a457bc2e118dffa561c6da950edeb6134c082198eb51b77bff",
+                "size_in_bytes": 11200
+            },
+            {
+                "_path": "share/yosys/quicklogic/abc9_map.v",
+                "path_type": "hardlink",
+                "sha256": "c11cd7c83ef44439227f6cad120bcbdab98f53b9ab3662120c1ef56207e71f1c",
+                "sha256_in_prefix": "c11cd7c83ef44439227f6cad120bcbdab98f53b9ab3662120c1ef56207e71f1c",
+                "size_in_bytes": 771
+            },
+            {
+                "_path": "share/yosys/quicklogic/abc9_model.v",
+                "path_type": "hardlink",
+                "sha256": "17413894e3fd5a4385f5d64f5a3cb960d186aa8145828339c756375962dd920b",
+                "sha256_in_prefix": "17413894e3fd5a4385f5d64f5a3cb960d186aa8145828339c756375962dd920b",
+                "size_in_bytes": 197
+            },
+            {
+                "_path": "share/yosys/quicklogic/abc9_unmap.v",
+                "path_type": "hardlink",
+                "sha256": "c0d4c545f41920a6e9a2d443868fd71bfabe5171a2654514b10cd4a7fe21b46d",
+                "sha256_in_prefix": "c0d4c545f41920a6e9a2d443868fd71bfabe5171a2654514b10cd4a7fe21b46d",
+                "size_in_bytes": 384
+            },
+            {
+                "_path": "share/yosys/quicklogic/cells_sim.v",
+                "path_type": "hardlink",
+                "sha256": "5e355446bcff9207f69f7d8cabd28a51701b98a26c6b3a92f3b3e2ce70bbe44c",
+                "sha256_in_prefix": "5e355446bcff9207f69f7d8cabd28a51701b98a26c6b3a92f3b3e2ce70bbe44c",
+                "size_in_bytes": 366
+            },
+            {
+                "_path": "share/yosys/quicklogic/lut_sim.v",
+                "path_type": "hardlink",
+                "sha256": "7cb4c92eb59af75830e947c295ead2a25ed9f5994e81f2971b7d8adbecf65915",
+                "sha256_in_prefix": "7cb4c92eb59af75830e947c295ead2a25ed9f5994e81f2971b7d8adbecf65915",
+                "size_in_bytes": 1862
+            },
+            {
+                "_path": "share/yosys/quicklogic/pp3_cells_map.v",
+                "path_type": "hardlink",
+                "sha256": "21c27662dbe19e969bb00a83c484feb6819270ffae7998daacceaca1e401fc8c",
+                "sha256_in_prefix": "21c27662dbe19e969bb00a83c484feb6819270ffae7998daacceaca1e401fc8c",
+                "size_in_bytes": 499
+            },
+            {
+                "_path": "share/yosys/quicklogic/pp3_cells_sim.v",
+                "path_type": "hardlink",
+                "sha256": "f44f7421ee2c963f3be820fd5f90c6de5082e82cdf1152e9eee00388f6935445",
+                "sha256_in_prefix": "f44f7421ee2c963f3be820fd5f90c6de5082e82cdf1152e9eee00388f6935445",
+                "size_in_bytes": 6064
+            },
+            {
+                "_path": "share/yosys/quicklogic/pp3_ffs_map.v",
+                "path_type": "hardlink",
+                "sha256": "b338b851f6b3571c80ba50d74db2a9a189ac6f9b5bc8273975498edcf3dbb0a6",
+                "sha256_in_prefix": "b338b851f6b3571c80ba50d74db2a9a189ac6f9b5bc8273975498edcf3dbb0a6",
+                "size_in_bytes": 194
+            },
+            {
+                "_path": "share/yosys/quicklogic/pp3_latches_map.v",
+                "path_type": "hardlink",
+                "sha256": "52b1b3465c30213c00ee63255e11e50c53e2c17a293ba29d775e02e1f92a8189",
+                "sha256_in_prefix": "52b1b3465c30213c00ee63255e11e50c53e2c17a293ba29d775e02e1f92a8189",
+                "size_in_bytes": 258
+            },
+            {
+                "_path": "share/yosys/quicklogic/pp3_lut_map.v",
+                "path_type": "hardlink",
+                "sha256": "0668a3312e04a9540f3f604fa36ce0292b4a3cf8512d37f991b700b46299115b",
+                "sha256_in_prefix": "0668a3312e04a9540f3f604fa36ce0292b4a3cf8512d37f991b700b46299115b",
+                "size_in_bytes": 928
+            },
+            {
+                "_path": "share/yosys/sf2/arith_map.v",
+                "path_type": "hardlink",
+                "sha256": "f16e6b9c13d4452a802c5d85a683024c37cb9d2141a35b5ed7e722830740b452",
+                "sha256_in_prefix": "f16e6b9c13d4452a802c5d85a683024c37cb9d2141a35b5ed7e722830740b452",
+                "size_in_bytes": 1942
+            },
+            {
+                "_path": "share/yosys/sf2/cells_map.v",
+                "path_type": "hardlink",
+                "sha256": "7abdef63be659627e9c8a36f27b9596affff97909ba001a9f4ef225713a0a685",
+                "sha256_in_prefix": "7abdef63be659627e9c8a36f27b9596affff97909ba001a9f4ef225713a0a685",
+                "size_in_bytes": 1745
+            },
+            {
+                "_path": "share/yosys/sf2/cells_sim.v",
+                "path_type": "hardlink",
+                "sha256": "244b67dacb1a726905d63f8b3b6c3f24dc72513a02983cf42256541586ae7b75",
+                "sha256_in_prefix": "244b67dacb1a726905d63f8b3b6c3f24dc72513a02983cf42256541586ae7b75",
+                "size_in_bytes": 8449
+            },
+            {
+                "_path": "share/yosys/simcells.v",
+                "path_type": "hardlink",
+                "sha256": "d9f51c586c0718ff828ba7740d4e7be3de764bef2c546f0bc52d65594ba90344",
+                "sha256_in_prefix": "d9f51c586c0718ff828ba7740d4e7be3de764bef2c546f0bc52d65594ba90344",
+                "size_in_bytes": 87795
+            },
+            {
+                "_path": "share/yosys/simlib.v",
+                "path_type": "hardlink",
+                "sha256": "24bc970d8ebf6b0afec4da98202565badeadf3e89360f4715cf0b3cba4dbda3b",
+                "sha256_in_prefix": "24bc970d8ebf6b0afec4da98202565badeadf3e89360f4715cf0b3cba4dbda3b",
+                "size_in_bytes": 63359
+            },
+            {
+                "_path": "share/yosys/smtmap.v",
+                "path_type": "hardlink",
+                "sha256": "0eaab0c3a5324dcc30d0503cc3a571f5d4fb13fea6fbc18151efb294ff799cac",
+                "sha256_in_prefix": "0eaab0c3a5324dcc30d0503cc3a571f5d4fb13fea6fbc18151efb294ff799cac",
+                "size_in_bytes": 654
+            },
+            {
+                "_path": "share/yosys/techmap.v",
+                "path_type": "hardlink",
+                "sha256": "3f01d280a3104cd2f42ca8664f6bf3555b17c6a4485a7eee271a9caa13bd7e1d",
+                "sha256_in_prefix": "3f01d280a3104cd2f42ca8664f6bf3555b17c6a4485a7eee271a9caa13bd7e1d",
+                "size_in_bytes": 16929
+            },
+            {
+                "_path": "share/yosys/xilinx/abc9_model.v",
+                "path_type": "hardlink",
+                "sha256": "dc0e139669a32c2436cec6c7e49b716415bd0cdcb0d8d29f3ac4293a991cfa6c",
+                "sha256_in_prefix": "dc0e139669a32c2436cec6c7e49b716415bd0cdcb0d8d29f3ac4293a991cfa6c",
+                "size_in_bytes": 1497
+            },
+            {
+                "_path": "share/yosys/xilinx/arith_map.v",
+                "path_type": "hardlink",
+                "sha256": "20324a11d4ac4165b07a1a2204123a351a601385fd0d6a0dee92ab069e8a5279",
+                "sha256_in_prefix": "20324a11d4ac4165b07a1a2204123a351a601385fd0d6a0dee92ab069e8a5279",
+                "size_in_bytes": 4593
+            },
+            {
+                "_path": "share/yosys/xilinx/brams_defs.vh",
+                "path_type": "hardlink",
+                "sha256": "6060e135ee7cc4a391d06547f0c6f37bf6da55878cc58be89165078526b04a55",
+                "sha256_in_prefix": "6060e135ee7cc4a391d06547f0c6f37bf6da55878cc58be89165078526b04a55",
+                "size_in_bytes": 15515
+            },
+            {
+                "_path": "share/yosys/xilinx/brams_xc2v.txt",
+                "path_type": "hardlink",
+                "sha256": "abf9e8aea3c3c5935e16114574e77c3d2d0b63a9d709b2d400f031bb5eb1b67d",
+                "sha256_in_prefix": "abf9e8aea3c3c5935e16114574e77c3d2d0b63a9d709b2d400f031bb5eb1b67d",
+                "size_in_bytes": 665
+            },
+            {
+                "_path": "share/yosys/xilinx/brams_xc2v_map.v",
+                "path_type": "hardlink",
+                "sha256": "21b9df7ef7e879d803ef5aa15a63dca8d2c6c9a4fc6a0120940050ba54d709f1",
+                "sha256_in_prefix": "21b9df7ef7e879d803ef5aa15a63dca8d2c6c9a4fc6a0120940050ba54d709f1",
+                "size_in_bytes": 11752
+            },
+            {
+                "_path": "share/yosys/xilinx/brams_xc3sda.txt",
+                "path_type": "hardlink",
+                "sha256": "28b303dade5811f5394ebd320e18650f1d5da6d77dc97c0895f8d3b36d8bd426",
+                "sha256_in_prefix": "28b303dade5811f5394ebd320e18650f1d5da6d77dc97c0895f8d3b36d8bd426",
+                "size_in_bytes": 2357
+            },
+            {
+                "_path": "share/yosys/xilinx/brams_xc3sda_map.v",
+                "path_type": "hardlink",
+                "sha256": "c9780d27aac8d2b749b6d06de8583b2b0bd276f109c1a3dfad0b87349445399a",
+                "sha256_in_prefix": "c9780d27aac8d2b749b6d06de8583b2b0bd276f109c1a3dfad0b87349445399a",
+                "size_in_bytes": 5591
+            },
+            {
+                "_path": "share/yosys/xilinx/brams_xc4v.txt",
+                "path_type": "hardlink",
+                "sha256": "13e895e452af7e34161aa7572f4e11ab81d787fc1b9b85d10c713f03554b85f2",
+                "sha256_in_prefix": "13e895e452af7e34161aa7572f4e11ab81d787fc1b9b85d10c713f03554b85f2",
+                "size_in_bytes": 3268
+            },
+            {
+                "_path": "share/yosys/xilinx/brams_xc4v_map.v",
+                "path_type": "hardlink",
+                "sha256": "ca785c3de3c76b7b1f4e8b9cc8a28ad27e001836ca2d67dd0479e8e8c2eb34a0",
+                "sha256_in_prefix": "ca785c3de3c76b7b1f4e8b9cc8a28ad27e001836ca2d67dd0479e8e8c2eb34a0",
+                "size_in_bytes": 3501
+            },
+            {
+                "_path": "share/yosys/xilinx/brams_xc5v_map.v",
+                "path_type": "hardlink",
+                "sha256": "c99f911c73df5a7115fb4298f6a8094f622845cf5238186dce42827a9db88c49",
+                "sha256_in_prefix": "c99f911c73df5a7115fb4298f6a8094f622845cf5238186dce42827a9db88c49",
+                "size_in_bytes": 5590
+            },
+            {
+                "_path": "share/yosys/xilinx/brams_xc6v_map.v",
+                "path_type": "hardlink",
+                "sha256": "678908f431dd3304aa41f2d1cb87ed6958c20adff848a0b3a6ea8903e59a1008",
+                "sha256_in_prefix": "678908f431dd3304aa41f2d1cb87ed6958c20adff848a0b3a6ea8903e59a1008",
+                "size_in_bytes": 7211
+            },
+            {
+                "_path": "share/yosys/xilinx/brams_xcu_map.v",
+                "path_type": "hardlink",
+                "sha256": "8b8d9987d057e1128402f492d66d7f1a1e3a858667029a6b3720894514dd1d24",
+                "sha256_in_prefix": "8b8d9987d057e1128402f492d66d7f1a1e3a858667029a6b3720894514dd1d24",
+                "size_in_bytes": 5949
+            },
+            {
+                "_path": "share/yosys/xilinx/brams_xcv.txt",
+                "path_type": "hardlink",
+                "sha256": "3b9ef4d87cd29044d0f6de58a3f2f820fa8472a0618f49cba1d1531644e4af3a",
+                "sha256_in_prefix": "3b9ef4d87cd29044d0f6de58a3f2f820fa8472a0618f49cba1d1531644e4af3a",
+                "size_in_bytes": 302
+            },
+            {
+                "_path": "share/yosys/xilinx/brams_xcv_map.v",
+                "path_type": "hardlink",
+                "sha256": "f7a79f9452fe34079dbe7b79228e905e0e71aba81699e06b09442ae28a2e5363",
+                "sha256_in_prefix": "f7a79f9452fe34079dbe7b79228e905e0e71aba81699e06b09442ae28a2e5363",
+                "size_in_bytes": 5210
+            },
+            {
+                "_path": "share/yosys/xilinx/cells_map.v",
+                "path_type": "hardlink",
+                "sha256": "93c15f9b06804e4b92d813cd07434cb9b3e01a971bedd5771a4399035e541ff3",
+                "sha256_in_prefix": "93c15f9b06804e4b92d813cd07434cb9b3e01a971bedd5771a4399035e541ff3",
+                "size_in_bytes": 16017
+            },
+            {
+                "_path": "share/yosys/xilinx/cells_sim.v",
+                "path_type": "hardlink",
+                "sha256": "10f8afc61bf708949ebf238294327dce95eaa68919bb0ab5938d40f24e39d15e",
+                "sha256_in_prefix": "10f8afc61bf708949ebf238294327dce95eaa68919bb0ab5938d40f24e39d15e",
+                "size_in_bytes": 161270
+            },
+            {
+                "_path": "share/yosys/xilinx/cells_xtra.v",
+                "path_type": "hardlink",
+                "sha256": "0ac0a7855a1ef616ce4b2c9a0687037a414cc82dc74dedd4e215b02ecf62642d",
+                "sha256_in_prefix": "0ac0a7855a1ef616ce4b2c9a0687037a414cc82dc74dedd4e215b02ecf62642d",
+                "size_in_bytes": 1375136
+            },
+            {
+                "_path": "share/yosys/xilinx/ff_map.v",
+                "path_type": "hardlink",
+                "sha256": "da62eca9f5bc7d8c0dbe24ffb2b8339d6c07d77a6e3660f4ae17ae1af49ccb1b",
+                "sha256_in_prefix": "da62eca9f5bc7d8c0dbe24ffb2b8339d6c07d77a6e3660f4ae17ae1af49ccb1b",
+                "size_in_bytes": 4943
+            },
+            {
+                "_path": "share/yosys/xilinx/lut_map.v",
+                "path_type": "hardlink",
+                "sha256": "7b99ff5c1b9c1705c64a7cefbf29105655dd268192ccf4cf982b2bb18380f0ac",
+                "sha256_in_prefix": "7b99ff5c1b9c1705c64a7cefbf29105655dd268192ccf4cf982b2bb18380f0ac",
+                "size_in_bytes": 3503
+            },
+            {
+                "_path": "share/yosys/xilinx/lutrams_xc5v.txt",
+                "path_type": "hardlink",
+                "sha256": "88b460c2a164059c4fb7cf89f71f7a657a993905c275e6acd8685a316d3a8ce9",
+                "sha256_in_prefix": "88b460c2a164059c4fb7cf89f71f7a657a993905c275e6acd8685a316d3a8ce9",
+                "size_in_bytes": 1364
+            },
+            {
+                "_path": "share/yosys/xilinx/lutrams_xc5v_map.v",
+                "path_type": "hardlink",
+                "sha256": "a88ef19a3318a4b45655d826bfcb80f17bd241fa4f573fca8dcd6b12c5640cff",
+                "sha256_in_prefix": "a88ef19a3318a4b45655d826bfcb80f17bd241fa4f573fca8dcd6b12c5640cff",
+                "size_in_bytes": 19522
+            },
+            {
+                "_path": "share/yosys/xilinx/lutrams_xcu.txt",
+                "path_type": "hardlink",
+                "sha256": "80aa75e6797d1f167ccde4f43322b09f528ac766133bb8a856114efc15bb6d94",
+                "sha256_in_prefix": "80aa75e6797d1f167ccde4f43322b09f528ac766133bb8a856114efc15bb6d94",
+                "size_in_bytes": 2167
+            },
+            {
+                "_path": "share/yosys/xilinx/lutrams_xcv.txt",
+                "path_type": "hardlink",
+                "sha256": "b1f1b6ab0ad11e215430003725e0121343bf3bc490a71c4fef906e405117b387",
+                "sha256_in_prefix": "b1f1b6ab0ad11e215430003725e0121343bf3bc490a71c4fef906e405117b387",
+                "size_in_bytes": 797
+            },
+            {
+                "_path": "share/yosys/xilinx/lutrams_xcv_map.v",
+                "path_type": "hardlink",
+                "sha256": "d25d077d95ae9563b44b07a15ff3653a1f16539ce4962db243cc9c47cb9dfaa8",
+                "sha256_in_prefix": "d25d077d95ae9563b44b07a15ff3653a1f16539ce4962db243cc9c47cb9dfaa8",
+                "size_in_bytes": 3209
+            },
+            {
+                "_path": "share/yosys/xilinx/mux_map.v",
+                "path_type": "hardlink",
+                "sha256": "1f19d8e13e7ca893151339322090e6995c6e077c0ef6aa4c9bebd081f681fda6",
+                "sha256_in_prefix": "1f19d8e13e7ca893151339322090e6995c6e077c0ef6aa4c9bebd081f681fda6",
+                "size_in_bytes": 2498
+            },
+            {
+                "_path": "share/yosys/xilinx/urams.txt",
+                "path_type": "hardlink",
+                "sha256": "47ad642d8260cef7bbac082ed16597be0f38437a468d213544d70319a2878314",
+                "sha256_in_prefix": "47ad642d8260cef7bbac082ed16597be0f38437a468d213544d70319a2878314",
+                "size_in_bytes": 617
+            },
+            {
+                "_path": "share/yosys/xilinx/urams_map.v",
+                "path_type": "hardlink",
+                "sha256": "df7fba6f6ffbeb2b617fccad04d500db93ed191eeb66d68515be242c768880b3",
+                "sha256_in_prefix": "df7fba6f6ffbeb2b617fccad04d500db93ed191eeb66d68515be242c768880b3",
+                "size_in_bytes": 3552
+            },
+            {
+                "_path": "share/yosys/xilinx/xc3s_mult_map.v",
+                "path_type": "hardlink",
+                "sha256": "b76d7ed2070d94deb321d322d527514e157bcf2485a77e06cc5b0694956c396a",
+                "sha256_in_prefix": "b76d7ed2070d94deb321d322d527514e157bcf2485a77e06cc5b0694956c396a",
+                "size_in_bytes": 266
+            },
+            {
+                "_path": "share/yosys/xilinx/xc3sda_dsp_map.v",
+                "path_type": "hardlink",
+                "sha256": "22031a499e92cf2f9009c57deea7d38c418324c120ada74f0a0eaf207f096138",
+                "sha256_in_prefix": "22031a499e92cf2f9009c57deea7d38c418324c120ada74f0a0eaf207f096138",
+                "size_in_bytes": 560
+            },
+            {
+                "_path": "share/yosys/xilinx/xc4v_dsp_map.v",
+                "path_type": "hardlink",
+                "sha256": "ed688a24c26663848684a8db7ff51feaed6563f76f8e6b6d415542e6a3fe1f54",
+                "sha256_in_prefix": "ed688a24c26663848684a8db7ff51feaed6563f76f8e6b6d415542e6a3fe1f54",
+                "size_in_bytes": 661
+            },
+            {
+                "_path": "share/yosys/xilinx/xc5v_dsp_map.v",
+                "path_type": "hardlink",
+                "sha256": "238960d11439e1f0416daffb34dbd48304b8b50d722c8b141cea7297333fc7e2",
+                "sha256_in_prefix": "238960d11439e1f0416daffb34dbd48304b8b50d722c8b141cea7297333fc7e2",
+                "size_in_bytes": 785
+            },
+            {
+                "_path": "share/yosys/xilinx/xc6s_dsp_map.v",
+                "path_type": "hardlink",
+                "sha256": "813c47a1c07e0e7e46e01a655a0ae2fed2e14fa0c83b64b45fecaee2204a6329",
+                "sha256_in_prefix": "813c47a1c07e0e7e46e01a655a0ae2fed2e14fa0c83b64b45fecaee2204a6329",
+                "size_in_bytes": 562
+            },
+            {
+                "_path": "share/yosys/xilinx/xc7_dsp_map.v",
+                "path_type": "hardlink",
+                "sha256": "cebceb7908bb98496b00cb6b6b2c6d88efc1c34d12eb3b234a34957239893c7d",
+                "sha256_in_prefix": "cebceb7908bb98496b00cb6b6b2c6d88efc1c34d12eb3b234a34957239893c7d",
+                "size_in_bytes": 884
+            },
+            {
+                "_path": "share/yosys/xilinx/xcu_dsp_map.v",
+                "path_type": "hardlink",
+                "sha256": "8330a09757a6ac719c8a05665349cfd295bb765850d3549a5b05f31c772ab7ea",
+                "sha256_in_prefix": "8330a09757a6ac719c8a05665349cfd295bb765850d3549a5b05f31c772ab7ea",
+                "size_in_bytes": 882
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "yosys",
+    "sha256": "905840ce1ed87ea3913b041cc620d55e03dc9c86bf3ce2206dd2f3f67635f108",
+    "size": 11462038,
+    "subdir": "linux-64",
+    "timestamp": 1681342060288,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/litex-hub/linux-64/yosys-0.27_33_ge56dad56c-20230412_103222_py37.tar.bz2",
+    "version": "0.27_33_ge56dad56c"
+}

@@ -1,0 +1,10 @@
+prefix=/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env
+exec_prefix=/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/bin
+libdir=/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib
+includedir=/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/include
+
+Name: LEMON
+Description: Library for Efficient Modeling and Optimization in Networks
+Version: 1.3.1
+Libs: -L${libdir} -lemon     
+Cflags: -I${includedir}

@@ -1,0 +1,11 @@
+prefix=/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: XCB RandR
+Description: XCB RandR Extension
+Version: 1.15
+Requires.private: xcb xcb-render
+Libs: -L${libdir} -lxcb-randr
+Cflags: -I${includedir}

@@ -18,7 +18,7 @@
 //	rdata_ext: Read data from Instruction Memory
 //	rdata_ext_2: Read data from Data Memory
 
-
+// mult op toevoegen 
 
 module cpu(
 		input  wire			  clk,
@@ -132,6 +132,8 @@ register_file #(
 );
 
 alu_control alu_ctrl(
+
+   // instruction[25:31] !!!!!
    .func7_5       (instruction[30]   ),
    .func3          (instruction[14:12]),
    .alu_op         (alu_op            ),

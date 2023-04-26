@@ -1,0 +1,29 @@
+current directory: /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/gems/3.1.0/gems/rbs-2.1.0/ext/rbs_extension
+/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/bin/ruby --disable\=gems -I/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/3.1.0/x86_64-linux -I /croot/ruby_1669295902971/work/lib -r ./siteconf20221124-13680-by0gy9.rb extconf.rb
+creating Makefile
+
+current directory: /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/gems/3.1.0/gems/rbs-2.1.0/ext/rbs_extension
+make DESTDIR\= clean
+make[1]: Entering directory '/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/gems/3.1.0/gems/rbs-2.1.0/ext/rbs_extension'
+make[1]: Leaving directory '/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/gems/3.1.0/gems/rbs-2.1.0/ext/rbs_extension'
+
+current directory: /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/gems/3.1.0/gems/rbs-2.1.0/ext/rbs_extension
+make DESTDIR\=
+make[1]: Entering directory '/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/gems/3.1.0/gems/rbs-2.1.0/ext/rbs_extension'
+compiling constants.c
+compiling lexer.c
+compiling lexstate.c
+compiling location.c
+compiling main.c
+compiling parser.c
+compiling parserstate.c
+compiling ruby_objs.c
+compiling unescape.c
+linking shared-object rbs_extension.so
+make[1]: Leaving directory '/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/gems/3.1.0/gems/rbs-2.1.0/ext/rbs_extension'
+
+current directory: /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/gems/3.1.0/gems/rbs-2.1.0/ext/rbs_extension
+make DESTDIR\= install
+make[1]: Entering directory '/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/gems/3.1.0/gems/rbs-2.1.0/ext/rbs_extension'
+/usr/bin/install -c -m 0755 rbs_extension.so ./.gem.20221124-13680-nzz2w4
+make[1]: Leaving directory '/users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Backend/conda-env/lib/ruby/gems/3.1.0/gems/rbs-2.1.0/ext/rbs_extension'
