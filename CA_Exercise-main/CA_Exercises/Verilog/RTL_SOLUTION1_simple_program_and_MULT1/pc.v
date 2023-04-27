@@ -16,7 +16,9 @@
 
 module pc#(
    parameter integer DATA_W = 16
-   )(
+   )( 
+
+      //input  wire [4:0]        DATA_W
       input  wire              clk,
       input  wire              arst_n,
       input  wire              enable,
