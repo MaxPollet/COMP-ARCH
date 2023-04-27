@@ -83,7 +83,7 @@ reg_arstn_en #(
 )signal_pipe_EX_MEM(
    .clk     (clk                 ),
    .arst_n  (arst_n              ),
-   .din     (instruction_ID_EX   ),
+   .din     (instruction_ID_EX),
    .en      (enable              ),
    .dout    (instruction_EX_MEM  )
 
@@ -165,7 +165,7 @@ reg_arstn_en #(
 // -----------------Pipeline van control signal branch-----------------
 reg_arstn_en #(
    .DATA_W(1)
-)signal_pipe_branc_ID_EX(
+)signal_pipe_branch_ID_EX(
    .clk     (clk                       ),
    .arst_n  (arst_n                    ),
    .din     (branch                    ),
@@ -176,7 +176,7 @@ reg_arstn_en #(
 
 reg_arstn_en #(
    .DATA_W(1)
-)signal_pipe_branc_EX_MEM(
+)signal_pipe_branch_EX_MEM(
    .clk     (clk                       ),
    .arst_n  (arst_n                    ),
    .din     (branch_ID_EX              ),
@@ -334,7 +334,7 @@ reg_arstn_en #(
 
 // -----------------Pipeline van updated pc-----------------
 reg_arstn_en #(
-   .DATA_W(32)
+   .DATA_W(64)
 )signal_pipe_updated_pc_IF_ID(
    .clk     (clk                       ),
    .arst_n  (arst_n                    ),
@@ -354,8 +354,8 @@ reg_arstn_en #(
 );
 
 reg_arstn_en #(
-   .DATA_W(1)
-)signal_pipe_branc_pc_EX_MEM(
+   .DATA_W(64)
+)signal_pipe_branch_pc_EX_MEM(
    .clk     (clk                       ),
    .arst_n  (arst_n                    ),
    .din     (branch_pc                 ),
@@ -437,8 +437,8 @@ pc #(
 );
 
 sram_BW32 #(
-   .ADDR_W(9 ),
-   .DATA_W(32)
+   .ADDR_W(9 )
+   //.DATA_W(32)
 ) instruction_memory(
    .clk      (clk           ),
    .addr     (current_pc    ),

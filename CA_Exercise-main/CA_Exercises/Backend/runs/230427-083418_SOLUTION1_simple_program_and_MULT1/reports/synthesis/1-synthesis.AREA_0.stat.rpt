@@ -83,5 +83,5 @@
      sky130_sram_2rw_32x128_32       1
      sky130_sram_2rw_64x128_64       1
 
-   Chip area for module '\cpu': 508312.365600
+   Chip area for module '\cpu':  .365600
 
