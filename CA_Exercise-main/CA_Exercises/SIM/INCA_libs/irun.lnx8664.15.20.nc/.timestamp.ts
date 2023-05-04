@@ -12,5 +12,5 @@
 1681972396 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/mux_2.v
 1681972396 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/immediate_extend_unit.v
 1683193748 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/forward_unit.v
-1683192998 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/cpu.v
+1683194034 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/cpu.v
 1681972396 /users/students/r0757781/Documents/COMP-ARCH/CA_Exercise-main/CA_Exercises/Verilog/RTL/reg_arstn.v
