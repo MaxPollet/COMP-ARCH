@@ -50,7 +50,7 @@ wire [      63:0] regfile_wdata,mem_data, mem_data_MEM_WB, alu_out, alu_out_EX_M
                   regfile_rdata_1, regfile_rdata_1_ID_EX,regfile_rdata_2, regfile_rdata_2_ID_EX,
                   alu_operand_2;
 
-wire [      15:0] alu_in_0,mux_2_alu_input, mux_2_alu_input_EX_MEM;
+wire [      63:0] alu_in_0,mux_2_alu_input, mux_2_alu_input_EX_MEM;
 
 wire signed [63:0] immediate_extended, immediate_extended_ID_EX;
 
@@ -423,12 +423,8 @@ reg_arstn_en #(
    .dout    (regfile_rdata_2_EX_MEM    )
 );*/
 
-
-
-
-
 reg_arstn_en #(
-   .DATA_W(16)
+   .DATA_W(64)
 )signal_pipe_regfile_mux_2_alu_input_EX_MEM(
    .clk     (clk                       ),
    .arst_n  (arst_n                    ),
@@ -457,8 +453,7 @@ pc #(
 );
 
 sram_BW32 #(
-   .ADDR_W(9 )
-   //.DATA_W(32)
+   .ADDR_W(9)
 ) instruction_memory(
    .clk      (clk           ),
    .addr     (current_pc    ),
@@ -540,8 +535,8 @@ mux_3 #(
    .DATA_W(64)
 ) forward_unit_mux_1 (
    .input_a (regfile_rdata_1_ID_EX   ),
-   .input_b (regfile_wdata           ),
-   .input_c (alu_out_EX_MEM          ),
+   .input_b (alu_out_EX_MEM          ),
+   .input_c (regfile_wdata           ),
    .select_a(forward_mux_1           ),
    .mux_out (alu_in_0                )
 );
@@ -552,15 +547,11 @@ mux_3 #(
    .DATA_W(64)
 ) forward_unit_mux_2 (
    .input_a (regfile_rdata_2_ID_EX   ),
-   .input_b (regfile_wdata           ),
-   .input_c (alu_out_EX_MEM          ),
+   .input_b (alu_out_EX_MEM          ),
+   .input_c (regfile_wdata           ),
    .select_a(forward_mux_2           ),
    .mux_out (mux_2_alu_input         )
 );
-
-
-
-
 
 alu#(
    .DATA_W(64)

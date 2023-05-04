@@ -1,5 +1,5 @@
 ncverilog(64): 15.20-s058: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
-TOOL:	ncverilog	15.20-s058: Started on May 04, 2023 at 11:55:04 CEST
+TOOL:	ncverilog	15.20-s058: Started on May 04, 2023 at 20:46:14 CEST
 ncverilog
 	+sv
 	-f files_verilog.f
@@ -23,119 +23,6 @@ ncverilog
 	+nctimescale+1ns/10ps
 	+access+rwc
 	-ALLOWREDEFINITION
-file: ../Verilog/RTL/alu.v
-	module worklib.alu:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/alu_control.v
-	module worklib.alu_control:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/branch_unit.v
-	module worklib.branch_unit:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/control_unit.v
-	module worklib.control_unit:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/cpu.v
-	module worklib.cpu:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/immediate_extend_unit.v
-	module worklib.immediate_extend_unit:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/mux_2.v
-	module worklib.mux_2:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/pc.v
-	module worklib.pc:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/reg_arstn.v
-	module worklib.reg_arstn:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/reg_arstn_en.v
-	module worklib.reg_arstn_en:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/register_file.v
-	module worklib.register_file:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/sram.v
-	module worklib.sram_BW32:v
-		errors: 0, warnings: 0
-	module worklib.sram_BW64:v
-		errors: 0, warnings: 0
-file: ../Verilog/cpu_tb.v
-	module worklib.cpu_tb:v
-		errors: 0, warnings: 0
-file: ../Verilog/sky130_sram_2rw.v
-	module worklib.sky130_sram_2rw_32x128_32:v
-		errors: 0, warnings: 0
-	module worklib.sky130_sram_2rw_64x128_64:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/forward_unit.v
-	module worklib.forward_unit:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/mux_3.v
-	module worklib.mux_3:v
-		errors: 0, warnings: 0
-		Caching library 'worklib' ....... Done
-	Elaborating the design hierarchy:
-ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
-	Building instance overlay tables: .................... Done
-	Generating native compiled code:
-		worklib.alu:v <0x03b5f839>
-			streams:   6, words:  5204
-		worklib.alu_control:v <0x10469707>
-			streams:   3, words:   969
-		worklib.branch_unit:v <0x7b2dad56>
-			streams:   1, words:   490
-		worklib.control_unit:v <0x5182b77c>
-			streams:   1, words:  6575
-		worklib.cpu:v <0x4c29e44d>
-			streams:  12, words:  1664
-		worklib.cpu_tb:v <0x0ea0947a>
-			streams:  27, words: 53827
-		worklib.forward_unit:v <0x6d661d40>
-			streams:   1, words:  1381
-		worklib.immediate_extend_unit:v <0x013d814d>
-			streams:   2, words:  3075
-		worklib.mux_2:v <0x69a21794>
-			streams:   1, words:   432
-		worklib.mux_3:v <0x4c4d745f>
-			streams:   1, words:   649
-		worklib.pc:v <0x35693a5f>
-			streams:   5, words:  1517
-		worklib.reg_arstn:v <0x3ac60968>
-			streams:   3, words:   647
-		worklib.reg_arstn_en:v <0x215cd82c>
-			streams:   3, words:  1033
-		worklib.reg_arstn_en:v <0x34c87254>
-			streams:   3, words:   802
-		worklib.reg_arstn_en:v <0x4bbdb83a>
-			streams:   3, words:   787
-		worklib.reg_arstn_en:v <0x52586a06>
-			streams:   3, words:   774
-		worklib.register_file:v <0x70ad54fe>
-			streams:   5, words: 28543
-		worklib.sky130_sram_2rw_32x128_32:v <0x267a8811>
-			streams:   6, words:  3376
-		worklib.sky130_sram_2rw_64x128_64:v <0x534a7e48>
-			streams:   6, words:  4723
-		worklib.sram_BW32:v <0x157955a7>
-			streams:  10, words:  4691
-		worklib.sram_BW64:v <0x283d3d6f>
-			streams:  10, words:  4841
-	Building instance specific data structures.
-	Loading native compiled code:     .................... Done
-	Design hierarchy summary:
-		                  Instances  Unique
-		Modules:                 54      18
-		Registers:              174     106
-		Scalar wires:            49       -
-		Vectored wires:          71       -
-		Always blocks:          109      41
-		Initial blocks:           3       3
-		Cont. assignments:        2       5
-		Pseudo assignments:      40      40
-		Simulation timescale:  10ps
-	Writing initial simulation snapshot: worklib.reg_arstn:v
 Loading snapshot worklib.reg_arstn:v .................... Done
 ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
 ncsim> source /esat/micas-data/software/Cadence/incisiv_15.20.058/tools/inca/files/ncsimrc
@@ -182,4 +69,4 @@ Debug info, reg_array[         31]: 0000000000000000
 Simulation complete via $finish(1) at time 30950 NS + 8
 ../Verilog/cpu_tb.v:324    $finish;
 ncsim> exit
-TOOL:	ncverilog	15.20-s058: Exiting on May 04, 2023 at 11:55:05 CEST  (total: 00:00:01)
+TOOL:	ncverilog	15.20-s058: Exiting on May 04, 2023 at 20:46:16 CEST  (total: 00:00:02)

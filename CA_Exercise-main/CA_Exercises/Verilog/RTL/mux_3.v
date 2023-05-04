@@ -10,10 +10,10 @@ module mux_3
     );
 
     always@(*)begin
-        if(select_a == 2'b01) begin
+        if(select_a == 2'b00) begin
             mux_out = input_a;
         end
-        if(select_a == 2'b00 ) begin
+        if(select_a == 2'b10) begin
             mux_out = input_b;
 
         end else begin
