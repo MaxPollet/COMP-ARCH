@@ -1,5 +1,5 @@
 ncverilog(64): 15.20-s058: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
-TOOL:	ncverilog	15.20-s058: Started on Apr 27, 2023 at 13:23:07 CEST
+TOOL:	ncverilog	15.20-s058: Started on May 04, 2023 at 10:28:48 CEST
 ncverilog
 	+sv
 	-f files_verilog.f
@@ -17,111 +17,111 @@ ncverilog
 		../Verilog/RTL/sram.v
 		../Verilog/cpu_tb.v
 		../Verilog/sky130_sram_2rw.v
+		../Verilog/RTL/forward_unit.v
+		../Verilog/RTL/mux_3.v
 	+nc64bit
 	+nctimescale+1ns/10ps
 	+access+rwc
 	-ALLOWREDEFINITION
-file: ../Verilog/RTL/alu.v
-	module worklib.alu:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/alu_control.v
-	module worklib.alu_control:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/branch_unit.v
-	module worklib.branch_unit:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/control_unit.v
-	module worklib.control_unit:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/cpu.v
-	module worklib.cpu:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/immediate_extend_unit.v
-	module worklib.immediate_extend_unit:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/mux_2.v
-	module worklib.mux_2:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/pc.v
-	module worklib.pc:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/reg_arstn.v
-	module worklib.reg_arstn:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/reg_arstn_en.v
-	module worklib.reg_arstn_en:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/register_file.v
-	module worklib.register_file:v
-		errors: 0, warnings: 0
-file: ../Verilog/RTL/sram.v
-	module worklib.sram_BW32:v
-		errors: 0, warnings: 0
-	module worklib.sram_BW64:v
-		errors: 0, warnings: 0
-file: ../Verilog/cpu_tb.v
-	module worklib.cpu_tb:v
-		errors: 0, warnings: 0
-file: ../Verilog/sky130_sram_2rw.v
-	module worklib.sky130_sram_2rw_32x128_32:v
-		errors: 0, warnings: 0
-	module worklib.sky130_sram_2rw_64x128_64:v
+file: ../Verilog/RTL/forward_unit.v
+	module worklib.forward_unit:v
 		errors: 0, warnings: 0
 		Caching library 'worklib' ....... Done
 	Elaborating the design hierarchy:
+forward_unit forward_unit(
+                        |
+ncelab: *W,CUVWSI (../Verilog/RTL/cpu.v,594|24): 1 input port was not connected:
+ncelab: (../Verilog/RTL/forward_unit.v,2): clk
+
 ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+   .wdata    (mux_2_alu_input_EX_MEM),
+                                   |
+ncelab: *W,CUVMPW (../Verilog/RTL/cpu.v,483|35): port sizes differ in port connection (16/64).
+   .input_b (mux_2_alu_input         ),
+                           |
+ncelab: *W,CUVMPW (../Verilog/RTL/cpu.v,533|27): port sizes differ in port connection (16/64).
+   .mux_out (alu_in_0                )
+                    |
+ncelab: *W,CUVMPW (../Verilog/RTL/cpu.v,546|20): port sizes differ in port connection (16/64).
+   .mux_out (mux_2_alu_input         )
+                           |
+ncelab: *W,CUVMPW (../Verilog/RTL/cpu.v,558|27): port sizes differ in port connection (16/64).
+   .alu_in_0 (alu_in_0              ),
+                     |
+ncelab: *W,CUVMPW (../Verilog/RTL/cpu.v,568|21): port sizes differ in port connection (16/64).
+	.RS1                 (instruction_ID_EX[19:15]),
+	                                      |
+ncelab: *W,CUVMPW (../Verilog/RTL/cpu.v,598|39): port sizes differ in port connection (5/16).
+   .RS2                 (instruction_ID_EX[24:20]),
+                                         |
+ncelab: *W,CUVMPW (../Verilog/RTL/cpu.v,599|41): port sizes differ in port connection (5/16).
+   .RegisterRD_EX_MEM   (instruction_EX_MEM[11:7]),
+                                          |
+ncelab: *W,CUVMPW (../Verilog/RTL/cpu.v,600|42): port sizes differ in port connection (5/16).
+   .RegisterRD_MEM_WB   (instruction_MEM_WB[11:7]),	
+                                          |
+ncelab: *W,CUVMPW (../Verilog/RTL/cpu.v,601|42): port sizes differ in port connection (5/16).
 	Building instance overlay tables: .................... Done
 	Generating native compiled code:
-		worklib.alu:v <0x03b5f839>
-			streams:   6, words:  5204
+		worklib.alu:v <0x13cf5fd5>
+			streams:   6, words:  5230
 		worklib.alu_control:v <0x10469707>
 			streams:   3, words:   969
 		worklib.branch_unit:v <0x7b2dad56>
 			streams:   1, words:   490
 		worklib.control_unit:v <0x5182b77c>
 			streams:   1, words:  6575
-		worklib.cpu:v <0x712821a6>
-			streams:   9, words:  1198
-		worklib.cpu_tb:v <0x2d6d43e2>
+		worklib.cpu:v <0x03341adb>
+			streams:  12, words:  1720
+		worklib.cpu_tb:v <0x434ae738>
 			streams:  27, words: 53827
+		worklib.forward_unit:v <0x3f85b1d1>
+			streams:   1, words:  1258
 		worklib.immediate_extend_unit:v <0x013d814d>
 			streams:   2, words:  3075
+		worklib.mux_2:v <0x686ac255>
+			streams:   1, words:   550
 		worklib.mux_2:v <0x69a21794>
 			streams:   1, words:   432
+		worklib.mux_3:v <0x25818852>
+			streams:   1, words:  1437
 		worklib.pc:v <0x35693a5f>
 			streams:   5, words:  1517
 		worklib.reg_arstn:v <0x3ac60968>
 			streams:   3, words:   647
 		worklib.reg_arstn_en:v <0x215cd82c>
 			streams:   3, words:  1033
+		worklib.reg_arstn_en:v <0x2f94c0d3>
+			streams:   3, words:   998
 		worklib.reg_arstn_en:v <0x34c87254>
 			streams:   3, words:   802
 		worklib.reg_arstn_en:v <0x4bbdb83a>
 			streams:   3, words:   787
 		worklib.reg_arstn_en:v <0x52586a06>
 			streams:   3, words:   774
-		worklib.register_file:v <0x30099580>
-			streams:   5, words: 28015
+		worklib.register_file:v <0x70ad54fe>
+			streams:   5, words: 28543
 		worklib.sky130_sram_2rw_32x128_32:v <0x267a8811>
 			streams:   6, words:  3376
-		worklib.sky130_sram_2rw_64x128_64:v <0x534a7e48>
-			streams:   6, words:  4723
+		worklib.sky130_sram_2rw_64x128_64:v <0x3ed37c52>
+			streams:   6, words:  4881
 		worklib.sram_BW32:v <0x157955a7>
 			streams:  10, words:  4691
-		worklib.sram_BW64:v <0x283d3d6f>
+		worklib.sram_BW64:v <0x4707ea2a>
 			streams:  10, words:  4841
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
 		                  Instances  Unique
-		Modules:                 51      16
-		Registers:              170     103
-		Scalar wires:            49       -
-		Vectored wires:          63       -
-		Always blocks:          106      39
+		Modules:                 54      18
+		Registers:              174     106
+		Scalar wires:           194       -
+		Expanded wires:         144       3
+		Vectored wires:          68       -
+		Always blocks:          109      41
 		Initial blocks:           3       3
 		Cont. assignments:        2       5
-		Pseudo assignments:      37      37
+		Pseudo assignments:      40      40
 		Simulation timescale:  10ps
 	Writing initial simulation snapshot: worklib.reg_arstn:v
 Loading snapshot worklib.reg_arstn:v .................... Done
@@ -131,11 +131,43 @@ ncsim> run
 
 Start Execution
 
-[1;34m
-Mult2 Working Correctly
+[1;31m
+Error in Mult2 function
 [0m
+Debug info, reg_array[          0]: 0000000000000000
+Debug info, reg_array[          1]: 0000000000000000
+Debug info, reg_array[          2]: 0000000000000000
+Debug info, reg_array[          3]: 0000000000000000
+Debug info, reg_array[          4]: 0000000000000000
+Debug info, reg_array[          5]: 0000000000000000
+Debug info, reg_array[          6]: 0000000000000000
+Debug info, reg_array[          7]: 0000000000000000
+Debug info, reg_array[          8]: xxxxxxxxxxxxxxxx
+Debug info, reg_array[          9]: xxxxxxxxxxxxxxxx
+Debug info, reg_array[         10]: xxxxxxxxxxxxxxxx
+Debug info, reg_array[         11]: xxxxxxxxxxxxxxxx
+Debug info, reg_array[         12]: xxxxxxxxxxxxxxxx
+Debug info, reg_array[         13]: xxxxxxxxxxxxxxxx
+Debug info, reg_array[         14]: xxxxxxxxxxxxxxxx
+Debug info, reg_array[         15]: xxxxxxxxxxxxxxxx
+Debug info, reg_array[         16]: xxxxxxxxxxxxxxxx
+Debug info, reg_array[         17]: xxxxxxxxxxxxxxxx
+Debug info, reg_array[         18]: xxxxxxxxxxxxxxxx
+Debug info, reg_array[         19]: xxxxxxxxxxxxxxxx
+Debug info, reg_array[         20]: xxxxxxxxxxxxxxxx
+Debug info, reg_array[         21]: xxxxxxxxxxxxxxxx
+Debug info, reg_array[         22]: xxxxxxxxxxxxxxxx
+Debug info, reg_array[         23]: xxxxxxxxxxxxxxxx
+Debug info, reg_array[         24]: 0000000000000000
+Debug info, reg_array[         25]: 0000000000000000
+Debug info, reg_array[         26]: 0000000000000000
+Debug info, reg_array[         27]: 0000000000000000
+Debug info, reg_array[         28]: 0000000000000000
+Debug info, reg_array[         29]: 0000000000000000
+Debug info, reg_array[         30]: 0000000000000000
+Debug info, reg_array[         31]: 0000000000000000
          40 cycles
 Simulation complete via $finish(1) at time 32450 NS + 8
 ../Verilog/cpu_tb.v:324    $finish;
 ncsim> exit
-TOOL:	ncverilog	15.20-s058: Exiting on Apr 27, 2023 at 13:23:08 CEST  (total: 00:00:01)
+TOOL:	ncverilog	15.20-s058: Exiting on May 04, 2023 at 10:28:50 CEST  (total: 00:00:02)

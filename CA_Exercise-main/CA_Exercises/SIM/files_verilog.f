@@ -12,4 +12,5 @@
 ../Verilog/RTL/sram.v
 ../Verilog/cpu_tb.v
 ../Verilog/sky130_sram_2rw.v
-
+../Verilog/RTL/forward_unit.v
+../Verilog/RTL/mux_3.v
