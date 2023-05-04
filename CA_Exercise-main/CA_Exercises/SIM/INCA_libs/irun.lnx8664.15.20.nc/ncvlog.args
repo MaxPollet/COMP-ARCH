@@ -23,7 +23,6 @@
 ../Verilog/RTL/forward_unit.v
 ../Verilog/RTL/mux_3.v
 -ALLOWREDEFINITION
--LINEDEBUG
 -CDSLIB
 ./INCA_libs/irun.lnx8664.15.20.nc/cdsrun.lib
 -HDLVAR

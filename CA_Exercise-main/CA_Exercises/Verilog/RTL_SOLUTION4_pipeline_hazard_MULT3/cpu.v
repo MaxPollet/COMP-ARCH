@@ -48,9 +48,9 @@ wire              reg_dst,branch, branch_ID_EX, branch_EX_MEM, mem_read, mem_rea
 wire [       4:0] regfile_waddr;
 wire [      63:0] regfile_wdata,mem_data, mem_data_MEM_WB, alu_out, alu_out_EX_MEM, alu_out_MEM_WB,
                   regfile_rdata_1, regfile_rdata_1_ID_EX,regfile_rdata_2, regfile_rdata_2_ID_EX,
-                  alu_operand_2;
+                  alu_operand_1, alu_operand_2;
 
-wire [      63:0] alu_in_0,mux_2_alu_input, mux_2_alu_input_EX_MEM;
+wire [      63:0] mux_2_alu_input, mux_2_alu_input_EX_MEM;
 
 wire signed [63:0] immediate_extended, immediate_extended_ID_EX;
 
@@ -411,8 +411,6 @@ reg_arstn_en #(
    .dout    (regfile_rdata_2_ID_EX     )
 );
 
-
-/*
 reg_arstn_en #(
    .DATA_W(64)
 )signal_pipe_regfile_rdata2_EX_MEM(
@@ -421,19 +419,7 @@ reg_arstn_en #(
    .din     (regfile_rdata_2_ID_EX     ),
    .en      (enable                    ),
    .dout    (regfile_rdata_2_EX_MEM    )
-);*/
-
-reg_arstn_en #(
-   .DATA_W(64)
-)signal_pipe_regfile_mux_2_alu_input_EX_MEM(
-   .clk     (clk                       ),
-   .arst_n  (arst_n                    ),
-   .din     (mux_2_alu_input           ),
-   .en      (enable                    ),
-   .dout    (mux_2_alu_input_EX_MEM    )
 );
-
-
 
 // ----------------- EINDE PIPELINE REGISTERS-----------------
 
@@ -453,7 +439,8 @@ pc #(
 );
 
 sram_BW32 #(
-   .ADDR_W(9)
+   .ADDR_W(9 )
+   //.DATA_W(32)
 ) instruction_memory(
    .clk      (clk           ),
    .addr     (current_pc    ),
@@ -475,7 +462,7 @@ sram_BW64 #(
    .addr     (alu_out_EX_MEM ),
    .wen      (mem_write_EX_MEM),
    .ren      (mem_read_EX_MEM),
-   .wdata    (mux_2_alu_input_EX_MEM),
+   .wdata    (mux_2_alu_input_EX_MEM), // mogelijks fout was vroeger : regfile_rdata_2_EX_MEM
    .rdata    (mem_data       ),   
    .addr_ext (addr_ext_2     ),
    .wen_ext  (wen_ext_2      ),
@@ -520,7 +507,6 @@ alu_control alu_ctrl(
    .alu_control   (alu_control             )
 );
 
-
 mux_2 #(
    .DATA_W(64)
 ) alu_operand_mux (
@@ -538,7 +524,7 @@ mux_3 #(
    .input_b (alu_out_EX_MEM          ),
    .input_c (regfile_wdata           ),
    .select_a(forward_mux_1           ),
-   .mux_out (alu_in_0                )
+   .mux_out (alu_operand_1           )
 );
 
 
@@ -553,10 +539,16 @@ mux_3 #(
    .mux_out (mux_2_alu_input         )
 );
 
+
+
+
+
+
+
 alu#(
    .DATA_W(64)
 ) alu(
-   .alu_in_0 (alu_in_0              ),
+   .alu_in_0 (alu_operand_1         ),
    .alu_in_1 (alu_operand_2         ),
    .alu_ctrl (alu_control           ),
    .alu_out  (alu_out               ),
@@ -582,6 +574,7 @@ branch_unit#(
    .jump_pc            (jump_pc                 )
 );
 
+
 forward_unit forward_unit(
 
    .reg_write_EX_MEM    (reg_write_EX_MEM),
@@ -594,7 +587,6 @@ forward_unit forward_unit(
 	.forward_mux_2       (forward_mux_2)
 
 );
-
 
 
 endmodule
