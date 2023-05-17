@@ -421,6 +421,18 @@ reg_arstn_en #(
    .dout    (regfile_rdata_2_EX_MEM    )
 );
 
+
+reg_arstn_en #(
+   .DATA_W(64)
+)signal_pipe_regfile_mux_2_alu_input_EX_MEM(
+   .clk     (clk                       ),
+   .arst_n  (arst_n                    ),
+   .din     (mux_2_alu_input     ),
+   .en      (enable                    ),
+   .dout    (mux_2_alu_input_EX_MEM    )
+);
+
+
 // ----------------- EINDE PIPELINE REGISTERS-----------------
 
 pc #(
